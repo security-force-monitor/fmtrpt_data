@@ -1,4 +1,4 @@
-# Foreign Military and Training Report: Parsing project (Alpha release: July 2019)
+# Foreign Military and Training Report: Parsing project
 
 A dataset on unclassified training activities for non-US security forces arranged and funded by the United States Department of State and Department of Defence between 2001 and 2018. Sources, scraping, cleaning and publishing toolset included.
 
