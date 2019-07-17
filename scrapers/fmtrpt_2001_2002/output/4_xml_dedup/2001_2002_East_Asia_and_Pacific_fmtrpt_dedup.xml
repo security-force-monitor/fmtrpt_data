@@ -1,0 +1,4117 @@
+<?xml version="1.0"?>
+<countries>
+  <country name="Zambia">
+    <program name="DoS Africa Region, Zambia,  Africa Center for Strategic Studies, FY01">
+      <training>
+        <course_title>Senior Leader Seminar</course_title>
+        <end_date>2/9/01</end_date>
+        <location>2 Libreville Gabon</location>
+        <start_date>1/29/01</start_date>
+        <student_unit>MOD</student_unit>
+        <total_cost>$8,471</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Australia">
+    <program name="DoS East Asia and Pacific Region, Australia,  Non-Security Assistance, Unified Command (Note 4), FY01">
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>3/31/01</end_date>
+        <location>40 SYDNEY</location>
+        <start_date>3/3/01</start_date>
+        <student_unit>1ST COMMANDO REG, 1ST  COMMANDO CO, 1ST  COMMANDO REG, 2ND  COMMANDO CO (40 PAX)</student_unit>
+        <total_cost>$133,000</total_cost>
+        <us_unit>NSWU-1, 353 SOG</us_unit>
+      </training>
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>4/11/01</end_date>
+        <location>105 EXMOUTH, RAF LEARMONTH</location>
+        <start_date>3/18/01</start_date>
+        <student_unit>AUSTRLIAN SPECIAL AIR SERVICE  353 SOG, 320 STS, 22 STS REGIMENT (70 PAX),  RAAF:  36  SQUADRON (20 PAX), 75  SQUADRON (15 PAX)</student_unit>
+        <total_cost>$180,000</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Australia">
+    <program name="DoS East Asia and Pacific Region, Australia,  PME Exchanges, FY01">
+      <training>
+        <course_title>INTERNATIONAL OFFICER PREP</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>6/19/01</start_date>
+        <student_unit>HTC SYDNEY</student_unit>
+        <total_cost>$0</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFFICER PREP</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>6/19/01</start_date>
+        <student_unit>HTC SYDNEY</student_unit>
+        <total_cost>$0</total_cost>
+      </training>
+      <training>
+        <course_title>U.S. ARMY SGT MAJOR PREP</course_title>
+        <end_date>8/10/01</end_date>
+        <location>1 FT BLISS TX 79918-8002</location>
+        <start_date>7/23/01</start_date>
+        <student_unit>HTC SYDNEY</student_unit>
+        <total_cost>$0</total_cost>
+      </training>
+      <training>
+        <course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>7/9/01</start_date>
+        <student_unit>HTC SYDNEY</student_unit>
+        <total_cost>$0</total_cost>
+      </training>
+      <training>
+        <course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>7/9/01</start_date>
+        <student_unit>HTC SYDNEY</student_unit>
+        <total_cost>$0</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Australia">
+    <program name="DoS East Asia and Pacific Region, Australia,  Asia-Pacific Center, FY01">
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <end_date>4/12/01</end_date>
+        <location>2 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Defence and Intel Policy Section;  Department of Defence</student_unit>
+        <total_cost>$1,884</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <end_date>8/9/01</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>Australian Defence Headquarters</student_unit>
+        <total_cost>$942</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Brunei">
+    <program name="DoS East Asia and Pacific Region, Brunei,  Asia-Pacific Center, FY01">
+      <training>
+        <course_title>Executive Course 00-3</course_title>
+        <end_date>12/15/00</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>10/2/00</start_date>
+        <student_unit>Ministry of Defense</student_unit>
+        <total_cost>$942</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <end_date>4/12/01</end_date>
+        <location>2 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Ministry of Defense; MOFA</student_unit>
+        <total_cost>$1,884</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Brunei">
+    <program name="East Asia and Pacific Region, Brunei,  Asia-Pacific Center, FY01"/>
+  </country>
+  <country name="China (Peoples Republic of)">
+    <program name="DoS East Asia and Pacific Region, China (Peoples Republic of),  Asia-Pacific Center, FY01">
+      <training>
+        <course_title>Executive Course 00-3</course_title>
+        <end_date>12/15/00</end_date>
+        <location>4 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>10/2/00</start_date>
+        <student_unit>Ministry of Natl Defense; Natl  Defense Unv; Asian Dept; MOFA</student_unit>
+        <total_cost>$45,443</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <end_date>4/12/01</end_date>
+        <location>2 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>MOFA; MOFA</student_unit>
+        <total_cost>$28,101</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Cook Islands">
+    <program name="DoS East Asia and Pacific Region, Cook Islands,  Asia-Pacific Center, FY01">
+      <training>
+        <course_title>Executive Course 00-3</course_title>
+        <end_date>12/15/00</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>10/2/00</start_date>
+        <student_unit>Police</student_unit>
+        <total_cost>$11,810</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <end_date>8/9/01</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>Police</student_unit>
+        <total_cost>$14,060</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Fiji">
+    <program name="DoS East Asia and Pacific Region, Fiji,  Asia-Pacific Center, FY01">
+      <training>
+        <course_title>Executive Course 00-3</course_title>
+        <end_date>12/15/00</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>10/2/00</start_date>
+        <student_unit>Fiji Military Forces</student_unit>
+        <total_cost>$11,396</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <end_date>4/12/01</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Military Forces</student_unit>
+        <total_cost>$13,283</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <end_date>8/9/01</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>Land Force Command</student_unit>
+        <total_cost>$13,158</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Japan">
+    <program name="DoS East Asia and Pacific Region, Japan,  Exchange Training, FY01">
+      <training>
+        <course_title>Foreign Academy Exchg. Pr.</course_title>
+        <end_date>8/3/01</end_date>
+        <location>2 West Point</location>
+        <start_date>7/20/01</start_date>
+        <student_unit>Japanese Army</student_unit>
+        <us_unit>USMA</us_unit>
+      </training>
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>6/1/01</end_date>
+        <location>50 USMC CAMP HANSEN, USMC CAMP  FUJI,  FUJI TRAIN AREA</location>
+        <student_unit>JAPANESE GROUND SELF DEFENSE  FORCE 1ST AIRBORNE BRIGADE</student_unit>
+        <text>1/1 SFG $80,000 6/20/01</text>
+      </training>
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>7/18/01</end_date>
+        <location>32 ETAJIMA</location>
+        <start_date>6/20/01</start_date>
+        <student_unit>JAPANESE SELF DEFENSE FORCE  NSWG-1 SPECIAL BOARDING UNIT</student_unit>
+        <total_cost>$59,000</total_cost>
+      </training>
+      <training>
+        <course_title>NATL STRIKE FORCE INDOC</course_title>
+        <end_date>9/14/01</end_date>
+        <location>1 ELIZABETH CITY, NC 27909</location>
+        <start_date>9/10/01</start_date>
+        <student_unit>JMSDF</student_unit>
+        <total_cost>$1,073</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Japan">
+    <program name="DoS East Asia and Pacific Region, Japan,  Asia-Pacific Center, FY01"/>
+  </country>
+  <country name="Japan">
+    <program name="East Asia and Pacific Region, Japan,  Asia-Pacific Center, FY01">
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <end_date>8/9/01</end_date>
+        <location>2 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>Japan Embassy; Maritime  Self-Dfense Force</student_unit>
+        <total_cost>$1,884</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Kiribati">
+    <program name="DoS East Asia and Pacific Region, Kiribati,  Asia-Pacific Center, FY01">
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <end_date>4/12/01</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Police</student_unit>
+        <total_cost>$13,244</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <end_date>8/9/01</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>Police</student_unit>
+        <total_cost>$14,437</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Korea - South (Republic of)">
+    <program name="DoS East Asia and Pacific Region, Korea - South (Republic of),  Miscellaneous, DOS/DOD, Non-Security Assistance (Note 3), FY01">
+      <training>
+        <course_title>Comb Intel Training (CIT)</course_title>
+        <end_date>5/19/01</end_date>
+        <location>20 Camp Humphreys, ROK</location>
+        <start_date>5/14/01</start_date>
+        <student_unit>ROK officers and NCOs from  around the Korean Penninsula that  are scheduled for assignment to  the 1998 ROK Intelligence unit  that also mans the facility.</student_unit>
+        <total_cost>$1,310</total_cost>
+        <us_unit>B/532d MI Bn, 527th MI Bn, B/3d MI Bn (10  officers, 5 NCOs max of 2 hours per day)</us_unit>
+      </training>
+      <training>
+        <course_title>DISE/GO Team Orientation</course_title>
+        <end_date>6/1/01</end_date>
+        <location>100 ROK Intelligence School</location>
+        <start_date>5/30/01</start_date>
+        <student_unit>ROK Officers</student_unit>
+        <total_cost>$9,095</total_cost>
+        <us_unit>1 X 3 man CI/HUMINT Response Team (GO  TEAM 1XCWO, 2 x NCO), 532s MI Bn DISE  (15 soldiers; 1 x LT, 2 X CWO, 12 XNCO).   ROK INTEL School provides billeting and food  for all soldiers participating.</us_unit>
+      </training>
+      <training>
+        <course_title>Foreign Academy Exchg. Pr.</course_title>
+        <end_date>8/3/01</end_date>
+        <location>2 West Point</location>
+        <start_date>7/20/01</start_date>
+        <student_unit>Korean Army</student_unit>
+        <us_unit>USMA</us_unit>
+      </training>
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>8/17/01</end_date>
+        <location>65 MAE SAN RI, CAMP CASEY</location>
+        <start_date>7/16/01</start_date>
+        <student_unit>707TH SPECIAL MISSION  BATTALION</student_unit>
+        <total_cost>$50,000</total_cost>
+        <us_unit>1/1 SFG</us_unit>
+      </training>
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>10/18/00</end_date>
+        <location>0</location>
+        <start_date>10/9/00</start_date>
+        <student_unit>ROK NAVAL SPEICAL WARFARE  BRIGADE, ST 3, FLOTILLA </student_unit>
+        <total_cost>$84,000</total_cost>
+        <us_unit>17 SOS, 31 SOS, 353 SOG, CSBR-1, ST-5</us_unit>
+      </training>
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>12/15/00</end_date>
+        <location>14 OSAN AB</location>
+        <start_date>11/30/00</start_date>
+        <student_unit>ROK AF: 255 SOS (4)ROK ARMY:  1ST ROK SF BRIGADE (5), 707  SPECIAL MISSION BN (5)</student_unit>
+        <total_cost>$65,000</total_cost>
+        <us_unit>160 SOAR, 353 SOG, 17 SOS, 1 SOS, 31 SOS</us_unit>
+      </training>
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>6/15/01</end_date>
+        <location>39 KIMPO, DAMYANG, JEUNGPYUNG</location>
+        <start_date>5/15/01</start_date>
+        <student_unit>ROK ARMY:  1ST BRIGADE (13),  11TH BRIGADE (13), 13TH  BRIGADE (13)</student_unit>
+        <total_cost>$192,000</total_cost>
+        <us_unit>2/1 SFG</us_unit>
+      </training>
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>6/26/01</end_date>
+        <location>117 K-2 AFB, TAEGU</location>
+        <start_date>6/4/01</start_date>
+        <student_unit>1ST SPECIAL FORCES BRIGADE  (52), 9TH SPECIAL FORCES  BRIGADE (65), 255 SPECIAL  OPERATIONS SQUADRON </student_unit>
+        <total_cost>$135,000</total_cost>
+        <us_unit>353 SOG, 320 STS</us_unit>
+      </training>
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>7/27/01</end_date>
+        <location>54 SUNGNAM,SEOUL,PILSUNG,MAESANRI ROK SPECIAL FORCES:  3RD SF </location>
+        <start_date>7/1/01</start_date>
+        <student_unit>BRIGADE (39), JCS J7 (10)MND  PSYOP GROUP (5)</student_unit>
+        <total_cost>$193,000</total_cost>
+        <us_unit>1/19 SFG, 3/1 SFG, 353 SOG, 4 POG, 426  CA BN, 7 POG</us_unit>
+      </training>
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>6/27/01</end_date>
+        <location>52 KUMMA, OUNG JONG SAN, BUNYSAN,  MAESANRI</location>
+        <start_date>6/5/01</start_date>
+        <student_unit>7TH SPECIAL FORCES BRIGADE</student_unit>
+        <total_cost>$147,000</total_cost>
+        <us_unit>353 SOG, 426 CA BN, 5/19 SFG, 96 CA BN</us_unit>
+      </training>
+      <training>
+        <course_title>KATUSA Training</course_title>
+        <end_date>9/27/01</end_date>
+        <location>168 Camp Jackson, Ui-jong-bu, Korea</location>
+        <start_date>9/9/01</start_date>
+        <student_unit>ROK Army</student_unit>
+        <total_cost>$36,968</total_cost>
+        <us_unit>KATUSA Training Academy</us_unit>
+      </training>
+      <training>
+        <course_title>KATUSA Training</course_title>
+        <end_date>8/30/01</end_date>
+        <location>173 Camp Jackson, Ui-jong-bu, Korea</location>
+        <start_date>8/10/01</start_date>
+        <student_unit>ROK Army</student_unit>
+        <total_cost>$38,068</total_cost>
+        <us_unit>KATUSA Training Academy</us_unit>
+      </training>
+      <training>
+        <course_title>KATUSA Training</course_title>
+        <end_date>8/9/01</end_date>
+        <location>164 Camp Jackson, Ui-jong-bu, Korea</location>
+        <start_date>7/20/01</start_date>
+        <student_unit>ROK Army</student_unit>
+        <total_cost>$36,088</total_cost>
+        <us_unit>KATUSA Training Academy</us_unit>
+      </training>
+      <training>
+        <course_title>KATUSA Training</course_title>
+        <end_date>7/12/01</end_date>
+        <location>161 Camp Jackson, Ui-jong-bu, Korea</location>
+        <start_date>6/22/01</start_date>
+        <student_unit>ROK Army</student_unit>
+        <total_cost>$35,428</total_cost>
+        <us_unit>KATUSA Training Academy</us_unit>
+      </training>
+      <training>
+        <course_title>KATUSA Training</course_title>
+        <end_date>5/31/01</end_date>
+        <location>159 Camp Jackson, Ui-jong-bu, Korea</location>
+        <start_date>5/11/01</start_date>
+        <student_unit>ROK Army</student_unit>
+        <total_cost>$34,987</total_cost>
+        <us_unit>KATUSA Training Academy</us_unit>
+      </training>
+      <training>
+        <course_title>KATUSA Training</course_title>
+        <end_date>5/10/01</end_date>
+        <location>163 Camp Jackson, Ui-jong-bu, Korea</location>
+        <start_date>4/20/01</start_date>
+        <student_unit>ROK Army</student_unit>
+        <total_cost>$35,868</total_cost>
+        <us_unit>KATUSA Training Academy</us_unit>
+      </training>
+      <training>
+        <course_title>KATUSA Training</course_title>
+        <end_date>4/19/01</end_date>
+        <location>166 Camp Jackson, Ui-jong-bu, Korea</location>
+        <start_date>3/30/01</start_date>
+        <student_unit>ROK Army</student_unit>
+        <total_cost>$36,528</total_cost>
+        <us_unit>KATUSA Training Academy</us_unit>
+      </training>
+      <training>
+        <course_title>KATUSA Training</course_title>
+        <end_date>3/29/01</end_date>
+        <location>162 Camp Jackson, Ui-jong-bu, Korea</location>
+        <start_date>3/9/01</start_date>
+        <student_unit>ROK Army</student_unit>
+        <total_cost>$35,648</total_cost>
+        <us_unit>KATUSA Training Academy</us_unit>
+      </training>
+      <training>
+        <course_title>KATUSA Training</course_title>
+        <end_date>2/8/01</end_date>
+        <location>163 Camp Jackson, Ui-jong-bu, Korea</location>
+        <start_date>1/19/01</start_date>
+        <student_unit>ROK Army</student_unit>
+        <total_cost>$35,868</total_cost>
+        <us_unit>KATUSA Training Academy</us_unit>
+      </training>
+      <training>
+        <course_title>KATUSA Training</course_title>
+        <end_date>1/4/01</end_date>
+        <location>166 Camp Jackson, Ui-jong-bu, Korea</location>
+        <start_date>12/8/00</start_date>
+        <student_unit>ROK Army</student_unit>
+        <total_cost>$36,528</total_cost>
+        <us_unit>KATUSA Training Academy</us_unit>
+      </training>
+      <training>
+        <course_title>KATUSA Training</course_title>
+        <end_date>12/7/00</end_date>
+        <location>163 Camp Jackson, Ui-jong-bu, Korea</location>
+        <start_date>11/17/00</start_date>
+        <student_unit>ROK Army</student_unit>
+        <total_cost>$35,868</total_cost>
+        <us_unit>KATUSA Training Academy</us_unit>
+      </training>
+      <training>
+        <course_title>KATUSA Training</course_title>
+        <end_date>11/16/00</end_date>
+        <location>170 Camp Jackson, Ui-jong-bu, Korea</location>
+        <start_date>10/27/00</start_date>
+        <student_unit>ROK Army</student_unit>
+        <total_cost>$37,408</total_cost>
+        <us_unit>KATUSA Training Academy</us_unit>
+      </training>
+      <training>
+        <course_title>KATUSA Training</course_title>
+        <end_date>6/21/01</end_date>
+        <location>163 Camp Jackson, Ui-jong-bu, Korea</location>
+        <start_date>6/1/01</start_date>
+        <student_unit>ROK Army</student_unit>
+        <total_cost>$35,868</total_cost>
+        <us_unit>KATUSA Training Academy</us_unit>
+      </training>
+      <training>
+        <course_title>KATUSA Training</course_title>
+        <end_date>10/26/00</end_date>
+        <location>168 Camp Jackson, Ui-jong-bu, Korea</location>
+        <start_date>10/6/00</start_date>
+        <student_unit>ROK Army</student_unit>
+        <total_cost>$36,968</total_cost>
+        <us_unit>KATUSA Training Academy</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Korea - South (Republic of)">
+    <program name="DoS East Asia and Pacific Region, Korea - South (Republic of),  PME Exchanges, FY01">
+      <training>
+        <course_title>INTERNATIONAL OFFICER PREP</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>6/19/01</start_date>
+        <student_unit>39TH INF DIV</student_unit>
+        <total_cost>$1,218</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFFICER PREP</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>6/19/01</start_date>
+        <student_unit>AIDE, MINISTRY OF NATIONAL  DEFENSE</student_unit>
+        <total_cost>$1,218</total_cost>
+      </training>
+      <training>
+        <course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>7/9/01</start_date>
+        <student_unit>39TH INF DIV</student_unit>
+        <total_cost>$823</total_cost>
+      </training>
+      <training>
+        <course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>7/9/01</start_date>
+        <student_unit>AIDE, MINISTRY OF NATIONAL  DEFENSE</student_unit>
+        <total_cost>$823</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Korea - South (Republic of)">
+    <program name="DoS East Asia and Pacific Region, Korea - South (Republic of),  Asia-Pacific Center, FY01">
+      <training>
+        <course_title>Executive Course 00-3</course_title>
+        <end_date>12/15/00</end_date>
+        <location>2 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>10/2/00</start_date>
+        <student_unit>Army HQ; Office Chief Naval Ops</student_unit>
+        <total_cost>$1,884</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <end_date>8/9/01</end_date>
+        <location>2 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>Air Force; Navy HQ</student_unit>
+        <total_cost>$1,884</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Malaysia">
+    <program name="DoS East Asia and Pacific Region, Malaysia,  Non-Security Assistance, Unified Command (Note 4), FY01">
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>7/29/01</end_date>
+        <location>55 MALE,GIRIFUSHI,MADIVARU</location>
+        <start_date>7/1/01</start_date>
+        <student_unit>NSS:  QUICK REACTION FORCES  TO INCLUDED MEDICAL (15),  COAST GUARD INCLUDING  COAST GUARD DIVERS AND  MEDICAL TEAM (15),  PRESIDENTIAL SECURITY GUARD  (15) AND AIRPORT SECURITY (10)</student_unit>
+        <total_cost>$42,000</total_cost>
+        <us_unit>NSWU-1</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Malaysia">
+    <program name="East Asia and Pacific Region, Malaysia,  Non-Security Assistance, Unified Command (Note 4), FY01">
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>8/31/01</end_date>
+        <location>24 GUAM,NAVY MARIANAS,ANDERSEN  AB,BARRIGADA</location>
+        <start_date>8/6/01</start_date>
+        <student_unit>ROYAL MALAYSIAN ARMY: 21ST  COMMANDO REGIMENT (24)</student_unit>
+        <total_cost>$74,000</total_cost>
+        <us_unit>5/19 SFG</us_unit>
+      </training>
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>3/21/01</end_date>
+        <location>50 ULU KINTO, IPOH, KUALA LUMPUR</location>
+        <start_date>1/29/01</start_date>
+        <student_unit>ROYAL MALAYSIAN POLICE:A  AND B SQUADRONSSPECIAL  OPERATIONS FORCE</student_unit>
+        <total_cost>$70,000</total_cost>
+        <us_unit>1/1 SFG, SOTSE PAC</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Malaysia">
+    <program name="DoS East Asia and Pacific Region, Malaysia,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>ALLIED OFF PREP-INF OAC</course_title>
+        <end_date>8/3/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>7/30/01</start_date>
+        <student_unit>Staff Officer Grade-3 (Admin),  Infantry Division</student_unit>
+        <total_cost>$1,299</total_cost>
+      </training>
+      <training>
+        <course_title>AMPHIB PLAN SR OFF-INTL</course_title>
+        <end_date>5/4/01</end_date>
+        <location>1 SAN DIEGO, CA 92155-5099</location>
+        <start_date>2/26/01</start_date>
+        <student_unit>Instructor, Joint Warfare Center  and Staff Officer-2 Airborne</student_unit>
+        <total_cost>$5,840</total_cost>
+      </training>
+      <training>
+        <course_title>ARMOR CAPTAINS CAREER</course_title>
+        <end_date>9/14/01</end_date>
+        <location>1 FT KNOX KY 40121-5234</location>
+        <start_date>5/7/01</start_date>
+        <student_unit>Staff Officer Grade-3,  Coordination, Armor Directorate</student_unit>
+        <total_cost>$11,211</total_cost>
+      </training>
+      <training>
+        <course_title>ARMOR CPT CAREER CRS PREP</course_title>
+        <end_date>5/4/01</end_date>
+        <location>1 FT KNOX KY 40121-5234</location>
+        <start_date>4/16/01</start_date>
+        <student_unit>Staff Officer Grade-3,  Coordination, Armor Directorate</student_unit>
+        <total_cost>$3,480</total_cost>
+      </training>
+      <training>
+        <course_title>BASIC FINAN MGMT OFFICER</course_title>
+        <end_date>6/13/01</end_date>
+        <location>1 SHEPPARD AFB TX 76311-2367</location>
+        <start_date>3/13/01</start_date>
+        <student_unit>Staff Officer Grade-2, Pay/Finance  - 1st Division HQ</student_unit>
+        <total_cost>$4,860</total_cost>
+      </training>
+      <training>
+        <course_title>BASIC FINAN MGMT OFFICER</course_title>
+        <end_date>6/13/01</end_date>
+        <location>1 SHEPPARD AFB TX 76311-2367</location>
+        <start_date>3/13/01</start_date>
+        <student_unit>Staff Officer Grade-2, Financial  Bravo, 3rd Division RMAF</student_unit>
+        <total_cost>$4,860</total_cost>
+      </training>
+      <training>
+        <course_title>BASIC MANPOWER &amp; QUAL MGT</course_title>
+        <end_date>4/26/01</end_date>
+        <location>1 KEESLER AFB, MS 39534-2354</location>
+        <start_date>3/12/01</start_date>
+        <student_unit>Staff Officer Grade-2, Human  Resource Department</student_unit>
+        <total_cost>$2,727</total_cost>
+      </training>
+      <training>
+        <course_title>COMM &amp; INFO OFFICER (BCOT)</course_title>
+        <end_date>8/7/01</end_date>
+        <location>1 KEESLER AFB, MS 39534-2354</location>
+        <start_date>5/7/01</start_date>
+        <student_unit>Communication Strategic Officer,  Strategic Comm Regiment</student_unit>
+        <total_cost>$5,131</total_cost>
+      </training>
+      <training>
+        <course_title>DEF RES MGT CRS</course_title>
+        <end_date>9/14/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>8/20/01</start_date>
+        <student_unit>Staff Officer Grade-1, Defense  Logistics Division</student_unit>
+        <total_cost>$5,422</total_cost>
+      </training>
+      <training>
+        <course_title>DEF RES MGT CRS</course_title>
+        <end_date>9/14/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>8/20/01</start_date>
+        <student_unit>Staff Officer Grade-2, Secretariat,  MAF HQ</student_unit>
+        <total_cost>$5,422</total_cost>
+      </training>
+      <training>
+        <course_title>DEF RES MGT CRS</course_title>
+        <end_date>5/17/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>4/23/01</start_date>
+        <student_unit>Executive Officer, No 5 SQN,  RMAF Labuan</student_unit>
+        <total_cost>$5,422</total_cost>
+      </training>
+      <training>
+        <course_title>DEF RES MGT CRS</course_title>
+        <end_date>5/17/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>4/23/01</start_date>
+        <student_unit>Principal Assistant Secretary, 8th  Procurement Unit</student_unit>
+        <total_cost>$5,422</total_cost>
+      </training>
+      <training>
+        <course_title>DEF RES MGT CRS</course_title>
+        <end_date>2/2/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>1/8/01</start_date>
+        <student_unit>Staff Officer Grade-1, Operations  &amp; Training Division, MAF HQ</student_unit>
+        <total_cost>$5,422</total_cost>
+      </training>
+      <training>
+        <course_title>EWO STAFF OFFICER (SATP)</course_title>
+        <end_date>9/26/01</end_date>
+        <location>1 RANDOLPH AFB, TX 78150-4302</location>
+        <start_date>8/8/01</start_date>
+        <student_unit>Staff Officer Grade-2,  Communication and Electrical  Division</student_unit>
+        <total_cost>$5,352</total_cost>
+      </training>
+      <training>
+        <course_title>FA OFF ADV PREP-ALLIED OFF</course_title>
+        <end_date>6/22/01</end_date>
+        <location>1 FT SILL OK 73503</location>
+        <start_date>5/31/01</start_date>
+        <student_unit>Battery Captain, 1st Royal Artillery  Regiment (Para)</student_unit>
+        <total_cost>$3,322</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIO INTEL OFF BASIC</course_title>
+        <end_date>6/8/01</end_date>
+        <location>1 FT HUACHUCA AZ 85613-7000</location>
+        <start_date>3/23/01</start_date>
+        <student_unit>Staff Officer Grade-2, PSYOP &amp;  Intelligence, Defense Intelligence  Staff Dept</student_unit>
+        <total_cost>$9,508</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFFICER PREP</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>6/19/01</start_date>
+        <student_unit>Staff Officer Grade-2, Training,  Electrical &amp; Mechanical Engineering  (EME) Directorate</student_unit>
+        <total_cost>$2,617</total_cost>
+      </training>
+      <training>
+        <course_title>INTL AIR WEAPONS CONTR CRS</course_title>
+        <end_date>8/31/01</end_date>
+        <location>1 TYNDALL AFB, FL 32403-5016</location>
+        <start_date>7/9/01</start_date>
+        <student_unit>Weapon Director, 320 SQN, RMAF  Kuantan</student_unit>
+        <total_cost>$5,300</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Malaysia">
+    <program name="East Asia and Pacific Region, Malaysia,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>INTL DEFENSE MGT CRS</course_title>
+        <end_date>4/18/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Commandant, RMAF Ipoh</student_unit>
+        <total_cost>$14,566</total_cost>
+      </training>
+      <training>
+        <course_title>INTL HYDROG MGT &amp; ENG PGM</course_title>
+        <end_date>9/27/01</end_date>
+        <location>1 STENNIS SPACE CENTER, MS  39522-5001</location>
+        <start_date>3/26/01</start_date>
+        <student_unit>Staff Officer onboard KD  PERANTAU</student_unit>
+        <total_cost>$20,488</total_cost>
+      </training>
+      <training>
+        <course_title>INTL INTELL APPL OFFICER</course_title>
+        <end_date>8/3/01</end_date>
+        <location>1 GOODFELLOW AFB, TX 76908-4213</location>
+        <start_date>5/1/01</start_date>
+        <student_unit>Staff Officer Grade-2, Air  Intelligence Operation, RMAF HQ</student_unit>
+        <total_cost>$5,587</total_cost>
+      </training>
+      <training>
+        <course_title>INTL OFF SCH &amp; SOS</course_title>
+        <end_date>3/31/01</end_date>
+        <location>1 MAXWELL AFB, AL 36112-6323</location>
+        <start_date>1/8/01</start_date>
+        <student_unit>Staff Officer Grade-3, Application  Maintenance, Directorate of IT</student_unit>
+        <total_cost>$7,707</total_cost>
+      </training>
+      <training>
+        <course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 MAXWELL AFB, AL 36112-6323</location>
+        <start_date>6/18/01</start_date>
+        <student_unit>Officer in charge (OC) Basic  Flying, 1st Flight Training School</student_unit>
+        <total_cost>$6,415</total_cost>
+      </training>
+      <training>
+        <course_title>INTRO TO LIFE CYCLE COST</course_title>
+        <end_date>5/18/01</end_date>
+        <location>1 W-P AFB, OH 45433-7765</location>
+        <start_date>5/7/01</start_date>
+        <student_unit>Research Officer, MINDEF</student_unit>
+        <total_cost>$1,389</total_cost>
+      </training>
+      <training>
+        <course_title>LOG MGT DEV</course_title>
+        <end_date>6/29/01</end_date>
+        <location>1 FT LEE VA 23801-1705</location>
+        <start_date>6/4/01</start_date>
+        <student_unit>Staff Officer Grade-2, Defense  Logistics Division</student_unit>
+        <total_cost>$2,632</total_cost>
+      </training>
+      <training>
+        <course_title>MATERIEL ACQUISITION MGT</course_title>
+        <end_date>8/31/01</end_date>
+        <location>1 FT LEE VA 23801-1705</location>
+        <start_date>7/16/01</start_date>
+        <student_unit>Staff Officer Grade-2, Defense  Logistics Division</student_unit>
+        <total_cost>$4,585</total_cost>
+      </training>
+      <training>
+        <course_title>MED OFF UNDERSEA INTL</course_title>
+        <end_date>9/7/01</end_date>
+        <location>1 GROTON, CT 06349-5159</location>
+        <start_date>7/9/01</start_date>
+        <student_unit>Medical Officer, 95 Armed Forces  Hospital</student_unit>
+        <total_cost>$3,352</total_cost>
+      </training>
+      <training>
+        <course_title>NAVAL STAFF COLLEGE</course_title>
+        <end_date>6/15/01</end_date>
+        <location>1 NEWPORT, RI 02841-1207</location>
+        <start_date>1/11/01</start_date>
+        <student_unit>Principal Warfare Officer on board  KD Lekir</student_unit>
+        <total_cost>$21,222</total_cost>
+      </training>
+      <training>
+        <course_title>OJT OFF SAR NORTHWEST</course_title>
+        <end_date>7/13/01</end_date>
+        <location>1 SEATTLE, WA 98174-1067</location>
+        <start_date>7/2/01</start_date>
+        <student_unit>Supervisor, Air Traffic Control  SQN, RMAF Kuantan</student_unit>
+        <total_cost>$970</total_cost>
+      </training>
+      <training>
+        <course_title>PLAN,PROG,BUDG &amp; EXEC SYS</course_title>
+        <end_date>9/14/01</end_date>
+        <location>1 FT JACKSON SC 29207-7040</location>
+        <start_date>9/4/01</start_date>
+        <student_unit>Staff Officer Grade-3 Financial,  RMAF HQ</student_unit>
+        <total_cost>$1,665</total_cost>
+      </training>
+      <training>
+        <course_title>PSYCHOLOGICAL OPERATIONS</course_title>
+        <end_date>3/16/01</end_date>
+        <location>1 FT BRAGG NC 28310</location>
+        <start_date>2/12/01</start_date>
+        <student_unit>Staff Officer Grade-2, PSYOP &amp;  Intelligence, Defense Intelligence  Staff Dept</student_unit>
+        <total_cost>$2,998</total_cost>
+      </training>
+      <training>
+        <course_title>PUBLIC AFFAIRS OFFICER</course_title>
+        <end_date>5/16/01</end_date>
+        <location>1 FT GEORGE G.  MEADE MD  20755-5620</location>
+        <start_date>3/19/01</start_date>
+        <student_unit>Staff Officer Grade-3, Visit &amp;  Information Dept.</student_unit>
+        <total_cost>$6,941</total_cost>
+      </training>
+      <training>
+        <course_title>SEARCH/RESCUE INLAND PLNG</course_title>
+        <end_date>6/8/01</end_date>
+        <location>1 YORKTOWN, VA 23690-5000</location>
+        <start_date>6/4/01</start_date>
+        <student_unit>Supervisor, Air Traffic Control  SQN, RMAF Kuantan</student_unit>
+        <total_cost>$1,104</total_cost>
+      </training>
+      <training>
+        <course_title>SEARCH/RESCUE MARITIME</course_title>
+        <end_date>6/28/01</end_date>
+        <location>1 YORKTOWN, VA 23690-5000</location>
+        <start_date>6/11/01</start_date>
+        <student_unit>Supervisor, Air Traffic Control  SQN, RMAF Kuantan</student_unit>
+        <total_cost>$1,621</total_cost>
+      </training>
+      <training>
+        <course_title>SPEC ENG LANG TRNG  (SET)</course_title>
+        <end_date>9/21/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>7/23/01</start_date>
+        <student_unit>OC, PASKAL Sp Forces, Lumut  Naval Base</student_unit>
+        <total_cost>$4,648</total_cost>
+      </training>
+      <training>
+        <course_title>SPEC ENG LANG TRNG  (SET)</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>5/7/01</start_date>
+        <student_unit>Medical Officer, 95 Armed Forces  Hospital</student_unit>
+        <total_cost>$4,582</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>5/7/01</start_date>
+        <student_unit>Weapon Director, 320 SQN, RMAF  Kuantan</student_unit>
+        <total_cost>$4,448</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>3/9/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>1/8/01</start_date>
+        <student_unit>Staff Officer Grade-3, Visit &amp;  Information Dept.</student_unit>
+        <total_cost>$4,614</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>5/4/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>3/5/01</start_date>
+        <student_unit>Communication Strategic Officer,  Strategic Comm Regiment</student_unit>
+        <total_cost>$4,448</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>8/3/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>6/4/01</start_date>
+        <student_unit>Staff Officer Grade-2,  Communication and Electrical  Division</student_unit>
+        <total_cost>$4,448</total_cost>
+      </training>
+      <training>
+        <course_title>SR INTERNATIONAL DEF MGT</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>6/25/01</start_date>
+        <student_unit>Deputy Director General,  Defence  Intelligence</student_unit>
+        <total_cost>$5,675</total_cost>
+      </training>
+      <training>
+        <course_title>SR INTERNATIONAL DEF MGT</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>6/25/01</start_date>
+        <student_unit>Fleet Operations Commander,  TLDM Lumut</student_unit>
+        <total_cost>$5,635</total_cost>
+      </training>
+      <training>
+        <course_title>TOEFL TEST</course_title>
+        <end_date>9/28/01</end_date>
+        <location>0 Malaysia</location>
+        <start_date>7/2/01</start_date>
+        <student_unit>Joint Service</student_unit>
+        <total_cost>$660</total_cost>
+      </training>
+      <training>
+        <course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>7/9/01</start_date>
+        <student_unit>Staff Officer Grade-2, Training,  Electrical &amp; Mechanical Engineering  (EME) Directorate</student_unit>
+        <total_cost>$1,725</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Malaysia">
+    <program name="DoS East Asia and Pacific Region, Malaysia,  Section 1004 (Note 1), FY01">
+      <training>
+        <course_title>LT INF PDSS</course_title>
+        <end_date>9/8/01</end_date>
+        <location>0 Kuala Lumpur, Malaysia</location>
+        <start_date>9/1/01</start_date>
+        <student_unit>Royal Malaysian Police</student_unit>
+        <total_cost>$5,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF TNG</course_title>
+        <end_date>11/23/00</end_date>
+        <location>60 Ipoh, Malaysia</location>
+        <start_date>10/16/00</start_date>
+        <student_unit>Royal Malaysian Police</student_unit>
+        <total_cost>$140,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Malaysia">
+    <program name="DoS East Asia and Pacific Region, Malaysia,  Asia-Pacific Center, FY01">
+      <training>
+        <course_title>Executive Course 00-3</course_title>
+        <end_date>12/15/00</end_date>
+        <location>3 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>10/2/00</start_date>
+        <student_unit>Sprecial Warfare Centre; Air Force;  Development Division</student_unit>
+        <total_cost>$33,897</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <end_date>4/12/01</end_date>
+        <location>3 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Air Force College; Ministry of  Defence; KD Malaya</student_unit>
+        <total_cost>$43,168</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <end_date>8/9/01</end_date>
+        <location>3 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>Army Field Cmd; Armed Forces  HQ; Armed Forces Staff College</student_unit>
+        <total_cost>$44,127</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Marshall Islands">
+    <program name="DoS East Asia and Pacific Region, Marshall Islands,  Asia-Pacific Center, FY01">
+      <training>
+        <course_title>Executive Course 00-3</course_title>
+        <end_date>12/15/00</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>10/2/00</start_date>
+        <student_unit>MOFA</student_unit>
+        <total_cost>$11,588</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <end_date>4/12/01</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Police</student_unit>
+        <total_cost>$13,461</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Micronesia">
+    <program name="DoS East Asia and Pacific Region, Micronesia,  Asia-Pacific Center, FY01">
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <end_date>4/12/01</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>MOFA</student_unit>
+        <total_cost>$13,934</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <end_date>8/9/01</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>FSM Embassy Tokyo</student_unit>
+        <total_cost>$14,298</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Mongolia">
+    <program name="East Asia and Pacific Region, Mongolia,  Non-Security Assistance, Unified Command (Note 4), FY01"/>
+  </country>
+  <country name="Mongolia">
+    <program name="DoS East Asia and Pacific Region, Mongolia,  Non-Security Assistance, Unified Command (Note 4), FY01">
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>9/26/01</end_date>
+        <location>75 UB,KHOVD,TSETSERLEG</location>
+        <start_date>9/1/01</start_date>
+        <student_unit>MONGOLIAN CIVIL DEFENSE  FORCE  (35 PAX), MONGOLIAN  AIR AND AIR DEFENSE FORCE  (10 PAX), MONGOLIAN MINISTRY  OF HEALTH   (10 PAX),  MONGOLIAN RED CROSS  (20 </student_unit>
+        <total_cost>$148,000</total_cost>
+        <us_unit>353 SOG, 426 CA BN, 96 CA BN, 19 SFG</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Mongolia">
+    <program name="DoS East Asia and Pacific Region, Mongolia,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>AMERICAN LANGUAGE COURSE</course_title>
+        <end_date>9/7/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>4/23/01</start_date>
+        <student_unit>Foreign language department,  National defense University of  Mongolia</student_unit>
+        <total_cost>$12,568</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE CRS</course_title>
+        <end_date>9/21/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>5/28/01</start_date>
+        <student_unit>Strategic Management Planning  Directorate, Ministry of Defense</student_unit>
+        <total_cost>$11,057</total_cost>
+      </training>
+      <training>
+        <course_title>CIV-MIL SID - EURO</course_title>
+        <end_date>2/16/01</end_date>
+        <location>1 HURLBURT FIELD, FL 32544-5826</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Senior Officer, Strategic  Management Planning directorate,  MOD</student_unit>
+        <total_cost>$5,415</total_cost>
+      </training>
+      <training>
+        <course_title>CIV-MIL SID - EURO</course_title>
+        <end_date>2/16/01</end_date>
+        <location>1 HURLBURT FIELD, FL 32544-5826</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Policy Department, Ministry of  Foreign Affairs of Mongolia</student_unit>
+        <total_cost>$6,282</total_cost>
+      </training>
+      <training>
+        <course_title>DLI ENGLISH LANGUAGE TECH</course_title>
+        <end_date>7/22/01</end_date>
+        <location>20 Mongolia</location>
+        <start_date>3/25/01</start_date>
+        <student_unit>Ministry of Defense - 4 General Staff Headquarters - 11 Defense University - 4 Civil Defense - 2</student_unit>
+        <total_cost>$25,472</total_cost>
+      </training>
+      <training>
+        <course_title>DLI ENGLISH LANGUAGE TECH</course_title>
+        <end_date>7/22/01</end_date>
+        <location>0 Mongolia</location>
+        <start_date>3/25/01</start_date>
+        <student_unit>n/a</student_unit>
+        <total_cost>$22,648</total_cost>
+      </training>
+      <training>
+        <course_title>DLI ENGLISH LANGUAGE TECH</course_title>
+        <end_date>3/24/01</end_date>
+        <location>0 Mongolia</location>
+        <start_date>11/30/00</start_date>
+        <student_unit>n/a</student_unit>
+        <total_cost>$22,492</total_cost>
+      </training>
+      <training>
+        <course_title>DLI ENGLISH LANGUAGE TECH</course_title>
+        <end_date>3/24/01</end_date>
+        <location>20 Mongolia</location>
+        <start_date>11/30/00</start_date>
+        <student_unit>Ministry of Defense - 3 General Staff Headquarters - 11 Defense University - 6 Civil Defense Headquarters - 2</student_unit>
+        <total_cost>$25,106</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>4/27/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>12/11/00</start_date>
+        <student_unit>Central Armed Forces Hospital,  Mongolia</student_unit>
+        <total_cost>$14,019</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>2/19/01</start_date>
+        <student_unit>General Staff Headquarters, MAF</student_unit>
+        <total_cost>$13,951</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>8/24/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>6/18/01</start_date>
+        <student_unit>234th BN, Mongolian Armed  Forces</student_unit>
+        <total_cost>$9,121</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>2/19/01</start_date>
+        <student_unit>Unit # 150; General Staff  Headquarters</student_unit>
+        <total_cost>$13,951</total_cost>
+      </training>
+      <training>
+        <course_title>MET CIV-MILITARY RELATIONS</course_title>
+        <end_date>9/28/01</end_date>
+        <location>40 Mongolia</location>
+        <start_date>9/24/01</start_date>
+        <student_unit>Government Chancery Office - 1 Ministry of Justice and Home  Affairs - 1 Defense Auditing Agency, Ministry  of Defense - 13 General Staff Headquarters - 6 Institute for Defense Studies - 6 Civil Defense Headquarters - 2 Border Troops Headquarters - 2 Ministry of Defense - 7 Parliamnet's Secretariat Office - 2</student_unit>
+        <total_cost>$43,195</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Mongolia">
+    <program name="East Asia and Pacific Region, Mongolia,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>MET CMR CONUS PLANNING</course_title>
+        <end_date>10/24/00</end_date>
+        <location>1 MONTEREY, CA 93943-5001</location>
+        <start_date>10/18/00</start_date>
+        <student_unit>Peacekeeping Operations Office,  General Staff Headquarters</student_unit>
+        <total_cost>$47,964</total_cost>
+      </training>
+      <training>
+        <course_title>MET DIILS</course_title>
+        <end_date>8/24/01</end_date>
+        <location>44 Mongolia</location>
+        <start_date>8/20/01</start_date>
+        <student_unit>Government Chancery Office - 2 Parliament's Secretariat Office - 2 Ministry of Justice and  Home  Affairs - 2 Ministry of Defense - 10 General Police Department - 2 Law Enforcement Agency - 4 General Staff Headquarters - 4 Civil Defense Headquarters - 2 Manageent Academy - 2 General Intelligence Agency - 3 Border Troops Headquarters - 2 Defense University - 4 Institute for Defense Studies - 2 Ministry of Foreign Affairs  -1</student_unit>
+        <total_cost>$41,200</total_cost>
+      </training>
+      <training>
+        <course_title>MET IHRM PH IV</course_title>
+        <end_date>10/20/00</end_date>
+        <location>30 Mongolia</location>
+        <start_date>10/16/00</start_date>
+        <student_unit>State Administration &amp;  Management Directorate of MOD -  2 Financial Policy Implementation  Department of MOD - 1 Strategic Management Planning  Directorate of MOD - 2 Central Armed Forces Hospital,  GSHQ - 7 Personnel Department, GSHQ - 1 Military Construction Engineering  Corps, GSHQ - 2 The Capitol Civil Defens eAnd  Miniltary Staff - 1 UNAIDS program - 1 Ministry of Health  - 3 Health Management Information  Center - 3 Chingeltei District Health Center -  1 Sukhbaatar District Health Center  - 2 Ministry of Education - 1 State Special Servant's Hospital - 3</student_unit>
+        <total_cost>$17,602</total_cost>
+      </training>
+      <training>
+        <course_title>OBC INTERNATION ENR PREP</course_title>
+        <end_date>9/14/01</end_date>
+        <location>1 FT LEONARD WOOD MO 65473-5000</location>
+        <start_date>9/10/01</start_date>
+        <student_unit>234th BN, Mongolian Armed  Forces</student_unit>
+        <total_cost>$1,605</total_cost>
+      </training>
+      <training>
+        <course_title>SEC ASST MGT-STUDENT </course_title>
+        <end_date>11/3/00</end_date>
+        <location>1 W-P AFB, OH 45433-7803</location>
+        <start_date>10/23/00</start_date>
+        <student_unit>Logistics Department, General  Staff Headquarters, Mongolia</student_unit>
+        <total_cost>$6,631</total_cost>
+      </training>
+      <training>
+        <course_title>SIG OFF ADV PREP-INTER OFF</course_title>
+        <end_date>1/19/01</end_date>
+        <location>1 FT GORDON GA 30905-5154</location>
+        <start_date>1/3/01</start_date>
+        <student_unit>Border Troops Headquarters</student_unit>
+        <total_cost>$7,040</total_cost>
+      </training>
+      <training>
+        <course_title>SIGNAL CAPTAINS CAREER CRS</course_title>
+        <end_date>5/24/01</end_date>
+        <location>1 FT GORDON GA 30905-5154</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Border Troops Headquarters</student_unit>
+        <total_cost>$11,369</total_cost>
+      </training>
+      <training>
+        <course_title>SR INTERNATIONAL DEF MGT</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>6/25/01</start_date>
+        <student_unit>Parliament of Mongolia</student_unit>
+        <total_cost>$7,939</total_cost>
+      </training>
+      <training>
+        <course_title>VET SPEC FOOD INSP (BASIC)</course_title>
+        <end_date>7/2/01</end_date>
+        <location>1 FT SAM HOUSTON TX 78234-6100</location>
+        <start_date>5/7/01</start_date>
+        <student_unit>Central Armed Forces Hospital,  Mongolia</student_unit>
+        <total_cost>$13,188</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Mongolia">
+    <program name="East Asia and Pacific Region, Mongolia,  International Military Education and Training (IMET), FY01"/>
+  </country>
+  <country name="Mongolia">
+    <program name="DoS East Asia and Pacific Region, Mongolia,  Enhanced International Peacekeeping Capabilities (EPIC), FY01">
+      <training>
+        <course_title>MET PEACE SUP OPS PH III</course_title>
+        <end_date>8/10/01</end_date>
+        <location>30 Mongolia</location>
+        <start_date>8/6/01</start_date>
+        <student_unit>Ministry of Defense - 3 General Staff Headquarters - 17  Defense University - 2 Civil Defense Headquarters - 3 Mongolian Red Cross - 1 National Commission on Human  Rights - 1 Ministry of Justice and Home  Affairs - 1 Border Troops Headquarters - 1  General Police Department - 2</student_unit>
+        <total_cost>$85,823</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Mongolia">
+    <program name="DoS East Asia and Pacific Region, Mongolia,  Asia-Pacific Center, FY01">
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <end_date>4/12/01</end_date>
+        <location>2 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Office of Natl Security Council;  Institute of Strategic Studies</student_unit>
+        <total_cost>$29,316</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <end_date>8/9/01</end_date>
+        <location>2 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>Ministry of Defense; MOFA</student_unit>
+        <total_cost>$28,506</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Nauru">
+    <program name="DoS East Asia and Pacific Region, Nauru,  Asia-Pacific Center, FY01">
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <end_date>4/12/01</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Police Superintendent</student_unit>
+        <total_cost>$14,559</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="New Zealand">
+    <program name="DoS East Asia and Pacific Region, New Zealand,  Asia-Pacific Center, FY01">
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <end_date>4/12/01</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Defence Force</student_unit>
+        <total_cost>$942</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <end_date>8/9/01</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>Air Force</student_unit>
+        <total_cost>$942</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Papua New Guinea">
+    <program name="DoS East Asia and Pacific Region, Papua New Guinea,  International Military Education and Training (IMET), FY01"/>
+  </country>
+  <country name="Papua New Guinea">
+    <program name="East Asia and Pacific Region, Papua New Guinea,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>ALLIED OFF PREP-INF OAC</course_title>
+        <end_date>3/16/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>3/12/01</start_date>
+        <student_unit>PNG Defense Force - Army</student_unit>
+        <total_cost>$4,371</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY CAPTS CAREER CRS</course_title>
+        <end_date>7/24/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>3/19/01</start_date>
+        <student_unit>PNG Defense Force - Army</student_unit>
+        <total_cost>$10,479</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFFICER PREP</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>6/19/01</start_date>
+        <student_unit>PNG Defense Force - Army</student_unit>
+        <total_cost>$5,269</total_cost>
+      </training>
+      <training>
+        <course_title>INTL MARITIME OFF</course_title>
+        <end_date>3/23/01</end_date>
+        <location>1 YORKTOWN, VA 23690-5000</location>
+        <start_date>1/16/01</start_date>
+        <student_unit>PNG Defense Force - Navy</student_unit>
+        <total_cost>$13,206</total_cost>
+      </training>
+      <training>
+        <course_title>MET CIV-MILITARY RELATIONS</course_title>
+        <end_date>12/8/00</end_date>
+        <location>19 Papua New Guinea</location>
+        <start_date>12/4/00</start_date>
+        <student_unit>PNG Defense Force</student_unit>
+        <total_cost>$46,677</total_cost>
+      </training>
+      <training>
+        <course_title>MET DIILS</course_title>
+        <end_date>6/1/01</end_date>
+        <location>56 Papua New Guinea</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>PNG Defense Force</student_unit>
+        <total_cost>$20,100</total_cost>
+      </training>
+      <training>
+        <course_title>OAC INTL STUDENT ENGR PREP</course_title>
+        <end_date>8/10/01</end_date>
+        <location>1 FT LEONARD WOOD MO 65473-5000</location>
+        <start_date>8/6/01</start_date>
+        <student_unit>PNG Defense Force - Army</student_unit>
+        <total_cost>$4,350</total_cost>
+      </training>
+      <training>
+        <course_title>OFFICER INDOCTRINATION SCH</course_title>
+        <end_date>9/27/01</end_date>
+        <location>1 NEW LONDON, CT 06320-4195</location>
+        <start_date>6/2/01</start_date>
+        <student_unit>PNG Defense Force - Navy</student_unit>
+        <total_cost>$12,243</total_cost>
+      </training>
+      <training>
+        <course_title>OJT IMOC SOUTH PACIFIC</course_title>
+        <end_date>3/30/01</end_date>
+        <location>1 HONOLULU, HI 96850-4982</location>
+        <start_date>3/26/01</start_date>
+        <student_unit>PNG Defense Force - Navy</student_unit>
+        <total_cost>$1,540</total_cost>
+      </training>
+      <training>
+        <course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>7/9/01</start_date>
+        <student_unit>PNG Defense Force - Army</student_unit>
+        <total_cost>$1,380</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Papua New Guinea">
+    <program name="DoS East Asia and Pacific Region, Papua New Guinea,  Asia-Pacific Center, FY01">
+      <training>
+        <course_title>Executive Course 00-3</course_title>
+        <end_date>12/15/00</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>10/2/00</start_date>
+        <student_unit>Natl Intel Org</student_unit>
+        <total_cost>$12,922</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <end_date>4/12/01</end_date>
+        <location>2 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Defence Force; Defence Force</student_unit>
+        <total_cost>$28,763</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <end_date>8/9/01</end_date>
+        <location>2 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>Natl Research Inst; Natl Intel Org</student_unit>
+        <total_cost>$30,242</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Philippines">
+    <program name="DoS East Asia and Pacific Region, Philippines,  Non-Security Assistance, Unified Command (Note 4), FY01">
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>6/11/01</end_date>
+        <location>99 FORT MAGSAYSAY,CLARK IAP,CAMP  TECSONAND O'DONNELL</location>
+        <student_unit>PHILIPPINE FORCES:  SOTG(SPECIAL  OPERATIONS TRAINING GROUP  OF SOCOM) (4 PERS); SCOUT  RANGER TRAINING SCHOOL (8  PERS); HQ, 1ST SRR (4 PERS);  20TH SCOUT RANGER CO (12  PERS); SPECIAL FORCES SCHOOL  (12 PERS); 11TH SCOUT RANGER  CO, (7 PERS); 1ST SPECIAL  FORCES</student_unit>
+        <text>1/1 SFG, 353 SOG $81,000 7/19/01</text>
+      </training>
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>8/31/01</end_date>
+        <location>20 SUBIC BAY, CAVITE, CLARK</location>
+        <start_date>8/6/01</start_date>
+        <student_unit>PHILIPPINE NAVY SPECIAL  WARFARE GROUP(20)</student_unit>
+        <total_cost>$83,000</total_cost>
+        <us_unit>NSWU-1</us_unit>
+      </training>
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>6/22/01</end_date>
+        <location>144 FORT MAGSAYSAY, CAMP  O'DONNELL, CLARK IAP, CAVITE</location>
+        <start_date>5/23/01</start_date>
+        <student_unit>PHILIPPINE ARMY SF CO (38),  20TH SCOUT RANGER CO (44),  LIGHT ARMORED  BDE (22), CIVIL  AFFAIRS GROUP (14), SOCOM  (21), PHILIPPINE MARINE FORCE  RECON BN (3), MARINE TRAINING  CENTER (2)</student_unit>
+        <total_cost>$357,000</total_cost>
+        <us_unit>2/1 SFG, 3/1 SFG, 353 SOG, 4 POG, 426 CA  BN, 7 POG, 96 CA BN</us_unit>
+      </training>
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>9/25/01</end_date>
+        <location>310 FORT MAGSAYSAY,  BARANGAY,CLARK AB (AIR FORCE  CITY)</location>
+        <start_date>8/20/01</start_date>
+        <student_unit>PHILIPPINE ARMY: SOCOM (20),  SOCOM SPECIAL OPERATIONS  TRAINING GROUP (4) , SFR  SPECIAL FORCES SCHOOL (8),  SPECIAL FORCES REGIMENT (30),  1ST SCOUT REGIMENT (30),  PHILIPPINE AIR FORCE: 1ST  TACTICAL OPERATIONS WING  (50), 5TH FIGHTER WING (50),  710TH SPECIAL</student_unit>
+        <total_cost>$90,000</total_cost>
+        <us_unit>1/1 SFG, 353 SOG</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Philippines">
+    <program name="DoS East Asia and Pacific Region, Philippines,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>ACFT PNEUDRAU SYS SPECL</course_title>
+        <end_date>7/24/01</end_date>
+        <location>1 SHEPPARD AFB TX 76311-2367</location>
+        <start_date>5/18/01</start_date>
+        <student_unit>16th Attack Squadron, 15th Strike  Wing, Sangley Air Base, Cavite </student_unit>
+        <total_cost>$5,878</total_cost>
+      </training>
+      <training>
+        <course_title>ADVANCED ENGLISH LANG PGM</course_title>
+        <end_date>5/18/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>1/29/01</start_date>
+        <student_unit>Chief, Public Affairs Office,   Philippine Army, Fort Bonifacio,  Makati City</student_unit>
+        <total_cost>$9,944</total_cost>
+      </training>
+      <training>
+        <course_title>AEROSPACE MEDICINE PRIMARY</course_title>
+        <end_date>5/4/01</end_date>
+        <location>1 BROOKS AFB, TX 78235-5123</location>
+        <start_date>3/14/01</start_date>
+        <student_unit>Office of the Director, Health  Services, Philippine Air Force</student_unit>
+        <total_cost>$5,492</total_cost>
+      </training>
+      <training>
+        <course_title>AIRCRAFT ELECTRICIAN RPR</course_title>
+        <end_date>8/29/01</end_date>
+        <location>1 FT EUSTIS VA 23604-5361</location>
+        <start_date>4/16/01</start_date>
+        <student_unit>6th Tactical Fighter Squadron, PAF</student_unit>
+        <total_cost>$8,871</total_cost>
+      </training>
+      <training>
+        <course_title>AIRCRAFT MAINTENANCE OFF</course_title>
+        <end_date>4/13/01</end_date>
+        <location>1 SHEPPARD AFB TX 76311-2367</location>
+        <start_date>1/4/01</start_date>
+        <student_unit>6th Tactical Fighter Squadron</student_unit>
+        <total_cost>$8,060</total_cost>
+      </training>
+      <training>
+        <course_title>AIRCRAFT STRUCTURAL RPR</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 FT EUSTIS VA 23604-5361</location>
+        <start_date>4/16/01</start_date>
+        <student_unit>452nd FDMS, 205th TOW, VAB,  Pasay City</student_unit>
+        <total_cost>$7,707</total_cost>
+      </training>
+      <training>
+        <course_title>AIRCREW EGRESS SYS APPR</course_title>
+        <end_date>4/9/01</end_date>
+        <location>1 SHEPPARD AFB TX 76311-2367</location>
+        <start_date>2/23/01</start_date>
+        <student_unit>Air Force</student_unit>
+        <total_cost>$280</total_cost>
+      </training>
+      <training>
+        <course_title>AIRCREW LIFE SPT APR</course_title>
+        <end_date>3/12/01</end_date>
+        <location>1 SHEPPARD AFB TX 76311-2367</location>
+        <start_date>1/25/01</start_date>
+        <student_unit>Air Force</student_unit>
+        <total_cost>$280</total_cost>
+      </training>
+      <training>
+        <course_title>ALLIED OFF PREP-INF OAC</course_title>
+        <end_date>8/3/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>7/30/01</start_date>
+        <student_unit>Scout Ranger Training Sch, FSRR,  SOCOM, PA, Sn Miguel, Bulacan</student_unit>
+        <total_cost>$3,243</total_cost>
+      </training>
+      <training>
+        <course_title>AMMUNITION SPECIALIST</course_title>
+        <end_date>7/19/01</end_date>
+        <location>1 REDSTONE ARS AL 35897-6400</location>
+        <start_date>5/7/01</start_date>
+        <student_unit>Office of the Deputy Chief of Staff  for Logistics</student_unit>
+        <total_cost>$7,603</total_cost>
+      </training>
+      <training>
+        <course_title>AMPHIB PLAN SR OFF-INTL</course_title>
+        <end_date>5/4/01</end_date>
+        <location>1 SAN DIEGO, CA 92155-5099</location>
+        <start_date>2/26/01</start_date>
+        <student_unit>ACofS for CMO &amp; EM, MC7,   Philippine Marines</student_unit>
+        <total_cost>$7,936</total_cost>
+      </training>
+      <training>
+        <course_title>ARMAMENT REPAIRER</course_title>
+        <end_date>4/27/01</end_date>
+        <location>1 APG MD 21005-5299</location>
+        <start_date>12/5/00</start_date>
+        <student_unit>Hqs &amp; Hqs Spt Grp duty Office of  the Chief, Odrnance, Philippine  Army</student_unit>
+        <total_cost>$12,671</total_cost>
+      </training>
+      <training>
+        <course_title>ARMOR CAPTAINS CAREER</course_title>
+        <end_date>5/25/01</end_date>
+        <location>1 FT KNOX KY 40121-5234</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Hqs Service Support Group,  Philippine Navy</student_unit>
+        <total_cost>$10,840</total_cost>
+      </training>
+      <training>
+        <course_title>ARMOR CAPTAINS CAREER</course_title>
+        <end_date>5/25/01</end_date>
+        <location>1 FT KNOX KY 40121-5234</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Hqs &amp; Hqs Support Group duty  OG6, PA, Fort Bonifacio, Makati  City</student_unit>
+        <total_cost>$13,204</total_cost>
+      </training>
+      <training>
+        <course_title>ARMOR CPT CAREER CRS PREP</course_title>
+        <end_date>1/19/01</end_date>
+        <location>1 FT KNOX KY 40121-5234</location>
+        <start_date>1/8/01</start_date>
+        <student_unit>Hqs Service Support Group,  Philippine Navy</student_unit>
+        <total_cost>$4,841</total_cost>
+      </training>
+      <training>
+        <course_title>ARMOR CPT CAREER CRS PREP</course_title>
+        <end_date>1/19/01</end_date>
+        <location>1 FT KNOX KY 40121-5234</location>
+        <start_date>1/8/01</start_date>
+        <student_unit>Hqs &amp; Hqs Support Group duty  OG6, PA, Fort Bonifacio, Makati  City</student_unit>
+        <total_cost>$4,841</total_cost>
+      </training>
+      <training>
+        <course_title>AVIATION CAPTAINS CAREER</course_title>
+        <end_date>5/24/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>1/17/01</start_date>
+        <student_unit>Aviation Battalion, Light Armor  Brigade, Philippine Army</student_unit>
+        <total_cost>$12,092</total_cost>
+      </training>
+      <training>
+        <course_title>AVIATION SAFETY OFFICER</course_title>
+        <end_date>4/20/01</end_date>
+        <location>1 FT RUCKER AL 36362</location>
+        <start_date>3/12/01</start_date>
+        <student_unit>Phil Air Force Flying School, Lipa  City, Batangas</student_unit>
+        <total_cost>$6,099</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Philippines">
+    <program name="East Asia and Pacific Region, Philippines,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>BASIC INSTRUCTOR COURSE</course_title>
+        <end_date>5/4/01</end_date>
+        <location>1 KEESLER AFB, MS 39534-2354</location>
+        <start_date>4/2/01</start_date>
+        <student_unit>ODCSforOperations, J3, Cp  Aguinaldo, Quezon City</student_unit>
+        <total_cost>$1,834</total_cost>
+      </training>
+      <training>
+        <course_title>BASIC MANPOWER &amp; QUAL MGT</course_title>
+        <end_date>3/23/01</end_date>
+        <location>1 KEESLER AFB, MS 39534-2354</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Hqs &amp; Hqs Support Group dy  OG1, PA</student_unit>
+        <total_cost>$5,312</total_cost>
+      </training>
+      <training>
+        <course_title>BASIC MANPOWER &amp; QUAL MGT</course_title>
+        <end_date>3/23/01</end_date>
+        <location>1 KEESLER AFB, MS 39534-2354</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>OSJS, AFP, Camp Aguinaldo,  Quezon City</student_unit>
+        <total_cost>$5,390</total_cost>
+      </training>
+      <training>
+        <course_title>BOARDING OFFICER EIMET</course_title>
+        <end_date>3/23/01</end_date>
+        <location>1 YORKTOWN, VA 23690-5000</location>
+        <start_date>2/20/01</start_date>
+        <student_unit>Air Force</student_unit>
+        <total_cost>$772</total_cost>
+      </training>
+      <training>
+        <course_title>CIVIL AFFAIRS</course_title>
+        <end_date>3/16/01</end_date>
+        <location>1 FT BRAGG NC 28310</location>
+        <start_date>2/12/01</start_date>
+        <student_unit>Air Force Civil Relation Center,  Jesus Villamor Air Base, Pasay City</student_unit>
+        <total_cost>$2,899</total_cost>
+      </training>
+      <training>
+        <course_title>CIVIL AFFAIRS</course_title>
+        <end_date>3/16/01</end_date>
+        <location>1 FT BRAGG NC 28310</location>
+        <start_date>2/12/01</start_date>
+        <student_unit>Naval Intelligence Security Force,  Fort Bonifacio, Makati City,  Philippines</student_unit>
+        <total_cost>$2,936</total_cost>
+      </training>
+      <training>
+        <course_title>CIVIL AFFAIRS</course_title>
+        <end_date>8/22/01</end_date>
+        <location>1 FT BRAGG NC 28310</location>
+        <start_date>7/23/01</start_date>
+        <student_unit>Intel Div, GHQ &amp; HSC, Camp Gen  Emilio Aguinaldo, Quezon City</student_unit>
+        <total_cost>$2,848</total_cost>
+      </training>
+      <training>
+        <course_title>COMB STRAT INTEL TNG PRGM</course_title>
+        <end_date>8/24/01</end_date>
+        <location>1 WASHINGTON DC 20340-5100</location>
+        <start_date>7/9/01</start_date>
+        <student_unit>Office of the Assistant Chief of  Staff for Intelligence, G2, Phil  Army</student_unit>
+        <total_cost>$7,771</total_cost>
+      </training>
+      <training>
+        <course_title>COMM &amp; INFO OFFICER (BCOT)</course_title>
+        <end_date>1/12/01</end_date>
+        <location>1 KEESLER AFB, MS 39534-2354</location>
+        <start_date>10/2/00</start_date>
+        <student_unit>AC of Air Staff for Commel, A11,  HPAF, Villamor Air Base, pasay  City</student_unit>
+        <total_cost>$6,351</total_cost>
+      </training>
+      <training>
+        <course_title>COMMUNICATION INFO SYS OFR</course_title>
+        <end_date>9/14/01</end_date>
+        <location>1 QUANTICO, VA 22134</location>
+        <start_date>4/9/01</start_date>
+        <student_unit>Pilot PN 310, Naval Air Defense,  Philippine Navy</student_unit>
+        <total_cost>$10,915</total_cost>
+      </training>
+      <training>
+        <course_title>COMPUTER/AUTOMATION SYS </course_title>
+        <end_date>2/22/01</end_date>
+        <location>1 FT GORDON GA 30905-5154</location>
+        <start_date>11/6/00</start_date>
+        <student_unit>Army Management Information </student_unit>
+        <total_cost>$9,248</total_cost>
+      </training>
+      <training>
+        <course_title>RP</course_title>
+        <student_unit>Center, Philippine Army</student_unit>
+      </training>
+      <training>
+        <course_title>DEF RES MGT CRS</course_title>
+        <end_date>8/16/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>7/23/01</start_date>
+        <student_unit>OTDCS for Opns, J3, GHQ, Armed  Forces of the Philippines, Cp  Aguinaldo, QC</student_unit>
+        <total_cost>$7,478</total_cost>
+      </training>
+      <training>
+        <course_title>DEF RES MGT CRS</course_title>
+        <end_date>5/17/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>4/23/01</start_date>
+        <student_unit>Headquarters Service Support  Group, HPAF, OA-8</student_unit>
+        <total_cost>$7,478</total_cost>
+      </training>
+      <training>
+        <course_title>DEF RES MGT CRS</course_title>
+        <end_date>9/14/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>8/20/01</start_date>
+        <student_unit>AFP Logistics Command, Camp  Aguinaldo, Quezon City</student_unit>
+        <total_cost>$7,022</total_cost>
+      </training>
+      <training>
+        <course_title>DEF RES MGT CRS</course_title>
+        <end_date>8/16/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>7/23/01</start_date>
+        <student_unit>Liaison Office for Legislative  Affairs</student_unit>
+        <total_cost>$2,051</total_cost>
+      </training>
+      <training>
+        <course_title>ENGINEER OFF CPT CAREER</course_title>
+        <end_date>7/24/01</end_date>
+        <location>1 FT LEONARD WOOD MO 65473-5000</location>
+        <start_date>3/19/01</start_date>
+        <student_unit>Waterfront, Dredge Company,  BNS, Ft Bonifacio, Makati City</student_unit>
+        <total_cost>$11,251</total_cost>
+      </training>
+      <training>
+        <course_title>ENGINEER OFF CPT CAREER</course_title>
+        <end_date>7/24/01</end_date>
+        <location>1 FT LEONARD WOOD MO 65473-5000</location>
+        <start_date>3/19/01</start_date>
+        <student_unit>Air Logistics &amp; Support  Command, 355th Avn Engr'g  Wing, Basa Air Base, Pampanga</student_unit>
+        <total_cost>$11,251</total_cost>
+      </training>
+      <training>
+        <course_title>EW OFFICER INTL</course_title>
+        <end_date>4/20/01</end_date>
+        <location>1 VIRGINIA BEACH, VA 23461-2098</location>
+        <start_date>4/2/01</start_date>
+        <student_unit>Technical Intelligence Group, Naval  Intelligence Security Force,  Bonifacio Naval Station, Ft  Bonifacio, Makati City, Philippines</student_unit>
+        <total_cost>$4,529</total_cost>
+      </training>
+      <training>
+        <course_title>FA OFF ADV PREP-ALLIED OFF</course_title>
+        <end_date>5/4/01</end_date>
+        <location>1 FT SILL OK 73503</location>
+        <start_date>4/12/01</start_date>
+        <student_unit>10th FA Bn, 4ID, Phil Army</student_unit>
+        <total_cost>$5,266</total_cost>
+      </training>
+      <training>
+        <course_title>FA WEAPONS MAINT</course_title>
+        <end_date>9/28/01</end_date>
+        <location>1 FT SILL OK 73503</location>
+        <start_date>9/10/01</start_date>
+        <student_unit>OrdChem Dept, Cbt Svc Spt Schl,  Training Doctrines, PA, Ft  Magsaya, Nueva Ecija, Philippines</student_unit>
+        <total_cost>$2,461</total_cost>
+      </training>
+      <training>
+        <course_title>FIELD ARTY CAPTAINS CAREER</course_title>
+        <end_date>9/13/01</end_date>
+        <location>1 FT SILL OK 73503</location>
+        <start_date>5/8/01</start_date>
+        <student_unit>10th FA Bn, 4ID, Phil Army</student_unit>
+        <total_cost>$11,815</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Philippines">
+    <program name="East Asia and Pacific Region, Philippines,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>INFO SYSTEMS ADMINISTRATOR</course_title>
+        <end_date>9/24/01</end_date>
+        <location>1 PENSACOLA, FL 32511-5138</location>
+        <start_date>7/30/01</start_date>
+        <student_unit>Recruit Training Unit, Naval  Education &amp; Training Command,  Zambales</student_unit>
+        <total_cost>$6,882</total_cost>
+      </training>
+      <training>
+        <course_title>INFO SYSTEMS OPER-ANALYST</course_title>
+        <end_date>7/19/01</end_date>
+        <location>1 FT GORDON GA 30905-5154</location>
+        <start_date>3/19/01</start_date>
+        <student_unit>Hqs &amp; Hqs Support Group dy  OG8, PA, Ft Bonifacio, Makati City</student_unit>
+        <total_cost>$10,183</total_cost>
+      </training>
+      <training>
+        <course_title>INFO SYSTEMS OPER-ANALYST</course_title>
+        <end_date>9/14/01</end_date>
+        <location>1 FT GORDON GA 30905-5154</location>
+        <start_date>5/14/01</start_date>
+        <student_unit>Philippine Military Academy</student_unit>
+        <total_cost>$10,222</total_cost>
+      </training>
+      <training>
+        <course_title>INFORMATION SYSTEMS MGT</course_title>
+        <end_date>5/23/01</end_date>
+        <location>1 FT GORDON GA 30905-5154</location>
+        <start_date>1/4/01</start_date>
+        <student_unit>Commander, 11th ISU, Intelligence  Service Group, PA</student_unit>
+        <total_cost>$11,273</total_cost>
+      </training>
+      <training>
+        <course_title>INFORMATION SYSTEMS MGT</course_title>
+        <end_date>5/23/01</end_date>
+        <location>1 FT GORDON GA 30905-5154</location>
+        <start_date>1/4/01</start_date>
+        <student_unit>Hqs Naval Intelligence Security  Force, Philippine Navy</student_unit>
+        <total_cost>$13,373</total_cost>
+      </training>
+      <training>
+        <course_title>INSTRUCTOR TRAINING COURSE</course_title>
+        <end_date>9/26/01</end_date>
+        <location>1 FT LEE VA 23801-1509</location>
+        <start_date>9/10/01</start_date>
+        <student_unit>Reserve Command, Philippine  Army, Tanza, Cavite, Philippines</student_unit>
+        <total_cost>$3,027</total_cost>
+      </training>
+      <training>
+        <course_title>INT OFFICER INTEL ADVANCE</course_title>
+        <end_date>5/4/01</end_date>
+        <location>1 FT HUACHUCA AZ 85613-7000</location>
+        <start_date>1/18/01</start_date>
+        <student_unit>Intelligence Services, AFP, Cp  Aguinaldo Q.C.</student_unit>
+        <total_cost>$16,916</total_cost>
+      </training>
+      <training>
+        <course_title>INT OFFICER INTEL ADVANCE</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 FT HUACHUCA AZ 85613-7000</location>
+        <start_date>3/22/01</start_date>
+        <student_unit>3rd Intelligence Security Unit,  Intelligence Security Group,  Philppine Army</student_unit>
+        <total_cost>$16,916</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFF LOG PREP</course_title>
+        <end_date>8/10/01</end_date>
+        <location>1 FT LEE VA 23801-1705</location>
+        <start_date>7/30/01</start_date>
+        <student_unit>Deputy Chief of Staff for  Logistics, OJ4</student_unit>
+        <total_cost>$2,422</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFFICER PREP</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>6/19/01</start_date>
+        <student_unit>Headquarters &amp; Headquarters  Support Group, PA dy Office of  the Asst Chief of Staff for  Operations, G3, Fort Bonifacio,  Makati City</student_unit>
+        <total_cost>$4,561</total_cost>
+      </training>
+      <training>
+        <course_title>INTL OFF SCH &amp; SOS</course_title>
+        <end_date>3/31/01</end_date>
+        <location>1 MAXWELL AFB, AL 36112-6323</location>
+        <start_date>1/8/01</start_date>
+        <student_unit>Office of Special Studies,  Headquarters Philippine Air Force</student_unit>
+        <total_cost>$12,411</total_cost>
+      </training>
+      <training>
+        <course_title>INTL OFF SCH &amp; SOS</course_title>
+        <end_date>3/31/01</end_date>
+        <location>1 MAXWELL AFB, AL 36112-6323</location>
+        <start_date>1/8/01</start_date>
+        <student_unit>16th Attack Squadron, 15th Strike  wing</student_unit>
+        <total_cost>$12,411</total_cost>
+      </training>
+      <training>
+        <course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 MAXWELL AFB, AL 36112-6323</location>
+        <start_date>6/18/01</start_date>
+        <student_unit>Office of the Assistant Chief of  Air Staff for Logistics, A-4</student_unit>
+        <total_cost>$10,136</total_cost>
+      </training>
+      <training>
+        <course_title>INTL OFF SCH (FOR AWC)</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 MAXWELL AFB, AL 36112-6323</location>
+        <start_date>6/11/01</start_date>
+        <student_unit>250th Presidential Airlift Wing,  Villamor Air Base, Pasay City</student_unit>
+        <total_cost>$10,246</total_cost>
+      </training>
+      <training>
+        <course_title>INTL SAR MARITIME</course_title>
+        <end_date>2/2/01</end_date>
+        <location>1 YORKTOWN, VA 23690-5000</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Air Force</student_unit>
+        <total_cost>$457</total_cost>
+      </training>
+      <training>
+        <course_title>JUDGE ADVOCATE STAFF OFF</course_title>
+        <end_date>9/21/01</end_date>
+        <location>1 MAXWELL AFB, AL 36112-6323</location>
+        <start_date>7/23/01</start_date>
+        <student_unit>Judge Advocate General Service</student_unit>
+        <total_cost>$7,748</total_cost>
+      </training>
+      <training>
+        <course_title>MANAGING INTL CONFLICT MIC</course_title>
+        <end_date>5/25/01</end_date>
+        <location>1 NEWPORT, RI 02841-1523</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>Office of the Air Judge Advocate  General, HPAF, Villamor Air Base,  Pasay City</student_unit>
+        <total_cost>$950</total_cost>
+      </training>
+      <training>
+        <course_title>MET ACQUISITION CONT ED</course_title>
+        <end_date>8/6/01</end_date>
+        <location>41 Philippines</location>
+        <start_date>8/6/01</start_date>
+        <student_unit>DCS for Logistics, J4, GHQ/AFP,  Camp Aguinaldo, Quezon City</student_unit>
+        <total_cost>$26,982</total_cost>
+      </training>
+      <training>
+        <course_title>MIL &amp; PCKEEP OPS IAW ROL</course_title>
+        <end_date>5/18/01</end_date>
+        <location>1 NEWPORT, RI 02841-1523</location>
+        <start_date>4/16/01</start_date>
+        <student_unit>Office of the Air Judge Advocate  General, HPAF, Villamor Air Base,  Pasay City</student_unit>
+        <total_cost>$14,168</total_cost>
+      </training>
+      <training>
+        <course_title>NAVAL STAFF COLLEGE</course_title>
+        <end_date>6/15/01</end_date>
+        <location>1 NEWPORT, RI 02841-1207</location>
+        <start_date>1/11/01</start_date>
+        <student_unit>General Headquarters &amp;  Headquarters Service Command  duty, OTDCS for Personnel, J1</student_unit>
+        <total_cost>$24,222</total_cost>
+      </training>
+      <training>
+        <course_title>OAC INTL STUDENT ENGR PREP</course_title>
+        <end_date>3/16/01</end_date>
+        <location>1 FT LEONARD WOOD MO 65473-5000</location>
+        <start_date>3/12/01</start_date>
+        <student_unit>Waterfront, Dredge Company,  BNS, Ft Bonifacio, Makati City</student_unit>
+        <total_cost>$3,222</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Philippines">
+    <program name="East Asia and Pacific Region, Philippines,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>OAC INTL STUDENT ENGR PREP</course_title>
+        <end_date>3/16/01</end_date>
+        <location>1 FT LEONARD WOOD MO 65473-5000</location>
+        <start_date>3/12/01</start_date>
+        <student_unit>Air Logistics &amp; Support  Command, 355th Avn Engr'g  Wing, Basa Air Base, Pampanga</student_unit>
+        <total_cost>$3,222</total_cost>
+      </training>
+      <training>
+        <course_title>OBC INTERNATIONAL MP PREP</course_title>
+        <end_date>9/14/01</end_date>
+        <location>1 FT LEONARD WOOD MO 65473-5000</location>
+        <start_date>9/10/01</start_date>
+        <student_unit>14th Fld Arty Btry, Div Arty Rgmt,  6th Infantry Divison, PA, Awang  Dinaig, Maguindanao, Philippines</student_unit>
+        <total_cost>$3,125</total_cost>
+      </training>
+      <training>
+        <course_title>OJT OFF SAR ATLANTIC AREA</course_title>
+        <end_date>2/16/01</end_date>
+        <location>1 PORTSMOUTH, VA 23666-5004</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Air Force</student_unit>
+        <total_cost>$238</total_cost>
+      </training>
+      <training>
+        <course_title>OPNS RESOURCE MANAGEMENT</course_title>
+        <end_date>2/21/01</end_date>
+        <location>1 KEESLER AFB, MS 39534-2354</location>
+        <start_date>1/11/01</start_date>
+        <student_unit>Air Force Management Information  Center</student_unit>
+        <total_cost>$4,361</total_cost>
+      </training>
+      <training>
+        <course_title>OPNS RESOURCE MANAGEMENT</course_title>
+        <end_date>3/20/01</end_date>
+        <location>1 KEESLER AFB, MS 39534-2354</location>
+        <start_date>2/8/01</start_date>
+        <student_unit>ODCSforOperations, J3, Cp  Aguinaldo, Quezon City</student_unit>
+        <total_cost>$4,332</total_cost>
+      </training>
+      <training>
+        <course_title>PLAN,PROG,BUDG &amp; EXEC SYS</course_title>
+        <end_date>2/15/01</end_date>
+        <location>1 FT JACKSON SC 29207-7040</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>OTDCS for Education &amp; Training,  J8, Camp Aguinaldo, Quezon City</student_unit>
+        <total_cost>$3,609</total_cost>
+      </training>
+      <training>
+        <course_title>PRINCIPLES OF INSTRUCTION</course_title>
+        <end_date>4/20/01</end_date>
+        <location>1 SHEPPARD AFB TX 76311-2367</location>
+        <start_date>4/9/01</start_date>
+        <student_unit>16th Attack Squadron, 15th Strike  wing</student_unit>
+        <total_cost>$2,125</total_cost>
+      </training>
+      <training>
+        <course_title>PRINCIPLES OF INSTRUCTION</course_title>
+        <end_date>5/4/01</end_date>
+        <location>1 SHEPPARD AFB TX 76311-2367</location>
+        <start_date>4/23/01</start_date>
+        <student_unit>Air Education &amp; Training  Command, Fernando Air Base,  Lipa City</student_unit>
+        <total_cost>$971</total_cost>
+      </training>
+      <training>
+        <course_title>PRINCIPLES OF INSTRUCTION</course_title>
+        <end_date>4/20/01</end_date>
+        <location>1 SHEPPARD AFB TX 76311-2367</location>
+        <start_date>4/9/01</start_date>
+        <student_unit>Office of Special Studies,  Headquarters Philippine Air Force</student_unit>
+        <total_cost>$2,125</total_cost>
+      </training>
+      <training>
+        <course_title>PRINCIPLES OF INSTRUCTION</course_title>
+        <end_date>5/18/01</end_date>
+        <location>1 SHEPPARD AFB TX 76311-2367</location>
+        <start_date>5/7/01</start_date>
+        <student_unit>Office of the Director, Health  Services, Philippine Air Force</student_unit>
+        <total_cost>$1,306</total_cost>
+      </training>
+      <training>
+        <course_title>PRINCIPLES OF INSTRUCTION</course_title>
+        <end_date>2/16/01</end_date>
+        <location>1 SHEPPARD AFB TX 76311-2367</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Air Force</student_unit>
+        <total_cost>$120</total_cost>
+      </training>
+      <training>
+        <course_title>PRINCIPLES OF INSTRUCTION</course_title>
+        <end_date>3/9/01</end_date>
+        <location>1 SHEPPARD AFB TX 76311-2367</location>
+        <start_date>2/26/01</start_date>
+        <student_unit>Air Force Management Information  Center</student_unit>
+        <total_cost>$1,145</total_cost>
+      </training>
+      <training>
+        <course_title>PROSP ELECTRONICS MATL OFF</course_title>
+        <end_date>6/29/01</end_date>
+        <location>1 NORFOLK, VA 23511-2594</location>
+        <start_date>6/4/01</start_date>
+        <student_unit>Technical Intelligence Group, Naval  Intelligence Security Force,  Bonifacio Naval Station, Ft  Bonifacio, Makati City, Philippines</student_unit>
+        <total_cost>$3,812</total_cost>
+      </training>
+      <training>
+        <course_title>PSYCHOLOGICAL OPERATIONS</course_title>
+        <end_date>7/19/01</end_date>
+        <location>1 FT BRAGG NC 28310</location>
+        <start_date>6/18/01</start_date>
+        <student_unit>Intel Div, GHQ &amp; HSC, Camp Gen  Emilio Aguinaldo, Quezon City</student_unit>
+        <total_cost>$4,938</total_cost>
+      </training>
+      <training>
+        <course_title>PSYCHOLOGICAL OPERATIONS</course_title>
+        <end_date>2/9/01</end_date>
+        <location>1 FT BRAGG NC 28310</location>
+        <start_date>1/8/01</start_date>
+        <student_unit>Naval Intelligence Security Force,  Fort Bonifacio, Makati City,  Philippines</student_unit>
+        <total_cost>$5,193</total_cost>
+      </training>
+      <training>
+        <course_title>PSYCHOLOGICAL OPERATIONS</course_title>
+        <end_date>2/9/01</end_date>
+        <location>1 FT BRAGG NC 28310</location>
+        <start_date>1/8/01</start_date>
+        <student_unit>Air Force Civil Relation Center,  Jesus Villamor Air Base, Pasay City</student_unit>
+        <total_cost>$5,193</total_cost>
+      </training>
+      <training>
+        <course_title>PUBLIC AFFAIRS OFFICER</course_title>
+        <end_date>9/28/01</end_date>
+        <location>1 FT GEORGE G.  MEADE MD  20755-5620</location>
+        <start_date>7/30/01</start_date>
+        <student_unit>Chief, Public Affairs Office,   Philippine Army, Fort Bonifacio,  Makati City</student_unit>
+        <total_cost>$7,315</total_cost>
+      </training>
+      <training>
+        <course_title>READINESS APPRENTICE</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 FT LEONARD WOOD, MO 65473</location>
+        <start_date>4/23/01</start_date>
+        <student_unit>Assistant Chief of Air Staff for  Operations, A-3, HPAF, VAB,  Pasay City</student_unit>
+        <total_cost>$6,325</total_cost>
+      </training>
+      <training>
+        <course_title>RESOURCE MGT BUDGET</course_title>
+        <end_date>3/9/01</end_date>
+        <location>1 FT JACKSON SC 29207-7040</location>
+        <start_date>2/26/01</start_date>
+        <student_unit>OTDCS for Education &amp; Training,  J8, Camp Aguinaldo, Quezon City</student_unit>
+        <total_cost>$2,072</total_cost>
+      </training>
+      <training>
+        <course_title>SEC ASST MGT-STUDENT </course_title>
+        <end_date>8/24/01</end_date>
+        <location>1 W-P AFB, OH 45433-7803</location>
+        <start_date>8/13/01</start_date>
+        <student_unit>Office of the Inspector General,  CGEA, Quezon City</student_unit>
+        <total_cost>$5,025</total_cost>
+      </training>
+      <training>
+        <course_title>SMALL ARMS/TOWED ARTILLERY</course_title>
+        <end_date>8/23/01</end_date>
+        <location>1 APG MD 21005-5299</location>
+        <start_date>5/29/01</start_date>
+        <student_unit>OrdChem Dept, Cbt Svc Spt Schl,  Training Doctrines, PA, Ft  Magsaya, Nueva Ecija, Philippines</student_unit>
+        <total_cost>$8,519</total_cost>
+      </training>
+      <training>
+        <course_title>SMALL ARMS/TOWED ARTILLERY</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 APG MD 21005-5299</location>
+        <start_date>5/1/01</start_date>
+        <student_unit>MIG19, ISAFP, CGEA, Q.C.</student_unit>
+        <total_cost>$8,705</total_cost>
+      </training>
+      <training>
+        <course_title>SPEC ENG LANG TRNG  (SET)</course_title>
+        <end_date>9/21/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>7/23/01</start_date>
+        <student_unit>Philippine Military Academy, Fort  Del Pilar, Baguio City</student_unit>
+        <total_cost>$6,682</total_cost>
+      </training>
+      <training>
+        <course_title>SPEC ENG LANG TRNG  (SET)</course_title>
+        <end_date>3/30/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>1/29/01</start_date>
+        <student_unit>Pilot PN 310, Naval Air Defense,  Philippine Navy</student_unit>
+        <total_cost>$7,044</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>5/4/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>3/5/01</start_date>
+        <student_unit>Air Force</student_unit>
+        <total_cost>$1,135</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>4/20/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>2/19/01</start_date>
+        <student_unit>Air Education &amp; Training  Command, Fernando Air Base,  Lipa City</student_unit>
+        <total_cost>$6,730</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>4/6/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Air Force</student_unit>
+        <total_cost>$1,135</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>Chief, Public Affairs Office,   Philippine Army, Fort Bonifacio,  Makati City</student_unit>
+        <total_cost>$4,444</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>1/19/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>11/20/00</start_date>
+        <student_unit>300th AISG, Villamor Air Base,  Pasay City</student_unit>
+        <total_cost>$2,270</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>Deputy Chief of Staff for  Logistics, OJ4</student_unit>
+        <total_cost>$6,558</total_cost>
+      </training>
+      <training>
+        <course_title>SR INTERNATIONAL DEF MGT</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>6/25/01</start_date>
+        <student_unit>AFP, Modernization Program  Mgmt Office</student_unit>
+        <total_cost>$7,731</total_cost>
+      </training>
+      <training>
+        <course_title>SUPPLY &amp; SERVICE MGT OFF</course_title>
+        <end_date>8/15/01</end_date>
+        <location>1 FT LEE VA 23801-1509</location>
+        <start_date>7/9/01</start_date>
+        <student_unit>Reserve Command, Philippine  Army, Tanza, Cavite, Philippines</student_unit>
+        <total_cost>$5,253</total_cost>
+      </training>
+      <training>
+        <course_title>U.S. ARMY SGT MAJOR PREP</course_title>
+        <end_date>8/10/01</end_date>
+        <location>1 FT BLISS TX 79918-8002</location>
+        <start_date>7/23/01</start_date>
+        <student_unit>Armed Forces of the Philippines  Commissary &amp; Exchange Service</student_unit>
+        <total_cost>$3,562</total_cost>
+      </training>
+      <training>
+        <course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>7/9/01</start_date>
+        <student_unit>Headquarters &amp; Headquarters $1,725 Support Group, PA dy Office of  the Asst Chief of Staff for  Operations, G3, Fort Bonifacio,  Makati City</student_unit>
+      </training>
+      <training>
+        <course_title>USAF SENIOR NCO ACADEMY</course_title>
+        <end_date>6/27/01</end_date>
+        <location>1 GUNTER AFB, AL 36114</location>
+        <start_date>5/16/01</start_date>
+        <student_unit>Air Education &amp; Training  Command, Fernando Air Base,  Lipa City</student_unit>
+        <total_cost>$2,977</total_cost>
+      </training>
+      <training>
+        <course_title>WIRE SYSTEMS EQUIPMENT RPR</course_title>
+        <end_date>5/17/01</end_date>
+        <location>1 FT GORDON GA 30905-5154</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Communication, Electronics &amp;  Information Service, AFP</student_unit>
+        <total_cost>$9,897</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Philippines">
+    <program name="DoS East Asia and Pacific Region, Philippines,  Asia-Pacific Center, FY01">
+      <training>
+        <course_title>Executive Course 00-3</course_title>
+        <end_date>12/15/00</end_date>
+        <location>3 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>10/2/00</start_date>
+        <student_unit>Dept Natl Defense; Western  Command; Natl defense College</student_unit>
+        <total_cost>$34,711</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <end_date>4/12/01</end_date>
+        <location>3 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>MOFA; General HQ; Dept of Natl  Defense</student_unit>
+        <total_cost>$41,019</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <end_date>8/9/01</end_date>
+        <location>3 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>Dept of Natl Defense; WESCOM;  Dept of Natl Defense</student_unit>
+        <total_cost>$40,412</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Philippines">
+    <program name="East Asia and Pacific Region, Philippines,  Credit (Repayable), FY01"/>
+  </country>
+  <country name="Philippines">
+    <program name="DoS East Asia and Pacific Region, Philippines,  Credit (Repayable), FY01">
+      <training>
+        <course_title>DEF RES MGT CRS</course_title>
+        <end_date>5/17/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>4/23/01</start_date>
+        <student_unit>AFP Logistics Command,  GHQ/AFP, Camp Aguinaldo,  Quezon City</student_unit>
+        <total_cost>$5,241</total_cost>
+      </training>
+      <training>
+        <course_title>DEF RES MGT CRS</course_title>
+        <end_date>5/17/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>4/23/01</start_date>
+        <student_unit>DCS for Logistics, J4, GHQ/AFP,  Camp Aguinaldo, Quezon City</student_unit>
+        <total_cost>$5,241</total_cost>
+      </training>
+      <training>
+        <course_title>INTL DEFENSE MGT CRS</course_title>
+        <end_date>4/18/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>DCS for Logistics, J4, GHQ/AFP,  Camp Aguinaldo, Quezon City</student_unit>
+        <total_cost>$14,502</total_cost>
+      </training>
+      <training>
+        <course_title>MTT MILSTRIP/MILSTRAP</course_title>
+        <end_date>9/30/01</end_date>
+        <location>30 Philippines</location>
+        <start_date>9/17/01</start_date>
+        <student_unit>DCS for Logistics, J4, GHQ/AFP,  Camp Aguinaldo, Quezon City</student_unit>
+        <total_cost>$26,346</total_cost>
+      </training>
+      <training>
+        <course_title>SEC ASST MGT- FORN PURCH</course_title>
+        <end_date>4/13/01</end_date>
+        <location>1 W-P AFB, OH 45433-7765</location>
+        <start_date>4/2/01</start_date>
+        <student_unit>DCS for Logistics, J4, GHQ/AFP,  Camp Aguinaldo, Quezon City</student_unit>
+        <total_cost>$2,250</total_cost>
+      </training>
+      <training>
+        <course_title>SR INTERNATIONAL DEF MGT</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>6/25/01</start_date>
+        <student_unit>DCS for Logistics, J4, GHQ/AFP,  Camp Aguinaldo, Quezon City</student_unit>
+        <total_cost>$5,513</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Samoa">
+    <program name="DoS East Asia and Pacific Region, Samoa,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>CIVIL AFFAIRS</course_title>
+        <end_date>8/22/01</end_date>
+        <location>1 FT BRAGG NC 28310</location>
+        <start_date>7/23/01</start_date>
+        <student_unit>SAMOAN POLICE &amp; PRISON  SERVICE</student_unit>
+        <total_cost>$2,847</total_cost>
+      </training>
+      <training>
+        <course_title>DHMI HEALTH MGMT EXEC </course_title>
+        <end_date>10/24/00</end_date>
+        <location>1 MONTEREY, CA 93943-5301</location>
+        <start_date>10/21/00</start_date>
+        <student_unit>SAMOAN POLICE &amp; PRISON  SERVICE</student_unit>
+        <total_cost>$9,476</total_cost>
+      </training>
+      <training>
+        <course_title>FIRE PROTECTION APPRENTICE</course_title>
+        <end_date>4/26/01</end_date>
+        <location>1 GOODFELLOW AFB, TX 76908-4213</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>SAMOAN POLICE &amp; PRISON  SERVICE</student_unit>
+        <total_cost>$9,096</total_cost>
+      </training>
+      <training>
+        <course_title>FIRE PROTECTION/ *</course_title>
+        <end_date>5/11/01</end_date>
+        <location>1 LAUGHLIN AFB, TX 78843-5222</location>
+        <start_date>4/30/01</start_date>
+        <student_unit>SAMOAN POLICE &amp; PRISON  SERVICE</student_unit>
+        <total_cost>$967</total_cost>
+      </training>
+      <training>
+        <course_title>INFO SYSTEMS OPER-ANALYST</course_title>
+        <end_date>7/19/01</end_date>
+        <location>1 FT GORDON GA 30905-5154</location>
+        <start_date>3/19/01</start_date>
+        <student_unit>SAMOAN POLICE &amp; PRISON  SERVICE</student_unit>
+        <total_cost>$13,467</total_cost>
+      </training>
+      <training>
+        <course_title>INFO SYSTEMS OPER-ANALYST</course_title>
+        <end_date>7/19/01</end_date>
+        <location>1 FT GORDON GA 30905-5154</location>
+        <start_date>3/19/01</start_date>
+        <student_unit>SAMOAN POLICE &amp; PRISON  SERVICE</student_unit>
+        <total_cost>$13,467</total_cost>
+      </training>
+      <training>
+        <course_title>INSTRUCTOR TRAINING</course_title>
+        <end_date>8/3/01</end_date>
+        <location>1 FT GORDON GA 30905-5154</location>
+        <start_date>7/23/01</start_date>
+        <student_unit>SAMOAN POLICE &amp; PRISON  SERVICE</student_unit>
+        <total_cost>$1,392</total_cost>
+      </training>
+      <training>
+        <course_title>MTT OTHER - USCG O/S</course_title>
+        <end_date>6/15/01</end_date>
+        <location>19 Samoa</location>
+        <start_date>6/11/01</start_date>
+        <student_unit>SAMOAN POLICE &amp; PRISON  SERVICE</student_unit>
+        <total_cost>$15,873</total_cost>
+      </training>
+      <training>
+        <course_title>PSYCHOLOGICAL OPERATIONS</course_title>
+        <end_date>7/19/01</end_date>
+        <location>1 FT BRAGG NC 28310</location>
+        <start_date>6/18/01</start_date>
+        <student_unit>SAMOAN POLICE &amp; PRISON  SERVICE</student_unit>
+        <total_cost>$453</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>5/7/01</start_date>
+        <student_unit>SAMOAN POLICE &amp; PRISON  SERVICE</student_unit>
+        <total_cost>$8,200</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Singapore">
+    <program name="East Asia and Pacific Region, Singapore,  Miscellaneous, DOS/DOD, Non-Security Assistance (Note 3), FY01"/>
+  </country>
+  <country name="Singapore">
+    <program name="DoS East Asia and Pacific Region, Singapore,  Miscellaneous, DOS/DOD, Non-Security Assistance (Note 3), FY01">
+      <training>
+        <course_title>INTL MARITIME OFF</course_title>
+        <end_date>3/23/01</end_date>
+        <location>1 YORKTOWN, VA 23690-5000</location>
+        <start_date>1/16/01</start_date>
+        <student_unit>PCG</student_unit>
+        <total_cost>$7,675</total_cost>
+      </training>
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>9/6/01</end_date>
+        <location>130 CHANGI,PULAU TEKONG,PULAU  SEBANGOON,NE SOON</location>
+        <start_date>7/25/01</start_date>
+        <student_unit>1ST COMPANY, SINGAPORE  COMMANDO BATTALION (130)</student_unit>
+        <total_cost>$80,000</total_cost>
+        <us_unit>3/1 SFG</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Singapore">
+    <program name="DoS East Asia and Pacific Region, Singapore,  Asia-Pacific Center, FY01">
+      <training>
+        <course_title>Executive Course 00-3</course_title>
+        <end_date>12/15/00</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>10/2/00</start_date>
+        <student_unit>Air Force SQ</student_unit>
+        <total_cost>$942</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <end_date>4/12/01</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Armed Forces</student_unit>
+        <total_cost>$942</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <end_date>8/9/01</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>HQ 6 Division</student_unit>
+        <total_cost>$942</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Solomon Islands">
+    <program name="DoS East Asia and Pacific Region, Solomon Islands,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>CIVIL AFFAIRS</course_title>
+        <end_date>3/16/01</end_date>
+        <location>1 FT BRAGG NC 28310</location>
+        <start_date>2/12/01</start_date>
+        <student_unit>Royal Solomon Islands Police</student_unit>
+        <total_cost>$2,999</total_cost>
+      </training>
+      <training>
+        <course_title>MTT OTHER - USCG O/S</course_title>
+        <end_date>8/24/01</end_date>
+        <location>30 Solomon Islands</location>
+        <start_date>8/20/01</start_date>
+        <student_unit>Royal Solomon Islands Police</student_unit>
+        <total_cost>$17,596</total_cost>
+      </training>
+      <training>
+        <course_title>PSYCHOLOGICAL OPERATIONS</course_title>
+        <end_date>2/9/01</end_date>
+        <location>1 FT BRAGG NC 28310</location>
+        <start_date>1/8/01</start_date>
+        <student_unit>Royal Solomon Islands Police</student_unit>
+        <total_cost>$7,419</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Solomon Islands">
+    <program name="DoS East Asia and Pacific Region, Solomon Islands,  Asia-Pacific Center, FY01">
+      <training>
+        <course_title>Executive Course 00-3</course_title>
+        <end_date>12/15/00</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>10/2/00</start_date>
+        <student_unit>Police</student_unit>
+        <total_cost>$11,675</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <end_date>4/12/01</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Police</student_unit>
+        <total_cost>$14,354</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <end_date>8/9/01</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>Police</student_unit>
+        <total_cost>$16,284</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Taiwan">
+    <program name="DoS East Asia and Pacific Region, Taiwan,  Miscellaneous, DOS/DOD, Non-Security Assistance (Note 3), FY01">
+      <training>
+        <course_title>MET BOARDING OFF CN</course_title>
+        <end_date>9/28/01</end_date>
+        <location>30 Taiwan</location>
+        <start_date>9/24/01</start_date>
+        <student_unit> Hqtrs Coast Guard </student_unit>
+        <total_cost>$0</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Thailand">
+    <program name="East Asia and Pacific Region, Thailand,  Non-Security Assistance, Unified Command (Note 4), FY01"/>
+  </country>
+  <country name="Thailand">
+    <program name="DoS East Asia and Pacific Region, Thailand,  Non-Security Assistance, Unified Command (Note 4), FY01">
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>9/4/01</end_date>
+        <location>217 MAE RIM,CHIANG  MAI,SATTAHIP,PHANG  NGA,PHUKET,UDORN</location>
+        <start_date>8/6/01</start_date>
+        <student_unit>ROYAL THAI TASK FORCE 399  (97) RTA AVIATION CENTER (12),  RTAF WING 41 (12), RTAF WING  1 (12), RTAF WING 4 (24), RTAF  WING 21 (12), ROYAL THAI  NAVY: SEAL TEAM 1 PLT 4 (14),  SEAL TEAM, 3 PLT 3 (14), SPECIAL  BOAT DET (10), NSWG C2 </student_unit>
+        <total_cost>$200,000</total_cost>
+        <us_unit>2/1 SFG, 1/19 SFG, ST-1 PLT E, ST-5 PLT B,  SBU-22, NSWG-1, 353 SOG</us_unit>
+      </training>
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>2/16/01</end_date>
+        <location>56 SAKON NAKHON, UDORN</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>ROYAL THAI ARMY:  2ND SF  TRAINING CO (9), 2ND PSYOPS  CO (9), 3RD LRRC (9), 6TH LRRC  (9), 2ND ARMY (JM STUDENTS)  (20), ROYAL THAI AIR FORCE:  103 FIGHTER SQUADRON, 403  FIGHTER SQUADRON, 211  FIGHTER SQUADRON</student_unit>
+        <total_cost>$235,000</total_cost>
+        <us_unit>1/1 SFG, 353 SOG</us_unit>
+      </training>
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>12/3/00</end_date>
+        <location>50 ERAWAN RTAB, KOK KATHIEM RTAB,  TAKLI RTAB</location>
+        <start_date>10/23/00</start_date>
+        <student_unit>ROYAL THAI ARMY RANGER  BATTALION, SPECIAL WARFARE  COMMAND, TF 90</student_unit>
+        <total_cost>$70,000</total_cost>
+        <us_unit>1 SOS, 353 SOG, 1/1 SFG</us_unit>
+      </training>
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>11/20/00</end_date>
+        <location>75 SATTAHIP, SONGKLA,CHANTABURI,  SAMAESAN</location>
+        <start_date>10/10/00</start_date>
+        <student_unit>ROYAL THAI MARINE CORPS:   FORCE RECON BN, 3RD INF REG  (75), ROYAL THAI NAVY AIR  DIVISION HELICOPTERS</student_unit>
+        <total_cost>$250,000</total_cost>
+        <us_unit>1/1 SFG, 2/1 SFG</us_unit>
+      </training>
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>4/4/01</end_date>
+        <location>321 NAKHON SI THAMMARAT, SATTAHIP,  LAMPANG,</location>
+        <start_date>2/24/01</start_date>
+        <student_unit>ROYAL THAI ARMY:1ST  INFANTRY DIVISION(10), 2ND  INFANTRY DIVISION (10), AND  9TH INFANTRY DIVISION(10)5TH  SPECIAL FORCES REGIMENT (105) PYSOPS BATTALION (45)5TH  BATTALION 7TH INFANTRY  REGIMENT (60)5TH INFANTRY  DIVISION(30)ROYAL THAI  MARINE CORPS:RECON</student_unit>
+        <total_cost>$528,000</total_cost>
+        <us_unit>1/1 SFG, 3/1 SFG, 353 SOG, 4 POG, 426 CA  BN, 7 POG, 96 CA BN, SOTSE PAC</us_unit>
+      </training>
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>4/28/01</end_date>
+        <location>90 BANGKOK, KOKE KATHIEM AB, LOP  BURI</location>
+        <start_date>3/27/01</start_date>
+        <student_unit>ROYAL THAI AIR FORCE:  601  SQUADRON, WING 6 (30 PAX),  201 SQUADRON, WING 2 (30  PAX), SECURITY FORCES  COMMAND (30 PAX)</student_unit>
+        <total_cost>$101,000</total_cost>
+        <us_unit>6 SOS</us_unit>
+      </training>
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>2/20/01</end_date>
+        <location>45 SATTAHIP, PHITSANULOK</location>
+        <start_date>1/28/01</start_date>
+        <student_unit>ROYAL THAI ARMY:4TH SPECIAL  FORCES REGIMENT (25)ROYAL  THAI MARINE CORPS:RECON  BATTALION (20)</student_unit>
+        <total_cost>$147,000</total_cost>
+        <us_unit>5/19 SFG, 2/1 SFG</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Thailand">
+    <program name="DoS East Asia and Pacific Region, Thailand,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>ACADEMIC INSTRUCTOR </course_title>
+        <end_date>6/22/01</end_date>
+        <location>1 MAXWELL AFB, AL 36112-6323</location>
+        <start_date>6/12/01</start_date>
+        <student_unit>Air War College, RTAF Institute of </student_unit>
+        <total_cost>$1,498</total_cost>
+      </training>
+      <training>
+        <course_title>SCHOOL</course_title>
+        <student_unit>Higher Education, Don Muang,  Thailand</student_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Thailand">
+    <program name="East Asia and Pacific Region, Thailand,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>ACADEMIC INSTRUCTOR </course_title>
+        <end_date>6/22/01</end_date>
+        <location>1 MAXWELL AFB, AL 36112-6323</location>
+        <start_date>6/12/01</start_date>
+        <student_unit>Policy and Plan Division, </student_unit>
+        <total_cost>$1,225</total_cost>
+      </training>
+      <training>
+        <course_title>SCHOOL</course_title>
+        <student_unit>Directorate of Intelligence, RTAF,  Don Muang, Thailand</student_unit>
+      </training>
+      <training>
+        <course_title>ACADEMIC INSTRUCTOR </course_title>
+        <end_date>6/22/01</end_date>
+        <location>1 MAXWELL AFB, AL 36112-6323</location>
+        <start_date>6/12/01</start_date>
+        <student_unit>Air Training Div, Air Combat </student_unit>
+        <total_cost>$1,225</total_cost>
+      </training>
+      <training>
+        <course_title>SCHOOL</course_title>
+        <student_unit>Command, HQ, RTAF</student_unit>
+      </training>
+      <training>
+        <course_title>ACCOUNTING &amp; FINANCE/ *</course_title>
+        <end_date>4/6/01</end_date>
+        <location>1 SHEPPARD AFB TX 76311-2367</location>
+        <start_date>3/29/01</start_date>
+        <student_unit>The Comptroller-General  Department, Ministry of Finance</student_unit>
+        <total_cost>$939</total_cost>
+      </training>
+      <training>
+        <course_title>ADJ GEN OFFICER BASIC</course_title>
+        <end_date>9/26/01</end_date>
+        <location>1 FT JACKSON SC 29207-7040</location>
+        <start_date>6/19/01</start_date>
+        <student_unit>Armed Forces Security Center,  SCHQ, Bangkhen, Bangkok</student_unit>
+        <total_cost>$13,267</total_cost>
+      </training>
+      <training>
+        <course_title>ADV EW TECH</course_title>
+        <end_date>8/7/01</end_date>
+        <location>1 PENSACOLA, FL 32511-5138</location>
+        <start_date>6/20/01</start_date>
+        <student_unit>Naval Communication Department,  RTN</student_unit>
+        <total_cost>$4,458</total_cost>
+      </training>
+      <training>
+        <course_title>ALLIED OFF PREP-INF OAC</course_title>
+        <end_date>3/16/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>3/12/01</start_date>
+        <student_unit>Infantry School, Infantry Center,  Fort Thanarat, Pranburi,  Prachuabkhirikhan</student_unit>
+        <total_cost>$4,177</total_cost>
+      </training>
+      <training>
+        <course_title>AMEDD OBC ALL CORPS (AN)</course_title>
+        <end_date>9/28/01</end_date>
+        <location>1 FT SAM HOUSTON TX 78234-6100</location>
+        <start_date>7/16/01</start_date>
+        <student_unit>Jakkapong Hospital, 12th Military  Circle, Prachinburi</student_unit>
+        <total_cost>$11,354</total_cost>
+      </training>
+      <training>
+        <course_title>AMEDD OBC ALL CORPS (MS)</course_title>
+        <end_date>5/25/01</end_date>
+        <location>1 FT SAM HOUSTON TX 78234-6100</location>
+        <start_date>3/19/01</start_date>
+        <student_unit>1st Med.Bn.,1st Inf Div, King's  Guard, Lopburi</student_unit>
+        <total_cost>$11,219</total_cost>
+      </training>
+      <training>
+        <course_title>AMPHIB PLAN SR OFF-INTL</course_title>
+        <end_date>5/4/01</end_date>
+        <location>1 SAN DIEGO, CA 92155-5099</location>
+        <start_date>2/26/01</start_date>
+        <student_unit>RTMC Headquarter, Sattahip, RTN</student_unit>
+        <total_cost>$7,810</total_cost>
+      </training>
+      <training>
+        <course_title>AMPHIB PLAN SR OFF-INTL</course_title>
+        <location>1 SAN DIEGO, CA 92155-5099</location>
+        <start_date>2/26/01</start_date>
+        <student_unit>Frigate Sq.2, Royal Thai Fleet, RTN</student_unit>
+        <text>5/4/01</text>
+        <total_cost>$7,810</total_cost>
+      </training>
+      <training>
+        <course_title>ARMOR CPT CAREER CRS PREP</course_title>
+        <end_date>8/3/01</end_date>
+        <location>1 FT KNOX KY 40121-5234</location>
+        <start_date>7/16/01</start_date>
+        <student_unit>Adisorn Base, Cavalry Center,  Saraburi</student_unit>
+        <total_cost>$6,358</total_cost>
+      </training>
+      <training>
+        <course_title>ARMOR CPT CAREER CRS PREP</course_title>
+        <end_date>8/3/01</end_date>
+        <location>1 FT KNOX KY 40121-5234</location>
+        <start_date>7/16/01</start_date>
+        <student_unit>11th Cavalry Battalion, 4th Armor  Regiment, King's Guard</student_unit>
+        <total_cost>$6,358</total_cost>
+      </training>
+      <training>
+        <course_title>ARMOR OFF BASIC (M1A1)</course_title>
+        <end_date>8/3/01</end_date>
+        <location>1 FT KNOX KY 40121-5234</location>
+        <start_date>4/5/01</start_date>
+        <student_unit>20th Tank Battalion, King's  Guard, Saraburi, Thailans</student_unit>
+        <total_cost>$20,976</total_cost>
+      </training>
+      <training>
+        <course_title>ASSAULT AMPHIB REPRMAN BAS</course_title>
+        <end_date>8/9/01</end_date>
+        <location>1 CAMP PENDLETON, CA 92055-5021</location>
+        <start_date>4/30/01</start_date>
+        <student_unit>Communication Bn, Marine Div,  RTMC,  Sattahip, Chonburi</student_unit>
+        <total_cost>$7,018</total_cost>
+      </training>
+      <training>
+        <course_title>AVIATION CAPTAINS CAREER</course_title>
+        <end_date>5/24/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>1/17/01</start_date>
+        <student_unit>9th Air Mobile Company, Aviation  Battalion, Lopburi</student_unit>
+        <total_cost>$13,126</total_cost>
+      </training>
+      <training>
+        <course_title>AVIATION OFFICER BASIC</course_title>
+        <end_date>7/26/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>6/14/01</start_date>
+        <student_unit>Light Aircraft Co, Army Aviation  Center, Lopburi</student_unit>
+        <total_cost>$6,955</total_cost>
+      </training>
+      <training>
+        <course_title>BASIC MANPOWER &amp; QUAL MGT</course_title>
+        <end_date>8/23/01</end_date>
+        <location>1 KEESLER AFB, MS 39534-2354</location>
+        <start_date>7/9/01</start_date>
+        <student_unit>Office of the Judiciary, Ministry of  Justice, Bangkok</student_unit>
+        <total_cost>$5,036</total_cost>
+      </training>
+      <training>
+        <course_title>BASIC OFFICER CRS USMC</course_title>
+        <end_date>6/8/01</end_date>
+        <location>1 QUANTICO, VA 22134</location>
+        <start_date>12/4/00</start_date>
+        <student_unit>RECONNAISSANCE BATTALION,  RTMC</student_unit>
+        <total_cost>$15,934</total_cost>
+      </training>
+      <training>
+        <course_title>CIVIL AFFAIRS</course_title>
+        <end_date>8/22/01</end_date>
+        <location>1 FT BRAGG NC 28310</location>
+        <start_date>7/23/01</start_date>
+        <student_unit>Foreign Affairs Div, Ministry of  Interior, Bangkok</student_unit>
+        <total_cost>$2,984</total_cost>
+      </training>
+      <training>
+        <course_title>CIVIL AFFAIRS</course_title>
+        <end_date>3/16/01</end_date>
+        <location>1 FT BRAGG NC 28310</location>
+        <start_date>2/12/01</start_date>
+        <student_unit>Central Observation &amp; Protection  Center, Ministry of Justice</student_unit>
+        <total_cost>$3,036</total_cost>
+      </training>
+      <training>
+        <course_title>COMB LOG OFF </course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 APG MD 21005-5299</location>
+        <start_date>6/22/01</start_date>
+        <student_unit>1st Inf Div Ord Com, King's  Guard, Laksi, Bangkok, Thailand</student_unit>
+        <total_cost>$4,327</total_cost>
+      </training>
+      <training>
+        <course_title>COMB STRAT INTEL TNG PRGM</course_title>
+        <end_date>3/2/01</end_date>
+        <location>1 WASHINGTON DC 20340-5100</location>
+        <start_date>1/16/01</start_date>
+        <student_unit>Directorate of Intelligence, HQ  Royal Thai Army</student_unit>
+        <total_cost>$7,690</total_cost>
+      </training>
+      <training>
+        <course_title>COMB STRAT INTEL TNG PRGM</course_title>
+        <end_date>6/1/01</end_date>
+        <location>1 WASHINGTON DC 20340-5100</location>
+        <start_date>4/16/01</start_date>
+        <student_unit>Section 4, Intelligence Div,  Directorate of Intelligence, Don  Muang, RTAF</student_unit>
+        <total_cost>$7,690</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Thailand">
+    <program name="East Asia and Pacific Region, Thailand,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>COMBINED LOG CPT CAREER</course_title>
+        <end_date>6/19/01</end_date>
+        <location>1 FT LEE VA 23801-1705</location>
+        <start_date>5/4/01</start_date>
+        <student_unit>1st Inf Div Ord Com, King's  Guard, Laksi, Bangkok, Thailand</student_unit>
+        <total_cost>$3,983</total_cost>
+      </training>
+      <training>
+        <course_title>COMBINED LOG CPT CAREER</course_title>
+        <end_date>9/13/01</end_date>
+        <location>1 FT LEE VA 23801-1705</location>
+        <start_date>7/30/01</start_date>
+        <student_unit>1st Inf Div Ord Com, King's  Guard, Laksi, Bangkok, Thailand</student_unit>
+        <total_cost>$4,126</total_cost>
+      </training>
+      <training>
+        <course_title>CRISIS CMD/CTRL - SR MGRS</course_title>
+        <end_date>6/22/01</end_date>
+        <location>1 YORKTOWN, VA 23690-5000</location>
+        <start_date>6/11/01</start_date>
+        <student_unit>Royal Thai Naval Air Division,  U-Tapao Airport, Rayong, </student_unit>
+        <total_cost>$4,504</total_cost>
+      </training>
+      <training>
+        <course_title>DEF RES MGT CRS</course_title>
+        <end_date>8/16/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>7/23/01</start_date>
+        <student_unit>Personnel Department, RTN</student_unit>
+        <total_cost>$5,857</total_cost>
+      </training>
+      <training>
+        <course_title>EW ELTECH</course_title>
+        <end_date>6/19/01</end_date>
+        <location>1 PENSACOLA, FL 32511-5138</location>
+        <start_date>5/14/01</start_date>
+        <student_unit>Naval Communication Department,  RTN</student_unit>
+        <total_cost>$7,937</total_cost>
+      </training>
+      <training>
+        <course_title>EWO STAFF OFFICER (SATP)</course_title>
+        <end_date>9/26/01</end_date>
+        <location>1 RANDOLPH AFB, TX 78150-4302</location>
+        <start_date>8/8/01</start_date>
+        <student_unit>Statistics &amp; Analysis Br, Building  Construction Div, Directoreate of  Civil Engineering, RTAF, Don  Muang</student_unit>
+        <total_cost>$5,196</total_cost>
+      </training>
+      <training>
+        <course_title>FA OFF ADV PREP-ALLIED OFF</course_title>
+        <end_date>1/9/01</end_date>
+        <location>1 FT SILL OK 73503</location>
+        <start_date>12/4/00</start_date>
+        <student_unit>Artillery School, Artillery Center,  Lopburi, Thailand</student_unit>
+        <total_cost>$6,970</total_cost>
+      </training>
+      <training>
+        <course_title>FIELD ARTY CAPTAINS CAREER</course_title>
+        <end_date>5/24/01</end_date>
+        <location>1 FT SILL OK 73503</location>
+        <start_date>1/18/01</start_date>
+        <student_unit>Artillery School, Artillery Center,  Lopburi, Thailand</student_unit>
+        <total_cost>$12,080</total_cost>
+      </training>
+      <training>
+        <course_title>FINANCIAL MGMT STAFF OFCR</course_title>
+        <end_date>3/26/01</end_date>
+        <location>1 SHEPPARD AFB TX 76311-2367</location>
+        <start_date>2/21/01</start_date>
+        <student_unit>The Comptroller-General  Department, Ministry of Finance</student_unit>
+        <total_cost>$1,872</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY CAPTS CAREER CRS</course_title>
+        <end_date>7/24/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>3/19/01</start_date>
+        <student_unit>Infantry School, Infantry Center,  Fort Thanarat, Pranburi,  Prachuabkhirikhan</student_unit>
+        <total_cost>$10,479</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY OFFICER BASIC</course_title>
+        <end_date>5/18/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Institute of Advanced Military  Studies, Bangkok, Thailand</student_unit>
+        <total_cost>$12,978</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY OFFICER CRS USMC</course_title>
+        <end_date>8/17/01</end_date>
+        <location>1 QUANTICO, VA 22134</location>
+        <start_date>6/11/01</start_date>
+        <student_unit>RECONNAISSANCE BATTALION,  RTMC</student_unit>
+        <total_cost>$9,061</total_cost>
+      </training>
+      <training>
+        <course_title>INSTRUCTOR TNG COURSE</course_title>
+        <end_date>8/10/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>7/30/01</start_date>
+        <student_unit>Light Aircraft Co, Army Aviation  Center, Lopburi</student_unit>
+        <total_cost>$1,743</total_cost>
+      </training>
+      <training>
+        <course_title>INSTRUCTOR TNG, CDP-473E</course_title>
+        <end_date>9/20/01</end_date>
+        <location>1</location>
+        <start_date>8/27/01</start_date>
+        <student_unit>Office of the Judiciary, Ministry of  Justice, Bangkok</student_unit>
+        <total_cost>$2,479</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OAC PREP</course_title>
+        <end_date>8/10/01</end_date>
+        <location>1 FT BLISS TX 79916-1001</location>
+        <start_date>7/30/01</start_date>
+        <student_unit>Artillery Battalion, Artillery Center,  Lopburi</student_unit>
+        <total_cost>$4,673</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFF LOG PREP</course_title>
+        <end_date>4/27/01</end_date>
+        <location>1 FT LEE VA 23801-1705</location>
+        <start_date>4/16/01</start_date>
+        <student_unit>1st Inf Div Ord Com, King's  Guard, Laksi, Bangkok, Thailand</student_unit>
+        <total_cost>$4,971</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFFICER PREP</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>6/19/01</start_date>
+        <student_unit>Institute of Advanced Military  Studies, Army Training Command,  RTA, Bangkok</student_unit>
+        <total_cost>$5,495</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFFICER PREP</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>6/19/01</start_date>
+        <student_unit>Institute of Advanced Military  Studies, Army Training Command,  RTA, Bangkok</student_unit>
+        <total_cost>$5,495</total_cost>
+      </training>
+      <training>
+        <course_title>INTL AIR WEAPONS CONTR CRS</course_title>
+        <end_date>3/6/01</end_date>
+        <location>1 TYNDALL AFB, FL 32403-5016</location>
+        <start_date>1/8/01</start_date>
+        <student_unit>Tactical Data Proc Br, 1st Air Opns  Control Ctr, Air Defense Div, Dir  of Air Opns Cont, Air Combat  Cmd, RTAF</student_unit>
+        <total_cost>$5,625</total_cost>
+      </training>
+      <training>
+        <course_title>INTL DEFENSE MGT CRS</course_title>
+        <end_date>4/18/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Chief, Resource Management  Section, Office of the Army  Comptroller, RTA</student_unit>
+        <total_cost>$16,496</total_cost>
+      </training>
+      <training>
+        <course_title>INTL DEFENSE MGT CRS</course_title>
+        <end_date>4/18/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Armed Force Prep.School, SCHQ</student_unit>
+        <total_cost>$16,496</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Thailand">
+    <program name="East Asia and Pacific Region, Thailand,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>INTL MARITIME OFF</course_title>
+        <end_date>9/7/01</end_date>
+        <location>1 YORKTOWN, VA 23690-5000</location>
+        <start_date>7/2/01</start_date>
+        <student_unit>Royal Thai Naval Air Division,  U-Tapao Airport, Rayong, </student_unit>
+        <total_cost>$9,600</total_cost>
+      </training>
+      <training>
+        <course_title>INTL OFF SCH &amp; SOS</course_title>
+        <end_date>6/29/01</end_date>
+        <location>1 MAXWELL AFB, AL 36112-6323</location>
+        <start_date>4/9/01</start_date>
+        <student_unit>3rd Flight, Advanced Squadron,  Flying Training School,  Nakornpratom, Thailand</student_unit>
+        <total_cost>$8,110</total_cost>
+      </training>
+      <training>
+        <course_title>INTL OFF SCH &amp; SOS</course_title>
+        <end_date>6/29/01</end_date>
+        <location>1 MAXWELL AFB, AL 36112-6323</location>
+        <start_date>4/9/01</start_date>
+        <student_unit>3rd Flight, Squadron 402, Wing 4,  3rd Air Division, Air Combat  Command</student_unit>
+        <total_cost>$8,110</total_cost>
+      </training>
+      <training>
+        <course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 MAXWELL AFB, AL 36112-6323</location>
+        <start_date>6/18/01</start_date>
+        <student_unit>Wing 46, 3rd Air Division, Air  Combat Command, Pitsanuloke</student_unit>
+        <total_cost>$6,870</total_cost>
+      </training>
+      <training>
+        <course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 MAXWELL AFB, AL 36112-6323</location>
+        <start_date>6/18/01</start_date>
+        <student_unit>Institute of Advanced Military  Studies, Army Training Command,  RTA, Bangkok</student_unit>
+        <total_cost>$8,880</total_cost>
+      </training>
+      <training>
+        <course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 MAXWELL AFB, AL 36112-6323</location>
+        <start_date>6/18/01</start_date>
+        <student_unit>Wing 7, 4th Air Div, Air Combat  Command, Suratthani, Thailand</student_unit>
+        <total_cost>$5,596</total_cost>
+      </training>
+      <training>
+        <course_title>INTL OFF SCH (FOR AWC)</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 MAXWELL AFB, AL 36112-6323</location>
+        <start_date>6/11/01</start_date>
+        <student_unit>2nd Armament Plant Div,  Directorate of Armament, Royal  Thai Air Force</student_unit>
+        <total_cost>$6,980</total_cost>
+      </training>
+      <training>
+        <course_title>JAG OFFICER BASIC</course_title>
+        <end_date>9/7/01</end_date>
+        <location>1 CHARLOTTESVILLE VA 22903-1781</location>
+        <start_date>6/29/01</start_date>
+        <student_unit>International Law Section, JAG'S  Department, MOD</student_unit>
+        <total_cost>$8,279</total_cost>
+      </training>
+      <training>
+        <course_title>JOINT TRANSITION COURSE</course_title>
+        <end_date>4/6/01</end_date>
+        <location>1 NORFOLK, VA 23511-1702</location>
+        <start_date>4/2/01</start_date>
+        <student_unit>Military Information Department,  RTSC, RTA</student_unit>
+        <total_cost>$3,211</total_cost>
+      </training>
+      <training>
+        <course_title>JOINT TRANSITION COURSE</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 NORFOLK, VA 23511-1702</location>
+        <start_date>7/2/01</start_date>
+        <student_unit>CGSC, Army Training Command</student_unit>
+        <total_cost>$3,211</total_cost>
+      </training>
+      <training>
+        <course_title>JOINT TRANSITION COURSE</course_title>
+        <end_date>4/6/01</end_date>
+        <location>1 NORFOLK, VA 23511-1702</location>
+        <start_date>4/2/01</start_date>
+        <student_unit>Directorate of Operations, RTAF</student_unit>
+        <total_cost>$3,211</total_cost>
+      </training>
+      <training>
+        <course_title>JOINT TRANSITION COURSE</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 NORFOLK, VA 23511-1702</location>
+        <start_date>7/2/01</start_date>
+        <student_unit>JOC 108 JOC, SCHQ</student_unit>
+        <total_cost>$3,211</total_cost>
+      </training>
+      <training>
+        <course_title>JT/COMB STAFF OFFICER SCHL</course_title>
+        <end_date>6/29/01</end_date>
+        <location>1 NORFOLK, VA 23511-1702</location>
+        <start_date>4/9/01</start_date>
+        <student_unit>Directorate of Operations, RTAF</student_unit>
+        <total_cost>$10,425</total_cost>
+      </training>
+      <training>
+        <course_title>JT/COMB STAFF OFFICER SCHL</course_title>
+        <end_date>6/29/01</end_date>
+        <location>1 NORFOLK, VA 23511-1702</location>
+        <start_date>4/9/01</start_date>
+        <student_unit>Military Information Department,  RTSC, RTA</student_unit>
+        <total_cost>$10,425</total_cost>
+      </training>
+      <training>
+        <course_title>JT/COMB STAFF OFFICER SCHL</course_title>
+        <end_date>9/28/01</end_date>
+        <location>1 NORFOLK, VA 23511-1702</location>
+        <start_date>7/9/01</start_date>
+        <student_unit>CGSC, Army Training Command</student_unit>
+        <total_cost>$10,425</total_cost>
+      </training>
+      <training>
+        <course_title>JT/COMB STAFF OFFICER SCHL</course_title>
+        <end_date>9/28/01</end_date>
+        <location>1 NORFOLK, VA 23511-1702</location>
+        <start_date>7/9/01</start_date>
+        <student_unit>JOC 108 JOC, SCHQ</student_unit>
+        <total_cost>$10,425</total_cost>
+      </training>
+      <training>
+        <course_title>MET DIILS</course_title>
+        <end_date>4/5/01</end_date>
+        <location>64 Thailand</location>
+        <start_date>4/2/01</start_date>
+        <student_unit>Westin Banyan Tree Hotel, 2-5  Apr 01   1 - Office of the Secretary to the  MOD 21 - Office of the Permanent  Secretary of         Defense  9 - Supreme Command  Headquarters 10 - Royal Thai Army   6 - Royal Thai Navy   6 - Royal Thai Air Force   2 - The Office of the Court of  Justice   2 - Border Patrol Police Bureau   1 -  Office of the Narcotics  Control Board   1 - Office of the Council of  State   1 - Thammasat University   1 -  Mahidol University   2 -  Ministry of Foreign Affairs   1 -  Office of the National  Security Council    TOTAL: 64</student_unit>
+        <total_cost>$22,282</total_cost>
+      </training>
+      <training>
+        <course_title>MILITARY POLICE CPT CAREER</course_title>
+        <end_date>7/24/01</end_date>
+        <location>1 FT LEONARD WOOD MO 65473-5000</location>
+        <start_date>3/19/01</start_date>
+        <student_unit>1st Infantry Division, King's  Guard, Bangkok, Thailand</student_unit>
+        <total_cost>$10,886</total_cost>
+      </training>
+      <training>
+        <course_title>NAVAL STAFF COLLEGE</course_title>
+        <end_date>6/15/01</end_date>
+        <location>1 NEWPORT, RI 02841-1207</location>
+        <start_date>1/11/01</start_date>
+        <student_unit>CO HTMS TAKBAI, PATROL SQD.,  ROYAL THAI FLEET, RTN</student_unit>
+        <total_cost>$24,572</total_cost>
+      </training>
+      <training>
+        <course_title>OAC INTL STUDENT ENGR PREP</course_title>
+        <end_date>8/10/01</end_date>
+        <location>1 FT LEONARD WOOD MO 65473-5000</location>
+        <start_date>8/6/01</start_date>
+        <student_unit>1st Engineer Battalion, King's  Guard, Bangkhen, Bangkok</student_unit>
+        <total_cost>$4,156</total_cost>
+      </training>
+      <training>
+        <course_title>OAC INTL STUDENT MP PREP</course_title>
+        <end_date>3/16/01</end_date>
+        <location>1 FT LEONARD WOOD MO 65473-5000</location>
+        <start_date>3/12/01</start_date>
+        <student_unit>1st Infantry Division, King's  Guard, Bangkok, Thailand</student_unit>
+        <total_cost>$4,266</total_cost>
+      </training>
+      <training>
+        <course_title>OBC INTERNATION CHEM PREP</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 FT LEONARD WOOD MO 65473-5000</location>
+        <start_date>7/2/01</start_date>
+        <student_unit>RTA Chemical Department,  Paholyothin Rd, Bangkok</student_unit>
+        <total_cost>$3,900</total_cost>
+      </training>
+      <training>
+        <course_title>OBS DRMI MONTEREY</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>6/25/01</start_date>
+        <student_unit>Personnel Department, RTN</student_unit>
+        <total_cost>$4,385</total_cost>
+      </training>
+      <training>
+        <course_title>OBS MARINE CORPS</course_title>
+        <end_date>9/10/01</end_date>
+        <location>1 TWENTYNINE PALMS, CA 92278-8200</location>
+        <start_date>8/20/01</start_date>
+        <student_unit>RECONNAISSANCE BATTALION,  RTMC</student_unit>
+        <total_cost>$2,037</total_cost>
+      </training>
+      <training>
+        <course_title>ORDNANCE OFFICER BASIC</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 APG MD 21005-5299</location>
+        <start_date>3/12/01</start_date>
+        <student_unit>Ordnance School, Bang-Sue,  Dusit, Bangkok, Thailand</student_unit>
+        <total_cost>$14,964</total_cost>
+      </training>
+      <training>
+        <course_title>PRINCIPLES OF INSTRUCTION</course_title>
+        <end_date>2/16/01</end_date>
+        <location>1 SHEPPARD AFB TX 76311-2367</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>The Comptroller-General  Department, Ministry of Finance</student_unit>
+        <total_cost>$1,111</total_cost>
+      </training>
+      <training>
+        <course_title>PSYCHOLOGICAL OPERATIONS</course_title>
+        <end_date>2/9/01</end_date>
+        <location>1 FT BRAGG NC 28310</location>
+        <start_date>1/8/01</start_date>
+        <student_unit>Central Observation &amp; Protection  Center, Ministry of Justice</student_unit>
+        <total_cost>$6,127</total_cost>
+      </training>
+      <training>
+        <course_title>PSYCHOLOGICAL OPERATIONS</course_title>
+        <end_date>7/19/01</end_date>
+        <location>1 FT BRAGG NC 28310</location>
+        <start_date>6/18/01</start_date>
+        <student_unit>Foreign Affairs Div, Ministry of  Interior, Bangkok</student_unit>
+        <total_cost>$5,911</total_cost>
+      </training>
+      <training>
+        <course_title>SIG OFF ADV PREP-INTER OFF</course_title>
+        <end_date>9/21/01</end_date>
+        <location>1 FT GORDON GA 30905-5154</location>
+        <start_date>9/6/01</start_date>
+        <student_unit>2nd Signal Bn, Infantry Division,  Queen's Guard, Ft Promyoti,  Prachinburi</student_unit>
+        <total_cost>$5,841</total_cost>
+      </training>
+      <training>
+        <course_title>SPEC ENG LANG TRNG  (SET)</course_title>
+        <end_date>7/13/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>5/14/01</start_date>
+        <student_unit>Recon Bn, RTMC, Sattahip,  Chonburi</student_unit>
+        <total_cost>$9,270</total_cost>
+      </training>
+      <training>
+        <course_title>SPEC ENG LANG TRNG  (SET)</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>5/7/01</start_date>
+        <student_unit>Data Processing Sect, RTMC,  Sattahip, Chonburi</student_unit>
+        <total_cost>$9,270</total_cost>
+      </training>
+      <training>
+        <course_title>SPEC ENG LANG TRNG  (SET)</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>Explosive Disposal Sect, Armament  Supply Div, Directorate of  Armament, Air Support  Command, RTAF</student_unit>
+        <total_cost>$5,884</total_cost>
+      </training>
+      <training>
+        <course_title>SPEC ENG LANG TRNG  (SET)</course_title>
+        <end_date>6/22/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>4/23/01</start_date>
+        <student_unit>Naval Special Warfare, Royal Fleet,  RTN</student_unit>
+        <total_cost>$7,158</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIAL OPERATIONS SURVEY</course_title>
+        <end_date>6/24/01</end_date>
+        <location>0 Thailand</location>
+        <start_date>6/15/01</start_date>
+        <student_unit>Royal Thai Army Aviation Center,  Lopburi</student_unit>
+        <total_cost>$33,544</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>1/5/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>11/6/00</start_date>
+        <student_unit>Tactical Data Proc Br, 1st Air Opns  Control Ctr, Air Defense Div, Dir  of Air Opns Cont, Air Combat  Cmd, RTAF</student_unit>
+        <total_cost>$6,913</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Thailand">
+    <program name="East Asia and Pacific Region, Thailand,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>6/1/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>4/2/01</start_date>
+        <student_unit>2nd Armament Plant Div,  Directorate of Armament, Royal  Thai Air Force</student_unit>
+        <total_cost>$9,025</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>6/8/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>4/9/01</start_date>
+        <student_unit>Wing 7, 4th Air Div, Air Combat  Command, Suratthani, Thailand</student_unit>
+        <total_cost>$7,309</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>6/8/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>4/9/01</start_date>
+        <student_unit>Wing 46, 3rd Air Division, Air  Combat Command, Pitsanuloke</student_unit>
+        <total_cost>$9,025</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>3/30/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>1/29/01</start_date>
+        <student_unit>3rd Flight, Advanced Squadron,  Flying Training School,  Nakornpratom, Thailand</student_unit>
+        <total_cost>$7,309</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>3/30/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>1/29/01</start_date>
+        <student_unit>3rd Flight, Squadron 402, Wing 4,  3rd Air Division, Air Combat  Command</student_unit>
+        <total_cost>$7,309</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>8/10/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>6/11/01</start_date>
+        <student_unit>Armament Sect, Squadron 403,  Wing 4, Takli AFB, Nakornwawan</student_unit>
+        <total_cost>$6,649</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>8/3/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>6/4/01</start_date>
+        <student_unit>Statistics &amp; Analysis Br, Building  Construction Div, Directoreate of  Civil Engineering, RTAF, Don  Muang</student_unit>
+        <total_cost>$6,913</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>2/2/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>12/4/00</start_date>
+        <student_unit>The Comptroller-General  Department, Ministry of Finance</student_unit>
+        <total_cost>$6,913</total_cost>
+      </training>
+      <training>
+        <course_title>SR INTERNATIONAL DEF MGT</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>6/25/01</start_date>
+        <student_unit>Office of Permanent Secretary,  Ministry of University Affairs</student_unit>
+        <total_cost>$7,605</total_cost>
+      </training>
+      <training>
+        <course_title>SR INTERNATIONAL DEF MGT</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>6/25/01</start_date>
+        <student_unit>Naval Communication Department,  RTN</student_unit>
+        <total_cost>$7,605</total_cost>
+      </training>
+      <training>
+        <course_title>SWO ADV SHIP HANDLING</course_title>
+        <end_date>8/7/01</end_date>
+        <location>1 NEWPORT, RI 02841-1209</location>
+        <start_date>8/6/01</start_date>
+        <student_unit>H.T.M.S CHAKRI NARUEBET,  HELICOPTER SQ., RTN,</student_unit>
+        <total_cost>$3,064</total_cost>
+      </training>
+      <training>
+        <course_title>SWO DH OPS SPEC INTL</course_title>
+        <end_date>8/4/01</end_date>
+        <location>1 NEWPORT, RI 02841-1209</location>
+        <start_date>4/23/01</start_date>
+        <student_unit>H.T.M.S CHAKRI NARUEBET,  HELICOPTER SQ., RTN,</student_unit>
+        <total_cost>$8,628</total_cost>
+      </training>
+      <training>
+        <course_title>THEATER AIR OPNS CRS(TAOC)</course_title>
+        <end_date>3/30/01</end_date>
+        <location>1 TYNDALL AFB, FL 32403-5016</location>
+        <start_date>3/12/01</start_date>
+        <student_unit>Tactical Data Proc Br, 1st Air Opns  Control Ctr, Air Defense Div, Dir  of Air Opns Cont, Air Combat  Cmd, RTAF</student_unit>
+        <total_cost>$2,012</total_cost>
+      </training>
+      <training>
+        <course_title>UNWTR DEMOL/SEAL INDOC</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 SAN DIEGO, CA 92155-5494</location>
+        <start_date>6/25/01</start_date>
+        <student_unit>Naval Special Warfare, Royal Fleet,  RTN</student_unit>
+        <total_cost>$2,867</total_cost>
+      </training>
+      <training>
+        <course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>7/9/01</start_date>
+        <student_unit>Institute of Advanced Military  Studies, Army Training Command,  RTA, Bangkok</student_unit>
+        <total_cost>$1,725</total_cost>
+      </training>
+      <training>
+        <course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>7/9/01</start_date>
+        <student_unit>Institute of Advanced Military  Studies, Army Training Command,  RTA, Bangkok</student_unit>
+        <total_cost>$1,725</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Thailand">
+    <program name="DoS East Asia and Pacific Region, Thailand,  Enhanced International Peacekeeping Capabilities (EPIC), FY01">
+      <training>
+        <course_title>EIPC INSTRUCTORS COURSE</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 MONTEREY, CA 93943-5001</location>
+        <start_date>7/16/01</start_date>
+        <student_unit>Directorate of Joint and Combined  Exercise, SCHQ</student_unit>
+        <total_cost>$3,977</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Thailand">
+    <program name="East Asia and Pacific Region, Thailand,  Enhanced International Peacekeeping Capabilities (EPIC), FY01">
+      <training>
+        <course_title>EIPC INSTRUCTORS COURSE</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 MONTEREY, CA 93943-5001</location>
+        <start_date>7/16/01</start_date>
+        <student_unit>Army Tactical Training Center,  Lopburi</student_unit>
+        <total_cost>$3,977</total_cost>
+      </training>
+      <training>
+        <course_title>EIPC INSTRUCTORS COURSE</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 MONTEREY, CA 93943-5001</location>
+        <start_date>7/16/01</start_date>
+        <student_unit>Directorate of Civil Affairs, RTA</student_unit>
+        <total_cost>$3,977</total_cost>
+      </training>
+      <training>
+        <course_title>EIPC INSTRUCTORS COURSE</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 MONTEREY, CA 93943-5001</location>
+        <start_date>7/16/01</start_date>
+        <student_unit>Peace Operations Center,  Directorate of Joint Operations,  SCHQ</student_unit>
+        <total_cost>$3,977</total_cost>
+      </training>
+      <training>
+        <course_title>EIPC INSTRUCTORS COURSE</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 MONTEREY, CA 93943-5001</location>
+        <start_date>7/16/01</start_date>
+        <student_unit>Peace Operations Center,  Directorate of Joint Operations,  SCHQ</student_unit>
+        <total_cost>$3,977</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Thailand">
+    <program name="DoS East Asia and Pacific Region, Thailand,  Section 1004 (Note 1), FY01">
+      <training>
+        <course_title>ASSESSMENT</course_title>
+        <end_date>12/17/00</end_date>
+        <location>0 Chaing Mai, Thailand</location>
+        <start_date>11/11/00</start_date>
+        <student_unit>Border Patrol Police and 3rd RTA  units.</student_unit>
+        <total_cost>$125,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF</course_title>
+        <end_date>8/14/01</end_date>
+        <location>60 Songkhla, Thailand</location>
+        <start_date>7/13/01</start_date>
+        <student_unit>Border Patrol Police, Provincial  Police, Office of Narcotis Control  Board and Narcotics Suppression  Bureau.</student_unit>
+        <total_cost>$125,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF PDSS</course_title>
+        <end_date>1/12/01</end_date>
+        <location>0 Chiang Mai, Thailand.</location>
+        <start_date>1/9/01</start_date>
+        <student_unit>Border Patrol Police and 3rd RTA  units.</student_unit>
+        <total_cost>$5,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF PDSS</course_title>
+        <end_date>1/10/01</end_date>
+        <location>0 Sattahip, Thailand</location>
+        <start_date>1/8/01</start_date>
+        <student_unit>Provincial Police, Royal Thai Navy,  Border Patrol Police, Narcotics  Suppression Bureau and Office of  Nacotics Control Board.</student_unit>
+        <total_cost>$5,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF PDSS</course_title>
+        <end_date>10/6/00</end_date>
+        <location>0 Songkhla, Thailand</location>
+        <start_date>10/3/00</start_date>
+        <student_unit>Border Patrol Police, Narcotics  Suppression Bureau and Provincial  Police.</student_unit>
+        <total_cost>$5,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF PDSS</course_title>
+        <end_date>2/2/01</end_date>
+        <location>0 Chiang Mai, Thailand</location>
+        <start_date>1/26/01</start_date>
+        <student_unit>Border Patrol Police and 3rd RTA  units.</student_unit>
+        <total_cost>$5,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF PDSS</course_title>
+        <end_date>10/15/00</end_date>
+        <location>0 Chiang Mai, Thailand</location>
+        <start_date>10/8/00</start_date>
+        <student_unit>Border Patrol Police</student_unit>
+        <total_cost>$5,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF PDSS</course_title>
+        <end_date>6/1/01</end_date>
+        <location>0 Chiang Mai, Thailand</location>
+        <start_date>5/26/01</start_date>
+        <student_unit>Border Patrol Police</student_unit>
+        <total_cost>$5,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF PDSS</course_title>
+        <end_date>3/30/01</end_date>
+        <location>0 Songkhla, Thailand</location>
+        <start_date>3/27/01</start_date>
+        <student_unit>Provincial Police, Border Patrol  Police, Narcotics Suppression  Bureau and Office of Narcotics  Control Board.</student_unit>
+        <total_cost>$5,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF PDSS</course_title>
+        <end_date>8/25/01</end_date>
+        <location>0 Udon Thani, Thailand</location>
+        <start_date>8/18/01</start_date>
+        <student_unit>Border Patrol Police, Provincial  Police and Marine Police.</student_unit>
+        <total_cost>$5,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF PDSS</course_title>
+        <end_date>11/10/00</end_date>
+        <location>0 Bangkok Thailand</location>
+        <start_date>11/4/00</start_date>
+        <student_unit>Provincila Police, Narcotics  Suppression Bureau and Office of  Narcotics Control Board.</student_unit>
+        <total_cost>$5,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF PDSS</course_title>
+        <end_date>4/22/01</end_date>
+        <location>0 Chiang Mai, Thailand</location>
+        <start_date>4/13/01</start_date>
+        <student_unit>Border Patrol Police and 3rd RTA  units.</student_unit>
+        <total_cost>$5,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF PDSS</course_title>
+        <end_date>4/22/01</end_date>
+        <location>0 Chaing Mai, Thailand</location>
+        <start_date>4/13/01</start_date>
+        <student_unit>Border Patrol Police and 3rd RTA  units.</student_unit>
+        <total_cost>$5,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF PDSS</course_title>
+        <end_date>3/16/01</end_date>
+        <location>0 Chiang Mai, Thailand</location>
+        <start_date>3/12/01</start_date>
+        <student_unit>Border Patrol Police and 3rd RTA  units.</student_unit>
+        <total_cost>$5,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF PDSS</course_title>
+        <end_date>2/2/01</end_date>
+        <location>0 Chiang Mai, Thailand</location>
+        <start_date>1/26/01</start_date>
+        <student_unit>Border Patrol Police and 3rd RTA  units.</student_unit>
+        <total_cost>$5,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Thailand">
+    <program name="East Asia and Pacific Region, Thailand,  Section 1004 (Note 1), FY01">
+      <training>
+        <course_title>LT INF PDSS</course_title>
+        <end_date>2/2/01</end_date>
+        <location>0 Chaing Mai, Thailand</location>
+        <start_date>1/26/01</start_date>
+        <student_unit>Border Patrol Police and 3rd RTA  units.</student_unit>
+        <total_cost>$5,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF PDSS</course_title>
+        <end_date>9/1/01</end_date>
+        <location>0 Chaing Mai, Thailand</location>
+        <start_date>8/23/01</start_date>
+        <student_unit>Border Patrol Police</student_unit>
+        <total_cost>$5,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF PDSS</course_title>
+        <end_date>3/16/01</end_date>
+        <location>0 Chaing Mai, Thailand</location>
+        <start_date>3/12/01</start_date>
+        <student_unit>Border Patrol Police and 3rd RTA  Units.</student_unit>
+        <total_cost>$5,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF TNG</course_title>
+        <end_date>5/18/01</end_date>
+        <location>60 Chiang Mai, Thailand</location>
+        <start_date>4/10/01</start_date>
+        <student_unit>Border Patrol Police</student_unit>
+        <total_cost>$125,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF TNG</course_title>
+        <end_date>8/13/01</end_date>
+        <location>495 Pai, Thailand</location>
+        <start_date>6/15/01</start_date>
+        <student_unit>Border Patrol Police and 3rd RTA  units.</student_unit>
+        <total_cost>$150,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF TNG</course_title>
+        <end_date>8/13/01</end_date>
+        <location>495 Pai, Thailand</location>
+        <start_date>6/15/01</start_date>
+        <student_unit>Border Patrol Police and 3rd RTA  units.</student_unit>
+        <total_cost>$150,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF TNG</course_title>
+        <end_date>5/14/01</end_date>
+        <location>0 Pai, Thailand</location>
+        <start_date>4/14/01</start_date>
+        <student_unit>Border Patrol Police and 3rd RTA  units.</student_unit>
+        <total_cost>$75,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF TNG</course_title>
+        <end_date>8/31/01</end_date>
+        <location>60 Chiang Mai, Thailand</location>
+        <start_date>7/30/01</start_date>
+        <student_unit>Border Patrol Police</student_unit>
+        <total_cost>$125,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF TNG</course_title>
+        <end_date>5/18/01</end_date>
+        <location>60 Sattahip, Thailand</location>
+        <start_date>4/10/01</start_date>
+        <student_unit>Provincial Police, Royal Thai Navy  Border Patrol Police, Narcotics  Suppression Bureau and Office of  Narcotics Control Board.</student_unit>
+        <total_cost>$125,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF TNG</course_title>
+        <end_date>3/4/01</end_date>
+        <location>60 Songkhla, Thailand</location>
+        <start_date>1/26/01</start_date>
+        <student_unit>Border Patrol Police, Narcotics  Suppression Bureau and Provincial  Police.</student_unit>
+        <total_cost>$140,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF TNG</course_title>
+        <end_date>3/2/01</end_date>
+        <location>60 Chiang Mai, Thailand</location>
+        <start_date>1/26/01</start_date>
+        <student_unit>Border Patrol Police</student_unit>
+        <total_cost>$140,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF TNG</course_title>
+        <end_date>12/17/00</end_date>
+        <location>60 Udon Thani, Thailand</location>
+        <start_date>11/13/00</start_date>
+        <student_unit>Border Patrol Police and Marine  Police</student_unit>
+        <total_cost>$140,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF TNG</course_title>
+        <end_date>5/14/01</end_date>
+        <location>100 Pai, Thailand</location>
+        <start_date>4/14/01</start_date>
+        <student_unit>Border Patrol Police and 3rd RTA  units.</student_unit>
+        <total_cost>$75,000</total_cost>
+        <us_unit>1ST SFG</us_unit>
+      </training>
+      <training>
+        <course_title>LT INF TRAINING</course_title>
+        <end_date>12/2/00</end_date>
+        <location>60 Cha-Am Thailand</location>
+        <start_date>11/3/00</start_date>
+        <student_unit>Border Patrol Police and Narcotics  Suppression Bureau</student_unit>
+        <total_cost>$145,000</total_cost>
+        <us_unit>19TH SFG</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Thailand">
+    <program name="DoS East Asia and Pacific Region, Thailand,  Asia-Pacific Center, FY01">
+      <training>
+        <course_title>Executive Course 00-3</course_title>
+        <end_date>12/15/00</end_date>
+        <location>3 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>10/2/00</start_date>
+        <student_unit>Command and Staff College;  Foreign Ministry; Institute of Naval  Studies</student_unit>
+        <total_cost>$34,091</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <end_date>4/12/01</end_date>
+        <location>3 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Command and General Staff  College; Navy; MOFA</student_unit>
+        <total_cost>$38,957</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <end_date>8/9/01</end_date>
+        <location>3 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>Command and General Staff  College; MOFA; Navy</student_unit>
+        <total_cost>$39,708</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Tonga">
+    <program name="DoS East Asia and Pacific Region, Tonga,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>CIVIL AFFAIRS</course_title>
+        <end_date>3/16/01</end_date>
+        <location>1 FT BRAGG NC 28310</location>
+        <start_date>2/12/01</start_date>
+        <student_unit>TONGAN DEFENCE SERVICES</student_unit>
+        <total_cost>$3,199</total_cost>
+      </training>
+      <training>
+        <course_title>ENGINEER OFFICER BASIC</course_title>
+        <end_date>3/2/01</end_date>
+        <location>1 FT LEONARD WOOD MO 65473-5000</location>
+        <start_date>10/16/00</start_date>
+        <student_unit>Army</student_unit>
+        <total_cost>$10,572</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Tonga">
+    <program name="East Asia and Pacific Region, Tonga,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>INFO SYSTEMS OPER-ANALYST</course_title>
+        <end_date>9/7/01</end_date>
+        <location>1 FT GORDON GA 30905-5154</location>
+        <start_date>5/7/01</start_date>
+        <student_unit>Army</student_unit>
+        <total_cost>$14,050</total_cost>
+      </training>
+      <training>
+        <course_title>INTL MARITIME OFF</course_title>
+        <end_date>3/23/01</end_date>
+        <location>1 YORKTOWN, VA 23690-5000</location>
+        <start_date>1/16/01</start_date>
+        <student_unit>Navy</student_unit>
+        <total_cost>$12,920</total_cost>
+      </training>
+      <training>
+        <course_title>OBC INTERNATION ENR PREP</course_title>
+        <end_date>10/13/00</end_date>
+        <location>1 FT LEONARD WOOD MO 65473-5000</location>
+        <start_date>10/10/00</start_date>
+        <student_unit>Army</student_unit>
+        <total_cost>$4,480</total_cost>
+      </training>
+      <training>
+        <course_title>OJT IMOC SOUTH PACIFIC</course_title>
+        <end_date>3/30/01</end_date>
+        <location>1 HONOLULU, HI 96850-4982</location>
+        <start_date>3/26/01</start_date>
+        <student_unit>Navy</student_unit>
+        <total_cost>$1,540</total_cost>
+      </training>
+      <training>
+        <course_title>PSYCHOLOGICAL OPERATIONS</course_title>
+        <end_date>2/9/01</end_date>
+        <location>1 FT BRAGG NC 28310</location>
+        <start_date>1/8/01</start_date>
+        <student_unit>TONGAN DEFENCE SERVICES</student_unit>
+        <total_cost>$6,757</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Tonga">
+    <program name="DoS East Asia and Pacific Region, Tonga,  Asia-Pacific Center, FY01">
+      <training>
+        <course_title>Executive Course 00-3</course_title>
+        <end_date>12/15/00</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>10/2/00</start_date>
+        <student_unit>Defense Services</student_unit>
+        <total_cost>$15,693</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <end_date>4/12/01</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Defense Services</student_unit>
+        <total_cost>$13,927</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <end_date>8/9/01</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>Defense Services</student_unit>
+        <total_cost>$13,810</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Tuvalu">
+    <program name="DoS East Asia and Pacific Region, Tuvalu,  Asia-Pacific Center, FY01">
+      <training>
+        <course_title>Executive Course 00-3</course_title>
+        <end_date>12/15/00</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>10/2/00</start_date>
+        <student_unit>Police Force</student_unit>
+        <total_cost>$11,466</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Vanuatu">
+    <program name="DoS East Asia and Pacific Region, Vanuatu,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>MET CIV-MILITARY RELATIONS</course_title>
+        <end_date>4/4/01</end_date>
+        <location>0 Vanuatu</location>
+        <start_date>4/1/01</start_date>
+        <student_unit>N/A Site Survey</student_unit>
+        <total_cost>$8,035</total_cost>
+      </training>
+      <training>
+        <course_title>MET CIV-MILITARY RELATIONS</course_title>
+        <end_date>8/24/01</end_date>
+        <location>25 Vanuatu</location>
+        <start_date>8/20/01</start_date>
+        <student_unit>Vanuatu Police Force</student_unit>
+        <total_cost>$37,046</total_cost>
+      </training>
+      <training>
+        <course_title>OBC INTERNATION ENR PREP</course_title>
+        <end_date>8/3/01</end_date>
+        <location>1 FT LEONARD WOOD MO 65473-5000</location>
+        <start_date>7/30/01</start_date>
+        <student_unit>Vanuatu Police Force</student_unit>
+        <total_cost>$5,085</total_cost>
+      </training>
+      <training>
+        <course_title>SR MARINE SAFETY INVESTG</course_title>
+        <end_date>3/30/01</end_date>
+        <location>1 YORKTOWN, VA 23690-5000</location>
+        <start_date>3/12/01</start_date>
+        <student_unit>Vanuatu Police Force</student_unit>
+        <total_cost>$1,118</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Vanuatu">
+    <program name="DoS East Asia and Pacific Region, Vanuatu,  Asia-Pacific Center, FY01">
+      <training>
+        <course_title>Executive Course 00-3</course_title>
+        <end_date>12/15/00</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>10/2/00</start_date>
+        <student_unit>Police</student_unit>
+        <total_cost>$11,345</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <end_date>4/12/01</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>National Security</student_unit>
+        <total_cost>$13,991</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <end_date>8/9/01</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>Police</student_unit>
+        <total_cost>$14,311</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Vanuatu">
+    <program name="East Asia and Pacific Region, Vanuatu,  Asia-Pacific Center, FY01"/>
+  </country>
+  <country name="Vietnam">
+    <program name="DoS East Asia and Pacific Region, Vietnam,  Asia-Pacific Center, FY01">
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <end_date>4/12/01</end_date>
+        <location>2 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>MOFA; Ministry of Defense</student_unit>
+        <total_cost>$27,854</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <end_date>8/9/01</end_date>
+        <location>2 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>MOFA; Ministry of Defense</student_unit>
+        <total_cost>$27,567</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Albania">
+    <program name="DoS Europe Region, Albania,  Non-Security Assistance, Unified Command (Note 4), FY01">
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>8/27/01</end_date>
+        <location>30 TIRANA</location>
+        <start_date>8/6/01</start_date>
+        <student_unit>ALBANIAN COMMAND BRIGADE</student_unit>
+        <total_cost>$32,976</total_cost>
+        <us_unit>3/10 SFG, 7 SOS</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Albania">
+    <program name="DoS Europe Region, Albania,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>ALLIED OFF PREP-INF OAC</course_title>
+        <end_date>8/3/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>7/30/01</start_date>
+        <student_unit>Infantry Brigade, Korca</student_unit>
+        <total_cost>$2,674</total_cost>
+      </training>
+      <training>
+        <course_title>AMEDD OBC ALL CORPS (MS)</course_title>
+        <end_date>9/28/01</end_date>
+        <location>1 FT SAM HOUSTON TX 78234-6100</location>
+        <start_date>7/16/01</start_date>
+        <student_unit>Military Unit  7010 (Military  Hospital)</student_unit>
+        <total_cost>$9,100</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE COURSE</course_title>
+        <end_date>3/30/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>12/25/00</start_date>
+        <student_unit>Air Base 4030, Kucove</student_unit>
+        <total_cost>$10,620</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE COURSE</course_title>
+        <end_date>3/30/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>1/8/01</start_date>
+        <student_unit>Air Base 4030, Kucove</student_unit>
+        <total_cost>$9,584</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE CRS</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Naval District, Vlora</student_unit>
+        <total_cost>$13,556</total_cost>
+      </training>
+      <training>
+        <course_title>ARMY-PCHT</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>6/1/01</start_date>
+        <total_cost>$160</total_cost>
+      </training>
+      <training>
+        <course_title>DEF SEC ASST MGT/DISAM</course_title>
+        <end_date>9/23/01</end_date>
+        <location>0 Albania</location>
+        <start_date>9/11/01</start_date>
+        <student_unit>General Staff, MOD, Ministry of  Finance, Min of Finance,  Procurement Agency. This MTT  took place at the Grand Hotel,  Tirana, Albania</student_unit>
+        <total_cost>$17,757</total_cost>
+      </training>
+      <training>
+        <course_title>DISAM-MTT</course_title>
+        <end_date>9/23/01</end_date>
+        <location>20 Albania</location>
+        <start_date>9/11/01</start_date>
+        <student_unit>General Staff, MOD, Min. of  Finance, General Procurement  Agency. This MTT took place in  Tirana</student_unit>
+        <total_cost>$10,875</total_cost>
+      </training>
+      <training>
+        <course_title>DLI IN-COUNTRY WORKSHOP</course_title>
+        <end_date>7/24/01</end_date>
+        <location>0 Albania</location>
+        <start_date>6/28/01</start_date>
+        <student_unit>Foreign Language Center, Military  Academy</student_unit>
+        <total_cost>$5,063</total_cost>
+      </training>
+      <training>
+        <course_title>DLI IN-COUNTRY WORKSHOP</course_title>
+        <end_date>7/24/01</end_date>
+        <location>19 Albania</location>
+        <start_date>6/28/01</start_date>
+        <student_unit>Foreign Language Center, Military  Academy.</student_unit>
+        <total_cost>$7,262</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>6/22/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>2/26/01</start_date>
+        <student_unit>Infantry Brigade, Korca</student_unit>
+        <total_cost>$11,616</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>8/31/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>3/19/01</start_date>
+        <student_unit>Infantry Brigade in Gjirokastra</student_unit>
+        <total_cost>$14,997</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>6/8/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>3/12/01</start_date>
+        <student_unit>Territorial Regiment, Gjirokastra</student_unit>
+        <total_cost>$9,682</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Military Unit  7010 (Military  Hospital), Tirana</student_unit>
+        <total_cost>$14,997</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>4/9/01</start_date>
+        <student_unit>Electronic Intellegent Brigade, Air  Forces, Tirana</student_unit>
+        <total_cost>$11,131</total_cost>
+      </training>
+      <training>
+        <course_title>GENERAL ENGLISH ONLY</course_title>
+        <end_date>9/14/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>6/4/01</start_date>
+        <student_unit>MILITARY "SKENDERBEJ" ACADEMY</student_unit>
+        <total_cost>$10,490</total_cost>
+      </training>
+    </program>
+  </country>
+</countries>

@@ -1,0 +1,3000 @@
+<?xml version="1.0"?>
+<countries>
+  <country name="Armenia">
+    <program name="DoS NIS Region, Armenia,  Marshall Center, FY01">
+      <training>
+        <course_title>Conferences</course_title>
+        <end_date>9/28/01</end_date>
+        <location>9 Various</location>
+        <start_date>11/11/00</start_date>
+        <student_unit>Multi Service Attendance</student_unit>
+        <total_cost>$15,535</total_cost>
+        <us_unit>N/A</us_unit>
+      </training>
+      <training>
+        <course_title>Resident Courses</course_title>
+        <end_date>9/30/01</end_date>
+        <location>13 Marshall Center Garmish GE</location>
+        <start_date>10/1/00</start_date>
+        <student_unit>N/A</student_unit>
+        <total_cost>$329,000</total_cost>
+        <us_unit>N/A</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Armenia">
+    <program name="NIS Region, Armenia,  Marshall Center, FY01"/>
+  </country>
+  <country name="Azerbaijan">
+    <program name="DoS NIS Region, Azerbaijan,  DoT/USCG Activities, FY01">
+      <training>
+        <course_title>MTT PORT SECURITY, VUL ASM</course_title>
+        <end_date>10/28/00</end_date>
+        <location>23 Azerbaijan</location>
+        <start_date>10/21/00</start_date>
+        <student_unit>Navy</student_unit>
+        <total_cost>$0</total_cost>
+      </training>
+      <training>
+        <course_title>MTT SMALL BOAT OPS CG11</course_title>
+        <end_date>8/4/01</end_date>
+        <location>30 Azerbaijan</location>
+        <start_date>7/20/01</start_date>
+        <student_unit>Navy</student_unit>
+        <total_cost>$0</total_cost>
+      </training>
+      <training>
+        <course_title>MTT SMALL BOAT OPS CG11</course_title>
+        <end_date>6/22/01</end_date>
+        <location>30 Azerbaijan</location>
+        <start_date>6/11/01</start_date>
+        <student_unit>Navy</student_unit>
+        <total_cost>$0</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Azerbaijan">
+    <program name="DoS NIS Region, Azerbaijan,  Marshall Center, FY01">
+      <training>
+        <course_title>Conferences</course_title>
+        <end_date>9/28/01</end_date>
+        <location>52 Various</location>
+        <start_date>11/11/00</start_date>
+        <student_unit>Multi Service Attendance</student_unit>
+        <total_cost>$132,227</total_cost>
+        <us_unit>N/A</us_unit>
+      </training>
+      <training>
+        <course_title>Resident Courses</course_title>
+        <end_date>9/30/01</end_date>
+        <location>15 Marshall Center Garmish GE</location>
+        <start_date>10/1/00</start_date>
+        <student_unit>N/A</student_unit>
+        <total_cost>$381,000</total_cost>
+        <us_unit>N/A</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Belarus">
+    <program name="DoS NIS Region, Belarus,  Marshall Center, FY01">
+      <training>
+        <course_title>Conferences</course_title>
+        <end_date>9/28/01</end_date>
+        <location>15 Various</location>
+        <start_date>11/11/00</start_date>
+        <student_unit>Multi Service Attendance</student_unit>
+        <total_cost>$32,000</total_cost>
+        <us_unit>N/A</us_unit>
+      </training>
+      <training>
+        <course_title>Resident Courses</course_title>
+        <end_date>9/30/01</end_date>
+        <location>8 Marshall Center Garmish GE</location>
+        <start_date>10/1/00</start_date>
+        <student_unit>N/A</student_unit>
+        <total_cost>$208,000</total_cost>
+        <us_unit>N/A</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Georgia">
+    <program name="DoS NIS Region, Georgia,  Miscellaneous, DOS/DOD, Non-Security Assistance (Note 3), FY01">
+      <training>
+        <course_title>AMERICAN LANGUAGE CRS</course_title>
+        <end_date>9/20/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>1/29/01</start_date>
+        <student_unit>Coast Guard, Poti base</student_unit>
+        <total_cost>$8,346</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE CRS</course_title>
+        <end_date>9/27/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>11/20/00</start_date>
+        <student_unit>Border Troops Academy</student_unit>
+        <total_cost>$11,041</total_cost>
+      </training>
+      <training>
+        <course_title>JCET</course_title>
+        <end_date>8/10/01</end_date>
+        <location>8 POTI</location>
+        <start_date>7/30/01</start_date>
+        <student_unit>GEORGIAN NAVAL INFANTRY</student_unit>
+        <total_cost>$29,000</total_cost>
+        <us_unit>NSWU-2, PC-5</us_unit>
+      </training>
+      <training>
+        <course_title>MTT ENG/LOG ADMIN TRNG </course_title>
+        <end_date>12/13/00</end_date>
+        <location>30 Georgia</location>
+        <start_date>10/3/00</start_date>
+        <student_unit>Georgian Border Guard</student_unit>
+        <total_cost>$0</total_cost>
+      </training>
+      <training>
+        <course_title>MTT ENG/LOG ADMIN TRNG </course_title>
+        <end_date>12/9/00</end_date>
+        <location>30 Georgia</location>
+        <start_date>12/4/00</start_date>
+        <student_unit>11 students from Georgian Coast  Guard</student_unit>
+        <total_cost>$13,734</total_cost>
+      </training>
+      <training>
+        <course_title>MTT M/MARITIME SCP PH3 E/I</course_title>
+        <end_date>5/11/01</end_date>
+        <location>30 Georgia</location>
+        <start_date>5/7/01</start_date>
+        <student_unit>3 students from Georgian Coast  Guard, 2 from Georgian Border  Guard</student_unit>
+        <total_cost>$8,749</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Georgia">
+    <program name="DoS NIS Region, Georgia,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>AIRBORNE</course_title>
+        <end_date>6/22/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>6/4/01</start_date>
+        <student_unit>Army, Signal battalion, Tbilisi</student_unit>
+        <total_cost>$442</total_cost>
+      </training>
+      <training>
+        <course_title>AIRBORNE</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>7/13/01</start_date>
+        <student_unit>Army, The Ministry of Defense</student_unit>
+        <total_cost>$442</total_cost>
+      </training>
+      <training>
+        <course_title>AIRBORNE</course_title>
+        <end_date>7/13/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>6/25/01</start_date>
+        <student_unit>Army, The Ministry of Defense</student_unit>
+        <total_cost>$442</total_cost>
+      </training>
+      <training>
+        <course_title>AIRBORNE</course_title>
+        <end_date>5/4/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>4/16/01</start_date>
+        <student_unit>Georgian National Guard</student_unit>
+        <total_cost>$442</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Georgia">
+    <program name="NIS Region, Georgia,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>ALLIED OFF PREP-INF OAC</course_title>
+        <end_date>1/12/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>1/8/01</start_date>
+        <student_unit>Special Forces</student_unit>
+        <total_cost>$249</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE CRS</course_title>
+        <end_date>9/21/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>4/30/01</start_date>
+        <student_unit>Army, The Ministry of Defense</student_unit>
+        <total_cost>$5,210</total_cost>
+      </training>
+      <training>
+        <course_title>ENGINEER OFFICER BASIC</course_title>
+        <end_date>6/12/01</end_date>
+        <location>1 FT LEONARD WOOD MO 65473-5000</location>
+        <start_date>2/12/01</start_date>
+        <student_unit>Army, Kojori training center</student_unit>
+        <total_cost>$2,930</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>5/18/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>5/7/01</start_date>
+        <student_unit>Personal reservation, Ministry of  Defense</student_unit>
+        <total_cost>$555</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY CAPTS CAREER CRS</course_title>
+        <end_date>5/22/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>1/16/01</start_date>
+        <student_unit>Special Forces</student_unit>
+        <total_cost>$3,679</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY OFFICER BASIC</course_title>
+        <end_date>9/27/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>6/4/01</start_date>
+        <student_unit>Army, Unified Military Academy</student_unit>
+        <total_cost>$3,350</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY OFFICER BASIC</course_title>
+        <end_date>4/12/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>12/4/00</start_date>
+        <student_unit>Georgian National Guard</student_unit>
+        <total_cost>$3,350</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY OFFICER BASIC</course_title>
+        <end_date>9/27/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>6/4/01</start_date>
+        <student_unit>Personal reservation, Ministry of  Defense</student_unit>
+        <total_cost>$3,350</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY OFFICER BASIC</course_title>
+        <end_date>5/18/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Army, Signal battalion, Tbilisi</student_unit>
+        <total_cost>$3,350</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFFICER PREP</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>6/19/01</start_date>
+        <student_unit>Army, Kojori training center</student_unit>
+        <total_cost>$847</total_cost>
+      </training>
+      <training>
+        <course_title>MET DIILS</course_title>
+        <end_date>8/10/01</end_date>
+        <location>40 Georgia</location>
+        <start_date>8/6/01</start_date>
+        <student_unit>1. Mr. Lasha Kopaliani. Senior  specialist. Committee of Defense  &amp; Security, Parliament; 2. Mr. Guram Rekhviashvili. Senior  specialist. Committee of Defense  &amp; Security, Parliament; 3. Mrs. Sesili Dzebniauri. Leading  specialist. Committee of Defense  &amp; Security, Parliament; 4. Mrs. Diana Sagirashvili. Leading  specialist. Committee of Defense  &amp; Security, Parliament; 5. Mr. Vajha Ioseliani. Specialist.  Committee of Defense &amp; Security,  Parliament; 6. Mrs. Manana Begiashvili.  Leading Specialist. Defense &amp;  Security Committee, Parliament 7. Mr. Zviad Mirgatia. The Head of  Interparliamentary Relations.  Department of Interparliamentary  Relations. Parliament; 8.. Mrs. Nana Chkoidze.The   Head of Department for  International Relations.  Department of International  Relationship, Parliament; 9. Mr. Niko Mukeria. Prosecutor.  The Main Military Prosecutor  Department; 10. Mr. George Enukidze.  Prosecutor. The Main Military  Prosecutor Department. 11. Mr. Vasili Chkoidze.  Prosecutor. The Main Prosecutor  Department; 12. Tengiz Kharebava. Prosecutor.  The Main Prosecutor Department; 13. Mr. Revaz Kapanadze.  Prosecutor. The Main Prosecutor  Department; 14. 3rd Rank Captain  (Commander) Badri Gagnidze.  Chief Officer. Georgian BT HQ; 15. Mr. George Samkurashvili.  Georgian BT HQ; 16. Mr. Mamuka Giorgadze.  Georgian BG HQ; 17. Lieutenant Mamuka Kukava.  Georgian BG HQ; 18. Mr. George Tonkonogov.  Georgian National Security  Council; 19. Mr. Shalva Turashvili.  Georgian National Security  Council; 20. 1st Lieutenant George  Nozadze; 21. Mr. Besik Chabukiani. The  Deputy Chief of Section. State  Ministry of Security. 22. Mr. Kakha Mirotadze. The  Deputy Chief of Section. State  Ministry of Security; 23. Mr. David Chachua. The Head  of department of struggling  against of economical breaches.  The Ministry of Security; 24. Mr. Zaza Mchedlidze. The  Head of Department. The Ministry  of Security; 25. Mr. David Glonti. The Head of  International Legal Department.  The Ministry of Foreign Affairs; 26. LTC of Police Maia Mosidze.  The Deputy media service of the  Ministry of Internal Affairs; 27. Mr. Leri Omiadze. The Head  of Department of the Internal  Troops; 28. Captain of Police George  Koghuashvili. The head of second  Division, Criminal search main  administration. The Ministry of  Internal Affairs; 30. 1st Lieutenant of Police Boris  Janjalia. Inspector. The Ministry of  Internal Affairs. Main  administration of fighting against  of corruption and economic crime; 30. Mrs. Irma Kavraradze. The  Ministry of Foreign Affairs; 31. Mr. Vakhtang Maisaia. The  Ministry of Foreign Affairs; 32. Mr. Levan Girsiashvili. The  Deputy Chief of Section. The State  Intelligence Department; 33. Mr. Levan Gurgenidze. The  Deputy Chief of Section. The State  Intelligence Department; 34. Colonel Ioseb Barnabishvili.  The Ministry of Defense; 35. Mr. Vladimer Parulava. Chief  of the International Legal  Department. The Ministry of  Defense; 36. Mr. George Pirtskhalaishvili.  The Deputy of International Legal  Department. The Ministry of  Defense; 37. Mr. Irakli Dvali. The Staff of  People Agency (Military Issues).  NGO; 38. Mr. Nodar Ephremidze. The  Staff of People Agency (Military  Issues). NGO; 39. Mr. Vasili Chkoidze. The  President. The Center for  European Integration studies.  NGO; 41. Mr. Mamuka Gachechildze.  Conflict-expert. International  crisis group. NGO.</student_unit>
+        <total_cost>$41,700</total_cost>
+      </training>
+      <training>
+        <course_title>MIL &amp; PCKEEP OPS IAW ROL</course_title>
+        <end_date>5/18/01</end_date>
+        <location>1 NEWPORT, RI 02841-1523</location>
+        <start_date>4/16/01</start_date>
+        <student_unit>The Ministry of Foreign Affairs</student_unit>
+        <total_cost>$10,352</total_cost>
+      </training>
+      <training>
+        <course_title>MTT-INFANTRY OPERATIONS</course_title>
+        <end_date>9/30/01</end_date>
+        <location>100 Georgia</location>
+        <start_date>3/1/01</start_date>
+        <student_unit>1. Major Zviad Chaduneli, 11th  infantry brigade; 2. Captain  Manuchar Pataridze, in  the reserve; 3. WO Zviad Kapanadze, Special  recon team; 4. WO Zaza Kakiashvili, Special  forces; 5. Lt. Michael Eradze, 11th  brigade; 6. Lt. Besik Gvinjilia, 11the  brigade; 7. Lt. Lasha Modabadze;  Sachkhere base #55066; 8. Lt. Pavle Sadunishvili;   Sachkhere base #55066; 9. Lt. Merab Parpalia, 21st BDE  east direction team; 10. Lt. Paata Shubitidze, Rapid  reaction command BN; 11. Lt. David Sulkhanishvili, Rapid  reaction command BN; 12. Lt. Mindia Mirvelashvili, Rapid  reaction command BN; 13. Lt. Ioseb Akhvlediani, Rapid  reaction command BN; 14. Lt. Gela Betsiashvili, 11th  brigade; 15. WO Teimuraz Gogoladze,  22nd inf BDE; 16. Lt. Nestor Kavelashvili, 11th  brigade; 17. Lt. Zviad Bejanidze, 11th  brigade; 18. Lt. Nukri Kikvadze, 11th  brigade; 19. Lt. Teimuraz Komladze, 21st  BDE; 20. Lt. Khvicha Khijakadze, 21st  BDE; 21. Lt. Paata Khutsishvili, 21st  BDE; 22. WO George Tsutskiridze,  Sachkhere base #55066; 23. Lt. Kakhaber Iordanishvili,  21st BDE east operational team; 24. WO Nodar Meskhia, Special  forces; 25. Lt. Zviad Gelashvili, Rapid  reaction command BN; 26. WO Zaal Gelashvili, Sachkhere  base #55066; 27. WO Irakli Odikadze, Sachkhere  base #55066; 28. Lt. Valeri Kereselidze, 11th  brigade; 29. Lt. Mamuka Aptsiauri, 11th  brigade; 30. Lt. Levan Kimeridze, 11th  brigade; 31. Lt. George Nemsadze, Gori  training center; 32. Lt. Andria Kakhniashvili, Gori  training center; 33. Captain Ilias Rizaevi, G-2; 34. Lt. Gela Abramishvili,  Sachkhere base #55066; 35. WO Gogita Rogara, Special  forces; 36. Lt. Mileri Khabuliani, 21st  BDE; 37. Lt. Roman Doropheev, 11th  BDE; 38. Lt. Mamuka Tskrialashvili,  Land Forces staff; 39. Lt. Lasha Maglakelidze, 21st  BDE; 40. Lt. Zaza Kesanashvili, G-2; 41. Lt. Levan Amiridze, G-3; 42. WO Avtandil Manjgaladze,  11th BDE; 43. WO Murman Kiparoidze,  Sachkhere Special unit team; 44. Lt. Hamlet Uglava, 21st BDE; 45. WO Gocha Otinashvili, Gori  training center; 46. Lt. Avtandil Ivanidze, 22nd  BDE; 47. Lt. Gela Mazmishvili, 22nd  BDE; 48. Lt. Imeda Gvritishvili, 22nd  BDE; 49. Lt. Kakha Betsiashvili; 11th  BDE; 50. WO Badri Salukvadze, Special  forces; 51. Lt. George Zaridze, 11th  brigade; 52. Lt. Shalva Mindiashvili, in  personal reserve; 53. Lt. Michael Vakhtangishvili, in  personal reserve; 54. Lt. John Stepanishvili, Gori  training center; 55. Lt. Gizo Meburishvili, 11th  BDE; 56. Lt. Teimuraz Arlov, 11th BDE; 57. Lt. Ilia Tsitsvidze, 11th BDE; 58. Lt. Solomon Loladze, 11th  BDE.</student_unit>
+        <total_cost>$62,904</total_cost>
+      </training>
+      <training>
+        <course_title>OBC INTERNATION ENR PREP</course_title>
+        <end_date>2/9/01</end_date>
+        <location>1 FT LEONARD WOOD MO 65473-5000</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Army, Kojori training center</student_unit>
+        <total_cost>$209</total_cost>
+      </training>
+      <training>
+        <course_title>PATHFINDER</course_title>
+        <end_date>1/29/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>1/8/01</start_date>
+        <student_unit>Army, Unified Military Academy</student_unit>
+        <total_cost>$443</total_cost>
+      </training>
+      <training>
+        <course_title>RANGER</course_title>
+        <end_date>11/29/00</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>11/4/00</start_date>
+        <student_unit>Army, Unified Military Academy</student_unit>
+        <total_cost>$4,283</total_cost>
+      </training>
+      <training>
+        <course_title>SF OPNS DETACH OFF QUAL</course_title>
+        <end_date>8/31/01</end_date>
+        <location>1 FT BRAGG NC 28310</location>
+        <start_date>2/22/01</start_date>
+        <student_unit>Army,  Unified Military Academy</student_unit>
+        <total_cost>$5,346</total_cost>
+      </training>
+      <training>
+        <course_title>SIG OFF ADV PREP-INTER OFF</course_title>
+        <end_date>5/7/01</end_date>
+        <location>1 FT GORDON GA 30905-5154</location>
+        <start_date>4/20/01</start_date>
+        <student_unit>Army, Signal battalion, Tbilisi</student_unit>
+        <total_cost>$1,644</total_cost>
+      </training>
+      <training>
+        <course_title>SIGNAL CAPTAINS CAREER CRS</course_title>
+        <end_date>9/14/01</end_date>
+        <location>1 FT GORDON GA 30905-5154</location>
+        <start_date>5/9/01</start_date>
+        <student_unit>Army, Signal battalion, Tbilisi</student_unit>
+        <total_cost>$4,338</total_cost>
+      </training>
+      <training>
+        <course_title>SIGNAL OFFICER BASIC</course_title>
+        <end_date>4/6/01</end_date>
+        <location>1 FT GORDON GA 30905-5154</location>
+        <start_date>11/15/00</start_date>
+        <student_unit>Georgian National Guard</student_unit>
+        <total_cost>$3,188</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>4/6/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Army, Signal battalion, Tbilisi</student_unit>
+        <total_cost>$2,270</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>5/7/01</start_date>
+        <student_unit>Army, Unified Military Academy</student_unit>
+        <total_cost>$2,270</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Georgia">
+    <program name="NIS Region, Georgia,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>5/18/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>3/19/01</start_date>
+        <student_unit>Army, Unified Military Academy</student_unit>
+        <total_cost>$2,270</total_cost>
+      </training>
+      <training>
+        <course_title>TOEFL TEST</course_title>
+        <end_date>6/14/01</end_date>
+        <location>0 Georgia</location>
+        <start_date>6/14/01</start_date>
+        <student_unit>Army, Ministry of Defense</student_unit>
+        <total_cost>$110</total_cost>
+      </training>
+      <training>
+        <course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>7/9/01</start_date>
+        <student_unit>Army, Kojori training center</student_unit>
+        <total_cost>$680</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Georgia">
+    <program name="DoS NIS Region, Georgia,  Foreign Military Financing (FMF), FY01">
+      <training>
+        <course_title>ACFT ELECTRICIAN RP SV BNC</course_title>
+        <end_date>5/11/01</end_date>
+        <location>1 FT EUSTIS VA 23604-5361</location>
+        <start_date>3/29/01</start_date>
+        <student_unit>Air Force, Tbilisi AFHQ.</student_unit>
+        <total_cost>$1,018</total_cost>
+      </training>
+      <training>
+        <course_title>ACFT ELECTRICIAN RP SV BNC</course_title>
+        <end_date>6/28/01</end_date>
+        <location>1 FT EUSTIS VA 23604-5361</location>
+        <start_date>5/10/01</start_date>
+        <student_unit>Air Force, Telavi AFB #45445.</student_unit>
+        <total_cost>$1,018</total_cost>
+      </training>
+      <training>
+        <course_title>ACFT PNEUDRAL RPR SUP BNCO</course_title>
+        <end_date>5/9/01</end_date>
+        <location>1 FT EUSTIS VA 23604-5361</location>
+        <start_date>3/29/01</start_date>
+        <student_unit>Air Force, Unified Military  Academy.</student_unit>
+        <total_cost>$815</total_cost>
+      </training>
+      <training>
+        <course_title>ACFT PNEUDRAU SYS SPECL</course_title>
+        <end_date>1/26/01</end_date>
+        <location>1</location>
+        <start_date>11/8/00</start_date>
+        <student_unit>Air Force, Unified Military  Academy.</student_unit>
+        <total_cost>$1,070</total_cost>
+      </training>
+      <training>
+        <course_title>ACFT POWERPLANT REPAIRER</course_title>
+        <end_date>4/10/01</end_date>
+        <location>1 FT EUSTIS VA 23604-5361</location>
+        <start_date>11/14/00</start_date>
+        <student_unit>Air Force, Telavi AFB #45445.</student_unit>
+        <total_cost>$1,991</total_cost>
+      </training>
+      <training>
+        <course_title>ACFT POWERTRAIN SUPV </course_title>
+        <end_date>4/4/01</end_date>
+        <location>1 FT EUSTIS VA 23604-5361</location>
+        <start_date>1/26/01</start_date>
+        <student_unit>Air Force, Telavi AFB #45445.</student_unit>
+        <total_cost>$1,866</total_cost>
+      </training>
+      <training>
+        <course_title>ACFT STRUCT RPR SUPV BNCOC</course_title>
+        <end_date>1/11/01</end_date>
+        <location>1 FT EUSTIS VA 23604-5361</location>
+        <start_date>11/9/00</start_date>
+        <student_unit>Air Force, Telavi AFB #45445.</student_unit>
+        <total_cost>$909</total_cost>
+      </training>
+      <training>
+        <course_title>ACFT STRUCT RPR SUPV BNCOC</course_title>
+        <end_date>1/11/01</end_date>
+        <location>1 FT EUSTIS VA 23604-5361</location>
+        <start_date>11/9/00</start_date>
+        <student_unit>Air Force, Marneuli AFB #44763</student_unit>
+        <total_cost>$909</total_cost>
+      </training>
+      <training>
+        <course_title>AIR TRAF CONTROL OPERATOR</course_title>
+        <end_date>9/21/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>9/6/01</start_date>
+        <student_unit>Air Force, Kopitnari AFB #44452.</student_unit>
+        <total_cost>$270</total_cost>
+      </training>
+      <training>
+        <course_title>AIR TRAF CONTROL OPERATOR</course_title>
+        <end_date>6/26/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>3/20/01</start_date>
+        <student_unit>Air Force, Tbilisi AFHQ.</student_unit>
+        <total_cost>$1,589</total_cost>
+      </training>
+      <training>
+        <course_title>AIR TRAF CONTROL OPERATOR</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>6/27/01</start_date>
+        <student_unit>Air Force, Tbilisi AFHQ.</student_unit>
+        <total_cost>$1,589</total_cost>
+      </training>
+      <training>
+        <course_title>AIR TRAF CONTROL OPERATOR</course_title>
+        <end_date>9/5/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>5/29/01</start_date>
+        <student_unit>Air Force, Kopitnari AFB #44452.</student_unit>
+        <total_cost>$1,589</total_cost>
+      </training>
+      <training>
+        <course_title>AIR TRAF CONTROL OPERATOR</course_title>
+        <end_date>9/5/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>5/29/01</start_date>
+        <student_unit>Air Force, Marneuli AFB #44763.</student_unit>
+        <total_cost>$1,589</total_cost>
+      </training>
+      <training>
+        <course_title>AIR TRAF CONTROL OPERATOR</course_title>
+        <end_date>8/6/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>7/28/01</start_date>
+        <student_unit>Air Force, Tbilisi AFHQ.</student_unit>
+        <total_cost>$90</total_cost>
+      </training>
+      <training>
+        <course_title>AIRCRAFT ELECTRICIAN RPR</course_title>
+        <end_date>4/10/01</end_date>
+        <location>1 FT EUSTIS VA 23604-5361</location>
+        <start_date>11/6/00</start_date>
+        <student_unit>Air Force, Telavi AFB #45445.</student_unit>
+        <total_cost>$2,812</total_cost>
+      </training>
+      <training>
+        <course_title>AVIATION SAFETY OFFICER</course_title>
+        <end_date>11/17/00</end_date>
+        <location>1 FT RUCKER AL 36362</location>
+        <start_date>10/10/00</start_date>
+        <student_unit>Air Force, Unified Military  Academy.</student_unit>
+        <total_cost>$1,848</total_cost>
+      </training>
+      <training>
+        <course_title>AVIONIC MECHANIC</course_title>
+        <end_date>7/25/01</end_date>
+        <location>1 FT EUSTIS VA 23604-5361</location>
+        <start_date>4/16/01</start_date>
+        <student_unit>Air Force, Telavi AFB #45445.</student_unit>
+        <total_cost>$2,050</total_cost>
+      </training>
+      <training>
+        <course_title>AVIONIC MECHANIC</course_title>
+        <end_date>5/15/01</end_date>
+        <location>1 FT EUSTIS VA 23604-5361</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Air Force, Unified Military  Academy.</student_unit>
+        <total_cost>$2,050</total_cost>
+      </training>
+      <training>
+        <course_title>AVN LIFE SPT EQUIP TECH</course_title>
+        <end_date>5/30/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>4/23/01</start_date>
+        <student_unit>Air Force, Telavi AFB #45445.</student_unit>
+        <total_cost>$662</total_cost>
+      </training>
+      <training>
+        <course_title>AVN LIFE SPT EQUIP TECH</course_title>
+        <end_date>5/30/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>4/23/01</start_date>
+        <student_unit>Air Force, Kopitnari AFB #44452.</student_unit>
+        <total_cost>$662</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>1/19/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>10/16/00</start_date>
+        <student_unit>Air Force, Marneuli AFB #44763.</student_unit>
+        <total_cost>$3,495</total_cost>
+      </training>
+      <training>
+        <course_title>HIGH ALTITUDE MOUNTAIN </course_title>
+        <end_date>5/12/01</end_date>
+        <location>1 GYPSUM CO 81637</location>
+        <start_date>5/6/01</start_date>
+        <student_unit>Air Force, Telavi AFB #45445.</student_unit>
+        <total_cost>$51,307</total_cost>
+      </training>
+      <training>
+        <course_title>IERW AVIATOR (UH-1) TRACK</course_title>
+        <end_date>9/19/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>6/26/01</start_date>
+        <student_unit>Air Force, Unified Military  Academy.</student_unit>
+        <total_cost>$57,486</total_cost>
+      </training>
+      <training>
+        <course_title>IERW AVIATOR (UH-1) TRACK</course_title>
+        <end_date>8/21/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>5/29/01</start_date>
+        <student_unit>Air Force, Telavi AFB #45445.</student_unit>
+        <total_cost>$57,486</total_cost>
+      </training>
+      <training>
+        <course_title>IERW AVIATOR (UH-1) TRACK</course_title>
+        <end_date>3/1/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>11/21/00</start_date>
+        <student_unit>Air Force, Telavi AFB #45445.</student_unit>
+        <total_cost>$57,486</total_cost>
+      </training>
+      <training>
+        <course_title>IERW AVIATOR (UH-1) TRACK</course_title>
+        <end_date>7/24/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>4/30/01</start_date>
+        <student_unit>Air Force, Telavi AFB #45445.</student_unit>
+        <total_cost>$57,486</total_cost>
+      </training>
+      <training>
+        <course_title>IERW AVIATOR (UH-1) TRACK</course_title>
+        <end_date>8/21/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>7/25/01</start_date>
+        <student_unit>Army, Marneuli AFB #44763.</student_unit>
+        <total_cost>$57,486</total_cost>
+      </training>
+      <training>
+        <course_title>IERW AVIATOR (UH-1) TRACK</course_title>
+        <end_date>6/25/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>4/2/01</start_date>
+        <student_unit>Air Force, Telavi AFB #45445.</student_unit>
+        <total_cost>$57,486</total_cost>
+      </training>
+      <training>
+        <course_title>IERW AVIATOR (UH-1) TRACK</course_title>
+        <end_date>7/24/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>4/30/01</start_date>
+        <student_unit>Air Force, Marneuli AFB #44763.</student_unit>
+        <total_cost>$57,486</total_cost>
+      </training>
+      <training>
+        <course_title>IERW AVIATOR (UH-1) TRACK</course_title>
+        <end_date>7/24/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>4/30/01</start_date>
+        <student_unit>Air Force, Telavi AFB #45445.</student_unit>
+        <total_cost>$57,486</total_cost>
+      </training>
+      <training>
+        <course_title>IERW AVIATOR (UH-1) TRACK</course_title>
+        <end_date>9/19/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>6/26/01</start_date>
+        <student_unit>Air Force, Marneuli AFB #44763.</student_unit>
+        <total_cost>$57,486</total_cost>
+      </training>
+      <training>
+        <course_title>IERW AVIATOR (UH-1) TRACK</course_title>
+        <end_date>6/25/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>4/2/01</start_date>
+        <student_unit>Air Force, Telavi AFB #45445.</student_unit>
+        <total_cost>$57,486</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Georgia">
+    <program name="NIS Region, Georgia,  Foreign Military Financing (FMF), FY01">
+      <training>
+        <course_title>IERW AVR (COMM CORE)-NTH</course_title>
+        <end_date>7/24/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>3/2/01</start_date>
+        <student_unit>Air Force, Telavi AFB #45445.</student_unit>
+        <total_cost>$48,397</total_cost>
+      </training>
+      <training>
+        <course_title>IERW AVR (COMM CORE)-NTH</course_title>
+        <end_date>3/30/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>10/23/00</start_date>
+        <student_unit>Air Force, Telavi AFB #45445.</student_unit>
+        <total_cost>$48,397</total_cost>
+      </training>
+      <training>
+        <course_title>IERW AVR (COMM CORE)-NTH</course_title>
+        <end_date>4/27/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>11/21/00</start_date>
+        <student_unit>Air Force, Marneuli AFB #44763.</student_unit>
+        <total_cost>$48,397</total_cost>
+      </training>
+      <training>
+        <course_title>IERW AVR (COMM CORE)-NTH</course_title>
+        <end_date>5/25/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>1/3/01</start_date>
+        <student_unit>Air Force, Telavi AFB #45445.</student_unit>
+        <total_cost>$48,397</total_cost>
+      </training>
+      <training>
+        <course_title>IERW AVR (COMM CORE)-NTH</course_title>
+        <end_date>6/25/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>2/1/01</start_date>
+        <student_unit>Air Force, Unified Military  Academy.</student_unit>
+        <total_cost>$48,397</total_cost>
+      </training>
+      <training>
+        <course_title>IERW AVR (COMM CORE)-NTH</course_title>
+        <end_date>1/26/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>1/23/01</start_date>
+        <student_unit>Air Force, Marneuli AFB #44763.</student_unit>
+        <total_cost>$2,788</total_cost>
+      </training>
+      <training>
+        <course_title>IERW AVR (COMM CORE)-NTH</course_title>
+        <end_date>1/31/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>1/27/01</start_date>
+        <student_unit>Air Force, Marneuli AFB #44763.</student_unit>
+        <total_cost>$4,201</total_cost>
+      </training>
+      <training>
+        <course_title>IERW AVR (COMM CORE)-NTH</course_title>
+        <end_date>4/27/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>11/21/00</start_date>
+        <student_unit>Air Force, Telavi AFB #45445.</student_unit>
+        <total_cost>$48,397</total_cost>
+      </training>
+      <training>
+        <course_title>IERW AVR (COMM CORE)-NTH</course_title>
+        <end_date>6/25/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>2/1/01</start_date>
+        <student_unit>Air Force, Marneuli AFB #44763.</student_unit>
+        <total_cost>$48,397</total_cost>
+      </training>
+      <training>
+        <course_title>IERW AVR (COMM CORE)-NTH</course_title>
+        <end_date>3/30/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>3/2/01</start_date>
+        <student_unit>Air Force, Telavi AFB #45445.</student_unit>
+        <total_cost>$48,397</total_cost>
+      </training>
+      <training>
+        <course_title>ORAL PROF SKILLS FOR AVN</course_title>
+        <end_date>2/15/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>11/27/00</start_date>
+        <student_unit>Air Force, Telavi AFB #45445.</student_unit>
+        <total_cost>$3,077</total_cost>
+      </training>
+      <training>
+        <course_title>UH-1 HELO REPAIRER</course_title>
+        <end_date>4/9/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>1/29/01</start_date>
+        <student_unit>Air Force, Kopitnari AFB #44452.</student_unit>
+        <total_cost>$2,298</total_cost>
+      </training>
+      <training>
+        <course_title>UH-1 HELO REPAIRER</course_title>
+        <end_date>4/9/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>1/29/01</start_date>
+        <student_unit>Air Force, Telavi AFB #45445.</student_unit>
+        <total_cost>$2,298</total_cost>
+      </training>
+      <training>
+        <course_title>UH-1 HELO REPAIRER</course_title>
+        <end_date>7/2/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>4/23/01</start_date>
+        <student_unit>Air Force, Marneuli AFB #44763.</student_unit>
+        <total_cost>$2,298</total_cost>
+      </training>
+      <training>
+        <course_title>UH-1 HELO REPAIRER</course_title>
+        <end_date>7/2/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>4/23/01</start_date>
+        <student_unit>Air Force, Telavi AFB #45445.</student_unit>
+        <total_cost>$2,298</total_cost>
+      </training>
+      <training>
+        <course_title>UH-1 HELO REPAIRER</course_title>
+        <end_date>4/9/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>1/29/01</start_date>
+        <student_unit>Air Force, Telavi AFB #45445.</student_unit>
+        <total_cost>$2,298</total_cost>
+      </training>
+      <training>
+        <course_title>UH-1 HELO REPAIRER</course_title>
+        <end_date>7/2/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>4/23/01</start_date>
+        <student_unit>Air Force, Tbilisi AFHQ.</student_unit>
+        <total_cost>$2,298</total_cost>
+      </training>
+      <training>
+        <course_title>UH-1 HELO REPAIRER</course_title>
+        <end_date>4/9/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>1/29/01</start_date>
+        <student_unit>Air Force, Unified Military  Academy.</student_unit>
+        <total_cost>$2,298</total_cost>
+      </training>
+      <training>
+        <course_title>UH-1 HELO RPR SUPV BNCOC</course_title>
+        <end_date>3/6/01</end_date>
+        <location>1 FT EUSTIS VA 23604-5361</location>
+        <start_date>11/30/00</start_date>
+        <student_unit>Air Force, Unified Military  Academy.</student_unit>
+        <total_cost>$2,155</total_cost>
+      </training>
+      <training>
+        <course_title>UH-1 INSTRUCTOR PILOT</course_title>
+        <end_date>4/27/01</end_date>
+        <location>1 FT RUCKER AL 36362-5000</location>
+        <start_date>3/2/01</start_date>
+        <student_unit>Air Force, Telavi AFB #45445.</student_unit>
+        <total_cost>$51,701</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Georgia">
+    <program name="DoS NIS Region, Georgia,  Marshall Center, FY01">
+      <training>
+        <course_title>Conferences</course_title>
+        <end_date>9/28/01</end_date>
+        <location>60 Various</location>
+        <start_date>11/11/00</start_date>
+        <student_unit>Multi Service Attendance</student_unit>
+        <total_cost>$144,845</total_cost>
+        <us_unit>N/A</us_unit>
+      </training>
+      <training>
+        <course_title>Resident Courses</course_title>
+        <end_date>9/30/01</end_date>
+        <location>23 Marshall Center Garmish GE</location>
+        <start_date>10/1/00</start_date>
+        <student_unit>N/A</student_unit>
+        <total_cost>$535,000</total_cost>
+        <us_unit>N/A</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Kazakhstan">
+    <program name="DoS NIS Region, Kazakhstan,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>AMEDD OBC ALL CORPS (MS)</course_title>
+        <end_date>5/25/01</end_date>
+        <location>1 FT SAM HOUSTON TX 78234-6100</location>
+        <start_date>3/19/01</start_date>
+        <student_unit>KAPSHAGAI MEDICAL MILITARY  POST</student_unit>
+        <total_cost>$8,779</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE CRS</course_title>
+        <end_date>9/21/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>3/26/01</start_date>
+        <student_unit>DEFENSE RESOURCES ANALYSES  AND MANAGEMENT DEPARTMENT</student_unit>
+        <total_cost>$17,372</total_cost>
+      </training>
+      <training>
+        <course_title>ARMY-PCHT</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$8,268</total_cost>
+      </training>
+      <training>
+        <course_title>CIV-MIL SID - EURO</course_title>
+        <end_date>2/16/01</end_date>
+        <location>1 HURLBURT FIELD, FL 32544-5826</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>1 SECRETARY OF INTERNATIONAL  SECURITY AND ARMS CONTROL  DEPARTMENT</student_unit>
+        <total_cost>$895</total_cost>
+      </training>
+      <training>
+        <course_title>CIV-MIL SID - EURO</course_title>
+        <end_date>2/16/01</end_date>
+        <location>1 HURLBURT FIELD, FL 32544-5826</location>
+        <start_date>2/5/01</start_date>
+        <total_cost>$895</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>5/11/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>11/6/00</start_date>
+        <student_unit>MILITARY POLICE IN C. ALMATY /  CHIEF OF COMPARTMENT OF THE  MILITARY POLICE DETACHMENT</student_unit>
+        <total_cost>$16,604</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>3/9/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>11/20/00</start_date>
+        <student_unit>HEAD OF THE CLOTHING SERVICE  OF THE MOD MILITARY UNIT</student_unit>
+        <total_cost>$11,291</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>9/21/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>3/12/01</start_date>
+        <student_unit>KAPSHAGAI MILITARY POST</student_unit>
+        <total_cost>$14,075</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>2/9/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>11/20/00</start_date>
+        <student_unit>SIGNAL BRIGADE IN C.  KAPSHAGAI / CHIEF OF SIGNAL </student_unit>
+        <total_cost>$14,833</total_cost>
+      </training>
+      <training>
+        <course_title>FINANCE OFFICER BASIC</course_title>
+        <end_date>5/24/01</end_date>
+        <location>1 FT JACKSON SC 29207-7040</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>DEPARTMENT OF ECONOMICS  AND FINANCES OF THE MOD</student_unit>
+        <total_cost>$11,325</total_cost>
+      </training>
+      <training>
+        <course_title>GENERAL ENGLISH ONLY</course_title>
+        <end_date>8/17/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>6/11/01</start_date>
+        <student_unit>HEAD OF TRANSLATORS GROUP,  LINGUISTIC CENTER OF THE MOD</student_unit>
+        <total_cost>$9,856</total_cost>
+      </training>
+      <training>
+        <course_title>GENERAL ENGLISH ONLY</course_title>
+        <end_date>9/14/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>7/9/01</start_date>
+        <student_unit>DEPUTY CHIEF OF THE LINGUISTIC  CENTER OF THE MOD</student_unit>
+        <total_cost>$9,856</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFFICER PREP</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>6/19/01</start_date>
+        <student_unit>MILITARY DEP OF KAZAKH STATE  ABAY UNIVERSITY, C. ALMATY</student_unit>
+        <total_cost>$3,282</total_cost>
+      </training>
+      <training>
+        <course_title>MILITARY POLICE OFF BASIC</course_title>
+        <end_date>9/18/01</end_date>
+        <location>1 FT LEONARD WOOD MO 65473-5000</location>
+        <start_date>6/4/01</start_date>
+        <student_unit>MILITARY POLICE IN C. ALMATY /  CHIEF OF COMPARTMENT OF THE  MILITARY POLICE DETACHMENT</student_unit>
+        <total_cost>$7,866</total_cost>
+      </training>
+      <training>
+        <course_title>OBC INTERNATIONAL MP PREP</course_title>
+        <end_date>6/1/01</end_date>
+        <location>1 FT LEONARD WOOD MO 65473-5000</location>
+        <start_date>5/29/01</start_date>
+        <student_unit>MILITARY POLICE IN C. ALMATY /  CHIEF OF COMPARTMENT OF THE  MILITARY POLICE DETACHMENT</student_unit>
+        <total_cost>$1,712</total_cost>
+      </training>
+      <training>
+        <course_title>OBS MED/HEALTH/HYG-CONUS</course_title>
+        <end_date>5/18/01</end_date>
+        <location>1 FT SAM HOUSTON TX 78234-6100</location>
+        <start_date>3/11/01</start_date>
+        <student_unit>DOCTOR OF THE CENTRAL  MILITARY CLINICAL HOSPITAL OF  THE MOD</student_unit>
+        <total_cost>$5,770</total_cost>
+      </training>
+      <training>
+        <course_title>SIGNAL OFFICER BASIC</course_title>
+        <end_date>6/29/01</end_date>
+        <location>1 FT GORDON GA 30905-5154</location>
+        <start_date>2/23/01</start_date>
+        <student_unit>SIGNAL BRIGADE IN C.  KAPSHAGAI / CHIEF OF SIGNAL </student_unit>
+        <total_cost>$11,510</total_cost>
+      </training>
+      <training>
+        <course_title>TAT-LANGUAGE LAB INSTALL</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0 Kazakhstan</location>
+        <start_date>10/1/00</start_date>
+        <student_unit>Kazahkstan Army</student_unit>
+        <total_cost>$18,131</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$21,809</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$1,180</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$13,160</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$5,187</total_cost>
+      </training>
+      <training>
+        <course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>7/9/01</start_date>
+        <student_unit>MILITARY DEP OF KAZAKH STATE  ABAY UNIVERSITY, C. ALMATY</student_unit>
+        <text>$930</text>
+      </training>
+    </program>
+  </country>
+  <country name="Kazakhstan">
+    <program name="DoS NIS Region, Kazakhstan,  Marshall Center, FY01">
+      <training>
+        <course_title>Conferences</course_title>
+        <end_date>9/28/01</end_date>
+        <location>36 Various</location>
+        <start_date>11/11/00</start_date>
+        <student_unit>Multi Service Attendance</student_unit>
+        <total_cost>$88,872</total_cost>
+        <us_unit>N/A</us_unit>
+      </training>
+      <training>
+        <course_title>Resident Courses</course_title>
+        <end_date>9/30/01</end_date>
+        <location>14 Marshall Center Garmish GE</location>
+        <start_date>10/1/00</start_date>
+        <student_unit>N/A</student_unit>
+        <total_cost>$334,000</total_cost>
+        <us_unit>N/A</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Kyrgyzstan">
+    <program name="DoS NIS Region, Kyrgyzstan,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>AIRBORNE</course_title>
+        <end_date>11/9/00</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>10/23/00</start_date>
+        <student_unit>National Guard</student_unit>
+        <total_cost>$1,414</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Kyrgyzstan">
+    <program name="NIS Region, Kyrgyzstan,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>AIRBORNE</course_title>
+        <end_date>8/3/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>7/16/01</start_date>
+        <student_unit>Logistic Company, MOD</student_unit>
+        <total_cost>$2,742</total_cost>
+      </training>
+      <training>
+        <course_title>AIRBORNE</course_title>
+        <end_date>4/6/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>3/19/01</start_date>
+        <student_unit>Commandant Unit, MOD</student_unit>
+        <total_cost>$4,258</total_cost>
+      </training>
+      <training>
+        <course_title>AIRBORNE</course_title>
+        <end_date>4/6/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>3/19/01</start_date>
+        <student_unit>SF Unit, MOD</student_unit>
+        <total_cost>$221</total_cost>
+      </training>
+      <training>
+        <course_title>CIV-MIL SID - EURO</course_title>
+        <end_date>2/16/01</end_date>
+        <location>1 HURLBURT FIELD, FL 32544-5826</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Information and Analytical  Department, Intentational Institute  for Strategic Studies under the  President of Kyrgyz Republic</student_unit>
+        <total_cost>$5,761</total_cost>
+      </training>
+      <training>
+        <course_title>CIV-MIL SID - EURO</course_title>
+        <end_date>2/16/01</end_date>
+        <location>1 HURLBURT FIELD, FL 32544-5826</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Directorate of Western Countries,  Ministry of Foreign Affairs</student_unit>
+        <total_cost>$7,195</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY OFFICER BASIC</course_title>
+        <end_date>6/22/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>2/26/01</start_date>
+        <student_unit>Logistic Company, MOD</student_unit>
+        <total_cost>$10,325</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFFICER PREP</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>6/19/01</start_date>
+        <student_unit>Special Forces Detachment, 525  Brigade</student_unit>
+        <total_cost>$2,992</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>6/8/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>4/9/01</start_date>
+        <student_unit>Special Forces Detachment, 525  Brigade</student_unit>
+        <total_cost>$7,222</total_cost>
+      </training>
+      <training>
+        <course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>7/9/01</start_date>
+        <student_unit>Special Forces Detachment, 525  Brigade</student_unit>
+        <total_cost>$5,862</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Kyrgyzstan">
+    <program name="DoS NIS Region, Kyrgyzstan,  Marshall Center, FY01">
+      <training>
+        <course_title>Conferences</course_title>
+        <end_date>9/28/01</end_date>
+        <location>62 Various</location>
+        <start_date>11/11/00</start_date>
+        <student_unit>Multi Service Attendance</student_unit>
+        <total_cost>$174,577</total_cost>
+        <us_unit>N/A</us_unit>
+      </training>
+      <training>
+        <course_title>Resident Courses</course_title>
+        <end_date>9/30/01</end_date>
+        <location>15 Marshall Center Garmish GE</location>
+        <start_date>10/1/00</start_date>
+        <student_unit>N/A</student_unit>
+        <total_cost>$357,000</total_cost>
+        <us_unit>N/A</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Moldova">
+    <program name="DoS NIS Region, Moldova,  Exchange Training, FY01">
+      <training>
+        <course_title>Foreign Academy Exchg. Pr.</course_title>
+        <end_date>8/3/01</end_date>
+        <location>2 West Point</location>
+        <start_date>7/20/01</start_date>
+        <student_unit>Moldovan Army</student_unit>
+        <us_unit>USMA</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Moldova">
+    <program name="DoS NIS Region, Moldova,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>AIRBORNE</course_title>
+        <end_date>5/18/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>4/30/01</start_date>
+        <student_unit>Separate SF Battalion</student_unit>
+        <total_cost>$442</total_cost>
+      </training>
+      <training>
+        <course_title>AIRBORNE</course_title>
+        <end_date>11/24/00</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>11/6/00</start_date>
+        <student_unit>Separate SF Battalion</student_unit>
+        <total_cost>$442</total_cost>
+      </training>
+      <training>
+        <course_title>AIRBORNE</course_title>
+        <end_date>1/26/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>1/8/01</start_date>
+        <student_unit>Separate SF Battalion</student_unit>
+        <total_cost>$442</total_cost>
+      </training>
+      <training>
+        <course_title>AIRBORNE</course_title>
+        <end_date>2/9/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>1/27/01</start_date>
+        <total_cost>$442</total_cost>
+      </training>
+      <training>
+        <course_title>ALLIED OFF PREP-INF OAC</course_title>
+        <end_date>1/12/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>1/8/01</start_date>
+        <student_unit>2nd Infantry Bde</student_unit>
+        <total_cost>$249</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE COURSE</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>3/12/01</start_date>
+        <student_unit>Department of Emergencies</student_unit>
+        <total_cost>$4,965</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE COURSE</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>3/12/01</start_date>
+        <student_unit>22nd PK Battalion</student_unit>
+        <total_cost>$4,965</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE CRS</course_title>
+        <end_date>6/15/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>5/28/01</start_date>
+        <student_unit>Ministry of Foreign Affairs</student_unit>
+        <total_cost>$800</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE CRS</course_title>
+        <end_date>9/21/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>5/7/01</start_date>
+        <student_unit>Ministry of Defense</student_unit>
+        <total_cost>$4,965</total_cost>
+      </training>
+      <training>
+        <course_title>CIV-MIL SID - EURO</course_title>
+        <end_date>2/16/01</end_date>
+        <location>1 HURLBURT FIELD, FL 32544-5826</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Main Staff</student_unit>
+        <total_cost>$1,790</total_cost>
+      </training>
+      <training>
+        <course_title>CIV-MIL SID - EURO</course_title>
+        <end_date>2/16/01</end_date>
+        <location>1 HURLBURT FIELD, FL 32544-5826</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Ministry of Foreign Affairs</student_unit>
+        <total_cost>$1,790</total_cost>
+      </training>
+      <training>
+        <course_title>CIV-MIL SID - EURO</course_title>
+        <end_date>2/16/01</end_date>
+        <location>1 HURLBURT FIELD, FL 32544-5826</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Ministry of Foreign Affairs</student_unit>
+        <total_cost>$1,790</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Moldova">
+    <program name="NIS Region, Moldova,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>ENGINEER OFF CPT CAREER</course_title>
+        <end_date>9/12/01</end_date>
+        <location>1 FT LEONARD WOOD MO 65473-5000</location>
+        <start_date>5/7/01</start_date>
+        <student_unit>Separate SF Battalion</student_unit>
+        <total_cost>$4,419</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>8/24/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>4/9/01</start_date>
+        <student_unit>22nd PK Battalion</student_unit>
+        <total_cost>$4,965</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>6/8/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>22nd PK Battalion</student_unit>
+        <total_cost>$4,965</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>4/20/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>1/8/01</start_date>
+        <student_unit>Separate SF Battalion</student_unit>
+        <total_cost>$3,740</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>4/13/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>11/27/00</start_date>
+        <student_unit>Separate SF Battalion</student_unit>
+        <total_cost>$4,965</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>3/5/01</start_date>
+        <student_unit>2nd Infantry Bde</student_unit>
+        <total_cost>$4,965</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>3/5/01</start_date>
+        <student_unit>Ministry of Defense</student_unit>
+        <total_cost>$4,965</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>6/22/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>2nd Infantry Bde</student_unit>
+        <total_cost>$4,965</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>4/20/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>2/12/01</start_date>
+        <student_unit>22nd PK Battalion</student_unit>
+        <total_cost>$2,515</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>4/13/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>11/20/00</start_date>
+        <student_unit>Separate SF Battalion</student_unit>
+        <total_cost>$5,210</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>12/11/00</start_date>
+        <student_unit>Separate SF Battalion</student_unit>
+        <total_cost>$7,415</total_cost>
+      </training>
+      <training>
+        <course_title>FA OFF ADV PREP-ALLIED OFF</course_title>
+        <end_date>6/22/01</end_date>
+        <location>1 FT SILL OK 73503</location>
+        <start_date>5/31/01</start_date>
+        <student_unit>Separate SF Battalion</student_unit>
+        <total_cost>$1,572</total_cost>
+      </training>
+      <training>
+        <course_title>GENERAL ENGLISH ONLY</course_title>
+        <end_date>6/15/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>5/28/01</start_date>
+        <student_unit>Ministry of Defense</student_unit>
+        <total_cost>$800</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY CAPTS CAREER CRS</course_title>
+        <end_date>5/22/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>1/16/01</start_date>
+        <student_unit>2nd Infantry Bde</student_unit>
+        <total_cost>$3,679</total_cost>
+      </training>
+      <training>
+        <course_title>INSTRUCTOR TNG COURSE</course_title>
+        <end_date>12/8/00</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>11/27/00</start_date>
+        <student_unit>Separate SF Battalion</student_unit>
+        <total_cost>$368</total_cost>
+      </training>
+      <training>
+        <course_title>INT OFFICER INTEL ADVANCE</course_title>
+        <end_date>8/22/01</end_date>
+        <location>1 FT HUACHUCA AZ 85613-7000</location>
+        <start_date>5/7/01</start_date>
+        <student_unit>22nd PK Battalion</student_unit>
+        <total_cost>$7,269</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFF LOG PREP</course_title>
+        <end_date>8/10/01</end_date>
+        <location>1 FT LEE VA 23801-1705</location>
+        <start_date>7/30/01</start_date>
+        <student_unit>2nd Infantry Bde</student_unit>
+        <total_cost>$1,005</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFFICER PREP</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>6/19/01</start_date>
+        <student_unit>22nd PK Battalion</student_unit>
+        <total_cost>$847</total_cost>
+      </training>
+      <training>
+        <course_title>OAC INTL STUDENT ENGR PREP</course_title>
+        <end_date>5/4/01</end_date>
+        <location>1 FT LEONARD WOOD MO 65473-5000</location>
+        <start_date>4/30/01</start_date>
+        <student_unit>Separate SF Battalion</student_unit>
+        <total_cost>$209</total_cost>
+      </training>
+      <training>
+        <course_title>OJT OPERATIONS TNG-CONUS</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>7/16/01</start_date>
+        <student_unit>Separate SF Battalion</student_unit>
+        <total_cost>$428</total_cost>
+      </training>
+      <training>
+        <course_title>RANGER</course_title>
+        <end_date>8/13/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>8/13/01</start_date>
+        <student_unit>Separate SF Battalion</student_unit>
+        <total_cost>$3,775</total_cost>
+      </training>
+      <training>
+        <course_title>SF OPNS DETACH OFF QUAL</course_title>
+        <end_date>8/31/01</end_date>
+        <location>1 FT BRAGG NC 28310</location>
+        <start_date>2/22/01</start_date>
+        <student_unit>Separate SF Battalion</student_unit>
+        <total_cost>$5,346</total_cost>
+      </training>
+      <training>
+        <course_title>SIG OFF ADV PREP-INTER OFF</course_title>
+        <end_date>9/21/01</end_date>
+        <location>1 FT GORDON GA 30905-5154</location>
+        <start_date>9/6/01</start_date>
+        <student_unit>22nd PK Battalion</student_unit>
+        <total_cost>$1,644</total_cost>
+      </training>
+      <training>
+        <course_title>TOEFL TEST</course_title>
+        <end_date>8/28/01</end_date>
+        <location>0 Moldova</location>
+        <start_date>8/27/01</start_date>
+        <student_unit>Ministry of Defense</student_unit>
+        <total_cost>$125</total_cost>
+      </training>
+      <training>
+        <course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>7/9/01</start_date>
+        <student_unit>22nd PK Battalion</student_unit>
+        <total_cost>$680</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Moldova">
+    <program name="DoS NIS Region, Moldova,  Marshall Center, FY01">
+      <training>
+        <course_title>Conferences</course_title>
+        <end_date>9/28/01</end_date>
+        <location>86 Various</location>
+        <start_date>11/11/00</start_date>
+        <student_unit>Multi Servide Attendance</student_unit>
+        <total_cost>$273,541</total_cost>
+        <us_unit>N/A</us_unit>
+      </training>
+      <training>
+        <course_title>Resident Courses</course_title>
+        <end_date>9/30/01</end_date>
+        <location>12 Marshall Center Garmish GE</location>
+        <start_date>10/1/00</start_date>
+        <student_unit>N/A</student_unit>
+        <total_cost>$288,000</total_cost>
+        <us_unit>N/A</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Russia">
+    <program name="DoS NIS Region, Russia,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>DEF RES MGT CRS</course_title>
+        <end_date>6/15/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>Ministry of Foreign Affairs.</student_unit>
+        <total_cost>$2,051</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>7/13/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>2/26/01</start_date>
+        <student_unit>Cancelled</student_unit>
+        <total_cost>$2,483</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>7/13/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>2/26/01</start_date>
+        <student_unit>Cancelled</student_unit>
+        <total_cost>$2,483</total_cost>
+      </training>
+      <training>
+        <course_title>EXEC PRGM IN CIV-MIL REL</course_title>
+        <end_date>6/22/01</end_date>
+        <location>1 MONTEREY, CA 93943-5001</location>
+        <start_date>6/11/01</start_date>
+        <student_unit>Cancelled</student_unit>
+        <total_cost>$4,358</total_cost>
+      </training>
+      <training>
+        <course_title>EXEC PRGM IN CIV-MIL REL</course_title>
+        <end_date>6/22/01</end_date>
+        <location>1 MONTEREY, CA 93943-5001</location>
+        <start_date>6/11/01</start_date>
+        <student_unit>Cancelled</student_unit>
+        <total_cost>$4,358</total_cost>
+      </training>
+      <training>
+        <course_title>EXEC PRGM IN CIV-MIL REL</course_title>
+        <end_date>6/22/01</end_date>
+        <location>1 MONTEREY, CA 93943-5001</location>
+        <start_date>6/11/01</start_date>
+        <student_unit>Cancelled</student_unit>
+        <total_cost>$4,358</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Russia">
+    <program name="NIS Region, Russia,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>LANGUAGE INSTRUCTOR/BASIC</course_title>
+        <end_date>7/13/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>1/8/01</start_date>
+        <student_unit>EMERCOM Civil Defense Academy.</student_unit>
+        <total_cost>$15,293</total_cost>
+      </training>
+      <training>
+        <course_title>LANGUAGE INSTRUCTOR/BASIC</course_title>
+        <end_date>7/13/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>1/8/01</start_date>
+        <student_unit>EMERCOM Civil Defense Academy.</student_unit>
+        <total_cost>$15,436</total_cost>
+      </training>
+      <training>
+        <course_title>MANAGING INTL CONFLICT MIC</course_title>
+        <end_date>5/25/01</end_date>
+        <location>1 NEWPORT, RI 02841-1523</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>Cancelled</student_unit>
+        <total_cost>$630</total_cost>
+      </training>
+      <training>
+        <course_title>MANAGING INTL CONFLICT MIC</course_title>
+        <end_date>5/25/01</end_date>
+        <location>1 NEWPORT, RI 02841-1523</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>Russian State Duma</student_unit>
+        <total_cost>$910</total_cost>
+      </training>
+      <training>
+        <course_title>MET CIV-MILITARY RELATIONS</course_title>
+        <end_date>2/15/01</end_date>
+        <location>80 Russia</location>
+        <start_date>2/12/01</start_date>
+        <student_unit>Combined Arms Academy of the  Russian Armed Forces: 6 Council on Foreign and Defense  Policy: 2 Journalists: 6 MOD: 19 State Duma: 6 Military Academy of the General  Staff of the Russian Armed Forces:  6 Russian Academy of Sciences: 1 Federal Border Guards: 2 Diplomatic Academy: 3 Naval Academy: 2 Defense Observer: 6 Academy of the Military Sciences:  3 Russian Research Institute of  Cultural and Natural Heritage: 1 General Staff of the Russian  Armed Forces: 1 Moscow State University of  Commerce: 1 Strategic Rocket Forces: 1 Academy of the Russian Federal  Border Guards Service: 2 Center for Political and  International Studies: 1 Center of Retraining of the Retired  Military: 1 National Press Institute: 1 Non-Government Center for  Defense Research: 1 Ministry of Education: 1 Russian Social and Political Center:  1 Inter-Regional Foundation for  Information Technologies: 1 Serpukhov Military Institute of the  Strategic Rocket Forces: 1 Administrative Staff of the Russian  Government: 1 Collegium of Military Experts of  Russia: 1 Foundation for the Support of  Military Reform: 1</student_unit>
+        <total_cost>$45,100</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Russia">
+    <program name="NIS Region, Russia,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>MET DIILS</course_title>
+        <end_date>6/22/01</end_date>
+        <location>0 Russia</location>
+        <start_date>6/18/01</start_date>
+        <student_unit>Cancelled</student_unit>
+        <total_cost>$5,965</total_cost>
+      </training>
+      <training>
+        <course_title>MET DIILS JOINT CONUS PLAN</course_title>
+        <end_date>12/1/00</end_date>
+        <location>1</location>
+        <start_date>11/27/00</start_date>
+        <student_unit>Student count was 4  Ministry of  Defense Administrative Service:  3  ea Russian Constiutional Court:  1 ea</student_unit>
+        <total_cost>$22,050</total_cost>
+      </training>
+      <training>
+        <course_title>MIL &amp; PCKEEP OPS IAW ROL</course_title>
+        <end_date>5/18/01</end_date>
+        <location>1 NEWPORT, RI 02841-1523</location>
+        <start_date>4/16/01</start_date>
+        <student_unit>Russian State Duma</student_unit>
+        <total_cost>$13,990</total_cost>
+      </training>
+      <training>
+        <course_title>MIL &amp; PCKEEP OPS IAW ROL</course_title>
+        <end_date>5/18/01</end_date>
+        <location>1 NEWPORT, RI 02841-1523</location>
+        <start_date>4/16/01</start_date>
+        <student_unit>Cancelled</student_unit>
+        <total_cost>$10,352</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>6/15/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>4/16/01</start_date>
+        <student_unit>Cancelled</student_unit>
+        <total_cost>$1,135</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Russia">
+    <program name="DoS NIS Region, Russia,  Asia-Pacific Center, FY01">
+      <training>
+        <course_title>Executive Course 00-3</course_title>
+        <end_date>12/15/00</end_date>
+        <location>3 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>10/2/00</start_date>
+        <student_unit>Military Intl Cooperation; MOFA;  Diplomatic Academy</student_unit>
+        <total_cost>$35,473</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <end_date>4/12/01</end_date>
+        <location>1 Asia-Pacific Center for Security Studies  Honolulu, Hawaii</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>MOFA</student_unit>
+        <total_cost>$14,967</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <end_date>8/9/01</end_date>
+        <location>2 The study of regional security and  preventative defense by future leaders  within the region, focusing on the  non-warfighting aspects of security  and international relations</location>
+        <start_date>5/21/01</start_date>
+        <student_unit>Moscow State Unv; MOFA</student_unit>
+        <total_cost>$31,167</total_cost>
+        <us_unit>U.S. military staff and faculty</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Russia">
+    <program name="DoS NIS Region, Russia,  Marshall Center, FY01">
+      <training>
+        <course_title>Conferences</course_title>
+        <end_date>9/28/01</end_date>
+        <location>255 Various</location>
+        <start_date>11/11/00</start_date>
+        <student_unit>Multi Service Attendance</student_unit>
+        <total_cost>$250,618</total_cost>
+        <us_unit>N/A</us_unit>
+      </training>
+      <training>
+        <course_title>Resident Courses</course_title>
+        <end_date>9/30/01</end_date>
+        <location>37 Marshall Center Garmish GE</location>
+        <start_date>10/1/00</start_date>
+        <student_unit>N/A</student_unit>
+        <total_cost>$875,000</total_cost>
+        <us_unit>N/A</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Tajikistan">
+    <program name="DoS NIS Region, Tajikistan,  Marshall Center, FY01">
+      <training>
+        <course_title>Conferences</course_title>
+        <end_date>9/28/01</end_date>
+        <location>23 Various</location>
+        <start_date>11/11/00</start_date>
+        <student_unit>Multi Service Attendance</student_unit>
+        <total_cost>$55,687</total_cost>
+        <us_unit>N/A</us_unit>
+      </training>
+      <training>
+        <course_title>Resident Courses</course_title>
+        <end_date>9/30/01</end_date>
+        <location>14 Marshall Center Garmish GE</location>
+        <start_date>10/1/00</start_date>
+        <student_unit>N/A</student_unit>
+        <total_cost>$328,000</total_cost>
+        <us_unit>N/A</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Turkmenistan">
+    <program name="DoS NIS Region, Turkmenistan,  Miscellaneous, DOS/DOD, Non-Security Assistance (Note 3), FY01">
+      <training>
+        <course_title>MTT ENG/LOG ADMIN TRNG </course_title>
+        <end_date>5/4/01</end_date>
+        <location>30 Turkmenistan</location>
+        <start_date>4/30/01</start_date>
+        <student_unit>Border Guard Maritime Forces 82  foot "Point Jackson" class  patrol  boat crew.</student_unit>
+        <total_cost>$0</total_cost>
+      </training>
+      <training>
+        <course_title>MTT ENG/LOG ADMIN TRNG </course_title>
+        <end_date>7/6/01</end_date>
+        <location>30 Turkmenistan</location>
+        <start_date>6/25/01</start_date>
+        <student_unit>Border Guard Maritime Forces 82  foot "Point Jackson" class  patrol </student_unit>
+        <total_cost>$0</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Turkmenistan">
+    <program name="NIS Region, Turkmenistan,  Miscellaneous, DOS/DOD, Non-Security Assistance (Note 3), FY01">
+      <training>
+        <course_title>CG8</course_title>
+        <student_unit>boat crew.</student_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Turkmenistan">
+    <program name="DoS NIS Region, Turkmenistan,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>AIRBORNE</course_title>
+        <end_date>8/31/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>8/13/01</start_date>
+        <student_unit>Turkmenistan Army</student_unit>
+        <total_cost>$1,606</total_cost>
+      </training>
+      <training>
+        <course_title>AIRBORNE</course_title>
+        <end_date>8/24/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>8/6/01</start_date>
+        <student_unit>Turkmenistan Army</student_unit>
+        <total_cost>$1,312</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>1/12/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>12/30/00</start_date>
+        <student_unit>Turkmenistan Army</student_unit>
+        <total_cost>$4,819</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>1/12/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>12/30/00</start_date>
+        <student_unit>Turkmenistan Army</student_unit>
+        <total_cost>$4,819</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>1/12/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>12/30/00</start_date>
+        <student_unit>Turkmenistan Army</student_unit>
+        <total_cost>$4,819</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>6/8/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>6/1/01</start_date>
+        <student_unit>Turkmenistan Army</student_unit>
+        <total_cost>$4,022</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY MORTAR LEADER</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>6/18/01</start_date>
+        <student_unit>Turkmenistan Army</student_unit>
+        <total_cost>$4,243</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY MORTAR LEADER</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>6/18/01</start_date>
+        <student_unit>Turkmenistan Army</student_unit>
+        <total_cost>$4,845</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY OFFICER BASIC</course_title>
+        <end_date>5/18/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Turkmenistan Army</student_unit>
+        <total_cost>$8,813</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY OFFICER BASIC</course_title>
+        <end_date>5/18/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Turkmenistan Army</student_unit>
+        <total_cost>$7,245</total_cost>
+      </training>
+      <training>
+        <course_title>INSTRUCTOR TNG COURSE</course_title>
+        <end_date>6/15/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>6/4/01</start_date>
+        <student_unit>Turkmenistan Army</student_unit>
+        <total_cost>$368</total_cost>
+      </training>
+      <training>
+        <course_title>INSTRUCTOR TNG COURSE</course_title>
+        <end_date>6/15/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>6/4/01</start_date>
+        <student_unit>Turkmenistan Army</student_unit>
+        <total_cost>$368</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFFICER PREP</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>6/19/01</start_date>
+        <student_unit>Turkmenistan Army</student_unit>
+        <total_cost>$2,572</total_cost>
+      </training>
+      <training>
+        <course_title>LANGUAGE INSTRUCTOR/BASIC</course_title>
+        <end_date>7/13/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>1/8/01</start_date>
+        <student_unit>Turkmenistan Air Force</student_unit>
+        <total_cost>$12,917</total_cost>
+      </training>
+      <training>
+        <course_title>OJT COMM/ELECT  TNG-CONUS</course_title>
+        <end_date>8/18/01</end_date>
+        <location>1</location>
+        <start_date>7/30/01</start_date>
+        <student_unit>Turkmenistan Air Force</student_unit>
+        <total_cost>$3,441</total_cost>
+      </training>
+      <training>
+        <course_title>TAT-LANGUAGE LAB INSTALL</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0 Turkmenistan</location>
+        <start_date>10/1/00</start_date>
+        <student_unit>Ashgabat  Military Institute</student_unit>
+        <total_cost>$9,730</total_cost>
+      </training>
+      <training>
+        <course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>7/9/01</start_date>
+        <student_unit>Turkmenistan Army</student_unit>
+        <total_cost>$1,380</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Turkmenistan">
+    <program name="DoS NIS Region, Turkmenistan,  Section 1004 (Note 1), FY01">
+      <training>
+        <course_title>MSTI</course_title>
+        <end_date>6/2/01</end_date>
+        <location>0 Ashgabat</location>
+        <start_date>5/1/01</start_date>
+        <student_unit>Border Security Forces</student_unit>
+        <total_cost>$175,000</total_cost>
+        <us_unit>Cancelled</us_unit>
+      </training>
+      <training>
+        <course_title>MSTI PDSS</course_title>
+        <end_date>4/10/01</end_date>
+        <location>50 Ashgabat</location>
+        <start_date>4/3/01</start_date>
+        <student_unit>Border Security Forces</student_unit>
+        <total_cost>$175,000</total_cost>
+        <us_unit>5TH SFG</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Turkmenistan">
+    <program name="DoS NIS Region, Turkmenistan,  Marshall Center, FY01">
+      <training>
+        <course_title>Conferences</course_title>
+        <end_date>9/28/01</end_date>
+        <location>12 Various</location>
+        <start_date>11/11/00</start_date>
+        <student_unit>Multi Service Attendance</student_unit>
+        <total_cost>$29,552</total_cost>
+        <us_unit>N/A</us_unit>
+      </training>
+      <training>
+        <course_title>Resident Courses</course_title>
+        <end_date>9/30/01</end_date>
+        <location>2 Marshall Center Garmish GE</location>
+        <start_date>10/1/00</start_date>
+        <student_unit>N/A</student_unit>
+        <total_cost>$58,000</total_cost>
+        <us_unit>N/A</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Ukraine">
+    <program name="DoS NIS Region, Ukraine,  Exchange Training, FY01">
+      <training>
+        <course_title>Foreign Academy Exchg. Pr.</course_title>
+        <end_date>8/3/01</end_date>
+        <location>2 West Point</location>
+        <start_date>7/20/01</start_date>
+        <student_unit>Ukrainian Army</student_unit>
+        <us_unit>USMA</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Ukraine">
+    <program name="DoS NIS Region, Ukraine,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>ADJ GEN OFFICER BASIC</course_title>
+        <end_date>9/26/01</end_date>
+        <location>1 FT JACKSON SC 29207-7040</location>
+        <start_date>6/19/01</start_date>
+        <student_unit>Communications Department,  general Staff of the Armed Forces,  Kiev.</student_unit>
+        <total_cost>$3,549</total_cost>
+      </training>
+      <training>
+        <course_title>AIR TRAFFIC CONTROL OFF</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 KEESLER AFB, MS 39534-2354</location>
+        <start_date>4/26/01</start_date>
+        <student_unit>M/U#A4022, MOD, Odessa</student_unit>
+        <total_cost>$1,100</total_cost>
+      </training>
+      <training>
+        <course_title>AIRFIELD OPERATIONS OFFCR</course_title>
+        <end_date>5/21/01</end_date>
+        <location>1 KEESLER AFB, MS 39534-2354</location>
+        <start_date>2/20/01</start_date>
+        <student_unit>AFB, M/U #A4116, Uman.</student_unit>
+        <total_cost>$1,100</total_cost>
+      </training>
+      <training>
+        <course_title>ALC FOR EXPER INSTRS</course_title>
+        <end_date>3/30/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Khmelnitski Border Troops  Academy</student_unit>
+        <total_cost>$2,030</total_cost>
+      </training>
+      <training>
+        <course_title>ALC FOR EXPER INSTRS</course_title>
+        <end_date>3/30/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Khmelnitski Border Troops  Academy</student_unit>
+        <total_cost>$2,030</total_cost>
+      </training>
+      <training>
+        <course_title>ALC FOR EXPER INSTRS</course_title>
+        <end_date>3/30/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Kharkiv Institute of Interior Forces,  MOI.</student_unit>
+        <total_cost>$2,030</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE COURSE</course_title>
+        <end_date>2/16/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>12/18/00</start_date>
+        <student_unit>AFB, M/U #A4116, Uman.</student_unit>
+        <total_cost>$2,270</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE COURSE</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>4/9/01</start_date>
+        <student_unit>M/U #A4101, Chuguiv.</student_unit>
+        <total_cost>$3,740</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE COURSE</course_title>
+        <end_date>3/30/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>1/29/01</start_date>
+        <student_unit>Rescue and Parachute Service, M/U  #A2537, Lviv.</student_unit>
+        <total_cost>$2,270</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE COURSE</course_title>
+        <end_date>4/20/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>12/4/00</start_date>
+        <student_unit>M/U#A4022, MOD, Odessa</student_unit>
+        <total_cost>$4,965</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE COURSE</course_title>
+        <end_date>9/21/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>8/20/01</start_date>
+        <student_unit>M/U # A1686, Kremenchuk.</student_unit>
+        <total_cost>$645</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE COURSE</course_title>
+        <end_date>6/8/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>4/2/01</start_date>
+        <student_unit>Air Force Scientific Center, Kiev.</student_unit>
+        <total_cost>$2,515</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE COURSE</course_title>
+        <end_date>6/29/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>4/23/01</start_date>
+        <student_unit>Air Force</student_unit>
+        <total_cost>$1,258</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE COURSE</course_title>
+        <end_date>4/6/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>1/29/01</start_date>
+        <student_unit>M/U A0515, Kiev.</student_unit>
+        <total_cost>$1,258</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE CRS</course_title>
+        <end_date>7/13/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>4/9/01</start_date>
+        <student_unit>Military Institute of the National  Technical University, MOD, Kiev.</student_unit>
+        <total_cost>$3,495</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE CRS</course_title>
+        <end_date>4/20/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>1/15/01</start_date>
+        <student_unit>M/U #A0225, Sevastopol, Crimea.</student_unit>
+        <total_cost>$1,748</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE CRS</course_title>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>3/26/01</start_date>
+        <student_unit>Combat Training Directorate, Navy  HQ, Sevastopol.</student_unit>
+        <text>7/6/01</text>
+        <total_cost>$1,870</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE CRS</course_title>
+        <end_date>8/17/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>5/7/01</start_date>
+        <student_unit>National Scientific-Research Center  of Defense Technologies, MOD,  Kiev.</student_unit>
+        <total_cost>$1,870</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE CRS</course_title>
+        <end_date>8/31/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>4/30/01</start_date>
+        <student_unit>National Defense and Security  Council, Kiev</student_unit>
+        <total_cost>$4,475</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE CRS</course_title>
+        <end_date>8/31/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>6/18/01</start_date>
+        <student_unit>M/U #A0348, Lviv</student_unit>
+        <total_cost>$2,760</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE CRS</course_title>
+        <end_date>8/17/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>5/7/01</start_date>
+        <student_unit>Department of Air Mobile Forces,  General; Staff of the Armed  Forces, MOD, Kiev</student_unit>
+        <total_cost>$1,870</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE CRS</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>1/2/01</start_date>
+        <student_unit>Research and Resue Coordination  Section, M/U#A0535, MOD, Kiev.</student_unit>
+        <total_cost>$7,170</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE CRS</course_title>
+        <end_date>6/22/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>4/9/01</start_date>
+        <student_unit>M/U #A3848, MOD, Vinnitsa</student_unit>
+        <total_cost>$2,760</total_cost>
+      </training>
+      <training>
+        <course_title>AUTO ORGANIZATIONAL MAINT</course_title>
+        <end_date>9/21/01</end_date>
+        <location>1 CAMP LEJEUNE, NC 28542-0041</location>
+        <start_date>6/25/01</start_date>
+        <student_unit>M/U #A3848, MOD, Vinnitsa</student_unit>
+        <total_cost>$3,313</total_cost>
+      </training>
+      <training>
+        <course_title>BASIC JOURNALIST</course_title>
+        <end_date>5/30/01</end_date>
+        <location>1 FT GEORGE G.  MEADE MD  20755-5620</location>
+        <start_date>3/7/01</start_date>
+        <student_unit>M/U# A1735, Zhytomir.</student_unit>
+        <total_cost>$3,359</total_cost>
+      </training>
+      <training>
+        <course_title>CIV-MIL SID - EURO</course_title>
+        <end_date>2/16/01</end_date>
+        <location>1 HURLBURT FIELD, FL 32544-5826</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Internal Forces, Ministry of  Interior, Kiev</student_unit>
+        <total_cost>$1,790</total_cost>
+      </training>
+      <training>
+        <course_title>CIV-MIL SID - EURO</course_title>
+        <end_date>2/16/01</end_date>
+        <location>1 HURLBURT FIELD, FL 32544-5826</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Air Force Scientific Center, Kiev.</student_unit>
+        <total_cost>$1,790</total_cost>
+      </training>
+      <training>
+        <course_title>COMB STRAT INTEL TNG PRGM</course_title>
+        <end_date>6/1/01</end_date>
+        <location>1 WASHINGTON DC 20340-5100</location>
+        <start_date>4/16/01</start_date>
+        <student_unit>M/U A0515, Kiev.</student_unit>
+        <total_cost>$3,080</total_cost>
+      </training>
+      <training>
+        <course_title>COMB STRAT INTEL TNG PRGM</course_title>
+        <end_date>11/17/00</end_date>
+        <location>1 WASHINGTON DC 20340-5100</location>
+        <start_date>10/2/00</start_date>
+        <student_unit>Kiev Air Force Institute Kiev Air Force Institute</student_unit>
+        <total_cost>$3,080</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Ukraine">
+    <program name="NIS Region, Ukraine,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>CONTR BRIDGE SIMULATOR </course_title>
+        <end_date>8/17/01</end_date>
+        <location>1 SAN DIEGO, CA 92155-5490</location>
+        <start_date>8/16/01</start_date>
+        <student_unit>M/U #A0225, Sevastopol, Crimea.</student_unit>
+        <total_cost>$3,000</total_cost>
+      </training>
+      <training>
+        <course_title>DEF RES MGT CRS</course_title>
+        <end_date>9/14/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>8/20/01</start_date>
+        <student_unit>National Scientific-Research Center  of Defense Technologies, MOD,  Kiev.</student_unit>
+        <total_cost>$4,102</total_cost>
+      </training>
+      <training>
+        <course_title>DEF RES MGT CRS</course_title>
+        <end_date>9/14/01</end_date>
+        <location>1 MONTEREY, CA 93943-5201</location>
+        <start_date>8/20/01</start_date>
+        <student_unit>Forces, MOD, Kiev</student_unit>
+        <total_cost>$4,102</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>4/2/01</start_date>
+        <student_unit>M/U/ #A2185, Bila Tserkva.</student_unit>
+        <total_cost>$3,985</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>8/24/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>5/14/01</start_date>
+        <student_unit>Reccconaissance Company, M/U  #A0279, Crimea.</student_unit>
+        <total_cost>$3,740</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>5/18/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>4/2/01</start_date>
+        <student_unit>Engineer Training Platoon, M/U  #A2237, Kamianets-Podilskiy.</student_unit>
+        <total_cost>$1,780</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>4/23/01</start_date>
+        <student_unit>High Military Engineer Institute,  Kamianets-Podilskiy</student_unit>
+        <total_cost>$3,250</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>4/23/01</start_date>
+        <student_unit>Center for Automatic Control  Systems, General Staff of the  Armed Forces, Kiev.</student_unit>
+        <total_cost>$3,250</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>4/20/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>12/4/00</start_date>
+        <student_unit>M/U# A0166, Kiev.</student_unit>
+        <total_cost>$4,965</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>6/8/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Separate Radio-Electronic Warfare  Battalion, M/U #A0804, </student_unit>
+        <total_cost>$4,965</total_cost>
+      </training>
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>6/15/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>2/26/01</start_date>
+        <student_unit>Military Cooperation and  Verification Directorate, MOD, Kiev</student_unit>
+        <total_cost>$3,985</total_cost>
+      </training>
+      <training>
+        <course_title>GENERAL ENGLISH ONLY</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>5/14/01</start_date>
+        <student_unit>Combat Training Directorate, Navy  HQ, Sevastopol.</student_unit>
+        <total_cost>$2,025</total_cost>
+      </training>
+      <training>
+        <course_title>GENERAL ENGLISH ONLY</course_title>
+        <end_date>8/31/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>4/16/01</start_date>
+        <student_unit>Department of International  Cooperation, MOD, Kiev</student_unit>
+        <total_cost>$4,965</total_cost>
+      </training>
+      <training>
+        <course_title>GENERAL ENGLISH ONLY</course_title>
+        <end_date>4/27/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>4/9/01</start_date>
+        <student_unit>M/U #A0225, Sevastopol, Crimea.</student_unit>
+        <total_cost>$800</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIO INTEL OFF BASIC</course_title>
+        <end_date>8/24/01</end_date>
+        <location>1 FT HUACHUCA AZ 85613-7000</location>
+        <start_date>6/11/01</start_date>
+        <student_unit>Separate Radio-Electronic Warfare  Battalion, M/U #A0804, </student_unit>
+        <total_cost>$4,087</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIO INTEL OFF BASIC</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 FT HUACHUCA AZ 85613-7000</location>
+        <start_date>5/3/01</start_date>
+        <student_unit>M/U# A0166, Kiev.</student_unit>
+        <total_cost>$4,087</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFFICER PREP</course_title>
+        <end_date>7/6/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>6/19/01</start_date>
+        <student_unit>Center for Operational Training  Department, National Defense  Academy, MOD, Kiev</student_unit>
+        <total_cost>$847</total_cost>
+      </training>
+      <training>
+        <course_title>INTL OFF SCH &amp; SOS</course_title>
+        <end_date>6/29/01</end_date>
+        <location>1 MAXWELL AFB, AL 36112-6323</location>
+        <start_date>4/9/01</start_date>
+        <student_unit>Rescue and Parachute Service, M/U  #A2537, Lviv.</student_unit>
+        <total_cost>$4,080</total_cost>
+      </training>
+      <training>
+        <course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 MAXWELL AFB, AL 36112-6323</location>
+        <start_date>6/18/01</start_date>
+        <student_unit>Air Force Scientific Center, Kiev.</student_unit>
+        <total_cost>$3,360</total_cost>
+      </training>
+      <training>
+        <course_title>JOINT TRANSITION COURSE</course_title>
+        <end_date>4/5/01</end_date>
+        <location>1 NORFOLK, VA 23511-1702</location>
+        <start_date>4/2/01</start_date>
+        <student_unit>Multinational Staff officer Courses,  National Defense Academy, MOD,  Kiev</student_unit>
+        <total_cost>$456</total_cost>
+      </training>
+      <training>
+        <course_title>JT/COMB STAFF OFFICER SCHL</course_title>
+        <end_date>6/29/01</end_date>
+        <location>1 NORFOLK, VA 23511-1702</location>
+        <start_date>4/9/01</start_date>
+        <student_unit>Multinational Staff Officer  Courses, National Defense  Academy, MOD, Kiev</student_unit>
+        <total_cost>$4,965</total_cost>
+      </training>
+      <training>
+        <course_title>JUDGE ADVOCATE STAFF OFF</course_title>
+        <end_date>9/21/01</end_date>
+        <location>1 MAXWELL AFB, AL 36112-6323</location>
+        <start_date>7/23/01</start_date>
+        <student_unit>M/U #A4101, Chuguiv.</student_unit>
+        <total_cost>$2,550</total_cost>
+      </training>
+      <training>
+        <course_title>MET DIILS</course_title>
+        <end_date>5/25/01</end_date>
+        <location>488 Ukraine</location>
+        <start_date>5/16/01</start_date>
+        <student_unit>National  Law Academy, 404  students (Kharkiv), Department of  International Cooperation, MOD  (Kiev), 46 students</student_unit>
+        <total_cost>$55,934</total_cost>
+      </training>
+      <training>
+        <course_title>MET DIILS JOINT CONUS PLAN</course_title>
+        <end_date>4/20/01</end_date>
+        <location>5</location>
+        <start_date>4/16/01</start_date>
+        <student_unit>Kharkiv National Law Academy  staff (4 persons)</student_unit>
+        <total_cost>$8,682</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Ukraine">
+    <program name="NIS Region, Ukraine,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>OAC INTL STUDENT ENGR PREP</course_title>
+        <end_date>8/10/01</end_date>
+        <location>1 FT LEONARD WOOD MO 65473-5000</location>
+        <start_date>8/6/01</start_date>
+        <student_unit>High Military Engineer Institute,  Kamianets-Podilskiy</student_unit>
+        <total_cost>$209</total_cost>
+      </training>
+      <training>
+        <course_title>OAC INTL STUDENT MP PREP</course_title>
+        <end_date>8/10/01</end_date>
+        <location>1 FT LEONARD WOOD MO 65473-5000</location>
+        <start_date>8/6/01</start_date>
+        <student_unit>M/U/ #A2185, Bila Tserkva.</student_unit>
+        <total_cost>$319</total_cost>
+      </training>
+      <training>
+        <course_title>OBC INTERNATION ENR PREP</course_title>
+        <end_date>6/1/01</end_date>
+        <location>1 FT LEONARD WOOD MO 65473-5000</location>
+        <start_date>5/29/01</start_date>
+        <student_unit>Engineer Training Platoon, M/U  #A2237, Kamianets-Podilskiy.</student_unit>
+        <total_cost>$209</total_cost>
+      </training>
+      <training>
+        <course_title>OBC INTERNATIONAL MP PREP</course_title>
+        <end_date>9/14/01</end_date>
+        <location>1 FT LEONARD WOOD MO 65473-5000</location>
+        <start_date>9/10/01</start_date>
+        <student_unit>Reccconaissance Company, M/U  #A0279, Crimea.</student_unit>
+        <total_cost>$316</total_cost>
+      </training>
+      <training>
+        <course_title>SPEC ENG LANG TRNG  (SET)</course_title>
+        <end_date>8/31/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>7/2/01</start_date>
+        <student_unit>Center of Military Cooperation and  Verification, MOD, Kiev.</student_unit>
+        <total_cost>$2,270</total_cost>
+      </training>
+      <training>
+        <course_title>SPEC ENG LANG TRNG  (SET)</course_title>
+        <end_date>8/31/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236-5259</location>
+        <start_date>7/2/01</start_date>
+        <student_unit>615 Military Representation of the  MOD, Kiev.</student_unit>
+        <total_cost>$2,270</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>6/8/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>4/9/01</start_date>
+        <student_unit>Communications Department,  general Staff of the Armed Forces,  Kiev.</student_unit>
+        <total_cost>$2,270</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>6/8/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>4/9/01</start_date>
+        <student_unit>Center for Operational Training  Department, National Defense  Academy, MOD, Kiev</student_unit>
+        <total_cost>$2,270</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <end_date>4/19/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>2/19/01</start_date>
+        <student_unit>M/U #A0807, Lviv Region</student_unit>
+        <total_cost>$2,270</total_cost>
+      </training>
+      <training>
+        <course_title>SUPPLY MGMT SFO NAVY</course_title>
+        <end_date>9/20/01</end_date>
+        <location>1 ATHENS, GA 30606-2205</location>
+        <start_date>7/30/01</start_date>
+        <student_unit>Research and Resue Coordination  Section, M/U#A0535, MOD, Kiev.</student_unit>
+        <total_cost>$6,483</total_cost>
+      </training>
+      <training>
+        <course_title>SWOS - INTL</course_title>
+        <end_date>8/15/01</end_date>
+        <location>1 SAN DIEGO, CA 92155-5099</location>
+        <start_date>4/30/01</start_date>
+        <student_unit>M/U #A0225, Sevastopol, Crimea.</student_unit>
+        <total_cost>$4,263</total_cost>
+      </training>
+      <training>
+        <course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+        <end_date>7/20/01</end_date>
+        <location>1 FT LEAVENWORTH KS 66027-1352</location>
+        <start_date>7/9/01</start_date>
+        <student_unit>Center for Operational Training  Department, National Defense  Academy, MOD, Kiev</student_unit>
+        <total_cost>$680</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Ukraine">
+    <program name="DoS NIS Region, Ukraine,  Foreign Military Financing (FMF), FY01">
+      <training>
+        <course_title>ADV LANG PROFICIENCY SKILL</course_title>
+        <end_date>8/17/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>5/28/01</start_date>
+        <student_unit>Military Institute of the Kiev State  University, MOD, Kiev</student_unit>
+        <total_cost>$3,010</total_cost>
+      </training>
+      <training>
+        <course_title>ALC FOR EXPER INSTRS</course_title>
+        <end_date>3/30/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Military Institute of Lviv  Politechnics Institute</student_unit>
+        <total_cost>$2,030</total_cost>
+      </training>
+      <training>
+        <course_title>ALC FOR EXPER INSTRS</course_title>
+        <end_date>3/30/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Sumy Army Artillery Institute,  MOD.</student_unit>
+        <total_cost>$2,030</total_cost>
+      </training>
+      <training>
+        <course_title>ALC FOR EXPER INSTRS</course_title>
+        <end_date>3/30/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>2/5/01</start_date>
+        <student_unit>Sevastopol Naval Institute, MOD</student_unit>
+        <total_cost>$2,030</total_cost>
+      </training>
+      <training>
+        <course_title>MET IHRM PH II CONUS</course_title>
+        <end_date>6/8/01</end_date>
+        <location>1 MONTEREY, CA 93943-5301</location>
+        <start_date>6/4/01</start_date>
+        <student_unit>Navy</student_unit>
+        <total_cost>$6,488</total_cost>
+      </training>
+      <training>
+        <course_title>MET IHRM PH IV</course_title>
+        <end_date>2/2/01</end_date>
+        <location>30 Ukraine</location>
+        <start_date>1/22/01</start_date>
+        <student_unit>Main Military Medical Directorate,  Kiev, MOD</student_unit>
+        <total_cost>$13,806</total_cost>
+      </training>
+      <training>
+        <course_title>MET IHRM PH IV</course_title>
+        <end_date>11/3/00</end_date>
+        <location>30 Ukraine</location>
+        <start_date>10/30/00</start_date>
+        <student_unit>Main Military Medical Directorate,  Kiev, MOD</student_unit>
+        <total_cost>$21,000</total_cost>
+      </training>
+      <training>
+        <course_title>MTT-WHEEL VEHICLE MAINT</course_title>
+        <end_date>3/30/01</end_date>
+        <location>30 Ukraine</location>
+        <start_date>12/15/00</start_date>
+        <student_unit>Army</student_unit>
+        <total_cost>$65,650</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Ukraine">
+    <program name="DoS NIS Region, Ukraine,  Enhanced International Peacekeeping Capabilities (EPIC), FY01">
+      <training>
+        <course_title>EIPC INSTRUCTORS COURSE</course_title>
+        <end_date>3/9/01</end_date>
+        <location>1 MONTEREY, CA 93943-5001</location>
+        <start_date>2/26/01</start_date>
+        <student_unit>Multinational Staff Officer  Courses, National Defense  Academy, MOD</student_unit>
+        <total_cost>$0</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Ukraine">
+    <program name="NIS Region, Ukraine,  Enhanced International Peacekeeping Capabilities (EPIC), FY01">
+      <training>
+        <course_title>EIPC INSTRUCTORS COURSE</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 MONTEREY, CA 93943-5001</location>
+        <start_date>7/16/01</start_date>
+        <student_unit>Operational Directorate, Ground  Forces Staff, Armed Forces of  Ukraine</student_unit>
+        <total_cost>$0</total_cost>
+      </training>
+      <training>
+        <course_title>EIPC INSTRUCTORS COURSE</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 MONTEREY, CA 93943-5001</location>
+        <start_date>7/16/01</start_date>
+        <student_unit>310 Motorized Regiment, 24  Motorized Division, 13 Army  Corps, Western Operational  Command, MOD</student_unit>
+        <total_cost>$0</total_cost>
+      </training>
+      <training>
+        <course_title>EIPC INSTRUCTORS COURSE</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 MONTEREY, CA 93943-5001</location>
+        <start_date>7/16/01</start_date>
+        <student_unit>Military Cooperation and  Verification Directorate, MOD</student_unit>
+        <total_cost>$0</total_cost>
+      </training>
+      <training>
+        <course_title>EIPC INSTRUCTORS COURSE</course_title>
+        <end_date>3/9/01</end_date>
+        <location>1 MONTEREY, CA 93943-5001</location>
+        <start_date>2/26/01</start_date>
+        <student_unit>Multinational Staff Officer  Courses, National Defense  Academy, MOD</student_unit>
+        <total_cost>$0</total_cost>
+      </training>
+      <training>
+        <course_title>EIPC INSTRUCTORS COURSE</course_title>
+        <end_date>3/9/01</end_date>
+        <location>1 MONTEREY, CA 93943-5001</location>
+        <start_date>2/26/01</start_date>
+        <student_unit>Multinational Staff Officer  Courses, National Defense  Academy, MOD</student_unit>
+        <total_cost>$0</total_cost>
+      </training>
+      <training>
+        <course_title>EIPC INSTRUCTORS COURSE</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 MONTEREY, CA 93943-5001</location>
+        <start_date>7/16/01</start_date>
+        <student_unit>Military Cooperation and  Verification Directorate, MOD</student_unit>
+        <total_cost>$0</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Ukraine">
+    <program name="DoS NIS Region, Ukraine,  Marshall Center, FY01">
+      <training>
+        <course_title>Conferences</course_title>
+        <end_date>9/28/01</end_date>
+        <location>86 Various</location>
+        <start_date>11/11/00</start_date>
+        <student_unit>Multi Service Attendance</student_unit>
+        <total_cost>$223,450</total_cost>
+        <us_unit>N/A</us_unit>
+      </training>
+      <training>
+        <course_title>Resident Courses</course_title>
+        <end_date>9/30/01</end_date>
+        <location>29 Marshall Center Garmish GE</location>
+        <start_date>10/1/00</start_date>
+        <student_unit>N/A</student_unit>
+        <total_cost>$709,000</total_cost>
+        <us_unit>N/A</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Uzbekistan">
+    <program name="DoS NIS Region, Uzbekistan,  Miscellaneous, DOS/DOD, Non-Security Assistance (Note 3), FY01">
+      <training>
+        <course_title>MTT OTHER - USCG O/S</course_title>
+        <end_date>4/6/01</end_date>
+        <location>0 Uzbekistan</location>
+        <start_date>4/2/01</start_date>
+        <student_unit>Navy</student_unit>
+        <total_cost>$0</total_cost>
+      </training>
+      <training>
+        <course_title>MTT OTHER - USCG O/S</course_title>
+        <end_date>2/6/01</end_date>
+        <location>30 Uzbekistan</location>
+        <start_date>2/1/01</start_date>
+        <student_unit>Navy</student_unit>
+        <total_cost>$0</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Uzbekistan">
+    <program name="DoS NIS Region, Uzbekistan,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>AIRBORNE</course_title>
+        <end_date>11/9/00</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>10/23/00</start_date>
+        <student_unit>Chief of Radioelectronic warfare  training center</student_unit>
+        <total_cost>$1,606</total_cost>
+      </training>
+      <training>
+        <course_title>AIRBORNE</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>7/9/01</start_date>
+        <student_unit>SF team leader</student_unit>
+        <total_cost>$2,392</total_cost>
+      </training>
+      <training>
+        <course_title>AIRBORNE</course_title>
+        <end_date>2/2/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>1/16/01</start_date>
+        <student_unit>SF team leader</student_unit>
+        <total_cost>$1,817</total_cost>
+      </training>
+      <training>
+        <course_title>AIRBORNE</course_title>
+        <end_date>2/2/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>1/16/01</start_date>
+        <student_unit>SF team leader</student_unit>
+        <total_cost>$1,817</total_cost>
+      </training>
+      <training>
+        <course_title>ARMY-PCHT</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$6,887</total_cost>
+      </training>
+      <training>
+        <course_title>ARMY-PCHT</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$6,887</total_cost>
+      </training>
+      <training>
+        <course_title>ARMY-PCHT</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$7,896</total_cost>
+      </training>
+      <training>
+        <course_title>ARMY-PCHT</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$6,887</total_cost>
+      </training>
+      <training>
+        <course_title>ARMY-PCHT</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>6/15/01</start_date>
+        <total_cost>$5,636</total_cost>
+      </training>
+      <training>
+        <course_title>ARMY-PCHT</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$7,896</total_cost>
+      </training>
+      <training>
+        <course_title>ARMY-PCHT</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>6/15/01</start_date>
+        <total_cost>$5,636</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Uzbekistan">
+    <program name="NIS Region, Uzbekistan,  International Military Education and Training (IMET), FY01">
+      <training>
+        <course_title>ENGLISH LANGUAGE CRSE</course_title>
+        <end_date>2/16/01</end_date>
+        <location>1 SAN ANTONIO TX 78236-5259</location>
+        <start_date>11/27/00</start_date>
+        <student_unit>SF team leader</student_unit>
+        <total_cost>$6,281</total_cost>
+      </training>
+      <training>
+        <course_title>GENERAL ENGLISH ONLY</course_title>
+        <end_date>2/2/01</end_date>
+        <location>1 LACKLAND AFB, TX 78236</location>
+        <start_date>1/8/01</start_date>
+        <student_unit>Uzbekistan Air Force</student_unit>
+        <total_cost>$523</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY OFFICER BASIC</course_title>
+        <end_date>6/22/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>2/26/01</start_date>
+        <student_unit>SF team leader</student_unit>
+        <total_cost>$9,975</total_cost>
+      </training>
+      <training>
+        <course_title>INSTRUCTOR TRAINING</course_title>
+        <end_date>4/27/01</end_date>
+        <location>1 FT BRAGG NC 28310</location>
+        <start_date>4/16/01</start_date>
+        <student_unit>SF team leader</student_unit>
+        <total_cost>$1,128</total_cost>
+      </training>
+      <training>
+        <course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+        <end_date>7/27/01</end_date>
+        <location>1 MAXWELL AFB, AL 36112-6323</location>
+        <start_date>6/18/01</start_date>
+        <student_unit>Air Traffic Control Officer</student_unit>
+        <total_cost>$7,350</total_cost>
+      </training>
+      <training>
+        <course_title>JAG OFFICER BASIC</course_title>
+        <end_date>12/22/00</end_date>
+        <location>1 CHARLOTTESVILLE VA 22903-1781</location>
+        <start_date>10/13/00</start_date>
+        <student_unit>Senior Officer Inernational Dept.  NATO section</student_unit>
+        <total_cost>$5,838</total_cost>
+      </training>
+      <training>
+        <course_title>RANGER</course_title>
+        <end_date>2/6/01</end_date>
+        <location>1 FT BENNING GA 31905-5468</location>
+        <start_date>11/27/00</start_date>
+        <student_unit>Chief of Radioelectronic warfare  training center</student_unit>
+        <total_cost>$7,032</total_cost>
+      </training>
+      <training>
+        <course_title>SF OPNS DETACH OFF QUAL</course_title>
+        <end_date>8/31/01</end_date>
+        <location>1 FT BRAGG NC 28310</location>
+        <start_date>2/22/01</start_date>
+        <student_unit>SF team leader</student_unit>
+        <total_cost>$15,695</total_cost>
+      </training>
+      <training>
+        <course_title>SF OPNS DETACH OFF QUAL</course_title>
+        <end_date>8/31/01</end_date>
+        <location>1 FT BRAGG NC 28310</location>
+        <start_date>2/22/01</start_date>
+        <student_unit>SF team leader</student_unit>
+        <total_cost>$18,368</total_cost>
+      </training>
+      <training>
+        <course_title>TAT-LANGUAGE LAB INSTALL</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0 Uzbekistan</location>
+        <start_date>6/15/01</start_date>
+        <student_unit>Army</student_unit>
+        <total_cost>$18,000</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$16,450</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$3,989</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$16,450</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$6,190</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$12,940</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>6/15/01</start_date>
+        <total_cost>$5,187</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>6/15/01</start_date>
+        <total_cost>$1,180</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>6/15/01</start_date>
+        <total_cost>$21,809</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>6/15/01</start_date>
+        <total_cost>$5,187</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$5,187</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>6/15/01</start_date>
+        <total_cost>$21,809</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$28,065</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$6,198</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$12,940</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$1,180</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$28,065</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$5,187</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$28,065</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$5,187</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$1,180</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>6/15/01</start_date>
+        <total_cost>$1,180</total_cost>
+      </training>
+      <training>
+        <course_title>TRAINING AIDS &amp; DEVICES</course_title>
+        <end_date>9/30/01</end_date>
+        <location>0</location>
+        <start_date>10/1/00</start_date>
+        <total_cost>$1,180</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Uzbekistan">
+    <program name="DoS NIS Region, Uzbekistan,  Section 1004 (Note 1), FY01">
+      <training>
+        <course_title>MSTI</course_title>
+        <end_date>8/28/01</end_date>
+        <location>50 Taskent</location>
+        <start_date>7/1/01</start_date>
+        <student_unit>Border Security Forces</student_unit>
+        <total_cost>$150,000</total_cost>
+        <us_unit>5TH SFG</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Uzbekistan">
+    <program name="DoS NIS Region, Uzbekistan,  Marshall Center, FY01">
+      <training>
+        <course_title>Conferences</course_title>
+        <end_date>9/28/01</end_date>
+        <location>34 Various</location>
+        <start_date>11/11/00</start_date>
+        <student_unit>Multi Service Attendance</student_unit>
+        <total_cost>$76,912</total_cost>
+        <us_unit>N/A</us_unit>
+      </training>
+      <training>
+        <course_title>Resident Courses</course_title>
+        <end_date>9/30/01</end_date>
+        <location>6 Marshall Center Garmish GE</location>
+        <start_date>10/1/00</start_date>
+        <student_unit>N/A</student_unit>
+        <total_cost>$403,000</total_cost>
+        <us_unit>N/A</us_unit>
+      </training>
+    </program>
+  </country>
+  <country name="Uzbekistan">
+    <program name="NIS Region, Uzbekistan,  Marshall Center, FY01"/>
+  </country>
+</countries>
