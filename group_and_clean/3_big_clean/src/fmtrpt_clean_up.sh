@@ -2,7 +2,8 @@
 #
 # Cleaners: process aggregated FMTRPT dataset using an awkful lot of awk
 #
-# tl / 2019-07-16
+# tl / 	2019-07-16
+#	2019-12-06 updated
 #
 # Script safety and debugging
 
@@ -12,7 +13,7 @@ shopt -s failglob
 # Declare variables
 # Source for input data (and derived products by filename)
 
-i="fmtrpt_all_20190716.tsv"
+i="fmtrpt_all_20191206.tsv"
 
 # Add a column for ISO
 
@@ -285,6 +286,7 @@ awk 'BEGIN { FS=OFS="\t"}; {$1 = "\"0\"" FS $1; print $0}' "notes/3_${i}" \
 	> "notes/4_${i}"
 
 # The source UUID is SFM's citation management device; we'll also use it later to add in some other data
+# Remember to update this each time the script is run
 
 echo "Bringing in source ID numbers"
 
@@ -307,6 +309,7 @@ awk '			BEGIN { FS=OFS="\t" } \
 			{ if ($2 ~ /^\"2015_/) $1="\"7afbcfe9-7e9d-4a45-8c24-c9246a4b250e\""} \
 			{ if ($2 ~ /^\"2016_/) $1="\"841f634e-6db0-4c1c-a2e3-4d6ff76505d4\""} \
 			{ if ($2 ~ /^\"2017_/) $1="\"8602229d-5b77-42e5-b1bc-83fad2eda1b9\""} \
+			{ if ($2 ~ /^\"2018_/) $1="\"8d439057-bc2d-4141-8ff3-48d6842150eb\""} \
 			{ print $0 }' \
 			"notes/4_${i}" \
 		> "notes/5_${i}"
@@ -486,6 +489,7 @@ awk 	'BEGIN { FS=OFS="\t" }	;											\
 	 { gsub(/"/,"",$16) } ;												\
 	 { if (NR > 1 && $16 ~ /\.htm/) $16 = "https:\/\/2009-2017.state.gov\/t\/pm\/rls\/rpt\/fmtrpt\/2007\/" $16  ; 	\
 	   else if (NR > 1 && $16 == "") $16 = "Error: no source provided" ;							\
+	   else if (NR > 1 && $16 ~ /FMT_Volume-I_FY2018_2019/ ) $16 = "https:\/\/www.state.gov\/wp-content\/uploads\/2019\/12\/FMT_Volume-I_FY2018_2019.pdf" ; \
 	   else if (NR > 1 ) $16 = "https:\/\/2009-2017.state.gov\/documents\/organization\/" $16 ".pdf" ;		\
 	   if (NR == 1 ) $16 = "source_url" ; 										\
 	   gsub(/^/,"\"",$16) ; gsub(/$/,"\"",$16) } ;									\
@@ -526,6 +530,7 @@ awk 'BEGIN { FS=OFS="\t"}; { $17 = $17 FS "\"date_first_seen\""; print $0 }' "no
 		{if ($1 ~ /7afbcfe9-7e9d-4a45-8c24-c9246a4b250e/) $18 = "\"2016\"" } 		\
 		{if ($1 ~ /841f634e-6db0-4c1c-a2e3-4d6ff76505d4/) $18 = "\"2017-10-27\"" } 	\
 		{if ($1 ~ /8602229d-5b77-42e5-b1bc-83fad2eda1b9/) $18 = "\"2018-08-15\"" } 	\
+		{if ($1 ~ /8d439057-bc2d-4141-8ff3-48d6842150eb/) $18 = "\"2019-12-06\"" }	\
 		{ print $0 }'\
 		> notes/18_${i}
 
@@ -534,7 +539,10 @@ awk 'BEGIN { FS=OFS="\t"}; { $17 = $17 FS "\"date_first_seen\""; print $0 }' "no
 
 echo "Adding data_scraped column, and putting current scrape/parse date in there"
 
-awk 'BEGIN { FS=OFS="\t"}; { $18 = $18 FS "\"2019-07-17\""; print $0 }' "notes/18_${i}" \
+awk 'BEGIN { FS=OFS="\t"} \
+		{if ($1 ~ /8d439057-bc2d-4141-8ff3-48d6842150eb/) $18 = $18 FS "\"2019-12-06\""} \
+		{if ($1 !~ /8d439057-bc2d-4141-8ff3-48d6842150eb/) $18 = $18 FS "\"2019-07-16\""} \
+		{print $0}' "notes/18_${i}" \
 	| awk 'BEGIN { FS=OFS="\t"} ; {if (NR==1) $19 = "\"date_scraped\"" ; print $0}' \
 	> notes/19_${i}
 

@@ -1,6 +1,7 @@
 # FMTRPT aggregations and clean-up overview
 
 tl / 2019-07-16
+     2019-12-06
 
 ## What does the clean up script actually do?
 
@@ -29,7 +30,9 @@ input -> 1: adds new column for ISO_3166_1 codes
 
 There are more detailed descriptions of each step in the script itself.
 
-Broadly, the script changes the data thus:
+# Things to remember when incorporating data from new reports
 
-Starting: ~ 208,000 rows and 12 columns
-Ending: ~201,700 rows and 17 columns
+ * Create a new uuid for the new report and add it in
+ * Ensure that the "data first seen" value is specified for the sources
+ * Update the URL for the source
+ * Update the date scraped value

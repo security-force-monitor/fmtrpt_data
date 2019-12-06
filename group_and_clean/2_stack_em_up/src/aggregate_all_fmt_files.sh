@@ -2,7 +2,8 @@
 #
 # Stack FMTRPT data files into single output
 #
-# tl 2019-07-17
+# tl	2019-07-17
+#	2019-12-06 updated
 #
 # Script safety and debug
 
@@ -15,4 +16,4 @@ shopt -s failglob
 
 csvstack --filenames --tabs input/*fmtrpt.tsv \
 	| csvformat -T -U "1" \
-	> output/fmtrpt_all_20190717.tsv
+	> output/fmtrpt_all_20191206.tsv

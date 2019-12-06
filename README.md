@@ -1,9 +1,8 @@
 # Foreign Military and Training Report: Parsing project
 
-A dataset on unclassified training activities for non-US security forces arranged and funded by the United States Department of State and Department of Defence between 2001 and 2018. Sources, scraping, cleaning and publishing toolset included.
+A dataset on unclassified training activities for non-US security forces arranged and funded by the United States Department of State and Department of Defence between 2001 and 2019. Sources, scraping, cleaning and publishing toolset included.
 
 Access the data at: [https://trainingdata.securityforcemonitor.org](https://trainingdata.securityforcemonitor.org)
-
 
 ## 1. Overview
 
@@ -13,7 +12,7 @@ A key question we have is whether specific units and personnel implicated in hum
 
 These questions can in part be answered by looking at the joint Department of State and Department of Defence report, "Foreign Military Training and DoD Engagement Activities of Interest". Released annually since 2000 (the 2000 report covered the U.S. government's fiscal year 1999-2000) this important, statutorily-mandated report shows in great detail how the US has spent much of its training and assistance budget, and with what aims. Generally, the US Department of State will release these reports as PDFs. They  can be found at the following locations online:
 
- * FY 2016-2017 onwards are available here: [https://www.state.gov/foreign-military-training-and-dod-engagement-activities-of-interest/](https://www.state.gov/foreign-military-training-and-dod-engagement-activities-of-interest/)
+ * FY 2016-2019 onwards are available here: [https://www.state.gov/foreign-military-training-and-dod-engagement-activities-of-interest/](https://www.state.gov/foreign-military-training-and-dod-engagement-activities-of-interest/)
  * FY 1999-2000 to FY 2015-2016: [https://2009-2017.state.gov/t/pm/rls/rpt/fmtrpt/index.htm](https://2009-2017.state.gov/t/pm/rls/rpt/fmtrpt/index.htm)
 
 Training activities that were completed in each fiscal year are recorded in `Volume I: Section IV` of the report, mostly in tabular form. For most years this data includes the name of the training course, the trainee unit, their country, the exact start and end date of the training, and so on. We include more detail on this below.
@@ -62,6 +61,7 @@ In the table below, we provide an overview of the available source materials, wh
 
 ||Source (Vol. 1 - Training Activities)|Included in dataset?|Country|DOD/DOS Program|Course Title|US Unit|Student Unit|Start date|End date|Location|Quantity|Total Cost|
 |:---:|:--:|:--:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|[FY 2018-2019](https://www.state.gov/reports/foreign-military-training-and-dod-engagement-activities-of-interest-2018-2019/)|PDF: [All](https://www.state.gov/wp-content/uploads/2019/12/FMT_Volume-I_FY2018_2019.pdf)|Yes|✓|✓|✓|✓|✓|✓|✓|✓|✓|✓|
 |[FY 2017-2018](https://www.state.gov/reports/foreign-military-training-and-dod-engagement-activities-of-interest-2017-2018/)|PDF: [All](https://www.state.gov/wp-content/uploads/2019/04/fmt_vol1_17_18.pdf)|Yes|✓|✓|✓|✓|✓|✓|✓|✓|✓|✓|
 |[FY 2016-2017](https://www.state.gov/reports/foreign-military-training-and-dod-engagement-activities-of-interest-2016-2017/)|PDF: [All](https://www.state.gov/wp-content/uploads/2019/04/fmt_vol1_16_17.pdf)|Yes|✓|✓|✓|✓|✓|✓|✓|✓|✓|✓|
 |[FY 2015-2016](https://2009-2017.state.gov/t/pm/rls/rpt/fmtrpt/2016/index.htm)|PDF: [All](https://2009-2017.state.gov/documents/organization/265162.pdf)|Yes|✓|✓|✓|✓|✓|✓|✓|✓|✓|✓|
@@ -104,11 +104,17 @@ WH: Western Hemisphere
 
 ## 4. Notes on specific reports
 
+### 2018-2019 report
+
+Report home page: [https://www.state.gov/reports/foreign-military-training-and-dod-engagement-activities-of-interest-2018-2019/](https://www.state.gov/reports/foreign-military-training-and-dod-engagement-activities-of-interest-2018-2019/)
+
+Data from the 2018-2019 report are included in the dataset. The 2018-2019 report is published on the State Department website as a single PDF file.
+
 ### 2017-2018 report
 
 Report home page: [https://www.state.gov/reports/foreign-military-training-and-dod-engagement-activities-of-interest-2017-2018/](https://www.state.gov/reports/foreign-military-training-and-dod-engagement-activities-of-interest-2017-2018/)
 
-Data from the 2017-2018 report are included in the dataset. The 2017-2018 report is available in the 2009-2017 archives of the State Department website, and is published as a single PDF file. This PDF is in the format defined for the 2017-2018 report.
+Data from the 2017-2018 report are included in the dataset. The 2017-2018 report is available in the 2009-2017 archives of the State Department website, and is published as a single PDF file. 
 
 ### 2016-2017 report
 
@@ -277,9 +283,10 @@ The `scrapers/` folder contains the source files, tools and steps used for each 
     ├── fmtrpt_2014_2015
     ├── fmtrpt_2015_2016
     ├── fmtrpt_2016_2017
-    └── fmtrpt_2017_2018
+    ├── fmtrpt_2017_2018
+    └── fmtrpt_2018_2019
 
-26 directories, 2 files
+27 directories, 2 files
 ```
 ### Running the scrapers and getting the data out of the PDFs
 
@@ -382,6 +389,7 @@ The current format ("E"), is the easiest to parse and was implemented for the FY
 
 |Report|Pattern|Format
 |:--:|:--:|:--:
+FY 2018-2019|E| PDF
 FY 2017-2018|E| PDF
 FY 2016-2017|E| PDF
 FY 2015-2016|E| PDF
