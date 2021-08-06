@@ -1,9 +1,10 @@
 #!/bin/bash
 #
-# Cleaners: process aggregated FMTRPT dataset using an awkful lot of awk
+# Cleaners: process aggregated FMTRPT dataset using an gawkful lot of gawk
 #
 # tl / 	2019-07-16
 #	2019-12-06 updated
+#	2021-08-06 updated
 #
 # Script safety and debugging
 
@@ -13,34 +14,36 @@ shopt -s failglob
 # Declare variables
 # Source for input data (and derived products by filename)
 
-i="fmtrpt_all_20191206.tsv"
+i="fmtrpt_all_20210806.tsv"
 
 # Add a column for ISO
 
 echo "And we're off...."
 echo "Adding a column for ISO-3166-1 values"
 
-awk 'BEGIN { FS=OFS="\t"}; {$2 = $2 FS "\"0\"" ; print $0}' "input/${i}" \
-	| awk 'BEGIN { FS=OFS="\t"}; {if (NR==1) $3="\"iso_3166_1\"" ; print $0}' \
+gawk 'BEGIN { FS=OFS="\t"}; {$2 = $2 FS "\"0\"" ; print $0}' "input/${i}" \
+	| gawk 'BEGIN { FS=OFS="\t"}; {if (NR==1) $3="\"iso_3166_1\"" ; print $0}' \
 	> notes/"1_${i}"
 
 # Cleanup country names 
 
 echo "Cleaning out whitespace and other stuff from the country names"
 
-awk 'BEGIN { FS=OFS="\t"} ; {gsub(/[ ]+\"$/,"\"",$2); gsub(/^\"[ ]+/,"\"",$2); print $0}' "notes/1_${i}" \
+gawk 'BEGIN { FS=OFS="\t"} ; {gsub(/[ ]+"$/,"\"",$2); gsub(/^"[ ]+/,"\"",$2); print $0}' "notes/1_${i}" \
 	> "notes/2_${i}"
 
 # Match clean names to ISO 3166-1 alpha-3 country letter codes
 # Source: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3
-# Notes on this awk program:
+# Exceptions: For Kosovo we use  "XKX", a temprorary designation used
+# by the European Union pending a final designation by ISO.
+# Notes on this gawk program:
 # - Straighforward substitutions. Remember to tag a "{print $0}" statement at the end.
 # - I chose not to include the double quotes as part of the field separator.
-# - use shell literals to deal with single quote within awk statement: https://stackoverflow.com/questions/9899001/how-to-escape-a-single-quote-inside-awk
+# - Use this to make any ad-hoc fixes needed to country name e.g. see Fiji
 
 echo "Adding in standardized ISO-3166-1 values"
 
-awk '			BEGIN { FS=OFS="\t"} \
+gawk '			BEGIN { FS=OFS="\t"} \
 			{if ($2=="\"\"") $3="\"NaN\""} \
 			{if ($2=="\"Afghanistan\"") $3="\"AFG\""} \
 			{if ($2=="\"Albania\"") $3="\"ALB\""} \
@@ -117,7 +120,7 @@ awk '			BEGIN { FS=OFS="\t"} \
 			{if ($2=="\"Eritrea\"") $3="\"ERI\""} \
 			{if ($2=="\"Estonia\"") $3="\"EST\""} \
 			{if ($2=="\"Ethiopia\"") $3="\"ETH\""} \
-			{if ($2=="\"Fiji   IMET - FY 2006 DoS Training\"") $3="\"NaN\""} \
+			{if ($2=="\"Fiji   IMET - FY 2006 DoS Training\"") { $2 = "\"Fiji\"" ; $3="\"FJI\""}} \
 			{if ($2=="\"Fiji\"") $3="\"FJI\""} \
 			{if ($2=="\"Finland\"") $3="\"FIN\""} \
 			{if ($2=="\"French Polynesia\"") $3="\"PYF\""} \
@@ -154,7 +157,7 @@ awk '			BEGIN { FS=OFS="\t"} \
 			{if ($2=="\"Korea - South\"") $3="\"KOR\""} \
 			{if ($2=="\"Korea, Republic of South\"") $3="\"KOR\""} \
 			{if ($2=="\"Korea, Republic of\"") $3="\"KOR\""} \
-			{if ($2=="\"Kosovo\"") $3="\"NaN\""} \
+			{if ($2=="\"Kosovo\"") $3="\"XKX\""} \
 			{if ($2=="\"Kuwait\"") $3="\"KWT\""} \
 			{if ($2=="\"Kyrgyzstan\"") $3="\"KGZ\""} \
 			{if ($2=="\"Laos\"") $3="\"LAO\""} \
@@ -281,8 +284,8 @@ awk '			BEGIN { FS=OFS="\t"} \
 
 echo "Adding a column for the source ID numbers"
 
-awk 'BEGIN { FS=OFS="\t"}; {$1 = "\"0\"" FS $1; print $0}' "notes/3_${i}" \
-	| awk 'BEGIN { FS=OFS="\t"}; {if (NR==1) $1="\"source_uuid\"" ; print $0}' \
+gawk 'BEGIN { FS=OFS="\t"}; {$1 = "\"0\"" FS $1; print $0}' "notes/3_${i}" \
+	| gawk 'BEGIN { FS=OFS="\t"}; {if (NR==1) $1="\"source_uuid\"" ; print $0}' \
 	> "notes/4_${i}"
 
 # The source UUID is SFM's citation management device; we'll also use it later to add in some other data
@@ -290,26 +293,27 @@ awk 'BEGIN { FS=OFS="\t"}; {$1 = "\"0\"" FS $1; print $0}' "notes/3_${i}" \
 
 echo "Bringing in source ID numbers"
 
-awk '			BEGIN { FS=OFS="\t" } \
-			{ if ($2 ~ /^\"2000_/) $1="\"7713f87d-605c-4563-acc2-0072d7dcc957\""} \
-			{ if ($2 ~ /^\"2001_/) $1="\"03221d24-92ea-4ccc-a6a2-bd88dbfcd9fb\""} \
-			{ if ($2 ~ /^\"2002_/) $1="\"048fb2d9-6651-4ba0-b36a-a526539f4cfd\""} \
-			{ if ($2 ~ /^\"2003_/) $1="\"04ac6784-aa03-4c20-978e-960d2d59ca02\""} \
-			{ if ($2 ~ /^\"2004_/) $1="\"055ffb82-b20c-412e-a126-5addf71aa3b0\""} \
-			{ if ($2 ~ /^\"2005_/) $1="\"15615dc2-0798-4dd7-84fe-b12d603b4601\""} \
-			{ if ($2 ~ /^\"2006_/) $1="\"1fcf235c-b155-4dde-bf01-3f209af7227f\""} \
-			{ if ($2 ~ /^\"2007_/) $1="\"258be1a1-a9e5-4d7f-b8b0-0500a2714580\""} \
-			{ if ($2 ~ /^\"2008_/) $1="\"333125f2-0bae-4feb-bdde-8c6fd26d0ccb\""} \
-			{ if ($2 ~ /^\"2009_/) $1="\"3ae10e65-b946-4e3d-86d5-5dfbce339ebd\""} \
-			{ if ($2 ~ /^\"2010_/) $1="\"4189374e-437e-49a6-a769-023b2b22de02\""} \
-			{ if ($2 ~ /^\"2011_/) $1="\"4bb42ad2-5ae2-4d21-b512-23eef531daaa\""} \
-			{ if ($2 ~ /^\"2012_/) $1="\"4faaea83-ee29-409a-8859-20f1be2b6c95\""} \
-			{ if ($2 ~ /^\"2013_/) $1="\"5c5f3950-1925-417b-b333-fed3650d87ea\""} \
-			{ if ($2 ~ /^\"2014_/) $1="\"79e14f58-ea87-47c9-ad07-49d8742d8b3d\""} \
-			{ if ($2 ~ /^\"2015_/) $1="\"7afbcfe9-7e9d-4a45-8c24-c9246a4b250e\""} \
-			{ if ($2 ~ /^\"2016_/) $1="\"841f634e-6db0-4c1c-a2e3-4d6ff76505d4\""} \
-			{ if ($2 ~ /^\"2017_/) $1="\"8602229d-5b77-42e5-b1bc-83fad2eda1b9\""} \
-			{ if ($2 ~ /^\"2018_/) $1="\"8d439057-bc2d-4141-8ff3-48d6842150eb\""} \
+gawk '			BEGIN { FS=OFS="\t" } \
+			{ if ($2 ~ /^"2000_/) $1="\"7713f87d-605c-4563-acc2-0072d7dcc957\""} \
+			{ if ($2 ~ /^"2001_/) $1="\"03221d24-92ea-4ccc-a6a2-bd88dbfcd9fb\""} \
+			{ if ($2 ~ /^"2002_/) $1="\"048fb2d9-6651-4ba0-b36a-a526539f4cfd\""} \
+			{ if ($2 ~ /^"2003_/) $1="\"04ac6784-aa03-4c20-978e-960d2d59ca02\""} \
+			{ if ($2 ~ /^"2004_/) $1="\"055ffb82-b20c-412e-a126-5addf71aa3b0\""} \
+			{ if ($2 ~ /^"2005_/) $1="\"15615dc2-0798-4dd7-84fe-b12d603b4601\""} \
+			{ if ($2 ~ /^"2006_/) $1="\"1fcf235c-b155-4dde-bf01-3f209af7227f\""} \
+			{ if ($2 ~ /^"2007_/) $1="\"258be1a1-a9e5-4d7f-b8b0-0500a2714580\""} \
+			{ if ($2 ~ /^"2008_/) $1="\"333125f2-0bae-4feb-bdde-8c6fd26d0ccb\""} \
+			{ if ($2 ~ /^"2009_/) $1="\"3ae10e65-b946-4e3d-86d5-5dfbce339ebd\""} \
+			{ if ($2 ~ /^"2010_/) $1="\"4189374e-437e-49a6-a769-023b2b22de02\""} \
+			{ if ($2 ~ /^"2011_/) $1="\"4bb42ad2-5ae2-4d21-b512-23eef531daaa\""} \
+			{ if ($2 ~ /^"2012_/) $1="\"4faaea83-ee29-409a-8859-20f1be2b6c95\""} \
+			{ if ($2 ~ /^"2013_/) $1="\"5c5f3950-1925-417b-b333-fed3650d87ea\""} \
+			{ if ($2 ~ /^"2014_/) $1="\"79e14f58-ea87-47c9-ad07-49d8742d8b3d\""} \
+			{ if ($2 ~ /^"2015_/) $1="\"7afbcfe9-7e9d-4a45-8c24-c9246a4b250e\""} \
+			{ if ($2 ~ /^"2016_/) $1="\"841f634e-6db0-4c1c-a2e3-4d6ff76505d4\""} \
+			{ if ($2 ~ /^"2017_/) $1="\"8602229d-5b77-42e5-b1bc-83fad2eda1b9\""} \
+			{ if ($2 ~ /^"2018_/) $1="\"8d439057-bc2d-4141-8ff3-48d6842150eb\""} \
+			{ if ($2 ~ /^"2019_/) $1="\"730b2c0f-4eb6-4dbb-af57-2be9eb32031a\""} \
 			{ print $0 }' \
 			"notes/4_${i}" \
 		> "notes/5_${i}"
@@ -318,7 +322,7 @@ awk '			BEGIN { FS=OFS="\t" } \
 
 echo "Filtering out rows that contain program summary data"
 
-awk -F'\t' '$6 !~ /Program Totals/' \
+gawk -F'\t' '$6 !~ /Program Totals/' \
 	"notes/5_${i}" \
 	> "notes/6_${i}"
 
@@ -330,21 +334,21 @@ awk -F'\t' '$6 !~ /Program Totals/' \
 
 echo "Dealing with dates that got sucked into the costings fields"
 
-awk '	BEGIN 	{ FS=OFS="\t" 	} ;							\
+gawk '	BEGIN 	{ FS=OFS="\t" 	} ;							\
 		{ if ($13 ~ /\//) {  gsub(/ "$/,"\"",$13) ; 				\
 		  		     gsub(/"/,"",$13) ;					\
 		  		     n=split($13,t," ") ;				\
-				     if ( $9 ~ /\"\"/ && t[1] ~ /\// )			\
+				     if ( $9 ~ /""/ && t[1] ~ /\// )			\
 						$9=t[1] ;				\
-				     if ( $9 ~ /\"\"/ && $10 ~ /\"\"/ && n == 1)	\
+				     if ( $9 ~ /""/ && $10 ~ /""/ && n == 1)	\
 						$9=t[1]  ;				\
-				     if ( $9 !~ /\"\"/ && t[1] ~ /\// ) 		\
+				     if ( $9 !~ /""/ && t[1] ~ /\// ) 		\
 		       		     		$9=t[1]  ; 				\
-				     else if ( $9 ~ /\"\"/ && n == 2 )			\
+				     else if ( $9 ~ /""/ && n == 2 )			\
 						$9=t[2]  ;				\
-				     else if ( $10 ~ /\"\"/ && n == 2 )			\
+				     else if ( $10 ~ /""/ && n == 2 )			\
 						$10=t[2]  ; 				\
-				     else if ( $9 ~ /\"\"/ && $10 ~ /\"\"/ && n == 3)	\
+				     else if ( $9 ~ /""/ && $10 ~ /""/ && n == 3)	\
 						{ $9=t[2] ; $10=t[3] }  ; 		\
 				     if ( t[1] !~ /\// )				\
 						 $13=t[1] ;				\
@@ -359,7 +363,7 @@ awk '	BEGIN 	{ FS=OFS="\t" 	} ;							\
 
 echo "Dealing with errors in the 2009-2010 dates, which are in the same column"
 
-awk 'BEGIN	{ FS=OFS="\t"};						\
+gawk 'BEGIN	{ FS=OFS="\t"};						\
 		{	gsub(/"/,"",$9) ;				\
 			split($9,date," ") ;				\
 			s=date[1] ;					\
@@ -372,21 +376,21 @@ awk 'BEGIN	{ FS=OFS="\t"};						\
 
 # Parse start dates to standard formats
 # Create column for start_date_fixed
-# todo: figure out why we need a separate awk process to rename column 10
+# todo: figure out why we need a separate gawk process to rename column 10
 
 echo "Creating a column to store standardized value for start date"
 
-awk 'BEGIN { FS=OFS="\t"} ; {$9 = $9 FS "\"\"" } ; { print}' "notes/8_${i}" \
-	| awk 'BEGIN{ FS=OFS="\t"} ; { if (NR==1) $10="\"start_date_fixed\""}; {print $0}' \
+gawk 'BEGIN { FS=OFS="\t"} ; {$9 = $9 FS "\"\"" } ; { print}' "notes/8_${i}" \
+	| gawk 'BEGIN{ FS=OFS="\t"} ; { if (NR==1) $10="\"start_date_fixed\""}; {print $0}' \
         > notes/"9_${i}"
  
 # Deal with start dates
 
 echo "Standardizing start dates"
 
-awk 'BEGIN 	{ FS=OFS="\t"}; 						\
-		{ 	gsub(/\"/,"",$9) ;					\
-			split($9,date,"\/") ;					\
+gawk 'BEGIN 	{ FS=OFS="\t"}; 						\
+		{ 	gsub(/"/,"",$9) ;					\
+			split($9,date,"/") ;					\
 				y=date[3] ;					\
 				d=date[2] ;					\
 				m=date[1] ;					\
@@ -405,17 +409,17 @@ awk 'BEGIN 	{ FS=OFS="\t"}; 						\
 
 echo "Creating a column to store standardized value for end date"
 
-awk 'BEGIN { FS=OFS="\t"} ; {$11 = $11 FS "\"\"" } ; { print}' "notes/10_${i}" \
-	| awk 'BEGIN{ FS=OFS="\t"} ; { if (NR==1) $12="\"end_date_fixed\""}; {print $0}' \
+gawk 'BEGIN { FS=OFS="\t"} ; {$11 = $11 FS "\"\"" } ; { print}' "notes/10_${i}" \
+	| gawk 'BEGIN{ FS=OFS="\t"} ; { if (NR==1) $12="\"end_date_fixed\""}; {print $0}' \
         > notes/"11_${i}"
 
 # Deal with end dates
 
 echo "Standardizing end dates"
 
-awk 'BEGIN 	{ FS=OFS="\t"}; 						\
-		{ 	gsub(/\"/,"",$11) ;					\
-			split($11,date,"\/") ;					\
+gawk 'BEGIN 	{ FS=OFS="\t"}; 						\
+		{ 	gsub(/"/,"",$11) ;					\
+			split($11,date,"/") ;					\
 				y=date[3] ;					\
 				d=date[2] ;					\
 				m=date[1] ;					\
@@ -432,7 +436,7 @@ awk 'BEGIN 	{ FS=OFS="\t"}; 						\
 
 echo "Removing empty end date values from the data"
 
-awk 'BEGIN	{ FS=OFS="\t"};							\
+gawk 'BEGIN	{ FS=OFS="\t"};							\
 		{ if ($10 ~ /0000-00-00/ || $12 ~ /0000-00-00/ ) {gsub(/0000-00-00/,"",$10) ; gsub(/0000-00-00/,"",$12) } ;\
 		print \
 		}' \
@@ -441,7 +445,7 @@ awk 'BEGIN	{ FS=OFS="\t"};							\
 
 # In 2001/2002 data, training quantity couldn't be extracted directy from location
 # The training quantity is always a number at the beginning of the location
-# This awk script:
+# This gawk script:
 # - filters for 2001/2001 data
 # - splits the location field using space as a sep
 # - assigns the first split array value to the training quantity column
@@ -451,7 +455,7 @@ awk 'BEGIN	{ FS=OFS="\t"};							\
 
 echo "Splitting out training quantities from location fields in 2001-2002 data"
 
-awk 'BEGIN 	{ FS=OFS="\t" };								\
+gawk 'BEGIN 	{ FS=OFS="\t" };								\
 		{ if ( $2 ~ /2001_2002_/ ) 							\
 			{	split($13,loc," ") ;						\
 				q=loc[1] ;							\
@@ -466,11 +470,11 @@ awk 'BEGIN 	{ FS=OFS="\t" };								\
 		> notes/14_${i}
 
 
-# awk to remove relevant non-numberical characters and whitespace
+# gawk to remove relevant non-numberical characters and whitespace
 
 echo "Clearing out some non-numerical characters and whitepsace from costings field"
 
-awk ' 	BEGIN 	{ FS=OFS="\t" } ; 			\
+gawk ' 	BEGIN 	{ FS=OFS="\t" } ; 			\
 		 NR==1 ; NR > 1 			\
 		{ 	gsub(/\$/,"",$15);		\
 			gsub(/ /,"",$15) ;		\
@@ -485,12 +489,13 @@ awk ' 	BEGIN 	{ FS=OFS="\t" } ; 			\
 
 echo "Adding in source file url for each row, and rename the column to reflect this"
 
-awk 	'BEGIN { FS=OFS="\t" }	;											\
+gawk 	'BEGIN { FS=OFS="\t" }	;											\
 	 { gsub(/"/,"",$16) } ;												\
-	 { if (NR > 1 && $16 ~ /\.htm/) $16 = "https:\/\/2009-2017.state.gov\/t\/pm\/rls\/rpt\/fmtrpt\/2007\/" $16  ; 	\
+	 { if (NR > 1 && $16 ~ /\.htm/) $16 = "https://2009-2017.state.gov/t/pm/rls/rpt/fmtrpt/2007/" $16  ; 	\
 	   else if (NR > 1 && $16 == "") $16 = "Error: no source provided" ;							\
-	   else if (NR > 1 && $16 ~ /FMT_Volume-I_FY2018_2019/ ) $16 = "https:\/\/www.state.gov\/wp-content\/uploads\/2019\/12\/FMT_Volume-I_FY2018_2019.pdf" ; \
-	   else if (NR > 1 ) $16 = "https:\/\/2009-2017.state.gov\/documents\/organization\/" $16 ".pdf" ;		\
+	   else if (NR > 1 && $16 ~ /FMT_Volume-I_FY2018_2019/ ) $16 = "https://www.state.gov/wp-content/uploads/2019/12/FMT_Volume-I_FY2018_2019.pdf" ; \
+	   else if (NR > 1 && $16 ~ /FMT_Volume-I_FY2019_2020/ ) $16 = "https://www.state.gov/wp-content/uploads/2021/08/Volume-I-508-Compliant.pdf" ; \
+	   else if (NR > 1 ) $16 = "https://2009-2017.state.gov/documents/organization/" $16 ".pdf" ;		\
 	   if (NR == 1 ) $16 = "source_url" ; 										\
 	   gsub(/^/,"\"",$16) ; gsub(/$/,"\"",$16) } ;									\
 	   { print } '		\
@@ -501,8 +506,8 @@ awk 	'BEGIN { FS=OFS="\t" }	;											\
 
 echo "Adding a row_status field, and a boilerplate note that the data has not been checked against source"
 
-awk 'BEGIN { FS=OFS="\t"}; {$16 = $16 FS "\"Not checked against source; verify accuracy before use\""; print $0}' "notes/16_${i}" \
-	| awk 'BEGIN { FS=OFS="\t"}; {if (NR==1) $17="\"row_status\"" ; print $0}' \
+gawk 'BEGIN { FS=OFS="\t"}; {$16 = $16 FS "\"Not checked against source; verify accuracy before use\""; print $0}' "notes/16_${i}" \
+	| gawk 'BEGIN { FS=OFS="\t"}; {if (NR==1) $17="\"row_status\"" ; print $0}' \
 	> "notes/17_${i}"
 
 
@@ -510,8 +515,8 @@ awk 'BEGIN { FS=OFS="\t"}; {$16 = $16 FS "\"Not checked against source; verify a
 
 echo "Adding date_first_seen column and populating with data on source publication date"
 
-awk 'BEGIN { FS=OFS="\t"}; { $17 = $17 FS "\"date_first_seen\""; print $0 }' "notes/17_${i}" \
-	| awk 'BEGIN { FS=OFS="\t"} ; 								\
+gawk 'BEGIN { FS=OFS="\t"}; { $17 = $17 FS "\"date_first_seen\""; print $0 }' "notes/17_${i}" \
+	| gawk 'BEGIN { FS=OFS="\t"} ; 								\
 		{if ($1 ~ /7713f87d-605c-4563-acc2-0072d7dcc957/) $18 = "\"2001-01\"" } 	\
 		{if ($1 ~ /03221d24-92ea-4ccc-a6a2-bd88dbfcd9fb/) $18 = "\"2002-03\"" } 	\
 		{if ($1 ~ /048fb2d9-6651-4ba0-b36a-a526539f4cfd/) $18 = "\"2003-05\"" } 	\
@@ -531,6 +536,7 @@ awk 'BEGIN { FS=OFS="\t"}; { $17 = $17 FS "\"date_first_seen\""; print $0 }' "no
 		{if ($1 ~ /841f634e-6db0-4c1c-a2e3-4d6ff76505d4/) $18 = "\"2017-10-27\"" } 	\
 		{if ($1 ~ /8602229d-5b77-42e5-b1bc-83fad2eda1b9/) $18 = "\"2018-08-15\"" } 	\
 		{if ($1 ~ /8d439057-bc2d-4141-8ff3-48d6842150eb/) $18 = "\"2019-12-06\"" }	\
+		{if ($1 ~ /730b2c0f-4eb6-4dbb-af57-2be9eb32031a/) $18 = "\"2021-08-04\"" }	\
 		{ print $0 }'\
 		> notes/18_${i}
 
@@ -539,11 +545,29 @@ awk 'BEGIN { FS=OFS="\t"}; { $17 = $17 FS "\"date_first_seen\""; print $0 }' "no
 
 echo "Adding data_scraped column, and putting current scrape/parse date in there"
 
-awk 'BEGIN { FS=OFS="\t"} \
-		{if ($1 ~ /8d439057-bc2d-4141-8ff3-48d6842150eb/) $18 = $18 FS "\"2019-12-06\""} \
-		{if ($1 !~ /8d439057-bc2d-4141-8ff3-48d6842150eb/) $18 = $18 FS "\"2019-07-16\""} \
+gawk 'BEGIN { FS=OFS="\t"} ;										\
+		{if ($1 ~ /7713f87d-605c-4563-acc2-0072d7dcc957/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /03221d24-92ea-4ccc-a6a2-bd88dbfcd9fb/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /048fb2d9-6651-4ba0-b36a-a526539f4cfd/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /04ac6784-aa03-4c20-978e-960d2d59ca02/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /055ffb82-b20c-412e-a126-5addf71aa3b0/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /15615dc2-0798-4dd7-84fe-b12d603b4601/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /1fcf235c-b155-4dde-bf01-3f209af7227f/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /258be1a1-a9e5-4d7f-b8b0-0500a2714580/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /333125f2-0bae-4feb-bdde-8c6fd26d0ccb/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /3ae10e65-b946-4e3d-86d5-5dfbce339ebd/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /4189374e-437e-49a6-a769-023b2b22de02/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /4bb42ad2-5ae2-4d21-b512-23eef531daaa/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /4faaea83-ee29-409a-8859-20f1be2b6c95/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /5c5f3950-1925-417b-b333-fed3650d87ea/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /79e14f58-ea87-47c9-ad07-49d8742d8b3d/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /7afbcfe9-7e9d-4a45-8c24-c9246a4b250e/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /841f634e-6db0-4c1c-a2e3-4d6ff76505d4/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /8602229d-5b77-42e5-b1bc-83fad2eda1b9/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /8d439057-bc2d-4141-8ff3-48d6842150eb/) $18 = $18 FS "\"2019-12-06\"" }	\
+		{if ($1 ~ /730b2c0f-4eb6-4dbb-af57-2be9eb32031a/) $18 = $18 FS "\"2021-08-06\"" }	\
 		{print $0}' "notes/18_${i}" \
-	| awk 'BEGIN { FS=OFS="\t"} ; {if (NR==1) $19 = "\"date_scraped\"" ; print $0}' \
+	| gawk 'BEGIN { FS=OFS="\t"} ; {if (NR==1) $19 = "\"date_scraped\"" ; print $0}' \
 	> notes/19_${i}
 
 # Remove lines that have no source_url
