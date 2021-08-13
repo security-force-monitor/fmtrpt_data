@@ -31,7 +31,7 @@ The final dataset is comprised of the fields described in the table below. Field
 
 Field|Description|Example of use|
 |:--:|:--|:--|
-|training\:id\:admin|Unique code for each training item in the dataset, which enables referencing|"6077cea5-e571-4fa9-b2aa-f0ead4d34760"|
+|`training:id:admin`|Unique code for each training item in the dataset, which enables referencing|"6077cea5-e571-4fa9-b2aa-f0ead4d34760"|
 |training:source|Unique code used by SFM to identify the source of the data|"048fb2d9-6651-4ba0-b36a-a526539f4cfd"|
 |qa:training\_group|file containing the first, raw scrape of data SFM made; use for audit|"2001\_2002\_Africa_fmtrpt.tsv"|
 |training:country|Country of training recipient|"Cote d'Ivoire"|
