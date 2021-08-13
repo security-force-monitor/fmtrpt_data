@@ -105,9 +105,9 @@ WH: Western Hemisphere
 
 ### 2019-2020 report
 
-Report home page: [https://www.state.gov/reports/foreign-military-training-and-dod-engagement-activities-of-interest-2018-2019/](https://www.state.gov/reports/foreign-military-training-and-dod-engagement-activities-of-interest-2018-2019/)
+Report home page: [https://www.state.gov/reports/foreign-military-training-and-dod-engagement-activities-of-interest-2019-2020/](https://www.state.gov/reports/foreign-military-training-and-dod-engagement-activities-of-interest-2019-2020/)
 
-Data from the 2019-2020 report are included in the dataset. The 2018-2019 report is published on the State Department website as a single PDF file. 
+Data from the 2019-2020 report are included in the dataset. The 2019-2020 report is published on the State Department website as a single PDF file. 
 
 Page 101 of the PDF initally published in August 2021 is corrupted and contains an empty table where the conclusion of the year's report of training activities in Angola ends and those in Benin begins. We have removed both Angola and Benin from the dataset until this is fixed.
 
