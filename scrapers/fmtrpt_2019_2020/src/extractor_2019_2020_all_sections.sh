@@ -146,10 +146,10 @@ _main () {
 	while IFS=$' ' read -r p y t s e ; do
 		
 		printf "%s: %s\n\n" "# Working on" "$t"
-#		_progMsg "Extracting pages from PDF"
-#		_extractPages
-#		_progMsg "Converting PDF to XML"
-#		_xmlConvert
+		_progMsg "Extracting pages from PDF"
+		_extractPages
+		_progMsg "Converting PDF to XML"
+		_xmlConvert
 		_progMsg "Cleaning up XML"
 		_cleanXML
 		_progMsg "Linting XML"
@@ -159,7 +159,7 @@ _main () {
 		_progMsg "Creating TSV output"
 		_generateOutput
 
-	done < src/fmtrpt_fy_2018_2019_sections
+	done < src/fmtrpt_fy_2019_2020_sections
 
 	printf "%s\n" "Done!"
 
