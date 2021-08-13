@@ -1,6 +1,6 @@
 # Foreign Military and Training Report: Parsing project
 
-A dataset on unclassified training activities for non-US security forces arranged and funded by the United States Department of State and Department of Defence between 2001 and 2019. Sources, scraping, cleaning and publishing toolset included.
+A dataset on unclassified training activities for non-US security forces arranged and funded by the United States Department of State and Department of Defence between 2001 and 2020. Sources, scraping, cleaning and publishing toolset included.
 
 Access the data at: [https://trainingdata.securityforcemonitor.org](https://trainingdata.securityforcemonitor.org)
 
@@ -12,7 +12,7 @@ A key question we have is whether specific units and personnel implicated in hum
 
 These questions can in part be answered by looking at the joint Department of State and Department of Defence report, "Foreign Military Training and DoD Engagement Activities of Interest". Released annually since 2000 (the 2000 report covered the U.S. government's fiscal year 1999-2000) this important, statutorily-mandated report shows in great detail how the US has spent much of its training and assistance budget, and with what aims. Generally, the US Department of State will release these reports as PDFs. They  can be found at the following locations online:
 
- * FY 2016-2019 onwards are available here: [https://www.state.gov/foreign-military-training-and-dod-engagement-activities-of-interest/](https://www.state.gov/foreign-military-training-and-dod-engagement-activities-of-interest/)
+ * FY 2016-2017 to FY 2019-2020 and onwards are available here: [https://www.state.gov/foreign-military-training-and-dod-engagement-activities-of-interest/](https://www.state.gov/foreign-military-training-and-dod-engagement-activities-of-interest/)
  * FY 1999-2000 to FY 2015-2016: [https://2009-2017.state.gov/t/pm/rls/rpt/fmtrpt/index.htm](https://2009-2017.state.gov/t/pm/rls/rpt/fmtrpt/index.htm)
 
 Training activities that were completed in each fiscal year are recorded in `Volume I: Section IV` of the report, mostly in tabular form. For most years this data includes the name of the training course, the trainee unit, their country, the exact start and end date of the training, and so on. We include more detail on this below.
@@ -21,38 +21,36 @@ The value of the data is high, but its accessibility is low because of the way t
 
 This project addresses this challenge by providing clean, accurate and standardized machine-readable copy of all the data contained in the reports. We also aim to provide a simple and effective way for anyone to search the data and retrieve it in a standard, easy to use format. Importantly, we also show how the data were created and processed, keeping a direct link between the original report and the data. We also wanted to create a way to quickly update and analyse the dataset with each new release from the Department of State.
 
-There is an existing dataset created by the team at the excellent Security Assistance Monitor (SAM) and downloadable without cost [here](https://securityassistance.org/content/military-trainees-downloads). For our needs, there are two limitations to this dataset. First, though SAM have included the fiscal year in which a training was carried out, they have not included the data on `start date` and `end date` of trainings, which are critical to our research aims. Second, the detailed dataset ends with FY 2015-2016 and we're unclear whether SAM have plans to revisit and extend the data in the future. Unfortunately, it is easier to start from scratch than to attempt to extend this existing work.
+There is an existing dataset created by the team at the [excellent Security Assistance Monitor (SAM)] (https://securityassistance.org/foreign-military-training/). The platform tthey have created gives a great way to explore the dataset, setting out spending and delivery trends really clearly. For our needs, there are two limitations to this dataset and platform. First, though SAM have included the fiscal year in which a training was carried out, they have not included the data on start date and end date of every training, which are critical to our specific research aims. Second, at the time we initiated this project in 2019 the detailed dataset ended at FY 2015-2016 and we were unclear whether SAM had future plans to revisit and extend the data. Unfortunately, it was easier to start from scratch than to attempt to extend this existing work, hence this project. The ideal future situation, of course, is that the DoD/DoS would release this important data in a machine readable form in the first place so no parsing was necessary. We live in hope!
 
-Longer term, our aim is to integrate this dataset from the DoS/DoD with that contained in WhoWasinCommand.com, which will give our users even further insight into who is supporting the security forces they are researching.
+Longer term, our aim is to extend this dataset to include non-US security assistance and training, including that provided bilaterally by governments, and by international organizations like the United Nations and the European Union. We also intend to integrate this dataset with the information on our  WhoWasinCommand.com platform, which will give our community even greater insight into who has provided support to the security forces they are researching.
 
 ## 2. Data and data model
 
-The final dataset is comprised of the fields described in the table below.
-
+The final dataset is comprised of the fields described in the table below. Fields prefixed with `qa` are "quality assurance" fields, included to assist with auditing the data. The fieldnames were updated in August 2021, and `training:id:admin` was created to create a stable way to reference a specific training or assistance intervention in the dataset.
 
 Field|Description|Example of use|
 |:--:|:--|:--|
-|source\_uuid|Unique code used by SFM to identify the source of the data|"048fb2d9-6651-4ba0-b36a-a526539f4cfd"|
-|group|file containing the first, raw scrape of data SFM made; use for audit|"2001\_2002\_Africa_fmtrpt.tsv"|
-|country|Country of training recipient|"Cote d'Ivoire"|
-|iso\_3166\_1|ISO-3166-1 standard code for country of training recipient|"CIV"|
-|program|DoD/DoS financing program|East Asia and Pacific Region, Thailand, International Military Education and Training (IMET), FY01|
-|course\_title|Name of training course|"HOT SHIP XFER 180 FT PAC"|
-|us_unit|US security force unit(s) involved in delivery of training|"1/10 SFG, 7 SOS"|
-|student_unit|Name of recipient(s) of training|"SPECIAL SERVICES GROUP NAVY, ST-3 PLT F, SBU-12 RIB DET N, SDVT-1 TU BAHRAINI NAVY"|
-|start\_date|Start date of training as stated in source (mostly `m-dd-yy`)|"1/16/01"|
-|start\_date_fixed|Start date of training, in ISO 8601 (`YYYY-MM-DD`)|"2001-01-16"|
-|end\_date|End date of training (mostly `m-dd-yy`)|"1/31/01"|
-|end\_date_fixed|End date of training as stated in source, in ISO 8601 (`YYYY-MM-DD`)|"2001-01-31"|
-|location|Place where the training was held|"LACKLAND AFB, TX 78236"|
-|quantity|Number of trainees|"30"|
-|total\_cost|Total cost of that specific training, in USD|"8000"|
-|source\_url|Specific PDF or web-page from which the row is extracted|"https://2009-2017.state.gov/documents/organization/10967.pdf"|
-|row\_status|Whether the row has been hand checked against the source|"Not checked against source; verify accuracy before use"|
-|date\_first_seen|Date that row of data was first made available publicly (`YYYY-MM-DD`, or parts thereof)|"2002-03"|
-|date\_scraped|Date that row of data was obtained and scraped by SFM (`YYYY-MM-DD`) |"2019-07-17"|
-
-
+|training:id:admin|Unique code for each training item in the dataset, which enables referencing|"6077cea5-e571-4fa9-b2aa-f0ead4d34760"|
+|training:source|Unique code used by SFM to identify the source of the data|"048fb2d9-6651-4ba0-b36a-a526539f4cfd"|
+|qa:training\_group|file containing the first, raw scrape of data SFM made; use for audit|"2001\_2002\_Africa_fmtrpt.tsv"|
+|training:country|Country of training recipient|"Cote d'Ivoire"|
+|training:country\_iso\_3166\_1|ISO-3166-1 standard code for country of training recipient|"CIV"|
+|training:program|DoD/DoS financing program|East Asia and Pacific Region, Thailand, International Military Education and Training (IMET), FY01|
+|training:course\_title|Name of training course|"HOT SHIP XFER 180 FT PAC"|
+|training:delivery\_unit|US security force unit(s) involved in delivery of training|"1/10 SFG, 7 SOS"|
+|training:recipient\_unit|Name of recipient(s) of training|"SPECIAL SERVICES GROUP NAVY, ST-3 PLT F, SBU-12 RIB DET N, SDVT-1 TU BAHRAINI NAVY"|
+|qa:training\_start\_date|Start date of training as stated in source (mostly `m-dd-yy`)|"1/16/01"|
+|training:start\_date|Start date of training, in ISO 8601 (`YYYY-MM-DD`)|"2001-01-16"|
+|qa:training\_end\_date|End date of training (mostly `m-dd-yy`)|"1/31/01"|
+|training:end\_date|End date of training as stated in source, in ISO 8601 (`YYYY-MM-DD`)|"2001-01-31"|
+|training:location|Place where the training was held|"LACKLAND AFB, TX 78236"|
+|training:quantity|Number of trainees|"30"|
+|training:total\_cost|Total cost of that specific training, in USD|"8000"|
+|qa:training\_source\_url|Specific PDF or web-page from which the row is extracted. Included as a helper.|"https://2009-2017.state.gov/documents/organization/10967.pdf"|
+|training:status:admin|Whether the row has been hand checked against the source|"Not checked against source; verify accuracy before use"|
+|qa:training\_date\_first_seen|Date that row of data was first made available publicly (`YYYY-MM-DD`, or parts thereof)|"2002-03"|
+|qa:training\_date\_scraped|Date that row of data was obtained and scraped by Security Force Monitor to create this dataset (`YYYY-MM-DD`) |"2019-07-17"|
 
 
 ## 3. Data sources and coverage
@@ -61,6 +59,7 @@ In the table below, we provide an overview of the available source materials, wh
 
 ||Source (Vol. 1 - Training Activities)|Included in dataset?|Country|DOD/DOS Program|Course Title|US Unit|Student Unit|Start date|End date|Location|Quantity|Total Cost|
 |:---:|:--:|:--:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|[FY 2019-2020](https://www.state.gov/reports/foreign-military-training-and-dod-engagement-activities-of-interest-2019-2020/)|PDF: [All](https://www.state.gov/wp-content/uploads/2021/08/Volume-I-508-Compliant.pdf)|Yes|✓|✓|✓|✓|✓|✓|✓|✓|✓|✓|
 |[FY 2018-2019](https://www.state.gov/reports/foreign-military-training-and-dod-engagement-activities-of-interest-2018-2019/)|PDF: [All](https://www.state.gov/wp-content/uploads/2019/12/FMT_Volume-I_FY2018_2019.pdf)|Yes|✓|✓|✓|✓|✓|✓|✓|✓|✓|✓|
 |[FY 2017-2018](https://www.state.gov/reports/foreign-military-training-and-dod-engagement-activities-of-interest-2017-2018/)|PDF: [All](https://www.state.gov/wp-content/uploads/2019/04/fmt_vol1_17_18.pdf)|Yes|✓|✓|✓|✓|✓|✓|✓|✓|✓|✓|
 |[FY 2016-2017](https://www.state.gov/reports/foreign-military-training-and-dod-engagement-activities-of-interest-2016-2017/)|PDF: [All](https://www.state.gov/wp-content/uploads/2019/04/fmt_vol1_16_17.pdf)|Yes|✓|✓|✓|✓|✓|✓|✓|✓|✓|✓|
@@ -80,7 +79,7 @@ In the table below, we provide an overview of the available source materials, wh
 |[FY 2002-2003](https://2009-2017.state.gov/t/pm/rls/rpt/fmtrpt/2003/index.htm)|PDF: <strike>All</strike>, [A](https://2009-2017.state.gov/documents/organization/21817.pdf), [EAP](https://2009-2017.state.gov/documents/organization/21818.pdf), [E](https://2009-2017.state.gov/documents/organization/21819.pdf), [NE](https://2009-2017.state.gov/documents/organization/21820.pdf), [NIS](https://2009-2017.state.gov/documents/organization/21821.pdf), [SA](https://2009-2017.state.gov/documents/organization/21822.pdf), [WH](https://2009-2017.state.gov/documents/organization/21823.pdf)|Yes|✓|✓|✓|✓|✓|✓|✓|✓|✓|✓|
 |[FY 2001-2002](https://2009-2017.state.gov/t/pm/rls/rpt/fmtrpt/2002/index.htm)|PDF: <strike>All</strike>, [A](https://2009-2017.state.gov/documents/organization/10964.pdf), [EAP](https://2009-2017.state.gov/documents/organization/10965.pdf), [E](https://2009-2017.state.gov/documents/organization/10966.pdf), [NE](https://2009-2017.state.gov/documents/organization/10967.pdf), [NIS](https://2009-2017.state.gov/documents/organization/10968.pdf), [SA](https://2009-2017.state.gov/documents/organization/10969.pdf), [WH](https://2009-2017.state.gov/documents/organization/10970.pdf)|Yes|✓|✓|✓|✓|✓|✓|✓|✓|✓|✓|
 |[FY 2000-2001](https://2009-2017.state.gov/t/pm/rls/rpt/fmtrpt/2001/index.htm)|PDF: <strike>All</strike>, [A + EAP](https://2009-2017.state.gov/documents/organization/3164.pdf), [E + NE + NIS](https://2009-2017.state.gov/documents/organization/3165.pdf), [SCA + WH](https://2009-2017.state.gov/documents/organization/3166.pdf)|No|✓|✓|✓|✗|✗|✗|✗|✗|✓|✓|
-|[FY 1999-2000](https://web.archive.org/web/20170322193536/https://2009-2017.state.gov/www/global/arms/fmtrain/toc.html)*|HTML: <strike>All</strike>, A [1](https://web.archive.org/web/20170601013645/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_af_a2gam.html) [2](https://1997-2001.state.gov/www/global/arms/fmtrain/cta_af_gha2rwa.html) [3](https://web.archive.org/web/20170105062147/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_af_sao2zim.html), EAP [1](https://web.archive.org/web/20170105154743/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_eap_aust2papua.html) [2](https://web.archive.org/web/20170106050009/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_eap_phil2viet.html), E [1](https://web.archive.org/web/20170106050500/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_eur_alb2est.html) [2](https://web.archive.org/web/20170106054830/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_eur_latv2switz.html), NE [1](https://web.archive.org/web/20170106061730/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_nea_alg2eg.html) [2](https://web.archive.org/web/20170106062351/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_nea_ir2ye.html) NIS [1](https://web.archive.org/web/20170106062400/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_nis_all.html), SA [1](https://web.archive.org/web/20170106062410/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_sasia_all.html), WH [1](https://web.archive.org/web/20170106062413/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_wha_a2ch.html) [2](https://web.archive.org/web/20170106062415/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_wha_col2ecua.html) [3](https://web.archive.org/web/20170106062417/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_wha_el2jama.html) [3](https://web.archive.org/web/20170106062419/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_wha_mex2peru.html) [4](https://web.archive.org/web/20170106062422/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_wha_stk2ven.html)|No|✓|✓|✓|✗|✗|✗|✗|✗|✓|✓|
+|[FY 1999-2000](https://web.archive.org/web/20170322193536/https://2009-2017.state.gov/www/global/arms/fmtrain/toc.html)\*|HTML: <strike>All</strike>, A [1](https://web.archive.org/web/20170601013645/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_af_a2gam.html) [2](https://1997-2001.state.gov/www/global/arms/fmtrain/cta_af_gha2rwa.html) [3](https://web.archive.org/web/20170105062147/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_af_sao2zim.html), EAP [1](https://web.archive.org/web/20170105154743/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_eap_aust2papua.html) [2](https://web.archive.org/web/20170106050009/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_eap_phil2viet.html), E [1](https://web.archive.org/web/20170106050500/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_eur_alb2est.html) [2](https://web.archive.org/web/20170106054830/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_eur_latv2switz.html), NE [1](https://web.archive.org/web/20170106061730/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_nea_alg2eg.html) [2](https://web.archive.org/web/20170106062351/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_nea_ir2ye.html) NIS [1](https://web.archive.org/web/20170106062400/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_nis_all.html), SA [1](https://web.archive.org/web/20170106062410/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_sasia_all.html), WH [1](https://web.archive.org/web/20170106062413/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_wha_a2ch.html) [2](https://web.archive.org/web/20170106062415/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_wha_col2ecua.html) [3](https://web.archive.org/web/20170106062417/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_wha_el2jama.html) [3](https://web.archive.org/web/20170106062419/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_wha_mex2peru.html) [4](https://web.archive.org/web/20170106062422/https://1997-2001.state.gov/www/global/arms/fmtrain/cta_wha_stk2ven.html)|No|✓|✓|✓|✗|✗|✗|✗|✗|✓|✓|
 
 Key:
 
@@ -104,11 +103,19 @@ WH: Western Hemisphere
 
 ## 4. Notes on specific reports
 
+### 2019-2020 report
+
+Report home page: [https://www.state.gov/reports/foreign-military-training-and-dod-engagement-activities-of-interest-2018-2019/](https://www.state.gov/reports/foreign-military-training-and-dod-engagement-activities-of-interest-2018-2019/)
+
+Data from the 2019-2020 report are included in the dataset. The 2018-2019 report is published on the State Department website as a single PDF file. 
+
+Page 101 of the PDF initally published in August 2021 is corrupted and contains an empty table where the conclusion of the year's report of training activities in Angola ends and those in Benin begins. We have removed both Angola and Benin from the dataset until this is fixed.
+
 ### 2018-2019 report
 
 Report home page: [https://www.state.gov/reports/foreign-military-training-and-dod-engagement-activities-of-interest-2018-2019/](https://www.state.gov/reports/foreign-military-training-and-dod-engagement-activities-of-interest-2018-2019/)
 
-Data from the 2018-2019 report are included in the dataset. The 2018-2019 report is published on the State Department website as a single PDF file.
+Data from the 2018-2019 report are included in the dataset. The 2019-2020 report is published on the State Department website as a single PDF file.
 
 ### 2017-2018 report
 
@@ -243,28 +250,36 @@ We have taken the below approach to extracting and parsing data from these repor
  * Flatten the XML and export the data in a flat, tab-separated format.
  * Post-process to standardize countries, dates and fix other issues that emerged during parsing and may be common to different chunks of data. For example, it makes sense to standardize dates and countries in bulk at this later stage. The variety of ways that a training location can be spelled in 20 years of data is huge, so it makes sense to reveal this and fix them all at once in bulk.
 
-The toolset we used is `bash` on OSX:
+The toolset is created in `bash`:
 
  * Basic tools: `sed`, `awk`, `grep`, `tr`, `perl`
- * Additional tools: `pdftohtml`, `xmlstartlet`, `xmllint` (and  `csvkit` to write some helper scripts)
+ * Additional tools: `ghostscript`, `pdftohtml`, `xmlstartlet`, `xmllint` (and  `csvkit` and `xsv` to write some helper scripts)
 
-The approach is crude but (at least so far) effective as it dealt with a range of problems thrown up by the formatting of the PDFs. There are better ways to approach this problem, but these are the tools we knew. In retrospect, we would have done this with `python` and a bunch of specialised libraries. We would probably also make better use of `make` to chain together a replicable and predictable build process for the data.
+The approach is crude but (at least so far) effective as it dealt with a range of problems thrown up by the formatting of the PDFs. There are better of course better ways to approach this problem, but for now it will do!
 
 ### Project structure and operations
 
-The `scrapers/` folder contains the source files, tools and steps used for each annual publication. In `group_and_clean/` there are tools to pull together the raw data extracted from each report, aggregate it, and then clean it up.  The final, aggregated and cleaned data is contained in the `data/` folder. 
+The `scrapers/` folder contains the source files, tools and steps used for each annual publication. In `group_and_clean/` there are tools to pull together the raw data extracted from each report, aggregate it, and then clean it up.  The final, aggregated and cleaned data is contained in the `data/` folder. The `publish/` folder contains scripts to convert the data into a `sqlite` database, which can be published to Heroku using a tool called `datasette`.
 
 ```
 .
+├── LICENSE.md
 ├── README.md
 ├── data
-│   └── final_fmtrpt_all_20190716.tsv
+│   ├── final_fmtrpt_all_20190716.tsv
+│   ├── final_fmtrpt_all_20191216.tsv
+│   └── final_fmtrpt_all_20210806.tsv
 ├── group_and_clean
 │   ├── 0_get_data_files
 │   ├── 1_pre_stack_clean
 │   ├── 2_stack_em_up
-│   └── 3_big_clean
-└── scrapers 
+│   ├── 3_big_clean
+│   ├── 4_training_uuids
+│   └── 5_prepub_filters
+├── publish
+│   ├── input
+│   └── src
+└── scrapers
     ├── fmtrpt_1999_2000
     ├── fmtrpt_2000_2001
     ├── fmtrpt_2001_2002
@@ -284,111 +299,167 @@ The `scrapers/` folder contains the source files, tools and steps used for each 
     ├── fmtrpt_2015_2016
     ├── fmtrpt_2016_2017
     ├── fmtrpt_2017_2018
-    └── fmtrpt_2018_2019
+    ├── fmtrpt_2018_2019
+    └── fmtrpt_2019_2020
 
-27 directories, 2 files
+33 directories, 5 files
+
 ```
 ### Running the scrapers and getting the data out of the PDFs
 
 Each annual report has its own scraper. In more detail, here's what the completed scraper process looks like for the report of the Fiscal Year 2017-2018:
 
 ```
-scrapers/fmtrpt_2017_2018/
-├── doc
+.
 ├── input
-│   └── 284930.pdf
+│   └── FMT_Volume-I_FY2019_2020.pdf
 ├── notes
-│   └── 2017_2018_process_notes.md
+│   └── notes_on_2016_2017_fmtrpt.md
 ├── output
+│   ├── 0_pdf_slice
+│   │   ├── 2019_2020_Africa_fmtrpt.pdf
+│   │   ├── 2019_2020_East_Asia_and_Pacific_fmtrpt.pdf
+│   │   ├── 2019_2020_Europe_fmtrpt.pdf
+│   │   ├── 2019_2020_Near_East_fmtrpt.pdf
+│   │   ├── 2019_2020_South_Central_Asia_fmtrpt.pdf
+│   │   └── 2019_2020_Western_Hemisphere_fmtrpt.pdf
 │   ├── 1_pdf_xml
-│   │   ├── 2017_2018_Africa_fmtrpt.xml
-│   │   ├── 2017_2018_East_Asia_and_Pacific_fmtrpt.xml
-│   │   ├── 2017_2018_Europe_fmtrpt.xml
-│   │   ├── 2017_2018_Near_East_fmtrpt.xml
-│   │   ├── 2017_2018_South_Central_Asia_fmtrpt.xml
-│   │   └── 2017_2018_Western_Hemisphere_fmtrpt.xml
+│   │   ├── 2019_2020_Africa_fmtrpt.xml
+│   │   ├── 2019_2020_East_Asia_and_Pacific_fmtrpt.xml
+│   │   ├── 2019_2020_Europe_fmtrpt.xml
+│   │   ├── 2019_2020_Near_East_fmtrpt.xml
+│   │   ├── 2019_2020_South_Central_Asia_fmtrpt.xml
+│   │   └── 2019_2020_Western_Hemisphere_fmtrpt.xml
 │   ├── 2_xml_refine
-│   │   ├── 2017_2018_Africa_fmtrpt_raw.xml
-│   │   ├── 2017_2018_East_Asia_and_Pacific_fmtrpt_raw.xml
-│   │   ├── 2017_2018_Europe_fmtrpt_raw.xml
-│   │   ├── 2017_2018_Near_East_fmtrpt_raw.xml
-│   │   ├── 2017_2018_South_Central_Asia_fmtrpt_raw.xml
-│   │   └── 2017_2018_Western_Hemisphere_fmtrpt_raw.xml
+│   │   ├── 2019_2020_Africa_fmtrpt_raw.xml
+│   │   ├── 2019_2020_East_Asia_and_Pacific_fmtrpt_raw.xml
+│   │   ├── 2019_2020_Europe_fmtrpt_raw.xml
+│   │   ├── 2019_2020_Near_East_fmtrpt_raw.xml
+│   │   ├── 2019_2020_South_Central_Asia_fmtrpt_raw.xml
+│   │   └── 2019_2020_Western_Hemisphere_fmtrpt_raw.xml
 │   ├── 3_xml_errors
-│   │   ├── errors_2017_2018_Africa_fmtrpt.xml
-│   │   ├── errors_2017_2018_East_Asia_and_Pacific_fmtrpt.xml
-│   │   ├── errors_2017_2018_Europe_fmtrpt.xml
-│   │   ├── errors_2017_2018_Near_East_fmtrpt.xml
-│   │   ├── errors_2017_2018_South_Central_Asia_fmtrpt.xml
-│   │   └── errors_2017_2018_Western_Hemisphere_fmtrpt.xml
+│   │   ├── errors_2019_2020_Africa_fmtrpt.xml
+│   │   ├── errors_2019_2020_East_Asia_and_Pacific_fmtrpt.xml
+│   │   ├── errors_2019_2020_Europe_fmtrpt.xml
+│   │   ├── errors_2019_2020_Near_East_fmtrpt.xml
+│   │   ├── errors_2019_2020_South_Central_Asia_fmtrpt.xml
+│   │   └── errors_2019_2020_Western_Hemisphere_fmtrpt.xml
 │   ├── 4_xml_dedup
-│   │   ├── 2017_2018_Africa_fmtrpt_dedup.xml
-│   │   ├── 2017_2018_East_Asia_and_Pacific_fmtrpt_dedup.xml
-│   │   ├── 2017_2018_Europe_fmtrpt_dedup.xml
-│   │   ├── 2017_2018_Near_East_fmtrpt_dedup.xml
-│   │   ├── 2017_2018_South_Central_Asia_fmtrpt_dedup.xml
-│   │   └── 2017_2018_Western_Hemisphere_fmtrpt_dedup.xml
+│   │   ├── 2019_2020_Africa_fmtrpt_dedup.xml
+│   │   ├── 2019_2020_East_Asia_and_Pacific_fmtrpt_dedup.xml
+│   │   ├── 2019_2020_Europe_fmtrpt_dedup.xml
+│   │   ├── 2019_2020_Near_East_fmtrpt_dedup.xml
+│   │   ├── 2019_2020_South_Central_Asia_fmtrpt_dedup.xml
+│   │   └── 2019_2020_Western_Hemisphere_fmtrpt_dedup.xml
 │   └── 5_xml_tsv
-│       ├── 2017_2018_Africa_fmtrpt.tsv
-│       ├── 2017_2018_East_Asia_and_Pacific_fmtrpt.tsv
-│       ├── 2017_2018_Europe_fmtrpt.tsv
-│       ├── 2017_2018_Near_East_fmtrpt.tsv
-│       ├── 2017_2018_South_Central_Asia_fmtrpt.tsv
-│       └── 2017_2018_Western_Hemisphere_fmtrpt.tsv
+│       ├── 2019_2020_Africa_fmtrpt.tsv
+│       ├── 2019_2020_East_Asia_and_Pacific_fmtrpt.tsv
+│       ├── 2019_2020_Europe_fmtrpt.tsv
+│       ├── 2019_2020_Near_East_fmtrpt.tsv
+│       ├── 2019_2020_South_Central_Asia_fmtrpt.tsv
+│       └── 2019_2020_Western_Hemisphere_fmtrpt.tsv
 └── src
+    ├── analyse_xml.sh
     ├── deduplicate_training_items.xsl
-    ├── extractor_2017_2018_all_sections.sh
-    └── fmtrpt_fy_2017_2018_sections
+    ├── extractor_2019_2020_all_sections.sh
+    └── fmtrpt_fy_2019_2020_sections
 
-10 directories, 35 files
+10 directories, 42 files
 ```
 
-The scraper is `src/extractor_2017_2018_all_sections.sh`, which operates on `input/284930.pdf`. The file `src/fmtrpt_fy_2017_2018_sections` tells the scraper which file and page range to associate with data on which region (e.g. "Near East"). It works through a sequence of steps, the output of each is contained in `output/`:
+The scraping and parsing script is `src/extractor_2019_2020_all_sections.sh`, which operates on `input/FMT_Volume-I_FY2019_2020.pdf`. The input PDF is a set of large tables that spread across multiple pages. These tables also have various headings indicating the region and country of training, and the US security assistance program that has financed the training. 
 
- * `output/1_pdf_xml/` contains a verbose XML version of the PDF.
- * `output/2_xml_refine/` contains a simpler, cleaner XML of just the training items
+The scraper knows what type of data is in each row and column by looking at the combinations of `left` and `font` values. For example, in an XML rendering of the PDF, a typical line looks like this:
+
+```
+<text top="103" left="27" width="278" height="10" font="2"><b>FHA - Fiscal Year 2019 Department of Defense Training </b></text>
+```
+
+All lines in the XML where the `left` value is "27" and the `font` is "2" will contain data about the program that finances the training. For example:
+
+```
+$ grep "left=\"27\".*font=\"2\"" output/1_pdf_xml/2019_2020_Africa_fmtrpt.xml|head -n5
+
+<text top="103" left="27" width="278" height="10" font="2"><b>FHA - Fiscal Year 2019 Department of Defense Training </b></text>
+<text top="232" left="27" width="275" height="10" font="2"><b>IMET-1 - Fiscal Year 2019 Department of State Training </b></text>
+<text top="561" left="27" width="292" height="10" font="2"><b>IMET-D&amp;R - Fiscal Year 2019 Department of State Training </b></text>
+<text top="809" left="27" width="264" height="10" font="2"><b>PKO - Fiscal Year 2019 Department of State Training </b></text>
+<text top="166" left="27" width="277" height="10" font="2"><b>IMET-X - Fiscal Year 2019 Department of State Training </b></text>
+
+```
+
+Other values like `top` and `width` change, but `left` and `font` are contant or have small variations that we we can easily detect and add to the scraper. This works for other values held in the tables, such as the name of the training course, and the US and student units. Run the helper script `src/analyze_xml.sh` on any of the XML files in `output/1_pdf_xml` to get all the `left` and `font` combinations for that file, which then get plugged into the early part of the script.
+
+The script then parses these values out and surrounds them with a tag like `<training_name>` or `<program>`, building a sort-of-XML, which we then bring into compliance by fixing missing end and start tags.
+
+The file `src/fmtrpt_fy_2019_2020_sections` tells the scraper which file and page range to associate with data on which region (e.g. "Near East"). 
+
+It works through a sequence of steps, the output of each is contained in `output/`:
+
+ * `output/0_pdf_slice/` contains PDFs of each region's data, based on the page numbering contained in `src/fmtrpt_fy_2019_2020_sections`.
+ * `output/1_pdf_xml/` contains a verbose XML version of the PDF. Use `src/analyse_xml.sh` on these files to find out the relevant positional values for the different columns of data, which we then plug into the scraper.
+ * `output/2_xml_refine/` contains a simpler, cleaner XML of just the training items.
  * `output/3_xml_errors/` contains the output of XML linting. When this passes, the script will move to the next steps.
  * `output/4_xml_dedup/` contains the output of an XSLT operation (contained in `src/deduplicate_training_items.xsl`)
  * `output/5_xml_tsv/` converts the clean, deduplicated XML to a flat, tab-separated, final output.
 
-We've structured it this way to make the production process very transparent.
+We've structured it this way to make the production process very transparent. It's crude, but it works on these PDFs!
 
 ### Grouping and cleaning up the scraper outputs
 
 After running all the scraper scripts and getting .tsv files into the `output/5_xml_tsv` folders of each scraper, the next step is to aggregate them. The toolset and process to do this is contained in `group_and_clean/`:
 
 ```
-group_and_clean/
+group_and_clean
 ├── 0_get_data_files
 ├── 1_pre_stack_clean
 ├── 2_stack_em_up
-└── 3_big_clean
+├── 3_big_clean
+├── 4_training_uuids
+└── 5_prepub_filters
 
-4 directories, 0 files
+6 directories, 0 files
 ```
 
 Starting at `group_and_clean/0_get_data_files/` the outputs of each step form the input of the next. The relevant script is in the `src` directory in each step:
 
- * `0_get_data_files/` pull all the .tsv files from every `output/5_xml_tsv/` in the directory tree.  
- * `1_pre_stack_clean/` escapes all speech marks in all the files (which fixes a quoting/sniffing problem for the next step)
+ * `0_get_data_files/` pull all the .tsv files from every `output/5_xml_tsv/` in the directory tree. You can also adapt this to pull out files specific to a fiscal year.
+ * `1_pre_stack_clean/` escapes all speech marks in all the files (which fixes a quoting/sniffing problem for the next step).
  * `2_stack_em_up/` aggregates all the .tsv files into a single .tsv.
  * `3_big_clean/` moves the aggregated .tsv through a number of transformations (cleaning, standardizing, filtering) to produce a superior output.
+ * `4_training_uuids` mints a UUID for  each row of data, which we can use as a reference for that specific training intervention. This step in the process should only be run on newly acquired data.
+ * `5_prepub_filters` is where we can remove any problematic data before publishing. For example, the 2019-2020 data has a problem with the Angola data, so we remove it until that is fixed.
 
-The file dropped in `group_and_clean/3_big_clean/output` can be copied to `data/` as the final outcome of the scraping and cleaning process.
+The file dropped in `group_and_clean/5_prepub_filters/output` can be copied to `data/` as the final outcome of the scraping and cleaning process.
 
 ### Publishing the data
 
-Convert the data to `sqlite` (we used `csvsql`), and use [datasette](https://github.com/simonw/datasette) ([docs](https://datasette.readthedocs.io/en/stable/)) to publish the data online in a useful and highly functional way. Include the full text search and indexing functions outlined in the [documentation](https://datasette.readthedocs.io/en/stable/full_text_search.html). We have used Heroku to serve the data, routing to a subdomain of https://securityforcemonitor.org.
+```
+publish
+├── input
+│   └── final_fmtrpt_all_20210806.tsv
+└── src
+    ├── createdb.sh
+    ├── deploy.sh
+    ├── metadata.yaml
+    └── state-department-data.db # Removed in git repo, as it's quite large
 
-### A note on report structures
+2 directories, 5 files
+```
 
-Since the first publication in 2000 the report has changed structure and content a number of times. Crude parsers like the ones we have written use the font size and positioning values to determine what field a particular piece of text should be placed in. These values change in each report format, but the changes can easily be seen inside the XML and changes made to the parser per those values. 
+Convert the data to `sqlite` (we used `sqlite-utils`), and use [datasette](https://github.com/simonw/datasette) ([docs](https://datasette.readthedocs.io/en/stable/)) to publish the data online in a useful and highly functional way. We include the full text search and indexing functions outlined in the [documentation](https://sqlite-utils.datasette.io/en/stable/cli.html#configuring-full-text-search). We have used Heroku to serve the data, routing to a subdomain of https://securityforcemonitor.org. 
+
+The scripts to do this are contained in the `publish/` directory. You'll need to set up `heroku` locally in order to use them.
+
+### A note on variations in report structures
+
+Since the first publication in 2000 the report has changed structure and content a number of times. Parsers like the ones we have written use the font size and positioning values to determine what field a particular piece of text should be placed in. These values change in each report format, but the changes can easily be seen inside the XML and changes made to the parser per those values. 
 
 The current format ("E"), is the easiest to parse and was implemented for the FY2007-2008 report, and has remained broadly stable since then. Format "C", used between FY2000-2001 and FY 2005-2006 is more tricky.
 
-
 |Report|Pattern|Format
 |:--:|:--:|:--:
+FY 2019-2020|E| PDF
 FY 2018-2019|E| PDF
 FY 2017-2018|E| PDF
 FY 2016-2017|E| PDF
@@ -409,3 +480,4 @@ FY 2002-2003|C| PDF
 FY 2001-2002|C| PDF
 FY 2000-2001|B| PDF
 FY 1999-2000|A| HTML
+
