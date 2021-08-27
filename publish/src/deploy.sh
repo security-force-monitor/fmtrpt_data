@@ -14,7 +14,8 @@ _publishHerokuProduction () {
 		--extra-options="--setting default_page_size 50" \
 		--extra-options="--setting sql_time_limit_ms 30000" \
 		--extra-options="--setting suggest_facets off" \
-		--extra-options="--setting allow_csv_stream off"
+		--extra-options="--setting allow_csv_stream on" \
+		--extra-options="--setting max_returned_rows 100000"
 }
 
 _publishHerokuTest () {
