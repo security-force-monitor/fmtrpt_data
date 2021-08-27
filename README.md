@@ -307,7 +307,7 @@ The `scrapers/` folder contains the source files, tools and steps used for each 
 ```
 ### Running the scrapers and getting the data out of the PDFs
 
-Each annual report has its own scraper. In more detail, here's what the completed scraper process looks like for the report of the Fiscal Year 2017-2018:
+Each annual report has its own scraper. In more detail, here's what the completed scraper process looks like for the report of the Fiscal Year 2019-2020:
 
 ```
 .
