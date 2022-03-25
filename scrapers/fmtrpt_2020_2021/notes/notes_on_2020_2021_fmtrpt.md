@@ -18,3 +18,4 @@ The report covers:
  * In a few cases, the raw XML from `pdftohtml` concatenates column values, which has downstream effects if not manually corrected:
   * p16, Africa: the student unit "Ministry of Youth and Employment Promotion" is elided with the US unit "ACSS - 0" in the raw XML.
   * p17, Europe: the student unit "Police-Criminal Intelligence and Analysis Unit" is elided with the US unit "N/A - 0" in the raw XML.
+ * A few start training start dates are outside of the FY in question (e.g. 4/1/2016 as start date for a Communication Training for the Jordan army, which ends on 4/30/2020"
