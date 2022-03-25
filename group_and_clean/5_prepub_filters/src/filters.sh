@@ -2,9 +2,15 @@
 #
 # Pre-publication filters
 #
-# tl
+# tl@sfm
 
 set -euo pipefail
+
+# Specify input file
+
+i="final_fmtrpt_2020_2021_20220325.tsv"
+
+# Filters: Enumerate each as a function
 
 _angolaError () {
 	# Remove Angola data from the 2019-2020 FY report. This is because
@@ -21,7 +27,7 @@ _angolaError () {
 
 _main () {
 
-	_angolaError input/final_fmtrpt_all_20210806.tsv > output/final_fmtrpt_all_20210806.tsv
+	_angolaError input/"$i" > output/"$i"
 
 }
 _main

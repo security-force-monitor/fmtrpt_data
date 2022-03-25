@@ -5,6 +5,7 @@
 # tl / 	2019-07-16
 #	2019-12-06 updated
 #	2021-08-06 updated
+#	2022-03-25 updated for 2020-2021 FY data
 #
 # Script safety and debugging
 
@@ -14,7 +15,10 @@ shopt -s failglob
 # Declare variables
 # Source for input data (and derived products by filename)
 
-i="fmtrpt_all_20210806.tsv"
+i="fmtrpt_2020_2021_20220325.tsv"
+
+## Check notes folder
+mkdir -p notes
 
 # Add a column for ISO
 
@@ -314,6 +318,7 @@ gawk '			BEGIN { FS=OFS="\t" } \
 			{ if ($2 ~ /^"2017_/) $1="\"8602229d-5b77-42e5-b1bc-83fad2eda1b9\""} \
 			{ if ($2 ~ /^"2018_/) $1="\"8d439057-bc2d-4141-8ff3-48d6842150eb\""} \
 			{ if ($2 ~ /^"2019_/) $1="\"730b2c0f-4eb6-4dbb-af57-2be9eb32031a\""} \
+			{ if ($2 ~ /^"2020_/) $1="\"491fdf73-cf75-42bf-93e8-9aad65ed8762\""} \
 			{ print $0 }' \
 			"notes/4_${i}" \
 		> "notes/5_${i}"
@@ -486,6 +491,8 @@ gawk ' 	BEGIN 	{ FS=OFS="\t" } ; 			\
 
 # The original source column has the filename from which the data were extracted
 # These are easily turned into full URLs, so we will do that
+# For 2020-2021, the file names did not contain the year, so instead
+# we use source_id as the condition
 
 echo "Adding in source file url for each row, and rename the column to reflect this"
 
@@ -495,12 +502,15 @@ gawk 	'BEGIN { FS=OFS="\t" }	;											\
 	   else if (NR > 1 && $16 == "") $16 = "Error: no source provided" ;							\
 	   else if (NR > 1 && $16 ~ /FMT_Volume-I_FY2018_2019/ ) $16 = "https://www.state.gov/wp-content/uploads/2019/12/FMT_Volume-I_FY2018_2019.pdf" ; \
 	   else if (NR > 1 && $16 ~ /FMT_Volume-I_FY2019_2020/ ) $16 = "https://www.state.gov/wp-content/uploads/2021/08/Volume-I-508-Compliant.pdf" ; \
+	   else if (NR > 1 && $1 ~ /491fdf73-cf75-42bf-93e8-9aad65ed8762/ ) $16 = "https://www.state.gov/wp-content/uploads/2022/03/" $16 ".pdf" ; \
 	   else if (NR > 1 ) $16 = "https://2009-2017.state.gov/documents/organization/" $16 ".pdf" ;		\
 	   if (NR == 1 ) $16 = "source_url" ; 										\
 	   gsub(/^/,"\"",$16) ; gsub(/$/,"\"",$16) } ;									\
 	   { print } '		\
 	"notes/15_${i}" 	\
 	> notes/16_${i}
+
+# https://www.state.gov/wp-content/uploads/2022/03/10-Volume-I-Section-IV-Part-IV-I-Africa.pdf
 
 ## Add in a column and note to make it clear that the data has not been manually checked against source
 
@@ -537,6 +547,7 @@ gawk 'BEGIN { FS=OFS="\t"}; { $17 = $17 FS "\"date_first_seen\""; print $0 }' "n
 		{if ($1 ~ /8602229d-5b77-42e5-b1bc-83fad2eda1b9/) $18 = "\"2018-08-15\"" } 	\
 		{if ($1 ~ /8d439057-bc2d-4141-8ff3-48d6842150eb/) $18 = "\"2019-12-06\"" }	\
 		{if ($1 ~ /730b2c0f-4eb6-4dbb-af57-2be9eb32031a/) $18 = "\"2021-08-04\"" }	\
+		{if ($1 ~ /491fdf73-cf75-42bf-93e8-9aad65ed8762/) $18 = "\"2022-03-16\"" }	\
 		{ print $0 }'\
 		> notes/18_${i}
 
@@ -566,6 +577,7 @@ gawk 'BEGIN { FS=OFS="\t"} ;										\
 		{if ($1 ~ /8602229d-5b77-42e5-b1bc-83fad2eda1b9/) $18 = $18 FS "\"2019-07-16\"" }	\
 		{if ($1 ~ /8d439057-bc2d-4141-8ff3-48d6842150eb/) $18 = $18 FS "\"2019-12-06\"" }	\
 		{if ($1 ~ /730b2c0f-4eb6-4dbb-af57-2be9eb32031a/) $18 = $18 FS "\"2021-08-06\"" }	\
+		{if ($1 ~ /491fdf73-cf75-42bf-93e8-9aad65ed8762/) $18 = $18 FS "\"2022-03-25\"" }	\
 		{print $0}' "notes/18_${i}" \
 	| gawk 'BEGIN { FS=OFS="\t"} ; {if (NR==1) $19 = "\"date_scraped\"" ; print $0}' \
 	> notes/19_${i}

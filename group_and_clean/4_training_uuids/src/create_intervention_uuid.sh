@@ -1,7 +1,7 @@
 #!/bin/bash
 set -eup pipefail
 
-data="final_fmtrpt_all_20210806.tsv"
+data="final_fmtrpt_2020_2021_20220325.tsv"
 tmpfile="tmp.tsv" 
 
 # Add a uuid to each row

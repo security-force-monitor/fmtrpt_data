@@ -5,7 +5,9 @@
 
 set -euo pipefail
 
-sqlite-utils insert src/state-department-data.db "training-data" input/final_fmtrpt_all_20210806.tsv \
+i="final_fmtrpt_all_20220325.tsv"
+
+sqlite-utils insert src/state-department-data.db "training-data" input/"$i" \
 	--tsv \
 	--pk="training:id:admin" \
 	--replace
