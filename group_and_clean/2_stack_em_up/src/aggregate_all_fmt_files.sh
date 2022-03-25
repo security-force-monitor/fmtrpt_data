@@ -5,6 +5,7 @@
 # tl	2019-07-17
 #	2019-12-06 updated
 #	2021-08-06 updated with outfile test
+#	2022-03-25 updated to just aggregate current FY
 #
 # Script safety and debug
 
@@ -13,7 +14,7 @@ shopt -s failglob
 
 # Choose a new outfile name each time data are updated
 
-outfile="fmtrpt_all_20210806.tsv"
+outfile="fmtrpt_2020_2021_20220325.tsv"
 
 _stack () {
 
@@ -44,4 +45,3 @@ _main
 
 # To do:
 # - migrate to xsv? 
-# - ask user for outfile name?

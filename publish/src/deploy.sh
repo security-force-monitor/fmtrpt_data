@@ -10,7 +10,7 @@ _publishHerokuProduction () {
 
 	datasette publish heroku src/state-department-data.db \
 		--metadata src/metadata.yaml \
-		--name "fmtrpt-new" \
+		--name "fmtrpt-2022" \
 		--extra-options="--setting default_page_size 50" \
 		--extra-options="--setting sql_time_limit_ms 30000" \
 		--extra-options="--setting suggest_facets off" \
@@ -47,9 +47,9 @@ _main () {
 	# - test project
 	# - local server
 
-	_publishHerokuProduction
+#	_publishHerokuProduction
 #	_publishHerokuTest
-#	_publishLocal
+	_publishLocal
 
 
 
