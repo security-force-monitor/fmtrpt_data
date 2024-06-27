@@ -2,7 +2,7 @@
 
 ## Sources
 
-This report was published on 16 March 2022, but first appeared on the State Department website on 24 March 2022. It is published in separate PDFs corresponding to the regional grouping commonly used in this report. The files are listed on the report's [landing page](https://www.state.gov/reports/foreign-military-training-and-dod-engagement-activities-of-interest-2020-2021/). This report was published nearly six months later than usual.
+This report was published on 16 March 2022, but first appeared on the State Department website on 24 March 2022. It is published in separate PDFs corresponding to the regional groupings commonly used in this report. The files are listed on the report's [landing page](https://www.state.gov/reports/foreign-military-training-and-dod-engagement-activities-of-interest-2020-2021/). This report was published nearly six months later than usual.
 
 The report covers:
 
@@ -12,6 +12,10 @@ The report covers:
  * [Near East](https://www.state.gov/wp-content/uploads/2022/03/13-Volume-I-Section-IV-Part-IV-IV-Near-East.pdf)
  * [South Central Asia](https://www.state.gov/wp-content/uploads/2022/03/14-Volume-I-Section-IV-Part-IV-V-South-Central-Asia.pdf)
  * [Western Hemispheric Region](https://www.state.gov/wp-content/uploads/2022/03/15-Volume-I-Section-IV-Part-IV-VI-Western-Hemisphere.pdf)
+
+## Processing runs
+
+ * 202203261659: first version, run with original scripts
 
 ## List of problems with processing the 2020-2021 report
 

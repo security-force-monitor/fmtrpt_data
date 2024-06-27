@@ -6,6 +6,7 @@
 #	2019-12-06 updated
 #	2021-08-06 updated
 #	2022-03-25 updated
+#	2024-06-27
 
 # Script safety and debug
 
@@ -21,13 +22,20 @@ i="/Users/sfm1/Documents/work/sfm/org/fmtrpt_data"
 
 y="fmtrpt_2020_2021"
 
+# Set which scraper run we're working on for that year
+
+r="202203261659"
+
 # Find all the final output files for each of the FMTRPT years
 # Copy them to the output folder
 # Remove the echo statement to run this for real
 
 #find "$i"/scrapers/"$y"/output/5_xml_tsv -name "*.tsv" -exec echo cp {} ${i}/group_and_clean/0_get_data_files/output \;
 
-find "${i}"/scrapers/"${y}"/output/5_xml_tsv -name "*.tsv" -exec cp {} ${i}/group_and_clean/0_get_data_files/output \;
+
+# find "${i}"/scrapers/"${y}"/1_scrape_extract/output/"${r}"/5_xml_tsv -name "*.tsv" -exec echo cp {} ${i}/scrapers/"${y}"/2_clean_structure/"${r}"/0_get_data_files/output \;
+
+find "${i}"/scrapers/"${y}"/1_scrape_extract/output/"${r}"/5_xml_tsv -name "*.tsv" -exec cp {} ${i}/scrapers/"${y}"/2_clean_structure/"${r}"/0_get_data_files/output \;
 
 # Note: if the 2006-2007 data ever needs working on again ...
 # This was a HTML parse

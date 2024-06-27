@@ -23,7 +23,7 @@ _extractPages () {
 	gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -sstdout=%stderr \
 		-dFirstPage="$s" \
 		-dLastPage="$e" \
-		-sOutputFile="output/0_pdf_slice/${y}_${t}_fmtrpt.pdf" \
+		-sOutputFile="output/"${r}"/0_pdf_slice/${y}_${t}_fmtrpt.pdf" \
 		input/"${p}.pdf" 2>/dev/null
 
 }
@@ -31,7 +31,7 @@ _extractPages () {
 _xmlConvert () {
 	# Convert the PDF to XML
 
-	pdftohtml -c -s -i -xml output/0_pdf_slice/"${y}_${t}_fmtrpt.pdf" output/1_pdf_xml/"${y}_${t}_fmtrpt.xml"
+	pdftohtml -c -s -i -xml output/"${r}"/0_pdf_slice/"${y}_${t}_fmtrpt.pdf" output/"${r}"/1_pdf_xml/"${y}_${t}_fmtrpt.xml"
 
 }
 
@@ -48,7 +48,7 @@ _cleanXML () {
 	# - add XML doctype heading
 	# - remove empty lines
 
-	cat output/1_pdf_xml/"${y}_${t}_fmtrpt.xml" \
+	cat output/"${r}"/1_pdf_xml/"${y}_${t}_fmtrpt.xml" \
 	| grep -e "^<text" \
 	| grep -v "font=\"0\"" \
 	| grep -v -e "^.*Qty.*$" \
@@ -89,7 +89,7 @@ _cleanXML () {
 		s/<training>\n<course_title>.*<\/course_title>\n<course_title>.*<\/course_title>$//g' \
 	| awk 'BEGIN{print "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<countries>"};{print};END{print "</program>\n</country>\n</countries>"}' \
 	| grep -v "^$" \
-	> output/2_xml_refine/"${y}_${t}_fmtrpt_raw.xml"
+	> output/"${r}"/2_xml_refine/"${y}_${t}_fmtrpt_raw.xml"
 
 }
 
@@ -97,7 +97,7 @@ _errorCheckXML () {
 	# Check the XML for errors. When it (finally) passes, we're all good.
 	# You can also use xml el -u on the same input to check the xml structure. 
 
-	xmllint --huge output/2_xml_refine/"${y}_${t}_fmtrpt_raw.xml" > output/3_xml_errors/"errors_${y}_${t}_fmtrpt.xml"
+	xmllint --huge output/"${r}"/2_xml_refine/"${y}_${t}_fmtrpt_raw.xml" > output/"${r}"/3_xml_errors/"errors_${y}_${t}_fmtrpt.xml"
 
 }
 
@@ -105,7 +105,7 @@ _deduplicateXML () {
 	# Apply XSLT tranformation to xml to merge entries that span multiple enties in the XML.
 	# For XSLT explanation see: https://stackoverflow.com/questions/55299442/xml-group-and-merge-elements-whilst-keeping-all-element-text
 
-	xml tr src/deduplicate_training_items.xsl output/2_xml_refine/"${y}_${t}_fmtrpt_raw.xml" > output/4_xml_dedup/"${y}_${t}_fmtrpt_dedup.xml"
+	xml tr src/deduplicate_training_items.xsl output/"${r}"/2_xml_refine/"${y}_${t}_fmtrpt_raw.xml" > output/"${r}"/4_xml_dedup/"${y}_${t}_fmtrpt_dedup.xml"
 }
 
 
@@ -113,10 +113,18 @@ _generateOutput () {
 	# Generate a TSV output from the XSML, clean up some spacing and tabbing cruft, and apply a header row.
 	# For explanation of use of xml ancestors: https://stackoverflow.com/questions/51988726/recursive-loop-xml-to-csv-with-xmlstarlet
 
-	xml sel -T -t -m "//training" -v "concat(ancestor::country/@name,'	',ancestor::program/@name,'	',course_title,'	',us_unit,'	',student_unit,'	',start_date,'	',end_date,'	',location,'	',quantity,'	',total_cost)" -n output/4_xml_dedup/"${y}_${t}_fmtrpt_dedup.xml" \
+	xml sel -T -t -m "//training" -v "concat(ancestor::country/@name,'	',ancestor::program/@name,'	',course_title,'	',us_unit,'	',student_unit,'	',start_date,'	',end_date,'	',location,'	',quantity,'	',total_cost)" -n output/"${r}"/4_xml_dedup/"${y}_${t}_fmtrpt_dedup.xml" \
 	| sed 's/ \{2,\}/ /g ; s/	 /	/g ; s/ 	/	/g' \
 	| awk -v p="${p}" 'BEGIN{print "country\tprogram\tcourse_title\tus_unit\tstudent_unit\tstart_date\tend_date\tlocation\tquantity\ttotal_cost\tsource"};{print $0"\t"p}' \
-	> output/5_xml_tsv/"${y}_${t}_fmtrpt.tsv"
+	> output/"${r}"/5_xml_tsv/"${y}_${t}_fmtrpt.tsv"
+
+}
+
+_setupOutputFolders () {
+
+	# Create folder structure using extraction run ID as root
+
+	mkdir -p output/"${r}"/{0_pdf_slice,1_pdf_xml,2_xml_refine,3_xml_errors,4_xml_dedup,5_xml_tsv}
 
 }
 
@@ -128,21 +136,27 @@ _main () {
 	#  t = sub-section (e.g. Africa, Western Hemispehere)
 	#  s = first page to extract
 	#  e = last page to extract
+	#  r = extraction run ID (YYYYMMDDhhss)
 
-	while IFS=$' ' read -r p y t s e ; do
+	while IFS=$' ' read -r p y t s e r; do
+
+		printf "\n%s: \n%s\n" "Run ID" "$r"
+
+		_progMsg "Checking output folder setup"
+		_setupOutputFolders
 		
 		printf "%s: %s\n\n" "# Working on" "$t"
-#		_progMsg "Extracting pages from PDF"
-#		_extractPages
-#		_progMsg "Converting PDF to XML"
-#		_xmlConvert
-		_progMsg "Cleaning up XML"
+		_progMsg "Extracting pages from PDF"
+		_extractPages
+		_progMsg "Converting PDF to XML"
+		_xmlConvert
+		_progMsg "... Cleaning up XML"
 		_cleanXML
-		_progMsg "Linting XML"
+		_progMsg "... Linting XML"
 		_errorCheckXML
-		_progMsg "Deduplicating XML"
+		_progMsg "... Deduplicating XML"
 		_deduplicateXML
-		_progMsg "Creating TSV output"
+		_progMsg "... Creating TSV output"
 		_generateOutput
 
 	done < src/fmtrpt_fy_2020_2021_sections
