@@ -54,7 +54,7 @@ _cleanXML () {
 	# - Add XML doctype heading.
 	# - Remove empty lines.
 
-	cat output/1_pdf_xml/"${y}_${t}_fmtrpt.xml" \
+	cat output/"${r}"/1_pdf_xml/"${y}_${t}_fmtrpt.xml" \
 	| sed 's/^<page/<text/g ; s/page>/text>/g' \
 	| grep -e "^<text" \
 	| grep -v "font=\"0\"" \
@@ -132,7 +132,7 @@ _generateOutput () {
 	# Generate a TSV output from the XSML, clean up some spacing and tabbing cruft, and apply a header row.
 	# For explanation of use of xml ancestors: https://stackoverflow.com/questions/51988726/recursive-loop-xml-to-csv-with-xmlstarlet
 
-	xml sel -T -t -m "//training" -v "concat(ancestor::country/@name,'	',ancestor::program/@name,'	',course_title,'	',us_unit,'	',student_unit,'	',start_date,'	',end_date,'	',location,'	',quantity,'	',total_cost,'	',page_number)" -n output/4_xml_dedup/"${y}_${t}_fmtrpt_dedup.xml" \
+	xml sel -T -t -m "//training" -v "concat(ancestor::country/@name,'	',ancestor::program/@name,'	',course_title,'	',us_unit,'	',student_unit,'	',start_date,'	',end_date,'	',location,'	',quantity,'	',total_cost,'	',page_number)" -n output/"${r}"/4_xml_dedup/"${y}_${t}_fmtrpt_dedup.xml" \
 	| sed 's/ \{2,\}/ /g ; s/	 /	/g ; s/ 	/	/g' \
 	| awk -v p="${p}" 'BEGIN{print "country\tprogram\tcourse_title\tus_unit\tstudent_unit\tstart_date\tend_date\tlocation\tquantity\ttotal_cost\tpage_number\tsource"};{print $0"\t"p}' \
 	> output/"${r}"/5_xml_tsv/"${y}_${t}_fmtrpt.tsv"
@@ -142,6 +142,7 @@ _generateOutput () {
 _setupOutputFolders () {
 
 	# Create folder structure using extraction run ID as root
+	# if it doesn't already exist (-p option)
 
 	mkdir -p output/"${r}"/{0_pdf_slice,1_pdf_xml,2_xml_refine,3_xml_errors,4_xml_dedup,5_xml_tsv}
 
@@ -164,11 +165,11 @@ _main () {
 		_progMsg "Checking output folder setup"
 		_setupOutputFolders
 		
-		printf "%s: %s\n\n" "# Working on" "$t"
-		_progMsg "Extracting pages from PDF"
-		_extractPages
-		_progMsg "Converting PDF to XML"
-		_xmlConvert
+#		printf "%s: %s\n\n" "# Working on" "$t"
+#		_progMsg "Extracting pages from PDF"
+#		_extractPages
+#		_progMsg "Converting PDF to XML"
+#		_xmlConvert
 		_progMsg "... Cleaning up XML"
 		_cleanXML
 		_progMsg "... Linting XML"
