@@ -6,7 +6,6 @@
 #	2019-12-06 updated
 #	2021-08-06 updated
 #	2022-03-25 updated for 2020-2021 FY data
-#	2024-06-19 Updated to handle page_number column
 #
 # Script safety and debugging
 
@@ -498,15 +497,15 @@ gawk ' 	BEGIN 	{ FS=OFS="\t" } ; 			\
 echo "Adding in source file url for each row, and rename the column to reflect this"
 
 gawk 	'BEGIN { FS=OFS="\t" }	;											\
-	 { gsub(/"/,"",$17) } ;												\
-	 { if (NR > 1 && $17 ~ /\.htm/) $17 = "https://2009-2017.state.gov/t/pm/rls/rpt/fmtrpt/2007/" $17  ; 	\
-	   else if (NR > 1 && $17 == "") $17 = "Error: no source provided" ;							\
-	   else if (NR > 1 && $17 ~ /FMT_Volume-I_FY2018_2019/ ) $17 = "https://www.state.gov/wp-content/uploads/2019/12/FMT_Volume-I_FY2018_2019.pdf" ; \
-	   else if (NR > 1 && $17 ~ /FMT_Volume-I_FY2019_2020/ ) $17 = "https://www.state.gov/wp-content/uploads/2021/08/Volume-I-508-Compliant.pdf" ; \
-	   else if (NR > 1 && $1 ~ /491fdf73-cf75-42bf-93e8-9aad65ed8762/ ) $17 = "https://www.state.gov/wp-content/uploads/2022/03/" $17 ".pdf" ; \
-	   else if (NR > 1 ) $17 = "https://2009-2017.state.gov/documents/organization/" $17 ".pdf" ;		\
-	   if (NR == 1 ) $17 = "source_url" ; 										\
-	   gsub(/^/,"\"",$17) ; gsub(/$/,"\"",$17) } ;									\
+	 { gsub(/"/,"",$16) } ;												\
+	 { if (NR > 1 && $16 ~ /\.htm/) $16 = "https://2009-2017.state.gov/t/pm/rls/rpt/fmtrpt/2007/" $16  ; 	\
+	   else if (NR > 1 && $16 == "") $16 = "Error: no source provided" ;							\
+	   else if (NR > 1 && $16 ~ /FMT_Volume-I_FY2018_2019/ ) $16 = "https://www.state.gov/wp-content/uploads/2019/12/FMT_Volume-I_FY2018_2019.pdf" ; \
+	   else if (NR > 1 && $16 ~ /FMT_Volume-I_FY2019_2020/ ) $16 = "https://www.state.gov/wp-content/uploads/2021/08/Volume-I-508-Compliant.pdf" ; \
+	   else if (NR > 1 && $1 ~ /491fdf73-cf75-42bf-93e8-9aad65ed8762/ ) $16 = "https://www.state.gov/wp-content/uploads/2022/03/" $16 ".pdf" ; \
+	   else if (NR > 1 ) $16 = "https://2009-2017.state.gov/documents/organization/" $16 ".pdf" ;		\
+	   if (NR == 1 ) $16 = "source_url" ; 										\
+	   gsub(/^/,"\"",$16) ; gsub(/$/,"\"",$16) } ;									\
 	   { print } '		\
 	"notes/15_${i}" 	\
 	> notes/16_${i}
@@ -517,8 +516,8 @@ gawk 	'BEGIN { FS=OFS="\t" }	;											\
 
 echo "Adding a row_status field, and a boilerplate note that the data has not been checked against source"
 
-gawk 'BEGIN { FS=OFS="\t"}; {$17 = $17 FS "\"Not checked against source; verify accuracy before use\""; print $0}' "notes/16_${i}" \
-	| gawk 'BEGIN { FS=OFS="\t"}; {if (NR==1) $18="\"row_status\"" ; print $0}' \
+gawk 'BEGIN { FS=OFS="\t"}; {$16 = $16 FS "\"Not checked against source; verify accuracy before use\""; print $0}' "notes/16_${i}" \
+	| gawk 'BEGIN { FS=OFS="\t"}; {if (NR==1) $17="\"row_status\"" ; print $0}' \
 	> "notes/17_${i}"
 
 
@@ -558,29 +557,29 @@ gawk 'BEGIN { FS=OFS="\t"}; { $17 = $17 FS "\"date_first_seen\""; print $0 }' "n
 echo "Adding data_scraped column, and putting current scrape/parse date in there"
 
 gawk 'BEGIN { FS=OFS="\t"} ;										\
-		{if ($1 ~ /7713f87d-605c-4563-acc2-0072d7dcc957/) $19 = $19 FS "\"2019-07-16\"" }	\
-		{if ($1 ~ /03221d24-92ea-4ccc-a6a2-bd88dbfcd9fb/) $19 = $19 FS "\"2019-07-16\"" }	\
-		{if ($1 ~ /048fb2d9-6651-4ba0-b36a-a526539f4cfd/) $19 = $19 FS "\"2019-07-16\"" }	\
-		{if ($1 ~ /04ac6784-aa03-4c20-978e-960d2d59ca02/) $19 = $19 FS "\"2019-07-16\"" }	\
-		{if ($1 ~ /055ffb82-b20c-412e-a126-5addf71aa3b0/) $19 = $19 FS "\"2019-07-16\"" }	\
-		{if ($1 ~ /15615dc2-0798-4dd7-84fe-b12d603b4601/) $19 = $19 FS "\"2019-07-16\"" }	\
-		{if ($1 ~ /1fcf235c-b155-4dde-bf01-3f209af7227f/) $19 = $19 FS "\"2019-07-16\"" }	\
-		{if ($1 ~ /258be1a1-a9e5-4d7f-b8b0-0500a2714580/) $19 = $19 FS "\"2019-07-16\"" }	\
-		{if ($1 ~ /333125f2-0bae-4feb-bdde-8c6fd26d0ccb/) $19 = $19 FS "\"2019-07-16\"" }	\
-		{if ($1 ~ /3ae10e65-b946-4e3d-86d5-5dfbce339ebd/) $19 = $19 FS "\"2019-07-16\"" }	\
-		{if ($1 ~ /4189374e-437e-49a6-a769-023b2b22de02/) $19 = $19 FS "\"2019-07-16\"" }	\
-		{if ($1 ~ /4bb42ad2-5ae2-4d21-b512-23eef531daaa/) $19 = $19 FS "\"2019-07-16\"" }	\
-		{if ($1 ~ /4faaea83-ee29-409a-8859-20f1be2b6c95/) $19 = $19 FS "\"2019-07-16\"" }	\
-		{if ($1 ~ /5c5f3950-1925-417b-b333-fed3650d87ea/) $19 = $19 FS "\"2019-07-16\"" }	\
-		{if ($1 ~ /79e14f58-ea87-47c9-ad07-49d8742d8b3d/) $19 = $19 FS "\"2019-07-16\"" }	\
-		{if ($1 ~ /7afbcfe9-7e9d-4a45-8c24-c9246a4b250e/) $19 = $19 FS "\"2019-07-16\"" }	\
-		{if ($1 ~ /841f634e-6db0-4c1c-a2e3-4d6ff76505d4/) $19 = $19 FS "\"2019-07-16\"" }	\
-		{if ($1 ~ /8602229d-5b77-42e5-b1bc-83fad2eda1b9/) $19 = $19 FS "\"2019-07-16\"" }	\
-		{if ($1 ~ /8d439057-bc2d-4141-8ff3-48d6842150eb/) $19 = $19 FS "\"2019-12-06\"" }	\
-		{if ($1 ~ /730b2c0f-4eb6-4dbb-af57-2be9eb32031a/) $19 = $19 FS "\"2021-08-06\"" }	\
-		{if ($1 ~ /491fdf73-cf75-42bf-93e8-9aad65ed8762/) $19 = $19 FS "\"2022-03-25\"" }	\
+		{if ($1 ~ /7713f87d-605c-4563-acc2-0072d7dcc957/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /03221d24-92ea-4ccc-a6a2-bd88dbfcd9fb/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /048fb2d9-6651-4ba0-b36a-a526539f4cfd/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /04ac6784-aa03-4c20-978e-960d2d59ca02/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /055ffb82-b20c-412e-a126-5addf71aa3b0/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /15615dc2-0798-4dd7-84fe-b12d603b4601/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /1fcf235c-b155-4dde-bf01-3f209af7227f/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /258be1a1-a9e5-4d7f-b8b0-0500a2714580/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /333125f2-0bae-4feb-bdde-8c6fd26d0ccb/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /3ae10e65-b946-4e3d-86d5-5dfbce339ebd/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /4189374e-437e-49a6-a769-023b2b22de02/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /4bb42ad2-5ae2-4d21-b512-23eef531daaa/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /4faaea83-ee29-409a-8859-20f1be2b6c95/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /5c5f3950-1925-417b-b333-fed3650d87ea/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /79e14f58-ea87-47c9-ad07-49d8742d8b3d/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /7afbcfe9-7e9d-4a45-8c24-c9246a4b250e/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /841f634e-6db0-4c1c-a2e3-4d6ff76505d4/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /8602229d-5b77-42e5-b1bc-83fad2eda1b9/) $18 = $18 FS "\"2019-07-16\"" }	\
+		{if ($1 ~ /8d439057-bc2d-4141-8ff3-48d6842150eb/) $18 = $18 FS "\"2019-12-06\"" }	\
+		{if ($1 ~ /730b2c0f-4eb6-4dbb-af57-2be9eb32031a/) $18 = $18 FS "\"2021-08-06\"" }	\
+		{if ($1 ~ /491fdf73-cf75-42bf-93e8-9aad65ed8762/) $18 = $18 FS "\"2022-03-25\"" }	\
 		{print $0}' "notes/18_${i}" \
-	| gawk 'BEGIN { FS=OFS="\t"} ; {if (NR==1) $20 = "\"date_scraped\"" ; print $0}' \
+	| gawk 'BEGIN { FS=OFS="\t"} ; {if (NR==1) $19 = "\"date_scraped\"" ; print $0}' \
 	> notes/19_${i}
 
 # Remove lines that have no source_url
