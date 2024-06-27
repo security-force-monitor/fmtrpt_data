@@ -39,3 +39,7 @@ Sessionx.vim
 tags
 # Persistent undo
 [._]*.un~
+
+# Folders that we don't want to track
+
+experiments/*
