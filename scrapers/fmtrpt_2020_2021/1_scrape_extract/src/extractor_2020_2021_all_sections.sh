@@ -3,6 +3,7 @@
 # Parse US DOD/DOS FMTRPT FY 2020-2021 from PDF to a TSV
 #
 # tl@sfm / 2022-03-25
+#          2024-06-27 Add capability to extract page numbers
 
 set -e
 shopt -s failglob
@@ -35,20 +36,26 @@ _xmlConvert () {
 
 }
 
-_cleanXML () { 
+_cleanXML () {
 	# Filter out irrelevant material and accurately place tabular cells into the right attribute in an XML tree.
-	# This ...mess .. works like this:
-	# - get only the <text> lines
-	# - remove lines with title font ("0")
-	# - remove column headers (e.g. "Qty", "Course Title")
-	# - based on interplay between left position and font size, assign an attribute name
-	# -- Use the analyze_xml.sh helper to find out the values to put in here
-	# - check again that we only have <text> tags
-	# - correct problems with nesting that exist across line endings
-	# - add XML doctype heading
-	# - remove empty lines
+	# This function  works like this:
+	# - Get only the <text> lines from the raw XML.
+	# - Remove lines with title font ("0").
+	# - Convert <page> tag to <text> tag, which simplfies mass exclusion (we reinstate the tag further down).
+	# - Remove column headers from XML (e.g. "Qty", "Course Title").
+	# - Reinstate <page> tag using presnece of "number" in XML.
+	# - Based on interplay between left position and font size, assign an attribute name.
+	# -- Use the analyze_xml.sh helper to find out the values to put in here;
+	# -- Exception here is creating a new page tag.
+	# - Check that we don't have have any <text> tags left.
+	# - Introduce "page_number" attribute inside <training> tag, using the <page> tag as an index.
+	# - Remove redundant <page> tag before correcting cross-line nesting issues.
+	# - Correct problems with nesting that exist across line endings.
+	# - Add XML doctype heading.
+	# - Remove empty lines.
 
-	cat output/"${r}"/1_pdf_xml/"${y}_${t}_fmtrpt.xml" \
+	cat output/1_pdf_xml/"${y}_${t}_fmtrpt.xml" \
+	| sed 's/^<page/<text/g ; s/page>/text>/g' \
 	| grep -e "^<text" \
 	| grep -v "font=\"0\"" \
 	| grep -v -e "^.*Qty.*$" \
@@ -60,6 +67,7 @@ _cleanXML () {
 	| grep -v -e "^.*Start Date.*$" \
 	| grep -v -e "^.*End Date.*$" \
 	| sed '{
+		s/<text.*number="\(.*\)" position.*$/<page>\1<\/page>/g
 		s/<text.*left="27".*font="1">\(.*\) <\/text>/<country name="\1">%<c_name>\1<\/c_name>/g
 		s/<text.*left="27".*font="2">\(.*\) <\/text>/<program name="\1">%<p_name>\1<\/p_name>/g
 		s/<text.*left="35".*font="3">\(.*\)<\/text>/<training>%<course_title>\1<\/course_title>/g
@@ -74,10 +82,21 @@ _cleanXML () {
 		s/<text.*left="1008".*font="3">\(.*\)<\/text>/<start_date>\1<\/start_date>/g
 		s/<text.*left="1088".*font="3">\(.*\)<\/text>/<end_date>\1<\/end_date>%<\/training>/g
 		s/<text.*left="1089".*font="3">\(.*\)<\/text>/<end_date>\1<\/end_date>%<\/training>/g
-
 		}' \
 	| tr '%' '\n' \
-	| grep -v -e "^<text" \
+	| grep -v -e "^<text"  \
+	| gawk 'BEGIN { FS = "" ;page = "" }
+		{	if ($0 ~ /^<page>[0-9]+<\/page>$/) {
+        			print $0
+        			match($0, /[0-9]+/, arr)
+        			page = arr[0]
+    		 } 	else if ($0 ~ /^<\/training>$/ ) {
+        			print "<page_number>"page"</page_number>\n" $0
+    		 } 	else {
+        			print $0
+    			}
+		 }' \
+	| grep -v "^<page>.*<\/page>$" \
 	| perl -00pe '
 		s/<\/training>\n(<program name=\".*\">)/<\/training>\n<\/program>\n\1/g ;
 		s/<\/training>\n(<country name=\".*\">)/<\/training>\n<\/program>\n<\/country>\n\1/g ;
@@ -87,7 +106,7 @@ _cleanXML () {
 		s/<\/course_title>\n.*<training>/<\/course_title>/g ;
 		s/<\/training>\n.*<quantity>/<\/training>\n<training>\n<quantity>/g ;
 		s/<training>\n<course_title>.*<\/course_title>\n<course_title>.*<\/course_title>$//g' \
-	| awk 'BEGIN{print "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<countries>"};{print};END{print "</program>\n</country>\n</countries>"}' \
+	| gawk 'BEGIN{print "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<countries>"};{print};END{print "</program>\n</country>\n</countries>"}' \
 	| grep -v "^$" \
 	> output/"${r}"/2_xml_refine/"${y}_${t}_fmtrpt_raw.xml"
 
@@ -113,12 +132,12 @@ _generateOutput () {
 	# Generate a TSV output from the XSML, clean up some spacing and tabbing cruft, and apply a header row.
 	# For explanation of use of xml ancestors: https://stackoverflow.com/questions/51988726/recursive-loop-xml-to-csv-with-xmlstarlet
 
-	xml sel -T -t -m "//training" -v "concat(ancestor::country/@name,'	',ancestor::program/@name,'	',course_title,'	',us_unit,'	',student_unit,'	',start_date,'	',end_date,'	',location,'	',quantity,'	',total_cost)" -n output/"${r}"/4_xml_dedup/"${y}_${t}_fmtrpt_dedup.xml" \
+	xml sel -T -t -m "//training" -v "concat(ancestor::country/@name,'	',ancestor::program/@name,'	',course_title,'	',us_unit,'	',student_unit,'	',start_date,'	',end_date,'	',location,'	',quantity,'	',total_cost,'	',page_number)" -n output/4_xml_dedup/"${y}_${t}_fmtrpt_dedup.xml" \
 	| sed 's/ \{2,\}/ /g ; s/	 /	/g ; s/ 	/	/g' \
-	| awk -v p="${p}" 'BEGIN{print "country\tprogram\tcourse_title\tus_unit\tstudent_unit\tstart_date\tend_date\tlocation\tquantity\ttotal_cost\tsource"};{print $0"\t"p}' \
+	| awk -v p="${p}" 'BEGIN{print "country\tprogram\tcourse_title\tus_unit\tstudent_unit\tstart_date\tend_date\tlocation\tquantity\ttotal_cost\tpage_number\tsource"};{print $0"\t"p}' \
 	> output/"${r}"/5_xml_tsv/"${y}_${t}_fmtrpt.tsv"
-
 }
+
 
 _setupOutputFolders () {
 
