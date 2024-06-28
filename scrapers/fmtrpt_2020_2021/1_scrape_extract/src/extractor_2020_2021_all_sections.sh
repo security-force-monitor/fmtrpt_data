@@ -9,6 +9,7 @@ set -e
 shopt -s failglob
 
 _progMsg () {
+	# Simple way to print terminal message
 
 	printf " + %s\n" "$1"
 
@@ -166,9 +167,9 @@ _main () {
 		_setupOutputFolders
 		
 #		printf "%s: %s\n\n" "# Working on" "$t"
-#		_progMsg "Extracting pages from PDF"
+#		_progMsg "... Extracting pages from PDF"
 #		_extractPages
-#		_progMsg "Converting PDF to XML"
+#		_progMsg "... Converting PDF to XML"
 #		_xmlConvert
 		_progMsg "... Cleaning up XML"
 		_cleanXML
@@ -186,3 +187,11 @@ _main () {
 }
 
 _main
+
+# Todo:
+# - split out the pdf-xml step from the xml-tsv steps
+# - write a zipup/cleanup step for older output runs
+# - validate values obtained from src/fmtrpt_sections file
+# - split out _cleanXML into sub-processes, or perhaps move everything into a single tool (gawk?)
+# - add traps
+# - generate stats from the final tsv output which we can use to compare later/earlier scrapes against

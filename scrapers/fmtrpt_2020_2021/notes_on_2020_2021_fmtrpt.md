@@ -15,11 +15,14 @@ The report covers:
 
 ## Processing runs
 
- * 202203261659: first version, run with original scripts
+We have processed the 2020-2021 FMT twice:
+
+ * 202203261659: original scrape run with primary extract script at commit 7414deb3628c70702ec9dd2efd32cad539c2ca32
+ * 202406271538: second scrape to extract page numbers using updated extract script at commit 3feedf2298985ac2d5377a40d545f1a9a6ea1159
 
 ## List of problems with processing the 2020-2021 report
 
- * In a few cases, the raw XML from `pdftohtml` concatenates column values, which has downstream effects if not manually corrected:
-  * p16, Africa: the student unit "Ministry of Youth and Employment Promotion" is elided with the US unit "ACSS - 0" in the raw XML.
+ * In a small number of cases in the 2020-2021 PDFs, the raw XML produced by `pdftohtml` concatenates column values, which has downstream effects if not manually corrected in the XML or later in the process:
+  * p15, Africa: the student unit "Ministry of Youth and Employment Promotion" is elided with the US unit "ACSS - 0" in the raw XML, meaning there is no entry in delivery unit.
   * p17, Europe: the student unit "Police-Criminal Intelligence and Analysis Unit" is elided with the US unit "N/A - 0" in the raw XML.
  * A few start training start dates are outside of the FY in question (e.g. 4/1/2016 as start date for a Communication Training for the Jordan army, which ends on 4/30/2020"
