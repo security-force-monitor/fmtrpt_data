@@ -15,6 +15,14 @@ The report covers:
  * South Central Asia
  * Western Hemispheric Region
 
+## Processing Runs
+
+We have processed the 2019-2020 FMT report twice:
+
+ * 202108131700: original first scrape
+ * 202402071355:
+
+
 ## List of problems in 2019-2020
 
  * The report follows the same format as the 2018-2019 report, which has been in place since 2007.
