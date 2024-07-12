@@ -22,6 +22,8 @@ We have processed the 2019-2020 FMT report twice:
  * 202108131700: original first scrape
  * 202402071355: Re-scrape with page number added
 
+The two scrapes were done with the same PDF extractor, so there's no difference in how the original XML looked, and therefore no issues matching up the later, enhanced data with the earlier set to grab the training UUIDS.
+
 ## List of problems in 2019-2020
 
  * The report follows the same format as the 2018-2019 report, which has been in place since 2007.
