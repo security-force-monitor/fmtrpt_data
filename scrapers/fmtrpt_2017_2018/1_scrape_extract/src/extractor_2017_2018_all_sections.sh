@@ -175,11 +175,11 @@ _main () {
                 _setupOutputFolders
 
 		printf "%s: %s\n\n" "# Working on" "$t"
-#		_progMsg "Extracting pages from PDF"
-#		_extractPages
+		_progMsg "Extracting pages from PDF"
+		_extractPages
 		_progMsg "Converting PDF to XML"
-#		_xmlConvert
-		_extractPagesXmlConvert # uses just pdftohtml rather than ghostscript step
+		_xmlConvert
+#		_extractPagesXmlConvert # uses just pdftohtml rather than ghostscript step
 		_progMsg "Cleaning up XML"
 		_cleanXML
 		_progMsg "Linting XML"

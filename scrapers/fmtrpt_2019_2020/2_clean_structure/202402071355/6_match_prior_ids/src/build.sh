@@ -113,6 +113,23 @@ _queryJoinOnHash () {
 
 # Some helpful diagnostic queries
 
+_diagnosticQueryHashNonMatchs () {
+
+	# Output UUID of rows of old data which are not matched by hash on the new data
+	# Uses EXCEPT clause
+
+	sqlite-utils query notes/trainingdata.db \
+		"SELECT	*
+		  FROM old
+		  where old.[qa:hash] IN
+		  ( SELECT
+		    [qa:hash] from old 
+		    EXCEPT SELECT 
+		    [qa:hash] from new )
+		  ;" --tsv
+
+}
+
 _diagnosticQueryNoDupHash () {
 
 	# Merge old and new datasets based on hash, but only where in the old data the has is unique
@@ -161,6 +178,25 @@ _diagnosticQueryNewDups () {
 
 }
 
+_reportNonJoins () {
+
+	echo "How'd we do?"
+
+	if [ -e notes/diagnostic_missing_from_merge ]
+	 then
+		a=$(xsv count -d "\t" notes/diagnostic_missing_from_merge)
+		if [ -n "${a}" ]
+		then
+		 echo " ... ${a} rows of old could not be matched using a hash."
+		else
+		 echo " ...Either all rows were matched or the diagnostic hasn't worked."
+		fi
+	 else
+	  echo " ... Error: there is no diagnostic file."
+	 fi
+
+}
+
 # Main controls
 
 _main () {
@@ -168,8 +204,8 @@ _main () {
 	# Create hash field in old and new datasets
 	# Only need to run this first time
 
-#	_makeHashField input/"${new}" > notes/hashed_"${new}"
-#	_makeHashField input/"${old}" > notes/hashed_"${old}"
+	_makeHashField input/"${new}" > notes/hashed_"${new}"
+	_makeHashField input/"${old}" > notes/hashed_"${old}"
 
 	# Delete old DB and Insert into sqlite
 	
@@ -181,11 +217,23 @@ _main () {
 	_diagnosticQueryNoDupHash > notes/diagnostic_nodupash.tsv
 	_diagnosticQueryOldDups > notes/diagnostic_oldups.tsv
 	_diagnosticQueryNewDups > notes/diagnostic_newdups.tsv
+	_diagnosticQueryHashNonMatchs > notes/diagnostic_missing_from_merge
 
 	# Create merged output of nondups and output of just dups
 
 	_queryJoinOnHash > output/merged_${new}
 
+	# Quick check on matches
+	
+	_reportNonJoins
+	cp notes/diagnostic_missing_from_merge output/"not_merged_${old}"
+
+	# Useful quick post-processing checks:
+	# - test overall row count
+	# - compare UUIDs from "old" with merged output
+	# - any discrepancies may unfortunately go back to the XML extraction step :(
+
 }
 
 _main
+

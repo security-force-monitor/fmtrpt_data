@@ -20,6 +20,8 @@ We have processed the 2020-2021 FMT twice:
  * 202203261659: original scrape run with primary extract script at commit 7414deb3628c70702ec9dd2efd32cad539c2ca32
  * 202406271538: second scrape to extract page numbers using updated extract script at commit 3feedf2298985ac2d5377a40d545f1a9a6ea1159
 
+Because the initial run used the same, already updated version of the PDF extractor, there were no rows that would not later match with the early run for the purposes of obtaining the uuids minted for each row.
+
 ## List of problems with processing the 2020-2021 report
 
  * In a small number of cases in the 2020-2021 PDFs, the raw XML produced by `pdftohtml` concatenates column values, which has downstream effects if not manually corrected in the XML or later in the process:

@@ -144,6 +144,7 @@ _deduplicateXML () {
 	xml tr src/deduplicate_training_items.xsl output/"${r}"/2_xml_refine/"${y}_${t}_fmtrpt_raw.xml" > output/"${r}"/4_xml_dedup/"${y}_${t}_fmtrpt_dedup.xml"
 }
 
+_generateOutput () {
 
 	# Generate a TSV output from the XSML, clean up some spacing and tabbing cruft, and apply a header row.
 	# For explanation of use of xml ancestors: https://stackoverflow.com/questions/51988726/recursive-loop-xml-to-csv-with-xmlstarlet
