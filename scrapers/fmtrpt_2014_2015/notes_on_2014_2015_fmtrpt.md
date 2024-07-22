@@ -15,8 +15,10 @@ Download these and plonk them in the input directory.
 
 We have processed this report twice:
 
-- 201903171306:
-- 202407121057:
+- 201903171306: original scrape.
+- 202407121057: re-scrape to extract page numbers. Fourteen rows can't be automatched.
 
 ## Notes
+
+- report page numbers are alligned with the PDF numbers.
 
