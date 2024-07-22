@@ -92,7 +92,7 @@ _cleanXML () {
 		s/<text.*left="918".*font="3">\(.*\)<\/text>/<total_cost>\1<\/total_cost>/g
 		s/<text.*left="999".*font="3">\(.*\)<\/text>/<start_date>\1<\/start_date>/g
 		s/<text.*left="1080".*font="3">\(.*\)<\/text>/<end_date>\1<\/end_date>%<\/training>/g
-		}' \
+		}'\
 	| tr '%' '\n' \
 	| grep -v -e "^<text"  \
 	| gawk 'BEGIN { FS = "" ;page = "" }
@@ -121,9 +121,6 @@ _cleanXML () {
 	| gawk 'BEGIN{print "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<countries>"};{print};END{print "</program>\n</country>\n</countries>"}' \
 	| grep -v "^$" \
 	> output/"${r}"/2_xml_refine/"${y}_${t}_fmtrpt_raw.xml"
-
-
-#	 s/<course_title> <\/course_title>\n<course_title> <\/course_title>//g' \
 
 }
 
@@ -194,7 +191,8 @@ _main () {
 		_progMsg "Creating TSV output"
 		_generateOutput
 
-	done < src/fmtrpt_fy_2016_2017_sections
+	done < src/fmtrpt_fy_2015_2016_sections
+
 
 	printf "%s\n" "Done!"
 

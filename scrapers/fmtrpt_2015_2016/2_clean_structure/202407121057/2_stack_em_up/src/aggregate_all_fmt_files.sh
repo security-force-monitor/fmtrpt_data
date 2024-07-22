@@ -14,7 +14,8 @@ shopt -s failglob
 
 # Choose a new outfile name each time data are updated
 
-outfile="fmtrpt_2016_2017_202407121057.tsv"
+
+outfile="fmtrpt_2015_2016_202407121057.tsv"
 
 _stack () {
 
