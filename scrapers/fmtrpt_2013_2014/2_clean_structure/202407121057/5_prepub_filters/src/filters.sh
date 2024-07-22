@@ -8,7 +8,7 @@ set -euo pipefail
 
 # Specify input file
 
-i="final_fmtrpt_2016_2017_202407121057.tsv"
+i="final_fmtrpt_2013_2014_202407121057.tsv"
 
 # New Filters: Enumerate each as a function and name sensibly
 

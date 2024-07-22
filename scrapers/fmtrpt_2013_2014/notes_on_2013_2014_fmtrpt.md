@@ -11,12 +11,13 @@ This report is in six different PDFs, listed on the report's [landing page](http
 
 Download these and plonk them in the input directory.
 
-
 ## Runs
 
 We have processed this report twice:
 
-- 201903171306:
-- 202407121057:
+- 201903171306: original scrape.
+- 202407121057: rescrape for page number. 129 rows from old data will need manual reconciliation as they couldn't be resolved through a hash compare.
 
 ## Notes
+
+- Extraction using updated script (2024) went fine.
