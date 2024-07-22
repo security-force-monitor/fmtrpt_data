@@ -19,9 +19,8 @@
 # old = Input file with last good data with UUIDs
 # new = Input file with re-scraped data, shaped to match old data
 
-
-old="final_fmtrpt_2016_2017_201903171306.tsv"
-new="final_fmtrpt_2016_2017_202407121057.tsv"
+old="final_fmtrpt_2015_2016_201903171306.tsv"
+new="final_fmtrpt_2015_2016_202407121057.tsv"
 
 _makeHashField () {
 
