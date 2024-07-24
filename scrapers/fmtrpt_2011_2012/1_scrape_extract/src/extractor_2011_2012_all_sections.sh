@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Parsing FMTRPT FY 2016-2017 from PDF to a tsv
+# Parsing FMTRPT FY 2011-2012 from PDF to a tsv
 
 # tl@sfm / 2019-12-06
 # 	   2024-07-10 Update to orchestrate different runs
@@ -80,18 +80,19 @@ _cleanXML () {
 	| grep -v -e "^.*Total Cost.*$" \
 	| grep -v -e "^.*Start Date.*$" \
 	| grep -v -e "^.*End Date.*$" \
+	| grep -v -e "left=\"54\" width=\"2\"" \
 	| sed '{
 		s/<text.*number="\(.*\)" position.*$/<page>\1<\/page>/g
-		s/<text.*left="27".*font="1"><b>\(.*\) <\/b><\/text>/<country name="\1">%<c_name>\1<\/c_name>/g
-		s/<text.*left="27".*font="2"><b>\(.*\) <\/b><\/text>/<program name="\1">%<p_name>\1<\/p_name>/g
-		s/<text.*left="27".*font="3">\(.*\)<\/text>/<training>%<course_title>\1<\/course_title>/g
-		s/<text.*left="297".*font="3">\(.*\)<\/text>/<quantity>\1<\/quantity>/g
-		s/<text.*left="351".*font="3">\(.*\)<\/text>/<location>\1<\/location>/g
-		s/<text.*left="540".*font="3">\(.*\)<\/text>/<student_unit>\1<\/student_unit>/g
-		s/<text.*left="729".*font="3">\(.*\)<\/text>/<us_unit>\1<\/us_unit>/g
-		s/<text.*left="918".*font="3">\(.*\)<\/text>/<total_cost>\1<\/total_cost>/g
-		s/<text.*left="999".*font="3">\(.*\)<\/text>/<start_date>\1<\/start_date>/g
-		s/<text.*left="1080".*font="3">\(.*\)<\/text>/<end_date>\1<\/end_date>%<\/training>/g
+		s/<text.*left="54".*font="1"><b>\(.*\) <\/b><\/text>/<country name="\1">%<c_name>\1<\/c_name>/
+		s/<text.*left="54".*font="2"><b>\(.*\) <\/b><\/text>/<program name="\1">%<p_name>\1<\/p_name>/
+		s/<text.*left="54".*font="3">\(.*\)<\/text>/<training>%<course_title>\1<\/course_title>/
+		s/<text.*left="324".*font="3">\(.*\)<\/text>/<quantity>\1<\/quantity>/
+		s/<text.*left="378".*font="3">\(.*\)<\/text>/<location>\1<\/location>/
+		s/<text.*left="567".*font="3">\(.*\)<\/text>/<student_unit>\1<\/student_unit>/
+		s/<text.*left="756".*font="3">\(.*\)<\/text>/<us_unit>\1<\/us_unit>/
+		s/<text.*left="945".*font="3">\(.*\)<\/text>/<total_cost>\1<\/total_cost>/
+		s/<text.*left="1026".*font="3">\(.*\)<\/text>/<start_date>\1<\/start_date>/
+		s/<text.*left="1107".*font="3">\(.*\)<\/text>/<end_date>\1<\/end_date>%<\/training>/
 		}' \
 	| tr '%' '\n' \
 	| grep -v -e "^<text"  \
@@ -194,7 +195,7 @@ _main () {
 		_progMsg "Creating TSV output"
 		_generateOutput
 
-	done < src/fmtrpt_fy_2016_2017_sections
+	done < src/fmtrpt_fy_2011_2012_sections
 
 	printf "%s\n" "Done!"
 
