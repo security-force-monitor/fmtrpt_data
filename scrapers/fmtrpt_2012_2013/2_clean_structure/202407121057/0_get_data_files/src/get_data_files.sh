@@ -20,7 +20,7 @@ i="/Users/sfm1/Documents/work/sfm/org/fmtrpt_data"
 
 # Set which year we're working on
 
-y="fmtrpt_2016_2017"
+y="fmtrpt_2012_2013"
 
 # Set which scraper run we're working on for that year
 

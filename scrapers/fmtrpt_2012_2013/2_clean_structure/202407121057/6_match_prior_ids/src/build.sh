@@ -19,9 +19,8 @@
 # old = Input file with last good data with UUIDs
 # new = Input file with re-scraped data, shaped to match old data
 
-
-old="final_fmtrpt_2016_2017_201903171306.tsv"
-new="final_fmtrpt_2016_2017_202407121057.tsv"
+old="final_fmtrpt_2012_2013_201903171306.tsv"
+new="final_fmtrpt_2012_2013_202407121057.tsv"
 
 _makeHashField () {
 
@@ -202,6 +201,10 @@ _reportNonJoins () {
 # Main controls
 
 _main () {
+
+	# Check notes directory exists
+
+	mkdir -p notes
 
 	# Create hash field in old and new datasets
 	# Only need to run this first time
