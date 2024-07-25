@@ -17,8 +17,8 @@ Download these and plonk them in the input directory.
 
 We have processed the 2010-2011 report twice:
 
-- 201903171306:
-- 202407121057:
+- 201903171306: original scrape.
+- 202407121057: rescrape to grab page numbers. Twenty-two out of 19,672 rows of the 201903171306 dataold data could not be automatched by hash with the data from this scrape and will need manual reconciliation.
 
 ## Notes
 
