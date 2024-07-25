@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Parsing FMTRPT FY 2016-2017 from PDF to a tsv
+# Parsing FMTRPT FY 2010-2011 from PDF to a tsv
 
 # tl@sfm / 2019-12-06
 # 	   2024-07-10 Update to orchestrate different runs
@@ -80,18 +80,18 @@ _cleanXML () {
 	| grep -v -e "^.*Total Cost.*$" \
 	| grep -v -e "^.*Start Date.*$" \
 	| grep -v -e "^.*End Date.*$" \
+	| grep -v -e "left=\"54\" width=\"2\"" \
 	| sed '{
 		s/<text.*number="\(.*\)" position.*$/<page>\1<\/page>/g
-		s/<text.*left="27".*font="1"><b>\(.*\) <\/b><\/text>/<country name="\1">%<c_name>\1<\/c_name>/g
-		s/<text.*left="27".*font="2"><b>\(.*\) <\/b><\/text>/<program name="\1">%<p_name>\1<\/p_name>/g
-		s/<text.*left="27".*font="3">\(.*\)<\/text>/<training>%<course_title>\1<\/course_title>/g
-		s/<text.*left="297".*font="3">\(.*\)<\/text>/<quantity>\1<\/quantity>/g
-		s/<text.*left="351".*font="3">\(.*\)<\/text>/<location>\1<\/location>/g
-		s/<text.*left="540".*font="3">\(.*\)<\/text>/<student_unit>\1<\/student_unit>/g
-		s/<text.*left="729".*font="3">\(.*\)<\/text>/<us_unit>\1<\/us_unit>/g
-		s/<text.*left="918".*font="3">\(.*\)<\/text>/<total_cost>\1<\/total_cost>/g
-		s/<text.*left="999".*font="3">\(.*\)<\/text>/<start_date>\1<\/start_date>/g
-		s/<text.*left="1080".*font="3">\(.*\)<\/text>/<end_date>\1<\/end_date>%<\/training>/g
+		s/<text.*left="54".*font="1"><b>\(.*\) <\/b><\/text>/<country name="\1">%<c_name>\1<\/c_name>/
+		s/<text.*left="54".*font="2"><b>\(.*\) <\/b><\/text>/<program name="\1">%<p_name>\1<\/p_name>/
+		s/<text.*left="54".*font="3">\(.*\)<\/text>/<training>%<course_title>\1<\/course_title>/
+		s/<text.*left="351".*font="3">\(.*\)<\/text>/<quantity>\1<\/quantity>/
+		s/<text.*left="405".*font="3">\(.*\)<\/text>/<location>\1<\/location>/
+		s/<text.*left="648".*font="3">\(.*\)<\/text>/<student_unit>\1<\/student_unit>/
+		s/<text.*left="891".*font="3">\(.*\)<\/text>/<total_cost>\1<\/total_cost>/
+		s/<text.*left="972".*font="3">\(.*\)<\/text>/<start_date>\1<\/start_date>/
+		s/<text.*left="1053".*font="3">\(.*\)<\/text>/<end_date>\1<\/end_date>%<\/training>/
 		}' \
 	| tr '%' '\n' \
 	| grep -v -e "^<text"  \
@@ -142,13 +142,13 @@ _deduplicateXML () {
 	xml tr src/deduplicate_training_items.xsl output/"${r}"/2_xml_refine/"${y}_${t}_fmtrpt_raw.xml" > output/"${r}"/4_xml_dedup/"${y}_${t}_fmtrpt_dedup.xml"
 }
 
-
 _generateOutput () {
 
 	# Generate a TSV output from the XSML, clean up some spacing and tabbing cruft, and apply a header row.
 	# For explanation of use of xml ancestors: https://stackoverflow.com/questions/51988726/recursive-loop-xml-to-csv-with-xmlstarlet
+	# IMPORTANT: in this 2010 report, the US unit is not specified, so we print some placeholder text in the xmlstarlet code instead of extracting us_unit
 
-	xml sel -T -t -m "//training" -v "concat(ancestor::country/@name,'	',ancestor::program/@name,'	',course_title,'	',us_unit,'	',student_unit,'	',start_date,'	',end_date,'	',location,'	',quantity,'	',total_cost,'	',page_number)" -n output/"${r}"/4_xml_dedup/"${y}_${t}_fmtrpt_dedup.xml" \
+	xml sel -T -t -m "//training" -v "concat(ancestor::country/@name,'	',ancestor::program/@name,'	',course_title,'	','US unit not specified in 2010-2011 report','	',student_unit,'	',start_date,'	',end_date,'	',location,'	',quantity,'	',total_cost,'	',page_number)" -n output/"${r}"/4_xml_dedup/"${y}_${t}_fmtrpt_dedup.xml" \
 	| sed 's/ \{2,\}/ /g ; s/	 /	/g ; s/ 	/	/g' \
 	| awk -v p="${p}" 'BEGIN{print "country\tprogram\tcourse_title\tus_unit\tstudent_unit\tstart_date\tend_date\tlocation\tquantity\ttotal_cost\tpage_number\tsource"};{print $0"\t"p}' \
 	> output/"${r}"/5_xml_tsv/"${y}_${t}_fmtrpt.tsv"
@@ -180,10 +180,10 @@ _main () {
                 _setupOutputFolders
 
 		printf "%s: %s\n\n" "# Working on" "$t"
-		_progMsg "Extracting pages from PDF"
-		_extractPages
-		_progMsg "Converting PDF to XML"
-		_xmlConvert
+#		_progMsg "Extracting pages from PDF"
+#		_extractPages
+#		_progMsg "Converting PDF to XML"
+#		_xmlConvert
 #		_extractPagesXmlConvert # uses just pdftohtml rather than ghostscript step
 		_progMsg "Cleaning up XML"
 		_cleanXML
@@ -194,7 +194,7 @@ _main () {
 		_progMsg "Creating TSV output"
 		_generateOutput
 
-	done < src/fmtrpt_fy_2016_2017_sections
+	done < src/fmtrpt_fy_2010_2011_sections
 
 	printf "%s\n" "Done!"
 
