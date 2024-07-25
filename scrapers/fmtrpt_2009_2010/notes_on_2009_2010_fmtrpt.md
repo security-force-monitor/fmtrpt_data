@@ -21,8 +21,8 @@ http://www.state.gov/documents/organization/155982.pdf
 
 We have processed the 2009 report twice:
 
-- 201903171306:
-- 202407121057:
+- 201903171306: initial scrape.
+- 202407121057: rescrape to grab page number. Around 240 rows have not yet got a page number. About 55 rows don't match the earlier scrape based on hash comparison, so will need manual reconciliation.
 
 ## Notes
 
@@ -31,3 +31,4 @@ We have processed the 2009 report twice:
 - The early breaks, or lack of detection of breaks in columns, means that some groups of text get pulled into the wrong XML element, which means a tagset might not be closed. I've dealt with this by putting in regex that look for early closure patterns for the training element, and then sub in the relevant closing tag.
 - Also, the Cyprus total figure is in bold, which breaks the initial filtering (e.g. text is not categorised as "0" but 3); filtered out specifically in the script (with no loss to use, as it's not a substantive training)
 - We can also specifiy a second row for `Student Unit`, which is sometimes split on 2 rows. The delineator is `664` pixels.
+- In the 202407121057 scrape for page numbers we notice that the XML structure is broken by the presence of the additional `<page>` tags in some cases. The key to debugging this is to re-order the processing steps a little so that the small number of issues caused by the page tag are dealt before the major processing step that shapes the XML. In short this means adding a little `perl` to deal with cross-line issues prior to inserting the `<page_number>` tag and then handling any edge cases that break the XML structure. It may not, given the time available be possible to catch all these edge cases.
