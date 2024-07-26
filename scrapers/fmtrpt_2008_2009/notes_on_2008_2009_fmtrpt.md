@@ -21,8 +21,8 @@ http://www.state.gov/documents/organization/152778.pdf
 
 We have processed the 2008-2009 report twice:
 
- -
- -
+ - 201903171306: original data scrape.
+ - 202407121057: rescrape to extract page numbers for each item. Thirteen of ~16000 rows from the earlier scrape wouldn't match the new one based on hash comparison, and will need manual checking.
 
 
 ## Notes
@@ -35,3 +35,4 @@ The column `Training location` is just called `Location` in this report, meaning
 
 ### List of problems in 2008-2009 PDFs
 - Program name is in Italic, so `sed` statement needs updating to capture program titles successfully.
+- For the 202407121057 scrape, the PDF table positions from the original script worked fine, alongside the generic reshaping steps handling the numerous edge cases that this process throws up on the voyage between PDF and tsv. Note that the main extractor here is based on the revised 2009-2010 script, which had to deal with a lot of issues around page numbers that would not extract because the `<page>` tag would break up the "training" object.
