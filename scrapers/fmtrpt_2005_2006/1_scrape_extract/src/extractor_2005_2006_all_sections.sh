@@ -53,15 +53,20 @@ _xmlConvert () {
 
 _cleanXML () {
 
-
-	# Page number is stored in 	left="570"
-	# 				left="574"
-	#				left="577"
-	# Page number can also be found with pattern "IV-[0-9]\{1,3\}"
-
-
-	#| grep -v -e "^.*top=\"80\".*font=\"4\"" \
-
+	# Basic approach here has some differences from the post-2007 reports:
+	# - filter out rows that don't contain substantive data or may be troublesome
+	# - make any early changes or corrections that may be useful later
+	# - add in a fake placeholder page 0 ("IV-0"), which will anchor the page_number assignment alg
+	# - clean up and assign attributes to remaining rows based on left and font position in XML
+	# - remove any redundant XML that has escaped processing
+	# - fix a couple of XML structure issues
+	# - assign a page number to every <training> item:
+	# -- because pages numbers appear at the bottom of a page and this alg counts down,
+	#    we add a fake 0 placeholder at the top, and add 1 to the <page> values it discovers.
+	# -- we close the final training item manually, for mysterious reasons I don't have time to fix.
+	# - handle some tag ordering issues using a perl megagulp
+	# - pull the country name out of the program title and give it it's own tag
+	# - top with an XML, tail with closing tags
 	
 	cat output/"${r}"/1_pdf_xml/"${y}_${t}_fmtrpt.xml" \
 	| sed '1,28d' \
