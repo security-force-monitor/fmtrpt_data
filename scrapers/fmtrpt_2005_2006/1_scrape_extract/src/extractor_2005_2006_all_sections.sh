@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Parsing FMTRPT FY 2016-2017 from PDF to a tsv
+# Parsing FMTRPT FY 2005-2006 from PDF to a tsv
 
 # tl@sfm / 2019-12-06
 # 	   2024-07-10 Update to orchestrate different runs
@@ -38,6 +38,7 @@ _extractPagesXmlConvert () {
 	# Alternative to _extractPages, not using GhostScript.
 	# This version produced the XML for all reports up to and including 2018-2019.
 	# Seems to keep values with hard hyphons in them in same attribute
+	# Skips outputtng a specific PDF to output/0_pdf_slice
 
 	pdftohtml -c -s -i -noframes -xml -f "${s}" -l "${e}" input/${p}.pdf output/${r}/1_pdf_xml/"${y}_${t}_fmtrpt.xml"
 
@@ -51,55 +52,81 @@ _xmlConvert () {
 }
 
 _cleanXML () {
-	# Filter out irrelevant material and accurately place tabular cells into the right attribute in an XML tree.
-	# This function  works like this:
-	# - Get only the <text> lines from the raw XML.
-	# - Remove lines with title font ("0").
-	# - Convert <page> tag to <text> tag, which simplfies mass exclusion (we reinstate the tag further down).
-	# - Remove column headers from XML (e.g. "Qty", "Course Title").
-	# - Reinstate <page> tag using presnece of "number" in XML.
-	# - Based on interplay between left position and font size, assign an attribute name.
-	# -- Use the analyze_xml.sh helper to find out the values to put in here;
-	# -- Exception here is creating a new page tag.
-	# - Check that we don't have have any <text> tags left.
-	# - Introduce "page_number" attribute inside <training> tag, using the <page> tag as an index.
-	# - Remove redundant <page> tag before correcting cross-line nesting issues.
-	# - Correct problems with nesting that exist across line endings.
-	# - Add XML doctype heading.
-	# - Remove empty lines.
 
+
+	# Page number is stored in 	left="570"
+	# 				left="574"
+	#				left="577"
+	# Page number can also be found with pattern "IV-[0-9]\{1,3\}"
+
+
+	#| grep -v -e "^.*top=\"80\".*font=\"4\"" \
+
+	
 	cat output/"${r}"/1_pdf_xml/"${y}_${t}_fmtrpt.xml" \
-	| sed 's/^<page/<text/g ; s/page>/text>/g' \
-	| grep -e "^<text" \
-	| grep -v "font=\"0\"" \
-	| grep -v -e "^.*Qty.*$" \
-	| grep -v -e "^.*Course Title.*$" \
-	| grep -v -e "^.*Training Location.*$" \
-	| grep -v -e "^.*Student's Unit.*$" \
-	| grep -v -e "^.*US Unit.*$" \
-	| grep -v -e "^.*Total Cost.*$" \
-	| grep -v -e "^.*Start Date.*$" \
-	| grep -v -e "^.*End Date.*$" \
+	| sed '1,28d' \
+	| grep  -e "^<text" \
+	| grep -v -e "height=\"10\" font=\"8\"" \
+	| grep -v -e "font=\"1\"" \
+	| grep -v -e "font=\"2\"" \
+	| grep -v -e "font=\"3\"" \
+	| grep -v -e "font=\"5\"" \
+	| grep -v -e "font=\"7\"" \
+	| grep -v -e "font=\"9\"" \
+	| grep -v -e "TNG(MELT" \
+	| grep -v -e "<text.*left=\"54\".*font=\"6\">CRS<\/text>" \
+	| grep -v -e "left=\"60.\" width=\"4\" height=\"15\" font=\"0\">" \
+	| sed -E '/height=\"14\" font=\"0\"/ {
+			s/^.*<b>//g
+			s/<\/b>.*$//g
+	 		s/Korea, Republic of/Korea (Republic of)/g
+	 		s/Cape Verde, Republic Of/Cape Verde (Republic of)/g
+	 		s/Region, /Region	/g
+	 		s/(,|, )(FY(05| 05))/	FY05/g
+	 		s/,/	/
+			s/^/<program name=\"/g
+			s/$/">/g
+			1d
+						 }' \
+	| sed '1s/^/<page>IV-0<\/page>\n/g' \
+	| sed -E '{
+			s/^.*left=\"54\".*font=\"6\">(.*)<\/text>$/<course_title>\1<\/course_title>/g
+			s/^.*left=\"238\".*font=\"6\">(.*)<\/text>$/<quantity>\1<\/quantity>/g
+			s/^.*left=\"243\".*font=\"6\">(.*)<\/text>$/<quantity>\1<\/quantity>/g
+			s/^.*left=\"249\".*font=\"6\">(.*)<\/text>$/<quantity>\1<\/quantity>/g
+			s/^.*left=\"255\".*font=\"6\">(.*)<\/text>$/<quantity>\1<\/quantity>/g
+			s/^.*left=\"266\".*font=\"6\">(.*)<\/text>$/<location>\1<\/location>/g
+			s/^.*left=\"268\".*font=\"6\">(.*)<\/text>$/<location>\1<\/location>/g
+			s/^.*left=\"472\".*font=\"6\">(.*)<\/text>$/<student_unit>\1<\/student_unit>/g
+			s/^.*left=\"473\".*font=\"6\">(.*)<\/text>$/<student_unit>\1<\/student_unit>/g
+			s/^.*left=\"657\".*font=\"6\">(.*)<\/text>$/<us_unit>\1<\/us_unit>/g
+			s/^.*left=\"919\".*font=\"6\">(.*)<\/text>$/<total_cost>\1<\/total_cost>/g
+			s/^.*left=\"928\".*font=\"6\">(.*)<\/text>$/<total_cost>\1<\/total_cost>/g
+			s/^.*left=\"934\".*font=\"6\">(.*)<\/text>$/<total_cost>\1<\/total_cost>/g
+			s/^.*left=\"940\".*font=\"6\">(.*)<\/text>$/<total_cost>\1<\/total_cost>/g
+			s/^.*left=\"949\".*font=\"6\">(.*)<\/text>$/<total_cost>\1<\/total_cost>/g
+			s/^.*left=\"954\".*font=\"6\">(.*)<\/text>$/<total_cost>\1<\/total_cost>/g
+			s/^.*left=\"960\".*font=\"6\">(.*)<\/text>$/<total_cost>\1<\/total_cost>/g
+			s/^.*left=\"986\".*font=\"6\">(.*)<\/text>$/<start_date>\1<\/start_date>/g
+			s/^.*left=\"989\".*font=\"6\">(.*)<\/text>$/<start_date>\1<\/start_date>/g
+			s/^.*left=\"992\".*font=\"6\">(.*)<\/text>$/<start_date>\1<\/start_date>/g
+			s/^.*left=\"106.\".*font=\"6\">(.*)<\/text>$/<end_date>\1<\/end_date>/g
+			s/^.*left=\"570\".*font=\"4\"><b> (IV-.*)<\/b>.*>$/<page>\1<\/page>/g
+			s/^.*left=\"574\".*font=\"4\"><b> (IV-.*)<\/b>.*>$/<page>\1<\/page>/g
+			s/^.*left=\"577\".*font=\"4\"><b> (IV-.*)<\/b>.*>$/<page>\1<\/page>/g
+			
+		  }' \
+	| grep -v -e "^<text.*text>$" \
 	| sed '{
-		s/<text.*number="\(.*\)" position.*$/<page>\1<\/page>/g
-		s/<text.*left="27".*font="1"><b>\(.*\) <\/b><\/text>/<country name="\1">%<c_name>\1<\/c_name>/g
-		s/<text.*left="27".*font="2"><b>\(.*\) <\/b><\/text>/<program name="\1">%<p_name>\1<\/p_name>/g
-		s/<text.*left="27".*font="3">\(.*\)<\/text>/<training>%<course_title>\1<\/course_title>/g
-		s/<text.*left="297".*font="3">\(.*\)<\/text>/<quantity>\1<\/quantity>/g
-		s/<text.*left="351".*font="3">\(.*\)<\/text>/<location>\1<\/location>/g
-		s/<text.*left="540".*font="3">\(.*\)<\/text>/<student_unit>\1<\/student_unit>/g
-		s/<text.*left="729".*font="3">\(.*\)<\/text>/<us_unit>\1<\/us_unit>/g
-		s/<text.*left="918".*font="3">\(.*\)<\/text>/<total_cost>\1<\/total_cost>/g
-		s/<text.*left="999".*font="3">\(.*\)<\/text>/<start_date>\1<\/start_date>/g
-		s/<text.*left="1080".*font="3">\(.*\)<\/text>/<end_date>\1<\/end_date>%<\/training>/g
-		}' \
+			/^<program/s/^/<\/training>%<\/program>%/g
+			/^<course_title>/s/^/<\/training>%<training>%/g
+						}' \
 	| tr '%' '\n' \
-	| grep -v -e "^<text"  \
 	| gawk 'BEGIN { FS = "" ;page = "" }
-		{	if ($0 ~ /^<page>[0-9]+<\/page>$/) {
+		{	if ($0 ~ /^<page>.+[0-9]+<\/page>$/) {
         			print $0
         			match($0, /[0-9]+/, arr)
-        			page = arr[0]
+        			page = arr[0]+1
     		 } 	else if ($0 ~ /^<\/training>$/ ) {
         			print "<page_number>"page"</page_number>\n" $0
     		 } 	else {
@@ -107,23 +134,20 @@ _cleanXML () {
     			}
 		 }' \
 	| grep -v "^<page>.*<\/page>$" \
-	| perl -00pe '
-		s/<\/training>\n(<program name=\".*\">)/<\/training>\n<\/program>\n\1/g ;
-		s/<\/training>\n(<country name=\".*\">)/<\/training>\n<\/program>\n<\/country>\n\1/g ;
-		s/<\/training>\n<training>\n<course_title>.*<\/course_title>\n<program/<\/training>\n<\/program>\n<program/g ;
-		s/<\/training>\n<training>\n<course_title>.*<\/course_title>\n<country/<\/training>\n<\/program>\n<\/country>\n<country/g ;
-		s/<training>\n(<country name=\".*\">)/<\/program>\n<\/country>\n\1/g ;
-		s/<\/course_title>\n.*<training>/<\/course_title>/g ;
-		s/<\/training>\n.*<quantity>/<\/training>\n<training>\n<quantity>/g ;
-		s/<training>\n<course_title>.*<\/course_title>\n<course_title>.*<\/course_title>\n<course_title>.*<\/course_title>$//g ;
-		s/<training>\n<course_title>.*<\/course_title>\n<course_title>.*<\/course_title>$//g ;
-		s/<\/p_name>\n<quantity>/<\/p_name>\n<training>\n<quantity>/g' \
-	| gawk 'BEGIN{print "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<countries>"};{print};END{print "</program>\n</country>\n</countries>"}' \
-	| grep -v "^$" \
+	| perl -00pe '	
+			s/(<program name.*)\n<\/training>/\1/g ;
+			s/(<program name.*>)\n<page_number>.*<\/page_number>\n<\/training>/\1/g ;
+			s/<\/training>\n<\/program>\n<program name.*>\n(<student_unit)/\1/g ;
+			s/<\/training>\n<\/program>\n<program.*>\n<location>/<location>/g ;
+			s/<\/student_unit>\n<page_number>.*<\/page_number>\n<student_unit>/<\/student_unit>\n<student_unit>/g ;
+			s/<\/end_date>\n<page_number>.*<\/page_number>\n<student_unit>/<\/end_date>\n<student_unit>/g ;
+			s/<\/location>\n<page_number>.*<\/page_number>\n<location>/<\/location>\n<location>/g
+		     ' \
+	| awk -F '\t' '/^<program/ {print "<\/country>\n<country name=\"" $2 "\">"} ; {print}' \
+	| awk 'BEGIN {print "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<countries>"} ; {print} ; END {print "<page_number>302<\/page_number>\n<\/training>\n<\/program>\n<\/country>\n<\/countries>"}' \
+	| sed '3,6d ; s/	/, /g' \
 	> output/"${r}"/2_xml_refine/"${y}_${t}_fmtrpt_raw.xml"
 
-
-#	 s/<course_title> <\/course_title>\n<course_title> <\/course_title>//g' \
 
 }
 
@@ -180,10 +204,10 @@ _main () {
                 _setupOutputFolders
 
 		printf "%s: %s\n\n" "# Working on" "$t"
-		_progMsg "Extracting pages from PDF"
-		_extractPages
+#		_progMsg "Extracting pages from PDF"
+#		_extractPages
 		_progMsg "Converting PDF to XML"
-		_xmlConvert
+##		_xmlConvert
 #		_extractPagesXmlConvert # uses just pdftohtml rather than ghostscript step
 		_progMsg "Cleaning up XML"
 		_cleanXML
@@ -194,11 +218,10 @@ _main () {
 		_progMsg "Creating TSV output"
 		_generateOutput
 
-	done < src/fmtrpt_fy_2016_2017_sections
+	done < src/fmtrpt_fy_2005_2006_sections
 
 	printf "%s\n" "Done!"
 
 }
 
 _main
-
