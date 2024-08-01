@@ -19,8 +19,8 @@ The report is not available in a single PDF.
 
 We have processed these PDFs twice:
 
- - 201903171306:
- - 202407121057:
+ - 201903171306: original scrape.
+ - 202407121057: rescrape to obtain page numbers. Only 2 rows of older data aren't matched with the new data by hash.
 
 ## Notes
 
