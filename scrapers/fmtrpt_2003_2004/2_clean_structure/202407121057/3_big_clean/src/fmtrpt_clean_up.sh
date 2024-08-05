@@ -15,8 +15,7 @@ shopt -s failglob
 
 # Declare variables
 # Source for input data (and derived products by filename)
-
-i="fmtrpt_2016_2017_202407121057.tsv"
+i="fmtrpt_2003_2004_202407121057.tsv"
 
 ## Check notes folder
 mkdir -p notes
