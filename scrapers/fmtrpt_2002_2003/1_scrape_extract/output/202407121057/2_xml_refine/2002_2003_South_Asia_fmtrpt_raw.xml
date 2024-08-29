@@ -1,0 +1,2688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<countries>
+<country name="Bangladesh">
+<program name="DOD South Asia Region, Bangladesh,  Near East South Asia Center(NESA), FY02">
+<training>
+<course_title>Executive Seminar ES 01-02</course_title>
+<quantity>1</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Air Force (Open to all branches)</student_unit>
+<total_cost>$5,650</total_cost>
+<start_date>10/22/01</start_date>
+<end_date>11/9/01</end_date>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>Executive Seminar ES 02-02</course_title>
+<quantity>2</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Army + Navy (Open to all branches)</student_unit>
+<total_cost>$10,870</total_cost>
+<start_date>1/14/02</start_date>
+<end_date>2/1/02</end_date>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>Executive Seminar ES 03-02</course_title>
+<quantity>2</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Air Force + Ministry of Foreign Affairs </student_unit>
+<total_cost>$11,645</total_cost>
+<start_date>4/8/02</start_date>
+<end_date>4/26/02</end_date>
+<student_unit>(Open to all branches)</student_unit>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>Executive Seminar ES 04-02</course_title>
+<quantity>2</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Army + Ministry of Defense  (Open to </student_unit>
+<total_cost>$13,328</total_cost>
+<start_date>7/8/02</start_date>
+<end_date>7/26/02</end_date>
+<student_unit>all branches)</student_unit>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>JCET</course_title>
+<quantity>185</quantity>
+<location>Chittagong, Elephant Pt, Dhaka</location>
+<student_unit>1st Para-commando BN HQ, Base </student_unit>
+<us_unit>2/1 SFG, 1/1 SFG, 426 CA BN</us_unit>
+<total_cost>$76,828</total_cost>
+<start_date>7/7/02</start_date>
+<end_date>8/18/02</end_date>
+<student_unit>Bahar-Dhaka, BNS Isha </student_unit>
+<student_unit>Khan-Chitagong, BNS Haji </student_unit>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>Senior Executive Seminar</course_title>
+<quantity>2</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Air Force + Army (Open to all </student_unit>
+<total_cost>$11,149</total_cost>
+<start_date>6/10/02</start_date>
+<end_date>6/14/02</end_date>
+<student_unit>branches)</student_unit>
+<page_number>170</page_number>
+</training>
+</program>
+</country>
+<country name="Bangladesh">
+<program name="DOS South Asia Region, Bangladesh,  International Military Education and Training (IMET), FY02">
+<training>
+<course_title>AIRBORNE</course_title>
+<quantity>1</quantity>
+<location>FT BENNING GA 31905-5468</location>
+<student_unit>28, East Bengal Regiment</student_unit>
+<total_cost>$1,271</total_cost>
+<start_date>2/11/02</start_date>
+<end_date>3/1/02</end_date>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>AIRBORNE</course_title>
+<quantity>1</quantity>
+<location>FT BENNING GA 31905-5468</location>
+<student_unit>1 Para Commando Battalion</student_unit>
+<total_cost>$2,345</total_cost>
+<start_date>7/15/02</start_date>
+<end_date>8/2/02</end_date>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>AIRBORNE</course_title>
+<quantity>1</quantity>
+<location>FT BENNING GA 31905-5468</location>
+<student_unit>28, East Bengal Regiment</student_unit>
+<total_cost>$225</total_cost>
+<start_date>2/4/02</start_date>
+<end_date>2/22/02</end_date>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>AIRCRAFT MAINTENANCE OFF</course_title>
+<quantity>1</quantity>
+<location>SHEPPARD AFB TX 76311-2367</location>
+<student_unit>BAF Base Bashar, Dhaka</student_unit>
+<total_cost>$7,079</total_cost>
+<start_date>4/23/02</start_date>
+<end_date>7/31/02</end_date>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>AIRFIELD OPERATIONS OFFCR</course_title>
+<quantity>1</quantity>
+<location>KEESLER AFB, MS 39534-2354</location>
+<student_unit>School of Security &amp; Intelligence, BAF</student_unit>
+<total_cost>$6,145</total_cost>
+<start_date>6/17/02</start_date>
+<end_date>9/18/02</end_date>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>AMERICAN LANGUAGE CRS</course_title>
+<quantity>1</quantity>
+<location>LACKLAND AFB, TX 78236-5259</location>
+<student_unit>BNS Osman, Chittagong</student_unit>
+<total_cost>$19,516</total_cost>
+<start_date>11/12/01</start_date>
+<end_date>7/5/02</end_date>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>AMPHIB PLAN SR OFF-INTL</course_title>
+<quantity>1</quantity>
+<location>SAN DIEGO, CA 92155-5099</location>
+<student_unit>BNS Bhatiary, Chittagong</student_unit>
+<total_cost>$6,614</total_cost>
+<start_date>2/25/02</start_date>
+<end_date>5/3/02</end_date>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>CMD &amp; GEN STAFF OFF PREP</course_title>
+<quantity>1</quantity>
+<location>FT LEAVENWORTH KS 66027-1352</location>
+<student_unit>24 Field Regiment Artillery</student_unit>
+<total_cost>$1,451</total_cost>
+<start_date>7/15/02</start_date>
+<end_date>8/2/02</end_date>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>COMB STRAT INTEL TNG PRGM</course_title>
+<quantity>1</quantity>
+<location>WASHINGTON DC 20340-5100</location>
+<student_unit>Headquarter, 309 Infantry Brigade</student_unit>
+<total_cost>$6,445</total_cost>
+<start_date>7/15/02</start_date>
+<end_date>8/30/02</end_date>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>FA OFF ADV PREP-ALLIED OFF</course_title>
+<quantity>1</quantity>
+<location>FT SILL OK 73503</location>
+<student_unit>30 Field Regiment Artillery</student_unit>
+<total_cost>$3,856</total_cost>
+<start_date>2/26/02</start_date>
+<end_date>3/20/02</end_date>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>FIELD ARTY CAPTAINS CAREER</course_title>
+<quantity>1</quantity>
+<location>FT SILL OK 73503</location>
+<student_unit>30 Field Regiment Artillery</student_unit>
+<total_cost>$11,965</total_cost>
+<start_date>3/21/02</start_date>
+<end_date>7/26/02</end_date>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>FLT SAFETY OFF (SATP/FSO)</course_title>
+<quantity>1</quantity>
+<location>KIRTLAND AFB, NM 87117-5608</location>
+<student_unit>No 1 Squadron, BAF</student_unit>
+<total_cost>$9,803</total_cost>
+<start_date>6/21/02</start_date>
+<end_date>8/30/02</end_date>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>HIV/AIDS PLANNING/POLICY</course_title>
+<quantity>1</quantity>
+<location>MONTEREY, CA 93943-5301</location>
+<student_unit>Defense Services Command &amp; Staff </student_unit>
+<total_cost>$675</total_cost>
+<start_date>12/10/01</start_date>
+<end_date>12/14/01</end_date>
+<student_unit>College, Mirpur</student_unit>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>HIV/AIDS PLANNING/POLICY</course_title>
+<quantity>1</quantity>
+<location>MONTEREY, CA 93943-5301</location>
+<student_unit>Combined Military Hospital, Savar</student_unit>
+<total_cost>$675</total_cost>
+<start_date>12/10/01</start_date>
+<end_date>12/14/01</end_date>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>INFANTRY CAPTS CAREER CRS</course_title>
+<quantity>1</quantity>
+<location>FT BENNING GA 31905-5468</location>
+<student_unit>305, Infantry Brigade</student_unit>
+<total_cost>$13,288</total_cost>
+<start_date>1/14/02</start_date>
+<end_date>5/24/02</end_date>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>INT'L OFF PREP-INF CCC</course_title>
+<quantity>1</quantity>
+<location>FT BENNING GA 31905-5468</location>
+<student_unit>305, Infantry Brigade</student_unit>
+<total_cost>$1,581</total_cost>
+<start_date>1/7/02</start_date>
+<end_date>1/11/02</end_date>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>INTERNATIONAL OFFICER PREP</course_title>
+<quantity>1</quantity>
+<location>FT LEAVENWORTH KS 66027-1352</location>
+<student_unit>24 Field Regiment Artillery</student_unit>
+<total_cost>$2,955</total_cost>
+<start_date>6/17/02</start_date>
+<end_date>7/12/02</end_date>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>INTL AIR WEAPONS CONTR CRS</course_title>
+<quantity>1</quantity>
+<location>TYNDALL AFB, FL 32403-5016</location>
+<student_unit>74, Squadron, Bangladesh Air Force</student_unit>
+<total_cost>$6,323</total_cost>
+<start_date>5/20/02</start_date>
+<end_date>7/16/02</end_date>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>INTL DEFENSE MGT CRS</course_title>
+<quantity>1</quantity>
+<location>MONTEREY, CA 93943-5201</location>
+<student_unit>77 Infantry Brigade</student_unit>
+<total_cost>$16,169</total_cost>
+<start_date>2/4/02</start_date>
+<end_date>4/17/02</end_date>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>INTL DEFENSE MGT CRS</course_title>
+<quantity>1</quantity>
+<location>MONTEREY, CA 93943-5201</location>
+<student_unit>Flight Safety Directorate, Air HQ</student_unit>
+<total_cost>$16,169</total_cost>
+<start_date>2/4/02</start_date>
+<end_date>4/17/02</end_date>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>INTL MARITIME OFF</course_title>
+<quantity>1</quantity>
+<location>YORKTOWN, VA 23690-5000</location>
+<student_unit>CGS Tawheed, Chittagong</student_unit>
+<total_cost>$11,810</total_cost>
+<start_date>5/6/02</start_date>
+<end_date>7/12/02</end_date>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>INTL MARITIME OFF</course_title>
+<quantity>1</quantity>
+<location>YORKTOWN, VA 23690-5000</location>
+<student_unit>Coast Guard Headquarters</student_unit>
+<total_cost>$11,810</total_cost>
+<start_date>1/14/02</start_date>
+<end_date>3/22/02</end_date>
+<page_number>170</page_number>
+</training>
+<training>
+<course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+<quantity>1</quantity>
+<location>MAXWELL AFB, AL 36112-6323</location>
+<student_unit>No 1 Squadron, Bangladesh Air Force</student_unit>
+<total_cost>$7,275</total_cost>
+<start_date>6/17/02</start_date>
+<end_date>7/26/02</end_date>
+<page_number>170</page_number>
+</training>
+</program>
+</country>
+<country name="Bangladesh">
+<program name="South Asia Region, Bangladesh,  International Military Education and Training (IMET), FY02">
+<training>
+<course_title>JET ENGINE MISHAP INV</course_title>
+<quantity>1</quantity>
+<location>SHEPPARD AFB TX 76311-2367</location>
+<student_unit>C-130 Flight, BAF Base Bashar</student_unit>
+<total_cost>$1,696</total_cost>
+<start_date>8/5/02</start_date>
+<end_date>8/15/02</end_date>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>JUMPMASTER</course_title>
+<quantity>1</quantity>
+<location>FT BENNING GA 31905-5468</location>
+<student_unit>1 Para Commando Battalion</student_unit>
+<total_cost>$1,256</total_cost>
+<start_date>8/5/02</start_date>
+<end_date>8/16/02</end_date>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>MEDICAL STRATEGIC LDR CRS</course_title>
+<quantity>1</quantity>
+<location>FT SAM HOUSTON TX 78234-6100</location>
+<student_unit>Directorate General of Medical Services</student_unit>
+<total_cost>$4,960</total_cost>
+<start_date>7/2/02</start_date>
+<end_date>7/26/02</end_date>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>MET M/MARITIME SVC PH II</course_title>
+<quantity>5</quantity>
+<location>San Francisco, USA</location>
+<student_unit>Coast Guard HQ--4 students</student_unit>
+<total_cost>$12,147</total_cost>
+<start_date>5/13/02</start_date>
+<end_date>5/18/02</end_date>
+<student_unit>Chittagong Zone, Coast Guard--1 </student_unit>
+<student_unit>student</student_unit>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>MIL &amp; PCKEEP OPS IAW ROL</course_title>
+<quantity>1</quantity>
+<location>NEWPORT, RI 02841-1523</location>
+<student_unit>19, Infantry Division</student_unit>
+<total_cost>$12,890</total_cost>
+<start_date>4/15/02</start_date>
+<end_date>5/22/02</end_date>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>MIL &amp; PCKEEP OPS IAW ROL</course_title>
+<quantity>1</quantity>
+<location>NEWPORT, RI 02841-1523</location>
+<student_unit>25 Squadron, Bangladesh Air Force</student_unit>
+<total_cost>$12,890</total_cost>
+<start_date>4/15/02</start_date>
+<end_date>5/22/02</end_date>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>OJT ADMIN TNG-CONUS</course_title>
+<quantity>1</quantity>
+<location>FT LEAVENWORTH KS 66027-1352</location>
+<student_unit>3, East Bengal, Bogra Cantonmrent</student_unit>
+<total_cost>$1,236</total_cost>
+<start_date>6/1/02</start_date>
+<end_date>6/12/02</end_date>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>PATHFINDER</course_title>
+<quantity>1</quantity>
+<location>FT BENNING GA 31905-5468</location>
+<student_unit>28, East Bengal Regiment</student_unit>
+<total_cost>$2,033</total_cost>
+<start_date>3/11/02</start_date>
+<end_date>3/29/02</end_date>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>PLANNING PEACE OPS</course_title>
+<quantity>1</quantity>
+<location>MONTEREY, CA 93943-5001</location>
+<student_unit>BAF Record Office, Dhaka</student_unit>
+<total_cost>$875</total_cost>
+<start_date>7/15/02</start_date>
+<end_date>7/26/02</end_date>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>PLANNING PEACE OPS</course_title>
+<quantity>1</quantity>
+<location>MONTEREY, CA 93943-5001</location>
+<student_unit>Military Training Directorate, Army HQ</student_unit>
+<total_cost>$875</total_cost>
+<start_date>7/15/02</start_date>
+<end_date>7/26/02</end_date>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>PLANNING PEACE OPS</course_title>
+<quantity>1</quantity>
+<location>MONTEREY, CA 93943-5001</location>
+<student_unit>Military Tarining Directorate, Army HQ</student_unit>
+<total_cost>$875</total_cost>
+<start_date>7/15/02</start_date>
+<end_date>7/26/02</end_date>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>PROF MIL COMPTROLLER CRS</course_title>
+<quantity>1</quantity>
+<location>MAXWELL AFB, AL 36112-6323</location>
+<student_unit>Plans Directorate, Air HQ</student_unit>
+<total_cost>$3,925</total_cost>
+<start_date>8/5/02</start_date>
+<end_date>9/13/02</end_date>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>PUBLIC AFFAIRS OFFICER</course_title>
+<quantity>1</quantity>
+<location>FT GEORGE G.  MEADE MD 20755-5620</location>
+<student_unit>69, Infantry Brigade</student_unit>
+<total_cost>$7,087</total_cost>
+<start_date>4/1/02</start_date>
+<end_date>6/4/02</end_date>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>SEARCH/RESCUE INLAND PLNG</course_title>
+<quantity>1</quantity>
+<location>YORKTOWN, VA 23690-5000</location>
+<student_unit>18 Squadron, BAF</student_unit>
+<total_cost>$1,839</total_cost>
+<start_date>8/5/02</start_date>
+<end_date>8/9/02</end_date>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>SEARCH/RESCUE MARITIME</course_title>
+<quantity>1</quantity>
+<location>YORKTOWN, VA 23690-5000</location>
+<student_unit>18 Squadron, BAF</student_unit>
+<total_cost>$1,647</total_cost>
+<start_date>8/12/02</start_date>
+<end_date>8/29/02</end_date>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>SPEC ENG LANG TRNG  (SET)</course_title>
+<quantity>1</quantity>
+<location>LACKLAND AFB, TX 78236-5259</location>
+<student_unit>BNS Haji Mohsin, Dhaka</student_unit>
+<total_cost>$5,946</total_cost>
+<start_date>4/15/02</start_date>
+<end_date>6/14/02</end_date>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>SPECIALIZED ENG LANG TNG</course_title>
+<quantity>1</quantity>
+<location>LACKLAND AFB, TX 78236</location>
+<student_unit>BAF Academy, Jessore</student_unit>
+<total_cost>$5,983</total_cost>
+<start_date>7/15/02</start_date>
+<end_date>9/13/02</end_date>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>SPECIALIZED ENG LANG TNG</course_title>
+<quantity>1</quantity>
+<location>SAN ANTONIO TX 78236-5259</location>
+<student_unit>69, Infantry Brigade</student_unit>
+<total_cost>$5,250</total_cost>
+<start_date>1/21/02</start_date>
+<end_date>3/22/02</end_date>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>SPECIALIZED ENG LANG TNG</course_title>
+<quantity>1</quantity>
+<location>LACKLAND AFB, TX 78236</location>
+<student_unit>School of Security &amp; Intelligence, BAF</student_unit>
+<total_cost>$5,696</total_cost>
+<start_date>4/15/02</start_date>
+<end_date>6/14/02</end_date>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>SPECIALIZED ENG LANG TNG</course_title>
+<quantity>1</quantity>
+<location>LACKLAND AFB, TX 78236</location>
+<student_unit>74, Squadron, Bangladesh Air Force</student_unit>
+<total_cost>$5,737</total_cost>
+<start_date>3/18/02</start_date>
+<end_date>5/17/02</end_date>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>SR INTERNATIONAL DEF MGT</course_title>
+<quantity>1</quantity>
+<location>MONTEREY, CA 93943-5201</location>
+<student_unit>Defense Services Command &amp; Staff </student_unit>
+<total_cost>$6,690</total_cost>
+<start_date>6/24/02</start_date>
+<end_date>7/19/02</end_date>
+<student_unit>College</student_unit>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>SR INTERNATIONAL DEF MGT</course_title>
+<quantity>1</quantity>
+<location>MONTEREY, CA 93943-5201</location>
+<student_unit>Armed Forces Division, Dhaka</student_unit>
+<total_cost>$6,690</total_cost>
+<start_date>6/24/02</start_date>
+<end_date>7/19/02</end_date>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>TROP WEATHER ANAL &amp; FCST</course_title>
+<quantity>1</quantity>
+<location>KEESLER AFB, MS 39534-2354</location>
+<student_unit>Met Squadron, BAF Base Bashar</student_unit>
+<total_cost>$2,011</total_cost>
+<start_date>3/6/02</start_date>
+<end_date>3/27/02</end_date>
+<page_number>171</page_number>
+</training>
+</program>
+</country>
+<country name="Bangladesh">
+<program name="DOD South Asia Region, Bangladesh,  PME Exchanges, FY02">
+<training>
+<course_title>PK FOR DECISION MAKERS</course_title>
+<quantity>1</quantity>
+<location>NEWPORT, RI 02841-1523</location>
+<student_unit>School of Infantry &amp; Tactics</student_unit>
+<total_cost>$6,228</total_cost>
+<start_date>7/29/02</start_date>
+<end_date>8/9/02</end_date>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>PK FOR DECISION MAKERS</course_title>
+<quantity>1</quantity>
+<location>NEWPORT, RI 02841-1523</location>
+<student_unit>9, Infantry Division</student_unit>
+<total_cost>$6,228</total_cost>
+<start_date>7/29/02</start_date>
+<end_date>8/9/02</end_date>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>PK FOR DECISION MAKERS</course_title>
+<quantity>1</quantity>
+<location>NEWPORT, RI 02841-1523</location>
+<student_unit>General Officer Commanding, Infantry </student_unit>
+<total_cost>$6,228</total_cost>
+<start_date>12/3/01</start_date>
+<end_date>12/14/01</end_date>
+<student_unit>Division</student_unit>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>PK FOR DECISION MAKERS</course_title>
+<quantity>1</quantity>
+<location>NEWPORT, RI 02841-1523</location>
+<student_unit>Ministry of Foreign Affairs</student_unit>
+<total_cost>$6,228</total_cost>
+<start_date>12/3/01</start_date>
+<end_date>12/14/01</end_date>
+<page_number>171</page_number>
+</training>
+</program>
+</country>
+<country name="Bangladesh">
+<program name="DOS South Asia Region, Bangladesh,  Enhanced International Peacekeeping Capabilities (EIPC), FY02">
+<training>
+<course_title>EIPC INSTRUCTORS COURSE</course_title>
+<quantity>1</quantity>
+<location>MONTEREY, CA 93943-5001</location>
+<student_unit>Commandant, Pc Keeping Operation </student_unit>
+<total_cost>$7,478</total_cost>
+<start_date>12/3/01</start_date>
+<end_date>12/14/01</end_date>
+<student_unit>Trg Center</student_unit>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>EIPC INSTRUCTORS COURSE</course_title>
+<quantity>1</quantity>
+<location>MONTEREY, CA 93943-5001</location>
+<student_unit>Peacekeeping Operation and Training </student_unit>
+<total_cost>$7,478</total_cost>
+<start_date>12/3/01</start_date>
+<end_date>12/14/01</end_date>
+<student_unit>Center, Rajendrapur</student_unit>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>EIPC INSTRUCTORS COURSE</course_title>
+<quantity>1</quantity>
+<location>MONTEREY, CA 93943-5001</location>
+<student_unit>11 Signal Battalion</student_unit>
+<total_cost>$7,478</total_cost>
+<start_date>12/3/01</start_date>
+<end_date>12/14/01</end_date>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>EIPC INSTRUCTORS COURSE</course_title>
+<quantity>1</quantity>
+<location>MONTEREY, CA 93943-5001</location>
+<student_unit>GSO-1, Mil Trg Dte, Army HQ</student_unit>
+<total_cost>$7,478</total_cost>
+<start_date>12/3/01</start_date>
+<end_date>12/14/01</end_date>
+<page_number>171</page_number>
+</training>
+<training>
+<course_title>EIPC INSTRUCTORS COURSE</course_title>
+<quantity>1</quantity>
+<location>MONTEREY, CA 93943-5001</location>
+<student_unit>Commanding Officer 31 East Bengal</student_unit>
+<total_cost>$7,478</total_cost>
+<start_date>12/3/01</start_date>
+<end_date>12/14/01</end_date>
+<page_number>171</page_number>
+</training>
+</program>
+</country>
+<country name="Bangladesh">
+<program name="South Asia Region, Bangladesh,  Enhanced International Peacekeeping Capabilities (EIPC), FY02">
+</program>
+</country>
+<country name="Bangladesh">
+<program name="DOD South Asia Region, Bangladesh,  Asia-Pacific Center, FY02">
+<training>
+<course_title>Executive Course 2002-1</course_title>
+<quantity>3</quantity>
+<location>Asia-Pacific Center for Security Studies</location>
+<student_unit>Army; Ministry of Defence</student_unit>
+<us_unit>U.S. military staff and faculty</us_unit>
+<total_cost>$44,835</total_cost>
+<start_date>1/21/02</start_date>
+<end_date>4/11/02</end_date>
+<page_number>172</page_number>
+</training>
+<training>
+<course_title>Executive Course 2002-2</course_title>
+<quantity>3</quantity>
+<location>Asia-Pacific Center for Security Studies</location>
+<student_unit>Ministry of Foreign Affairs; Air Force; </student_unit>
+<us_unit>U.S. military staff and faculty</us_unit>
+<total_cost>$45,554</total_cost>
+<start_date>5/20/02</start_date>
+<end_date>8/8/02</end_date>
+<student_unit>Army</student_unit>
+<page_number>172</page_number>
+</training>
+</program>
+</country>
+<country name="Bhutan">
+<program name="DOD South Asia Region, Bhutan,  Asia-Pacific Center, FY02">
+<training>
+<course_title>Executive Course 2002-1</course_title>
+<quantity>1</quantity>
+<location>Asia-Pacific Center for Security Studies</location>
+<student_unit>Ministry of Foreign Affairs</student_unit>
+<us_unit>U.S. military staff and faculty</us_unit>
+<total_cost>$15,697</total_cost>
+<start_date>1/21/02</start_date>
+<end_date>4/11/02</end_date>
+<page_number>172</page_number>
+</training>
+<training>
+<course_title>Executive Course 2002-2</course_title>
+<quantity>1</quantity>
+<location>Asia-Pacific Center for Security Studies</location>
+<student_unit>Ministry of Foreign Affairs</student_unit>
+<us_unit>U.S. military staff and faculty</us_unit>
+<total_cost>$16,795</total_cost>
+<start_date>5/20/02</start_date>
+<end_date>8/8/02</end_date>
+<page_number>172</page_number>
+</training>
+</program>
+</country>
+<country name="India">
+<program name="DOD South Asia Region, India,  Near East South Asia Center(NESA), FY02">
+<training>
+<course_title>Executive Seminar ES 01-02</course_title>
+<quantity>2</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Civilian MOD Official + Joint Staff </student_unit>
+<total_cost>$9,993</total_cost>
+<start_date>10/22/01</start_date>
+<end_date>11/9/01</end_date>
+<student_unit>Officer (Open to all branches)</student_unit>
+<page_number>172</page_number>
+</training>
+<training>
+<course_title>Executive Seminar ES 02-02</course_title>
+<quantity>2</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Air Force + Ministry of External Affairs </student_unit>
+<total_cost>$10,496</total_cost>
+<start_date>1/14/02</start_date>
+<end_date>2/1/02</end_date>
+<student_unit>(Open to all branches)</student_unit>
+<page_number>172</page_number>
+</training>
+<training>
+<course_title>Executive Seminar ES 03-02</course_title>
+<quantity>2</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Ministry of Defense + Ministry of </student_unit>
+<total_cost>$11,808</total_cost>
+<start_date>4/8/02</start_date>
+<end_date>4/26/02</end_date>
+<student_unit>External Affairs (Open to all branches)</student_unit>
+<page_number>172</page_number>
+</training>
+<training>
+<course_title>Executive Seminar ES 04-02</course_title>
+<quantity>2</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Air Force + Ministry of External Affairs</student_unit>
+<total_cost>$11,087</total_cost>
+<start_date>7/8/02</start_date>
+<end_date>7/26/02</end_date>
+<student_unit> </student_unit>
+<page_number>172</page_number>
+</training>
+<training>
+<course_title>JCET</course_title>
+<quantity>125</quantity>
+<location>Agra</location>
+<student_unit>Indian Air Force 4th Wing</student_unit>
+<us_unit>2/1 SFG, 353 SOG</us_unit>
+<total_cost>$433,783</total_cost>
+<start_date>5/7/02</start_date>
+<end_date>5/31/02</end_date>
+<page_number>172</page_number>
+</training>
+<training>
+<course_title>Senior Executive Seminar</course_title>
+<quantity>1</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Ministry of Defense + Ministry of </student_unit>
+<total_cost>$7,003</total_cost>
+<start_date>6/10/02</start_date>
+<end_date>6/14/02</end_date>
+<student_unit>External Affairs (Open to all branches)</student_unit>
+<page_number>172</page_number>
+</training>
+</program>
+</country>
+<country name="India">
+<program name="DOS South Asia Region, India,  International Military Education and Training (IMET), FY02">
+<training>
+<course_title>ADV AEROSP MED/INTL MED OF</course_title>
+<quantity>1</quantity>
+<location>BROOKS AFB, TX 78235-5123</location>
+<student_unit>6 Sqn. AF. AF Station Pune</student_unit>
+<total_cost>$19,028</total_cost>
+<start_date>1/7/02</start_date>
+<end_date>6/15/02</end_date>
+<page_number>172</page_number>
+</training>
+<training>
+<course_title>AIR DEF ARTY CAPT CAREER</course_title>
+<quantity>1</quantity>
+<location>FT BLISS TX 79916-1001</location>
+<student_unit>AIR DEFENCE</student_unit>
+<total_cost>$11,651</total_cost>
+<start_date>5/7/02</start_date>
+<end_date>9/13/02</end_date>
+<page_number>172</page_number>
+</training>
+<training>
+<course_title>ARMOR CAPTAINS CAREER</course_title>
+<quantity>1</quantity>
+<location>FT KNOX KY 40121-5234</location>
+<student_unit>ARMORED REGIMENT</student_unit>
+<total_cost>$12,193</total_cost>
+<start_date>5/7/02</start_date>
+<end_date>9/13/02</end_date>
+<page_number>172</page_number>
+</training>
+<training>
+<course_title>ARMOR CPT CAREER CRS PREP</course_title>
+<quantity>1</quantity>
+<location>FT KNOX KY 40121-5234</location>
+<student_unit>ARMORED REGIMENT</student_unit>
+<total_cost>$5,533</total_cost>
+<start_date>4/9/02</start_date>
+<end_date>4/26/02</end_date>
+<page_number>172</page_number>
+</training>
+<training>
+<course_title>AVIATION CAPTAINS CAREER</course_title>
+<quantity>1</quantity>
+<location>FT RUCKER AL 36362-5000</location>
+<student_unit>Army Aviation</student_unit>
+<total_cost>$15,466</total_cost>
+<start_date>5/2/02</start_date>
+<end_date>9/10/02</end_date>
+<page_number>172</page_number>
+</training>
+<training>
+<course_title>AVIATION SAFETY OFFICER</course_title>
+<quantity>1</quantity>
+<location>FT RUCKER AL 36362</location>
+<student_unit>Army</student_unit>
+<total_cost>$7,967</total_cost>
+<start_date>3/11/02</start_date>
+<end_date>4/19/02</end_date>
+<page_number>172</page_number>
+</training>
+<training>
+<course_title>BOARDING OFFICER EIMET</course_title>
+<quantity>1</quantity>
+<location>YORKTOWN, VA 23690-5000</location>
+<student_unit>Commanding Officer, CG Ship Bhikaiji </student_unit>
+<total_cost>$5,591</total_cost>
+<start_date>1/7/02</start_date>
+<end_date>2/8/02</end_date>
+<student_unit>Cama</student_unit>
+<page_number>172</page_number>
+</training>
+<training>
+<course_title>CIVIL AFFAIRS</course_title>
+<quantity>1</quantity>
+<location>FT BRAGG NC 28310</location>
+<student_unit>5 PARA, Agra</student_unit>
+<total_cost>$3,101</total_cost>
+<start_date>2/11/02</start_date>
+<end_date>3/15/02</end_date>
+<page_number>172</page_number>
+</training>
+<training>
+<course_title>CMD &amp; GEN STAFF OFF PREP</course_title>
+<quantity>1</quantity>
+<location>FT LEAVENWORTH KS 66027-1352</location>
+<student_unit>ARMOURED CORPS</student_unit>
+<total_cost>$1,766</total_cost>
+<start_date>7/15/02</start_date>
+<end_date>8/2/02</end_date>
+<page_number>172</page_number>
+</training>
+<training>
+<course_title>COMBINED LOG CPT CAREER</course_title>
+<quantity>1</quantity>
+<location>FT LEE VA 23801-1705</location>
+<student_unit>Ordnance</student_unit>
+<total_cost>$4,097</total_cost>
+<start_date>7/31/02</start_date>
+<end_date>9/13/02</end_date>
+<page_number>172</page_number>
+</training>
+</program>
+</country>
+<country name="India">
+<program name="South Asia Region, India,  International Military Education and Training (IMET), FY02">
+<training>
+<course_title>DEF SEC ASST MGT/DISAM</course_title>
+<quantity>0</quantity>
+<location>New Delhi, India</location>
+<student_unit>4 Air Force, 4 Army, 4 Navy, 2 Coast </student_unit>
+<total_cost>$7,401</total_cost>
+<start_date>7/18/02</start_date>
+<end_date>7/26/02</end_date>
+<student_unit>Guard, 15 Ministry of Defence (Civ), 5 </student_unit>
+<student_unit>Ministry of Defence (Finance), 1 DRDO</student_unit>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>DEF SEC ASST MGT/DISAM</course_title>
+<quantity>35</quantity>
+<location>New Delhi, India</location>
+<student_unit>4 Air Force, 4 Army, 4 Navy, 2 Coast </student_unit>
+<total_cost>$13,995</total_cost>
+<start_date>7/18/02</start_date>
+<end_date>7/26/02</end_date>
+<student_unit>Guard, 15 Ministry of Defence </student_unit>
+<student_unit>(Civilians), 5 Ministry of Defence </student_unit>
+<student_unit>(Finance),  1 DRDO</student_unit>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>ENTRY LEVEL PORT OPS GMRP3</course_title>
+<quantity>1</quantity>
+<location>YORKTOWN, VA 23690-5000</location>
+<student_unit>CO, CG HOVERCRAFT-181</student_unit>
+<total_cost>$5,701</total_cost>
+<start_date>7/29/02</start_date>
+<end_date>8/23/02</end_date>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>ENTRY LEVEL PORT OPS GMRP3</course_title>
+<quantity>1</quantity>
+<location>YORKTOWN, VA 23690-5000</location>
+<student_unit>745 Sqn. Coast Guard</student_unit>
+<total_cost>$5,701</total_cost>
+<start_date>6/3/02</start_date>
+<end_date>6/28/02</end_date>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>FA OFF ADV PREP-ALLIED OFF</course_title>
+<quantity>1</quantity>
+<location>FT SILL OK 73503</location>
+<student_unit>218 MEDIUM</student_unit>
+<total_cost>$6,463</total_cost>
+<start_date>8/28/02</start_date>
+<end_date>9/20/02</end_date>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>FLYING SAFETY/ *</course_title>
+<quantity>1</quantity>
+<location>TYNDALL AFB, FL 32403-5016</location>
+<student_unit>OPS-1, A-1, WAC</student_unit>
+<total_cost>$1,291</total_cost>
+<start_date>9/2/02</start_date>
+<end_date>9/13/02</end_date>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>HOSTAGE NEGOTIATIONS</course_title>
+<quantity>1</quantity>
+<location>FT LEONARD WOOD MO 65473-5000</location>
+<student_unit>Intelligence Corps</student_unit>
+<total_cost>$2,277</total_cost>
+<start_date>8/5/02</start_date>
+<end_date>8/16/02</end_date>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>HT-A-SCH (HULL MAINT TECH)</course_title>
+<quantity>1</quantity>
+<location>GREAT LAKES, IL 60088-2912</location>
+<student_unit>INS VIRAAT</student_unit>
+<total_cost>$8,856</total_cost>
+<start_date>6/4/02</start_date>
+<end_date>8/27/02</end_date>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>INFANTRY MORTAR LEADER</course_title>
+<quantity>1</quantity>
+<location>FT BENNING GA 31905-5468</location>
+<student_unit>Para Regiment</student_unit>
+<total_cost>$7,835</total_cost>
+<start_date>1/7/02</start_date>
+<end_date>2/15/02</end_date>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>INSTRUCTOR TNG COURSE</course_title>
+<quantity>1</quantity>
+<location>FT BENNING GA 31905-5468</location>
+<student_unit>Army</student_unit>
+<total_cost>$1,854</total_cost>
+<start_date>4/29/02</start_date>
+<end_date>5/10/02</end_date>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>INT'L OFF PREP-INF CCC</course_title>
+<quantity>1</quantity>
+<location>FT BENNING GA 31905-5468</location>
+<student_unit>10 PARA</student_unit>
+<total_cost>$4,299</total_cost>
+<start_date>7/29/02</start_date>
+<end_date>8/2/02</end_date>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>INTEL IN COMBAT TERRORISM</course_title>
+<quantity>1</quantity>
+<location>FT HUACHUCA AZ 85613-7000</location>
+<student_unit>Intelligence Corps</student_unit>
+<total_cost>$1,982</total_cost>
+<start_date>7/15/02</start_date>
+<end_date>7/26/02</end_date>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>INTERNATIONAL CCC PREP</course_title>
+<quantity>1</quantity>
+<location>FT BLISS TX 79916-1001</location>
+<student_unit>AIR DEFENCE</student_unit>
+<total_cost>$5,056</total_cost>
+<start_date>4/22/02</start_date>
+<end_date>5/3/02</end_date>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>INTERNATIONAL OFF LOG PREP</course_title>
+<quantity>1</quantity>
+<location>FT LEE VA 23801-1705</location>
+<student_unit>Ordnance</student_unit>
+<total_cost>$5,400</total_cost>
+<start_date>7/15/02</start_date>
+<end_date>7/26/02</end_date>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>INTERNATIONAL OFFICER PREP</course_title>
+<quantity>1</quantity>
+<location>FT LEAVENWORTH KS 66027-1352</location>
+<student_unit>ARMOURED CORPS</student_unit>
+<total_cost>$5,923</total_cost>
+<start_date>6/17/02</start_date>
+<end_date>7/12/02</end_date>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>INTL AIR WEAPONS CONTR CRS</course_title>
+<quantity>1</quantity>
+<location>TYNDALL AFB, FL 32403-5016</location>
+<student_unit>Instructor, TACDE</student_unit>
+<total_cost>$6,323</total_cost>
+<start_date>5/20/02</start_date>
+<end_date>7/16/02</end_date>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>INTL ASW JR OFF CRS</course_title>
+<quantity>1</quantity>
+<location>SAN DIEGO, CA 92147-5193</location>
+<student_unit>ASWO, INS BRAHMAPUTRA</student_unit>
+<total_cost>$5,962</total_cost>
+<start_date>2/4/02</start_date>
+<end_date>3/1/02</end_date>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>INTL DEFENSE MGT CRS</course_title>
+<quantity>1</quantity>
+<location>MONTEREY, CA 93943-5201</location>
+<student_unit>Colonel Quartermaster, Headquarters </student_unit>
+<total_cost>$18,387</total_cost>
+<start_date>2/4/02</start_date>
+<end_date>4/17/02</end_date>
+<student_unit>Pune Sub Area</student_unit>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>INTL HYDROG MGT &amp; ENG PGM</course_title>
+<quantity>1</quantity>
+<student_unit>Hydrographic Surveyor</student_unit>
+<total_cost>$24,133</total_cost>
+<start_date>4/1/02</start_date>
+<end_date>9/27/02</end_date>
+<location>STENNIS SPACE CENTER, MS 39522-5001</location>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>INTL MINE COUNTER MEAS OFF</course_title>
+<quantity>1</quantity>
+<location>INGLESIDE, TX 78362-5000</location>
+<student_unit>ASWO, INS BRAHMAPUTRA</student_unit>
+<total_cost>$2,535</total_cost>
+<start_date>4/1/02</start_date>
+<end_date>4/26/02</end_date>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>INTL OFF INTEL CAPT CAREER</course_title>
+<quantity>1</quantity>
+<location>FT HUACHUCA AZ 85613-7000</location>
+<student_unit>Intelligence Corps</student_unit>
+<total_cost>$17,825</total_cost>
+<start_date>3/21/02</start_date>
+<end_date>7/3/02</end_date>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+<quantity>1</quantity>
+<location>MAXWELL AFB, AL 36112-6323</location>
+<student_unit>7 SQN.</student_unit>
+<total_cost>$10,073</total_cost>
+<start_date>6/17/02</start_date>
+<end_date>7/26/02</end_date>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>INTL OFF SCH (FOR AWC)</course_title>
+<quantity>1</quantity>
+<location>MAXWELL AFB, AL 36112-6323</location>
+<student_unit>DS, CDM</student_unit>
+<total_cost>$9,943</total_cost>
+<start_date>6/10/02</start_date>
+<end_date>7/19/02</end_date>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>JET ENGINE MISHAP INV</course_title>
+<quantity>1</quantity>
+<location>KIRTLAND AFB, NM 87117-5608</location>
+<student_unit>OPS-1, A-1, WAC</student_unit>
+<total_cost>$12,554</total_cost>
+<start_date>6/21/02</start_date>
+<end_date>8/30/02</end_date>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>LONG RANGE SURVEILANCE LDR</course_title>
+<quantity>1</quantity>
+<location>FT BENNING GA 31905-5468</location>
+<student_unit>Para Regiment</student_unit>
+<total_cost>$1,429</total_cost>
+<start_date>3/4/02</start_date>
+<end_date>3/5/02</end_date>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>NAVAL STAFF COLLEGE</course_title>
+<quantity>1</quantity>
+<location>NEWPORT, RI 02841-1207</location>
+<student_unit>CO, INS Cuddalore, Visakhapatnam, </student_unit>
+<total_cost>$26,682</total_cost>
+<start_date>1/10/02</start_date>
+<end_date>6/14/02</end_date>
+<student_unit>AP</student_unit>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>OJT OFF MAR SAF GULF COAST</course_title>
+<quantity>1</quantity>
+<location>NEW ORLEANS, LA 70130-3396</location>
+<student_unit>CO, CG HOVERCRAFT-181</student_unit>
+<total_cost>$1,513</total_cost>
+<start_date>8/26/02</start_date>
+<end_date>9/6/02</end_date>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>OJT OFF MAR SAF GULF COAST</course_title>
+<quantity>1</quantity>
+<location>NEW ORLEANS, LA 70130-3396</location>
+<student_unit>745 Sqn. Coast Guard</student_unit>
+<total_cost>$1,513</total_cost>
+<start_date>7/1/02</start_date>
+<end_date>7/12/02</end_date>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>OJT OFF MLE NORTHEAST</course_title>
+<quantity>1</quantity>
+<location>BOSTON, MA 02110-2209</location>
+<student_unit>Commanding Officer, CG Ship Bhikaiji </student_unit>
+<total_cost>$1,620</total_cost>
+<start_date>2/11/02</start_date>
+<end_date>2/22/02</end_date>
+<student_unit>Cama</student_unit>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>PATHFINDER</course_title>
+<quantity>1</quantity>
+<location>FT BENNING GA 31905-5468</location>
+<student_unit>Troop Leader, Counter Insurgency </student_unit>
+<total_cost>$5,035</total_cost>
+<start_date>1/28/02</start_date>
+<end_date>2/15/02</end_date>
+<student_unit>Operations, J&amp;K</student_unit>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>PROSP COMMANDING/EXEC OFF</course_title>
+<quantity>1</quantity>
+<location>NEW LONDON, CT 06320-4195</location>
+<student_unit>Commanding Officer, CG Ship Bhikaiji </student_unit>
+<total_cost>$1,822</total_cost>
+<start_date>2/25/02</start_date>
+<end_date>3/8/02</end_date>
+<student_unit>Cama</student_unit>
+<page_number>173</page_number>
+</training>
+<training>
+<course_title>PSYC OPERATIONS OFFICER</course_title>
+<quantity>1</quantity>
+<location>FT BRAGG NC 28310</location>
+<student_unit>5 PARA, Agra</student_unit>
+<total_cost>$6,273</total_cost>
+<start_date>1/7/02</start_date>
+<end_date>2/8/02</end_date>
+<page_number>173</page_number>
+</training>
+</program>
+</country>
+<country name="India">
+<program name="South Asia Region, India,  International Military Education and Training (IMET), FY02">
+<training>
+<course_title>RANGER</course_title>
+<quantity>1</quantity>
+<location>FT BENNING GA 31905-5468</location>
+<student_unit>Troop Leader, Counter Insurgency </student_unit>
+<total_cost>$6,890</total_cost>
+<start_date>3/18/02</start_date>
+<end_date>5/17/02</end_date>
+<student_unit>Operations, J&amp;K</student_unit>
+<page_number>174</page_number>
+</training>
+<training>
+<course_title>READINESS APPRENTICE</course_title>
+<quantity>1</quantity>
+<location>FT LEONARD WOOD, MO 65473</location>
+<student_unit>26 SQN AF</student_unit>
+<total_cost>$5,481</total_cost>
+<start_date>6/17/02</start_date>
+<end_date>9/3/02</end_date>
+<page_number>174</page_number>
+</training>
+<training>
+<course_title>SEARCH/RESCUE MARITIME</course_title>
+<quantity>1</quantity>
+<location>YORKTOWN, VA 23690-5000</location>
+<student_unit>745 Sqn. Coast Guard</student_unit>
+<total_cost>$1,972</total_cost>
+<start_date>7/15/02</start_date>
+<end_date>8/2/02</end_date>
+<page_number>174</page_number>
+</training>
+<training>
+<course_title>SEARCH/RESCUE MARITIME</course_title>
+<quantity>1</quantity>
+<location>YORKTOWN, VA 23690-5000</location>
+<student_unit>CO, CG HOVERCRAFT-181</student_unit>
+<total_cost>$1,947</total_cost>
+<start_date>9/9/02</start_date>
+<end_date>9/26/02</end_date>
+<page_number>174</page_number>
+</training>
+<training>
+<course_title>SF QUAL (COLLECTIVE TNG)</course_title>
+<quantity>1</quantity>
+<location>FT BRAGG NC 28310</location>
+<student_unit>9 PARA (SF)</student_unit>
+<total_cost>$4,259</total_cost>
+<start_date>7/13/02</start_date>
+<end_date>8/23/02</end_date>
+<page_number>174</page_number>
+</training>
+<training>
+<course_title>SF QUAL (INDIVIDUAL TNG)</course_title>
+<quantity>1</quantity>
+<location>FT BRAGG NC 28310</location>
+<student_unit>9 PARA (SF)</student_unit>
+<total_cost>$8,574</total_cost>
+<start_date>2/21/02</start_date>
+<end_date>4/7/02</end_date>
+<page_number>174</page_number>
+</training>
+<training>
+<course_title>SF QUAL (SF DET OFF)</course_title>
+<quantity>1</quantity>
+<location>FT BRAGG NC 28310</location>
+<student_unit>9 PARA (SF)</student_unit>
+<total_cost>$7,983</total_cost>
+<start_date>4/8/02</start_date>
+<end_date>7/12/02</end_date>
+<page_number>174</page_number>
+</training>
+<training>
+<course_title>SPECIALIZED ENG LANG TNG</course_title>
+<quantity>1</quantity>
+<location>LACKLAND AFB, TX 78236</location>
+<student_unit>Instructor, TACDE</student_unit>
+<total_cost>$8,259</total_cost>
+<start_date>3/18/02</start_date>
+<end_date>5/17/02</end_date>
+<page_number>174</page_number>
+</training>
+<training>
+<course_title>SR INTERNATIONAL DEF MGT</course_title>
+<quantity>1</quantity>
+<location>MONTEREY, CA 93943-5201</location>
+<student_unit>CDM, Secunderabad</student_unit>
+<total_cost>$8,868</total_cost>
+<start_date>6/24/02</start_date>
+<end_date>7/19/02</end_date>
+<page_number>174</page_number>
+</training>
+<training>
+<course_title>SR INTL OFFR SUPPLY BASIC</course_title>
+<quantity>1</quantity>
+<location>ATHENS, GA 30606-2205</location>
+<student_unit>Logistics Command</student_unit>
+<total_cost>$13,477</total_cost>
+<start_date>4/15/02</start_date>
+<end_date>6/6/02</end_date>
+<page_number>174</page_number>
+</training>
+<training>
+<course_title>SWO ADV SHIP HANDLING</course_title>
+<quantity>1</quantity>
+<location>NEWPORT, RI 02841-1209</location>
+<student_unit>Navigation</student_unit>
+<total_cost>$3,132</total_cost>
+<start_date>7/31/02</start_date>
+<end_date>8/2/02</end_date>
+<page_number>174</page_number>
+</training>
+<training>
+<course_title>SWO DH OPS SPEC INTL</course_title>
+<quantity>1</quantity>
+<location>NEWPORT, RI 02841-1209</location>
+<student_unit>Navigation</student_unit>
+<total_cost>$9,022</total_cost>
+<start_date>4/29/02</start_date>
+<end_date>7/30/02</end_date>
+<page_number>174</page_number>
+</training>
+<training>
+<course_title>UNWTR DEMOL/SEAL INDOC</course_title>
+<quantity>1</quantity>
+<location>SAN DIEGO, CA 92155-5494</location>
+<student_unit>SO INS ABHIMANYU</student_unit>
+<total_cost>$6,281</total_cost>
+<start_date>6/24/02</start_date>
+<end_date>8/2/02</end_date>
+<page_number>174</page_number>
+</training>
+</program>
+</country>
+<country name="India">
+<program name="DOD South Asia Region, India,  Asia-Pacific Center, FY02">
+<training>
+<course_title>Executive Course 2002-1</course_title>
+<quantity>4</quantity>
+<location>Asia-Pacific Center for Security Studies</location>
+<student_unit>Ministry of External Affairs; Army; </student_unit>
+<us_unit>U.S. military staff and faculty</us_unit>
+<total_cost>$58,832</total_cost>
+<start_date>1/21/02</start_date>
+<end_date>4/11/02</end_date>
+<student_unit>Ministry of Defense; Navy</student_unit>
+<page_number>174</page_number>
+</training>
+<training>
+<course_title>Executive Course 2002-2</course_title>
+<quantity>4</quantity>
+<location>Asia-Pacific Center for Security Studies</location>
+<student_unit>Ministry of Defense; Navy;  Air Force</student_unit>
+<us_unit>U.S. military staff and faculty</us_unit>
+<total_cost>$61,277</total_cost>
+<start_date>5/20/02</start_date>
+<end_date>8/8/02</end_date>
+<page_number>174</page_number>
+</training>
+</program>
+</country>
+<country name="Maldives">
+<program name="DOD South Asia Region, Maldives,  Near East South Asia Center(NESA), FY02">
+<training>
+<course_title>Executive Seminar ES 01-02</course_title>
+<quantity>1</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>National Security Service Quick </student_unit>
+<total_cost>$5,368</total_cost>
+<start_date>10/22/01</start_date>
+<end_date>11/9/01</end_date>
+<student_unit>Reaction Force (Open to all branches)</student_unit>
+<page_number>174</page_number>
+</training>
+<training>
+<course_title>Executive Seminar ES 02-02</course_title>
+<quantity>1</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Ministry of Defense (Open to all </student_unit>
+<total_cost>$6,394</total_cost>
+<start_date>1/14/02</start_date>
+<end_date>2/1/02</end_date>
+<student_unit>branches)</student_unit>
+<page_number>174</page_number>
+</training>
+<training>
+<course_title>Executive Seminar ES 03-02</course_title>
+<quantity>1</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>National Security Service (Open to all </student_unit>
+<total_cost>$4,967</total_cost>
+<start_date>4/8/02</start_date>
+<end_date>4/26/02</end_date>
+<student_unit>branches)</student_unit>
+<page_number>174</page_number>
+</training>
+<training>
+<course_title>Executive Seminar ES 04-02</course_title>
+<quantity>1</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>National Security Service (Open to all </student_unit>
+<total_cost>$5,424</total_cost>
+<start_date>7/8/02</start_date>
+<end_date>7/26/02</end_date>
+<student_unit>branches)</student_unit>
+<page_number>174</page_number>
+</training>
+</program>
+</country>
+<country name="Maldives">
+<program name="DOS South Asia Region, Maldives,  International Military Education and Training (IMET), FY02">
+<training>
+<course_title>INFANTRY CAPTS CAREER CRS</course_title>
+<quantity>1</quantity>
+<location>FT BENNING GA 31905-5468</location>
+<student_unit>Special Protection Group, NSS</student_unit>
+<total_cost>$12,996</total_cost>
+<start_date>3/18/02</start_date>
+<end_date>7/26/02</end_date>
+<page_number>174</page_number>
+</training>
+<training>
+<course_title>INFANTRY OFFICER BASIC</course_title>
+<quantity>1</quantity>
+<location>FT BENNING GA 31905-5468</location>
+<student_unit>National Security Service</student_unit>
+<total_cost>$12,146</total_cost>
+<start_date>6/3/02</start_date>
+<end_date>9/24/02</end_date>
+<page_number>174</page_number>
+</training>
+<training>
+<course_title>INSTRUCTOR TNG COURSE</course_title>
+<quantity>1</quantity>
+<location>FT BENNING GA 31905-5468</location>
+<student_unit>Special Protection Group, NSS</student_unit>
+<total_cost>$1,771</total_cost>
+<start_date>8/5/02</start_date>
+<end_date>8/16/02</end_date>
+<page_number>174</page_number>
+</training>
+<training>
+<course_title>INSTRUCTOR TNG COURSE</course_title>
+<quantity>1</quantity>
+<location>FT BENNING GA 31905-5468</location>
+<student_unit>NSS, Training Unit</student_unit>
+<total_cost>$1,986</total_cost>
+<start_date>2/20/02</start_date>
+<end_date>3/7/02</end_date>
+<page_number>174</page_number>
+</training>
+<training>
+<course_title>INSTRUCTOR TNG COURSE</course_title>
+<quantity>1</quantity>
+<location>FT BENNING GA 31905-5468</location>
+<student_unit>Quick Reaction Force 1</student_unit>
+<total_cost>$1,827</total_cost>
+<start_date>10/1/01</start_date>
+<end_date>10/19/01</end_date>
+<page_number>174</page_number>
+</training>
+<training>
+<course_title>INT'L INTEL OFF BASIC</course_title>
+<quantity>1</quantity>
+<location>FT HUACHUCA AZ 85613-7000</location>
+<student_unit>National Security Service</student_unit>
+<total_cost>$13,313</total_cost>
+<start_date>6/3/02</start_date>
+<end_date>8/16/02</end_date>
+<page_number>174</page_number>
+</training>
+<training>
+<course_title>INT'L OFF PREP-INF CCC</course_title>
+<quantity>1</quantity>
+<location>FT BENNING GA 31905-5468</location>
+<student_unit>Special Protection Group, NSS</student_unit>
+<total_cost>$4,325</total_cost>
+<start_date>3/11/02</start_date>
+<end_date>3/15/02</end_date>
+<page_number>174</page_number>
+</training>
+<training>
+<course_title>INTL CRISIS CMD/CTRL</course_title>
+<quantity>1</quantity>
+<location>YORKTOWN, VA 23690-5000</location>
+<student_unit>NSS, Coast Guard</student_unit>
+<total_cost>$5,366</total_cost>
+<start_date>4/22/02</start_date>
+<end_date>5/3/02</end_date>
+<page_number>174</page_number>
+</training>
+</program>
+</country>
+<country name="Maldives">
+<program name="South Asia Region, Maldives,  International Military Education and Training (IMET), FY02">
+<training>
+<course_title>INTL MARITIME OFF</course_title>
+<quantity>1</quantity>
+<location>YORKTOWN, VA 23690-5000</location>
+<student_unit>NSS, Coast Guard</student_unit>
+<total_cost>$10,415</total_cost>
+<start_date>5/6/02</start_date>
+<end_date>7/12/02</end_date>
+<page_number>175</page_number>
+</training>
+<training>
+<course_title>MACHINERY TECHNICIAN A</course_title>
+<quantity>1</quantity>
+<location>YORKTOWN, VA 23690-5000</location>
+<student_unit>National Security Service</student_unit>
+<total_cost>$7,647</total_cost>
+<start_date>6/10/02</start_date>
+<end_date>8/30/02</end_date>
+<page_number>175</page_number>
+</training>
+<training>
+<course_title>MTT COASTAL SAR OPS 23</course_title>
+<quantity>11</quantity>
+<location>Maldives</location>
+<student_unit>NSS Coast Guard 15, Dept of Civil </student_unit>
+<total_cost>$20,771</total_cost>
+<start_date>6/2/02</start_date>
+<end_date>6/7/02</end_date>
+<student_unit>aviation 01</student_unit>
+<page_number>175</page_number>
+</training>
+<training>
+<course_title>OFFICER CANDIDATE SCH00L</course_title>
+<quantity>1</quantity>
+<location>NEW LONDON, CT 06320-4195</location>
+<student_unit>National Security Service</student_unit>
+<total_cost>$13,606</total_cost>
+<start_date>3/2/02</start_date>
+<end_date>6/28/02</end_date>
+<page_number>175</page_number>
+</training>
+<training>
+<course_title>OJT ENL MLE NORTHWEST</course_title>
+<quantity>1</quantity>
+<location>SEATTLE, WA 98174-1067</location>
+<student_unit>National Security Service</student_unit>
+<total_cost>$1,217</total_cost>
+<start_date>7/1/02</start_date>
+<end_date>7/12/02</end_date>
+<page_number>175</page_number>
+</training>
+<training>
+<course_title>SEARCH/RESCUE MARITIME</course_title>
+<quantity>1</quantity>
+<location>YORKTOWN, VA 23690-5000</location>
+<student_unit>NSS, Coast Guard</student_unit>
+<total_cost>$1,546</total_cost>
+<start_date>7/15/02</start_date>
+<end_date>8/2/02</end_date>
+<page_number>175</page_number>
+</training>
+</program>
+</country>
+<country name="Maldives">
+<program name="DOD South Asia Region, Maldives,  Asia-Pacific Center, FY02">
+<training>
+<course_title>Executive Course 2002-1</course_title>
+<quantity>1</quantity>
+<location>Asia-Pacific Center for Security Studies</location>
+<student_unit>Army</student_unit>
+<us_unit>U.S. military staff and faculty</us_unit>
+<total_cost>$16,898</total_cost>
+<start_date>1/21/02</start_date>
+<end_date>4/11/02</end_date>
+<page_number>175</page_number>
+</training>
+<training>
+<course_title>Executive Course 2002-2</course_title>
+<quantity>1</quantity>
+<location>Asia-Pacific Center for Security Studies</location>
+<student_unit>Police</student_unit>
+<us_unit>U.S. military staff and faculty</us_unit>
+<total_cost>$16,804</total_cost>
+<start_date>5/20/02</start_date>
+<end_date>8/8/02</end_date>
+<page_number>175</page_number>
+</training>
+</program>
+</country>
+<country name="Nepal">
+<program name="DOD South Asia Region, Nepal,  Near East South Asia Center(NESA), FY02">
+<training>
+<course_title>Executive Seminar ES 01-02</course_title>
+<quantity>2</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Army + Ministry of Foreign Affairs </student_unit>
+<total_cost>$11,017</total_cost>
+<start_date>10/22/01</start_date>
+<end_date>11/9/01</end_date>
+<student_unit>(Open to all branches)</student_unit>
+<page_number>175</page_number>
+</training>
+<training>
+<course_title>Executive Seminar ES 02-02</course_title>
+<quantity>2</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Ministry of Defense + Ministry of </student_unit>
+<total_cost>$10,533</total_cost>
+<start_date>1/14/02</start_date>
+<end_date>2/1/02</end_date>
+<student_unit>Foreign Affairs (Open to all branches)</student_unit>
+<page_number>175</page_number>
+</training>
+<training>
+<course_title>Executive Seminar ES 03-02</course_title>
+<quantity>2</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Ministry of Foreign Affairs (Open to all </student_unit>
+<total_cost>$10,912</total_cost>
+<start_date>4/8/02</start_date>
+<end_date>4/26/02</end_date>
+<student_unit>branches)</student_unit>
+<page_number>175</page_number>
+</training>
+<training>
+<course_title>Executive Seminar ES 04-02</course_title>
+<quantity>1</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Ministry of Foreign Affairs  (Open to all </student_unit>
+<total_cost>$5,806</total_cost>
+<start_date>7/8/02</start_date>
+<end_date>7/26/02</end_date>
+<student_unit>branches)</student_unit>
+<page_number>175</page_number>
+</training>
+<training>
+<course_title>JCET</course_title>
+<quantity>30</quantity>
+<location>Nagarkot (RNA Infantry School)</location>
+<student_unit>RNA 1st Brigade (minus Sri Nath </student_unit>
+<us_unit>2/1 SFG, 426 CA BN</us_unit>
+<total_cost>$123,621</total_cost>
+<start_date>8/1/02</start_date>
+<end_date>9/12/02</end_date>
+<student_unit>Battalion), 2nd, 3rd, 4th, 5th, 6th, 7th, </student_unit>
+<student_unit>8th, 9th, 10th Brigade, RNA School</student_unit>
+<page_number>175</page_number>
+</training>
+<training>
+<course_title>Senior Executive Seminar</course_title>
+<quantity>2</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Military Intelligence + Ministry of </student_unit>
+<total_cost>$3,691</total_cost>
+<start_date>6/10/02</start_date>
+<end_date>6/14/02</end_date>
+<student_unit>Foreign Affairs (Open to all branches)</student_unit>
+<page_number>175</page_number>
+</training>
+</program>
+</country>
+<country name="Nepal">
+<program name="DOS South Asia Region, Nepal,  International Military Education and Training (IMET), FY02">
+<training>
+<course_title>CMD &amp; GEN STAFF OFF PREP</course_title>
+<quantity>1</quantity>
+<location>FT LEAVENWORTH KS 66027-1352</location>
+<student_unit>15TH BRIGADE (SIGNAL) - </student_unit>
+<total_cost>$1,766</total_cost>
+<start_date>7/15/02</start_date>
+<end_date>8/2/02</end_date>
+<student_unit>BRIGADE STAFF OFFICER</student_unit>
+<page_number>175</page_number>
+</training>
+<training>
+<course_title>FA OFF ADV PREP-ALLIED OFF</course_title>
+<quantity>1</quantity>
+<location>FT SILL OK 73503</location>
+<student_unit>ARMY</student_unit>
+<total_cost>$7,086</total_cost>
+<start_date>12/7/01</start_date>
+<end_date>1/14/02</end_date>
+<page_number>175</page_number>
+</training>
+<training>
+<course_title>FIELD ARTY CAPTAINS CAREER</course_title>
+<quantity>1</quantity>
+<location>FT SILL OK 73503</location>
+<student_unit>ARMY</student_unit>
+<total_cost>$12,024</total_cost>
+<start_date>1/16/02</start_date>
+<end_date>5/23/02</end_date>
+<page_number>175</page_number>
+</training>
+<training>
+<course_title>INT'L INTEL OFF BASIC</course_title>
+<quantity>1</quantity>
+<location>FT HUACHUCA AZ 85613-7000</location>
+<student_unit>ARMY</student_unit>
+<total_cost>$2,260</total_cost>
+<start_date>3/18/02</start_date>
+<end_date>6/3/02</end_date>
+<page_number>175</page_number>
+</training>
+<training>
+<course_title>INT'L OFF PREP-INF CCC</course_title>
+<quantity>1</quantity>
+<location>FT BENNING GA 31905-5468</location>
+<student_unit>RNA HQ STAFF OFFICER</student_unit>
+<total_cost>$4,175</total_cost>
+<start_date>9/16/02</start_date>
+<end_date>9/20/02</end_date>
+<page_number>175</page_number>
+</training>
+<training>
+<course_title>INTEL IN COMBAT TERRORISM</course_title>
+<quantity>1</quantity>
+<location>FT HUACHUCA AZ 85613-7000</location>
+<student_unit>STAFF OFFICER, COAS's MA </student_unit>
+<total_cost>$2,422</total_cost>
+<start_date>5/20/02</start_date>
+<end_date>5/31/02</end_date>
+<student_unit>OFFICE</student_unit>
+<page_number>175</page_number>
+</training>
+<training>
+<course_title>INTEL IN COMBAT TERRORISM</course_title>
+<quantity>1</quantity>
+<location>FT HUACHUCA AZ 85613-7000</location>
+<student_unit>ROYAL GUARDS MILITARY POLICE</student_unit>
+<total_cost>$2,422</total_cost>
+<start_date>5/20/02</start_date>
+<end_date>5/31/02</end_date>
+<page_number>175</page_number>
+</training>
+<training>
+<course_title>INTERNATIONAL OFFICER PREP</course_title>
+<quantity>1</quantity>
+<location>FT LEAVENWORTH KS 66027-1352</location>
+<student_unit>15TH BRIGADE (SIGNAL) - </student_unit>
+<total_cost>$5,661</total_cost>
+<start_date>6/17/02</start_date>
+<end_date>7/12/02</end_date>
+<student_unit>BRIGADE STAFF OFFICER</student_unit>
+<page_number>175</page_number>
+</training>
+<training>
+<course_title>INTL DEFENSE MGT CRS</course_title>
+<quantity>1</quantity>
+<location>MONTEREY, CA 93943-5201</location>
+<student_unit>CO, SUNDARIJAL ARSENAL, RNA</student_unit>
+<total_cost>$18,155</total_cost>
+<start_date>2/4/02</start_date>
+<end_date>4/17/02</end_date>
+<page_number>175</page_number>
+</training>
+</program>
+</country>
+<country name="Nepal">
+<program name="South Asia Region, Nepal,  International Military Education and Training (IMET), FY02">
+<training>
+<course_title>INTL OFF INTEL CAPT CAREER</course_title>
+<quantity>1</quantity>
+<location>FT HUACHUCA AZ 85613-7000</location>
+<student_unit>ROYAL GUARDS MILITARY POLICE</student_unit>
+<total_cost>$17,863</total_cost>
+<start_date>1/17/02</start_date>
+<end_date>5/6/02</end_date>
+<page_number>176</page_number>
+</training>
+<training>
+<course_title>INTL OFF INTEL CAPT CAREER</course_title>
+<quantity>1</quantity>
+<location>FT HUACHUCA AZ 85613-7000</location>
+<student_unit>STAFF OFFICER, COAS's MA </student_unit>
+<total_cost>$17,863</total_cost>
+<start_date>1/17/02</start_date>
+<end_date>5/6/02</end_date>
+<student_unit>OFFICE</student_unit>
+<page_number>176</page_number>
+</training>
+<training>
+<course_title>MANAGING INTL CONFLICT MIC</course_title>
+<quantity>1</quantity>
+<location>NEWPORT, RI 02841-1523</location>
+<student_unit>CHIEF SECURITY OFFICER </student_unit>
+<total_cost>$896</total_cost>
+<start_date>11/19/01</start_date>
+<end_date>11/24/01</end_date>
+<student_unit>MILITARY POLICE</student_unit>
+<page_number>176</page_number>
+</training>
+<training>
+<course_title>MIL &amp; PCKEEP OPS IAW ROL</course_title>
+<quantity>1</quantity>
+<location>NEWPORT, RI 02841-1523</location>
+<student_unit>CHIEF SECURITY OFFICER </student_unit>
+<total_cost>$15,390</total_cost>
+<start_date>10/15/01</start_date>
+<end_date>11/16/01</end_date>
+<student_unit>MILITARY POLICE</student_unit>
+<page_number>176</page_number>
+</training>
+<training>
+<course_title>MTT-MISCELLANEOUS OPNS</course_title>
+<quantity>30</quantity>
+<location>Nepal</location>
+<student_unit>ARMY</student_unit>
+<total_cost>$57,684</total_cost>
+<start_date>6/5/02</start_date>
+<end_date>9/30/02</end_date>
+<page_number>176</page_number>
+</training>
+<training>
+<course_title>OBS MED/HEALTH/HYG-CONUS</course_title>
+<quantity>1</quantity>
+<location>WASHINGTON DC 20307-5001</location>
+<student_unit>BIRENDRA HOSPITAL - GENERAL </student_unit>
+<total_cost>$8,376</total_cost>
+<start_date>6/17/02</start_date>
+<end_date>8/2/02</end_date>
+<student_unit>SURGEON</student_unit>
+<page_number>176</page_number>
+</training>
+<training>
+<course_title>PSYC OPERATIONS OFFICER</course_title>
+<quantity>1</quantity>
+<location>FT BRAGG NC 28310</location>
+<student_unit>ARMY</student_unit>
+<total_cost>$539</total_cost>
+<start_date>1/7/02</start_date>
+<end_date>2/8/02</end_date>
+<page_number>176</page_number>
+</training>
+<training>
+<course_title>SR INTERNATIONAL DEF MGT</course_title>
+<quantity>1</quantity>
+<location>MONTEREY, CA 93943-5201</location>
+<student_unit>DEPUTY BRIGADE CDR, 17TH </student_unit>
+<total_cost>$9,165</total_cost>
+<start_date>6/24/02</start_date>
+<end_date>7/19/02</end_date>
+<student_unit>BRIGADE</student_unit>
+<page_number>176</page_number>
+</training>
+<training>
+<course_title>TRAUMA/CRIT CARE PARARESC</course_title>
+<quantity>32</quantity>
+<location>Nepal</location>
+<student_unit>ARMY MEDICAL</student_unit>
+<total_cost>$48,400</total_cost>
+<start_date>8/10/02</start_date>
+<end_date>8/15/02</end_date>
+<page_number>176</page_number>
+</training>
+</program>
+</country>
+<country name="Nepal">
+<program name="DOS South Asia Region, Nepal,  Foreign Military Financing (FMF), FY02">
+<training>
+<course_title>PK FOR DECISION MAKERS</course_title>
+<quantity>1</quantity>
+<location>NEWPORT, RI 02841-1523</location>
+<student_unit>DIRECTOR OF MILITARY </student_unit>
+<total_cost>$6,228</total_cost>
+<start_date>7/29/02</start_date>
+<end_date>8/9/02</end_date>
+<student_unit>TRAINING, RNA HQ</student_unit>
+<page_number>176</page_number>
+</training>
+</program>
+</country>
+<country name="Nepal">
+<program name="DOD South Asia Region, Nepal,  Asia-Pacific Center, FY02">
+<training>
+<course_title>Executive Course 2002-1</course_title>
+<quantity>2</quantity>
+<location>Asia-Pacific Center for Security Studies</location>
+<student_unit>Ministry of Foreign Affairs</student_unit>
+<us_unit>U.S. military staff and faculty</us_unit>
+<total_cost>$30,157</total_cost>
+<start_date>1/21/02</start_date>
+<end_date>4/11/02</end_date>
+<page_number>176</page_number>
+</training>
+<training>
+<course_title>Executive Course 2002-2</course_title>
+<quantity>2</quantity>
+<location>Asia-Pacific Center for Security Studies</location>
+<student_unit>Ministry of Foreign Affairs; Army</student_unit>
+<us_unit>U.S. military staff and faculty</us_unit>
+<total_cost>$29,407</total_cost>
+<start_date>5/20/02</start_date>
+<end_date>8/8/02</end_date>
+<page_number>176</page_number>
+</training>
+</program>
+</country>
+<country name="Pakistan">
+<program name="DOD South Asia Region, Pakistan,  Near East South Asia Center(NESA), FY02">
+<training>
+<course_title>Executive Seminar 02-1</course_title>
+<quantity>2</quantity>
+<location>NESA, NDU, WASHINGTON DC</location>
+<student_unit>Army and Navy</student_unit>
+<us_unit>Military</us_unit>
+<total_cost>$0</total_cost>
+<start_date>4/8/02</start_date>
+<end_date>4/26/02</end_date>
+<page_number>176</page_number>
+</training>
+<training>
+<course_title>Executive Seminar 0202</course_title>
+<quantity>3</quantity>
+<location>NESA, NDU, WASHINGTON DC</location>
+<student_unit>Air Force, Ministry of Defense and </student_unit>
+<us_unit>Civil and Military Institutions</us_unit>
+<total_cost>$0</total_cost>
+<start_date>7/8/02</start_date>
+<end_date>7/26/02</end_date>
+<student_unit>Ministry of Foreign Affairs</student_unit>
+<page_number>176</page_number>
+</training>
+<training>
+<course_title>Executive Seminar ES 01-02</course_title>
+<quantity>2</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Air Force + Army (Open to all </student_unit>
+<total_cost>$13,704</total_cost>
+<start_date>10/22/01</start_date>
+<end_date>11/9/01</end_date>
+<student_unit>branches)</student_unit>
+<page_number>176</page_number>
+</training>
+<training>
+<course_title>Executive Seminar ES 02-02</course_title>
+<quantity>1</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Ministry of Foreign Affairs (Open to all </student_unit>
+<total_cost>$6,420</total_cost>
+<start_date>1/14/02</start_date>
+<end_date>2/1/02</end_date>
+<student_unit>branches)</student_unit>
+<page_number>176</page_number>
+</training>
+<training>
+<course_title>Executive Seminar ES 03-02</course_title>
+<quantity>2</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>National Defense College + Ministry of </student_unit>
+<total_cost>$13,967</total_cost>
+<start_date>4/8/02</start_date>
+<end_date>4/26/02</end_date>
+<student_unit>Defense + Ministry of Foreign Affairs </student_unit>
+<student_unit>(Open to all branches)</student_unit>
+<page_number>176</page_number>
+</training>
+<training>
+<course_title>Executive Seminar ES 04-02</course_title>
+<quantity>3</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Ministry of Defense + Ministry of </student_unit>
+<total_cost>$23,915</total_cost>
+<start_date>7/8/02</start_date>
+<end_date>7/26/02</end_date>
+<student_unit>Foreign Affairs  (Open to all branches)</student_unit>
+<page_number>176</page_number>
+</training>
+<training>
+<course_title>IWER</course_title>
+<quantity>6</quantity>
+<location>Bishkek, Kyrgyzstan</location>
+<student_unit>Civil</student_unit>
+<us_unit>National Guard</us_unit>
+<total_cost>$0</total_cost>
+<start_date>5/20/02</start_date>
+<end_date>5/23/02</end_date>
+<page_number>176</page_number>
+</training>
+<training>
+<course_title>PAMS  XXVI</course_title>
+<quantity>2</quantity>
+<location>Calgary, Canada</location>
+<student_unit>Army</student_unit>
+<us_unit>Military</us_unit>
+<start_date>8/26/02</start_date>
+<end_date>8/30/02</end_date>
+<page_number>176</page_number>
+</training>
+<training>
+<course_title>PKOP Seminar</course_title>
+<quantity>1</quantity>
+<location>COE, Honolulu, Hawaii</location>
+<student_unit>Army</student_unit>
+<us_unit>Military</us_unit>
+<total_cost>$0</total_cost>
+<start_date>9/11/02</start_date>
+<end_date>9/17/02</end_date>
+<page_number>176</page_number>
+</training>
+<training>
+<course_title>S A Peace Ops Seminar</course_title>
+<quantity>3</quantity>
+<location>Nepal, Kathmandu</location>
+<student_unit>Army</student_unit>
+<us_unit>Military</us_unit>
+<total_cost>$0</total_cost>
+<start_date>2/25/02</start_date>
+<end_date>3/1/02</end_date>
+<page_number>176</page_number>
+</training>
+</program>
+</country>
+<country name="Pakistan">
+<program name="South Asia Region, Pakistan,  Near East South Asia Center(NESA), FY02">
+<training>
+<course_title>Senior Exec Seminar 02-1</course_title>
+<quantity>1</quantity>
+<location>NESA, NDU, WASHINGTON DC</location>
+<student_unit>Ministry of Foreign Affairs</student_unit>
+<us_unit>Military and Civil Institution</us_unit>
+<total_cost>$0</total_cost>
+<start_date>1/14/02</start_date>
+<end_date>2/1/02</end_date>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>Senior Exec Seminar 02-2</course_title>
+<quantity>2</quantity>
+<location>NESA, NDU, WASHINGTON DC</location>
+<student_unit>Army and Ministry of Foreign Affairs</student_unit>
+<us_unit>Civil and Military Institutions</us_unit>
+<total_cost>$0</total_cost>
+<start_date>6/10/02</start_date>
+<end_date>6/14/02</end_date>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>Senior Executive Seminar</course_title>
+<quantity>2</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Joint Staff + Ministry of Foreign Affairs</student_unit>
+<total_cost>$10,710</total_cost>
+<start_date>6/10/02</start_date>
+<end_date>6/14/02</end_date>
+<student_unit> (Open to all branches)</student_unit>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>W W Commandant Conference</course_title>
+<quantity>1</quantity>
+<location>USMC HQ</location>
+<student_unit>Pakistan Maritime Agency</student_unit>
+<us_unit>Military</us_unit>
+<start_date>7/13/02</start_date>
+<end_date>7/18/02</end_date>
+<page_number>177</page_number>
+</training>
+</program>
+</country>
+<country name="Pakistan">
+<program name="DOS South Asia Region, Pakistan,  International Military Education and Training (IMET), FY02">
+<training>
+<course_title>CMD &amp; GEN STAFF OFF PREP</course_title>
+<quantity>1</quantity>
+<location>FT LEAVENWORTH KS 66027-1352</location>
+<student_unit>Pakistan Army Infantry Infantry</student_unit>
+<total_cost>$2,291</total_cost>
+<start_date>7/15/02</start_date>
+<end_date>8/2/02</end_date>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>INT'L INTEL OFF BASIC</course_title>
+<quantity>1</quantity>
+<location>FT HUACHUCA AZ 85613-7000</location>
+<student_unit>Corps of Military Intelligence</student_unit>
+<total_cost>$10,219</total_cost>
+<start_date>6/3/02</start_date>
+<end_date>8/16/02</end_date>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>INT'L OFF PREP-INF CCC</course_title>
+<quantity>1</quantity>
+<location>FT BENNING GA 31905-5468</location>
+<student_unit>Company Commander of an Infantry </student_unit>
+<total_cost>$1,789</total_cost>
+<start_date>9/16/02</start_date>
+<end_date>9/20/02</end_date>
+<student_unit>Regiment</student_unit>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>INT'L OFF PREP-INF CCC</course_title>
+<quantity>1</quantity>
+<location>FT BENNING GA 31905-5468</location>
+<student_unit>Infantry, Sind Regiment</student_unit>
+<total_cost>$1,651</total_cost>
+<start_date>7/29/02</start_date>
+<end_date>8/2/02</end_date>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>INTERNATIONAL OFF LOG PREP</course_title>
+<quantity>1</quantity>
+<location>FT LEE VA 23801-1705</location>
+<student_unit>Army Supply Corps</student_unit>
+<total_cost>$2,700</total_cost>
+<start_date>9/3/02</start_date>
+<end_date>9/13/02</end_date>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>INTERNATIONAL OFFICER PREP</course_title>
+<quantity>1</quantity>
+<location>FT LEAVENWORTH KS 66027-1352</location>
+<student_unit>Pakistan Army Infantry</student_unit>
+<total_cost>$3,800</total_cost>
+<start_date>6/17/02</start_date>
+<end_date>7/12/02</end_date>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>INTL AIR WEAPONS CONTR CRS</course_title>
+<quantity>1</quantity>
+<location>TYNDALL AFB, FL 32403-5016</location>
+<student_unit>Air Defense Branch</student_unit>
+<total_cost>$6,370</total_cost>
+<start_date>7/17/02</start_date>
+<end_date>9/11/02</end_date>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>INTL AIR WEAPONS CONTR CRS</course_title>
+<quantity>1</quantity>
+<location>TYNDALL AFB, FL 32403-5016</location>
+<student_unit>Air Defense Branch</student_unit>
+<total_cost>$6,370</total_cost>
+<start_date>7/17/02</start_date>
+<end_date>9/11/02</end_date>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+<quantity>1</quantity>
+<location>MAXWELL AFB, AL 36112-6323</location>
+<student_unit>General Duties (Pilot) Branchrce</student_unit>
+<total_cost>$12,476</total_cost>
+<start_date>6/17/02</start_date>
+<end_date>7/26/02</end_date>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+<quantity>1</quantity>
+<location>MAXWELL AFB, AL 36112-6323</location>
+<student_unit>General Duties (Pilot) Branch</student_unit>
+<total_cost>$12,476</total_cost>
+<start_date>6/17/02</start_date>
+<end_date>7/26/02</end_date>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>INTL OFF SCH (FOR AWC)</course_title>
+<quantity>1</quantity>
+<location>MAXWELL AFB, AL 36112-6323</location>
+<student_unit>General Duties (Pilot) Branch</student_unit>
+<total_cost>$12,476</total_cost>
+<start_date>6/10/02</start_date>
+<end_date>7/19/02</end_date>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>JUMPMASTER</course_title>
+<quantity>1</quantity>
+<location>FT BENNING GA 31905-5468</location>
+<student_unit>General Staff Officer III, HQ 8TH </student_unit>
+<total_cost>$1,794</total_cost>
+<start_date>8/5/02</start_date>
+<end_date>8/16/02</end_date>
+<student_unit>Division, Special Services Group</student_unit>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>MET DIILS ASSESS OF ISSUES</course_title>
+<quantity>0</quantity>
+<location>Pakistan</location>
+<student_unit>DIILS Team visit</student_unit>
+<total_cost>$13,500</total_cost>
+<start_date>8/19/02</start_date>
+<end_date>8/23/02</end_date>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>OBC INTL STUDENT CHEM PREP</course_title>
+<quantity>1</quantity>
+<location>FT LEONARD WOOD MO 65473-5000</location>
+<student_unit>Company Commander &amp; </student_unit>
+<total_cost>$2,132</total_cost>
+<start_date>9/3/02</start_date>
+<end_date>9/13/02</end_date>
+<student_unit>Quartermaster, Punjab Regiment</student_unit>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>OBC INTL STUDENT CHEM PREP</course_title>
+<quantity>1</quantity>
+<location>FT LEONARD WOOD MO 65473-5000</location>
+<student_unit>Platoon Commander, 63 FF</student_unit>
+<total_cost>$2,132</total_cost>
+<start_date>7/1/02</start_date>
+<end_date>7/12/02</end_date>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>OJT OPERATIONS TNG-CONUS</course_title>
+<quantity>1</quantity>
+<location>FT BENNING GA 31905-5468</location>
+<student_unit>General Staff Officer III, HQ 8TH </student_unit>
+<total_cost>$1,436</total_cost>
+<start_date>8/19/02</start_date>
+<end_date>9/2/02</end_date>
+<student_unit>Division, Special Services Group</student_unit>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>PSYC OPERATIONS OFFICER</course_title>
+<quantity>1</quantity>
+<location>FT BRAGG NC 28310</location>
+<student_unit>Army Education Corps</student_unit>
+<total_cost>$3,817</total_cost>
+<start_date>7/22/02</start_date>
+<end_date>8/21/02</end_date>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>SAFETY APR</course_title>
+<quantity>1</quantity>
+<location>LACKLAND AFB, TX 78236</location>
+<student_unit>General Duties (Pilot)</student_unit>
+<total_cost>$8,193</total_cost>
+<start_date>6/18/02</start_date>
+<end_date>8/6/02</end_date>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>SIG CPT CAREER PREP-INTL</course_title>
+<quantity>1</quantity>
+<location>FT GORDON GA 30905-5154</location>
+<student_unit>Company Commander, 9- Signal </student_unit>
+<total_cost>$3,108</total_cost>
+<start_date>9/5/02</start_date>
+<end_date>9/20/02</end_date>
+<student_unit>Battalion</student_unit>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>SPECIALIZED ENG LANG TNG</course_title>
+<quantity>1</quantity>
+<location>LACKLAND AFB, TX 78236</location>
+<student_unit>Air Defense Branch</student_unit>
+<total_cost>$9,722</total_cost>
+<start_date>5/13/02</start_date>
+<end_date>7/12/02</end_date>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>SPECIALIZED ENG LANG TNG</course_title>
+<quantity>1</quantity>
+<location>LACKLAND AFB, TX 78236</location>
+<student_unit>Air Defense Branch</student_unit>
+<total_cost>$9,722</total_cost>
+<start_date>5/13/02</start_date>
+<end_date>7/12/02</end_date>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>SR INTERNATIONAL DEF MGT</course_title>
+<quantity>1</quantity>
+<location>MONTEREY, CA 93943-5201</location>
+<student_unit>Operations Branch</student_unit>
+<total_cost>$6,770</total_cost>
+<start_date>6/24/02</start_date>
+<end_date>7/19/02</end_date>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>SR INTL OFFR SUPPLY BASIC</course_title>
+<quantity>1</quantity>
+<location>ATHENS, GA 30606-2205</location>
+<student_unit>Supply &amp; Secretariat</student_unit>
+<total_cost>$11,299</total_cost>
+<start_date>4/15/02</start_date>
+<end_date>6/6/02</end_date>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>SR INTL OFFR SUPPLY BASIC</course_title>
+<quantity>1</quantity>
+<location>ATHENS, GA 30606-2205</location>
+<student_unit>Supply &amp; Secretariat</student_unit>
+<total_cost>$11,299</total_cost>
+<start_date>4/15/02</start_date>
+<end_date>6/6/02</end_date>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>TROP WEATHER ANAL &amp; FCST</course_title>
+<quantity>1</quantity>
+<location>KEESLER AFB, MS 39534-2354</location>
+<student_unit>MET Branch</student_unit>
+<total_cost>$6,191</total_cost>
+<start_date>9/4/02</start_date>
+<end_date>9/25/02</end_date>
+<page_number>177</page_number>
+</training>
+</program>
+</country>
+<country name="Pakistan">
+<program name="DOD South Asia Region, Pakistan,  Asia-Pacific Center, FY02">
+<training>
+<course_title>3rd Biennial Conference</course_title>
+<quantity>1</quantity>
+<location>APCSS, Honolulu, Hawaii</location>
+<student_unit>Air Force</student_unit>
+<us_unit>Military</us_unit>
+<total_cost>$0</total_cost>
+<start_date>7/16/02</start_date>
+<end_date>7/18/02</end_date>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>Executive Course 02-1</course_title>
+<quantity>4</quantity>
+<location>APCSS, Honolulu, Hawaii</location>
+<student_unit>Army, Navy, Air Force and </student_unit>
+<us_unit>Military and Civil Institutions</us_unit>
+<total_cost>$0</total_cost>
+<start_date>1/22/02</start_date>
+<end_date>4/11/02</end_date>
+<student_unit>Quaid-i-Azam University, Islamabad</student_unit>
+<page_number>177</page_number>
+</training>
+<training>
+<course_title>Executive Course 02-2</course_title>
+<quantity>4</quantity>
+<location>APCSS, Honolulu, Hawaii</location>
+<student_unit>Army, Navy, Joint Services HQ and </student_unit>
+<us_unit>Military</us_unit>
+<total_cost>$0</total_cost>
+<start_date>5/20/02</start_date>
+<end_date>8/8/02</end_date>
+<student_unit>Ministry of Interior</student_unit>
+<page_number>177</page_number>
+</training>
+</program>
+</country>
+<country name="Pakistan">
+<program name="South Asia Region, Pakistan,  Asia-Pacific Center, FY02">
+<training>
+<course_title>Executive Course 2002-1</course_title>
+<quantity>4</quantity>
+<location>Asia-Pacific Center for Security Studies</location>
+<student_unit>Air Force; Quaid-I-Azam University; </student_unit>
+<us_unit>U.S. military staff and faculty</us_unit>
+<total_cost>$60,481</total_cost>
+<start_date>1/21/02</start_date>
+<end_date>4/11/02</end_date>
+<student_unit>Navy; Army</student_unit>
+<page_number>178</page_number>
+</training>
+<training>
+<course_title>Executive Course 2002-2</course_title>
+<quantity>4</quantity>
+<location>Asia-Pacific Center for Security Studies</location>
+<student_unit>Army; Navy</student_unit>
+<us_unit>U.S. military staff and faculty</us_unit>
+<total_cost>$61,440</total_cost>
+<start_date>5/20/02</start_date>
+<end_date>8/8/02</end_date>
+<page_number>178</page_number>
+</training>
+<training>
+<course_title>Senior Executive Crs 02-1</course_title>
+<quantity>1</quantity>
+<location>APCSS, Honolulu, Hawaii</location>
+<student_unit>Army</student_unit>
+<us_unit>Military</us_unit>
+<total_cost>$0</total_cost>
+<start_date>4/22/02</start_date>
+<end_date>4/26/02</end_date>
+<page_number>178</page_number>
+</training>
+<training>
+<course_title>Senior Executive Crs 02-2</course_title>
+<quantity>1</quantity>
+<location>APCSS, Honolulu, Hawaii</location>
+<student_unit>Air Force</student_unit>
+<us_unit>Military</us_unit>
+<total_cost>$0</total_cost>
+<start_date>8/26/02</start_date>
+<end_date>8/30/02</end_date>
+<page_number>178</page_number>
+</training>
+</program>
+</country>
+<country name="Sri Lanka">
+<program name="DOD South Asia Region, Sri Lanka,  Near East South Asia Center(NESA), FY02">
+<training>
+<course_title>Executive Seminar ES 01-02</course_title>
+<quantity>2</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Army + Ministry of Foreign Affairs </student_unit>
+<total_cost>$11,040</total_cost>
+<start_date>10/22/01</start_date>
+<end_date>11/9/01</end_date>
+<student_unit>(Open to all branches)</student_unit>
+<page_number>178</page_number>
+</training>
+<training>
+<course_title>Executive Seminar ES 02-02</course_title>
+<quantity>2</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Navy + Ministry of Foreign Affairs </student_unit>
+<total_cost>$12,392</total_cost>
+<start_date>1/14/02</start_date>
+<end_date>2/1/02</end_date>
+<student_unit>(Open to all branches)</student_unit>
+<page_number>178</page_number>
+</training>
+<training>
+<course_title>Executive Seminar ES 03-02</course_title>
+<quantity>2</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Navy (Open to all branches)</student_unit>
+<total_cost>$10,071</total_cost>
+<start_date>4/8/02</start_date>
+<end_date>4/26/02</end_date>
+<page_number>178</page_number>
+</training>
+<training>
+<course_title>Executive Seminar ES 04-02</course_title>
+<quantity>1</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Air Force + Air Defense Force (Open </student_unit>
+<total_cost>$5,334</total_cost>
+<start_date>7/8/02</start_date>
+<end_date>7/26/02</end_date>
+<student_unit>to all branches)</student_unit>
+<page_number>178</page_number>
+</training>
+<training>
+<course_title>JCET</course_title>
+<quantity>58</quantity>
+<location>Dakshana Naval Base, Rahuna Naval Base, </location>
+<us_unit>Sri Lankan Navy, Special Boat </us_unit>
+<total_cost>$68,000</total_cost>
+<end_date>1/18/02</end_date>
+<end_date>2/18/02</end_date>
+<location>Hambantota</location>
+<student_unit>Squadron, Fast Attack Flotilla</student_unit>
+<page_number>178</page_number>
+</training>
+<training>
+<course_title>JCET</course_title>
+<quantity>40</quantity>
+<location>Kudo Oya, Hambantota, Kaluthra</location>
+<student_unit>Sri Lankan Navy, Number One and Two</student_unit>
+<total_cost>$89,000</total_cost>
+<end_date>8/5/02</end_date>
+<end_date>8/26/02</end_date>
+<student_unit> Commando Regiments, Special Boat </student_unit>
+<student_unit>Squadron</student_unit>
+<page_number>178</page_number>
+</training>
+<training>
+<course_title>JCET</course_title>
+<quantity>294</quantity>
+<location>Kuda Oya, Ganemulla, Colombo, Minneriya</location>
+<student_unit>Special Forces  (Psyop) Directorate </student_unit>
+<us_unit>1/1 SFG, 2/1 SFG, 3/1 SFG, 7 POG, 96 CA BN</us_unit>
+<total_cost>$298,337</total_cost>
+<start_date>7/7/02</start_date>
+<end_date>8/9/02</end_date>
+<student_unit>53rd Division 1st Commando Regiment</student_unit>
+<page_number>178</page_number>
+</training>
+<training>
+<course_title>Senior Executive Seminar</course_title>
+<quantity>1</quantity>
+<location>NESA Center, Washington, D.C.</location>
+<student_unit>Army (Cdr, 56th Division)</student_unit>
+<total_cost>$3,283</total_cost>
+<start_date>6/10/02</start_date>
+<end_date>6/14/02</end_date>
+<student_unit>(Open to all branches)</student_unit>
+<page_number>178</page_number>
+</training>
+</program>
+</country>
+<country name="Sri Lanka">
+<program name="DOS South Asia Region, Sri Lanka,  International Military Education and Training (IMET), FY02">
+<training>
+<course_title>CMD &amp; GEN STAFF OFF PREP</course_title>
+<quantity>1</quantity>
+<location>FT LEAVENWORTH KS 66027-1352</location>
+<student_unit>1st Battallion Gemunu Watch</student_unit>
+<total_cost>$1,451</total_cost>
+<start_date>7/15/02</start_date>
+<end_date>8/2/02</end_date>
+<page_number>178</page_number>
+</training>
+<training>
+<course_title>FA OFF ADV PREP-ALLIED OFF</course_title>
+<quantity>1</quantity>
+<location>FT SILL OK 73503</location>
+<student_unit>8 Medium Regt, Sri Lanka Artillery</student_unit>
+<total_cost>$6,314</total_cost>
+<start_date>5/29/02</start_date>
+<end_date>6/20/02</end_date>
+<page_number>178</page_number>
+</training>
+<training>
+<course_title>INTERNATIONAL OFFICER PREP</course_title>
+<quantity>1</quantity>
+<location>FT LEAVENWORTH KS 66027-1352</location>
+<student_unit>1st Battallion Gemunu Watch</student_unit>
+<total_cost>$5,413</total_cost>
+<start_date>6/17/02</start_date>
+<end_date>7/12/02</end_date>
+<page_number>178</page_number>
+</training>
+<training>
+<course_title>INTL CIC WATCH OFFICER</course_title>
+<quantity>1</quantity>
+<location>SAN DIEGO, CA 92155-5099</location>
+<student_unit>Sri Lanka Navy Headquarters</student_unit>
+<total_cost>$5,375</total_cost>
+<start_date>5/6/02</start_date>
+<end_date>5/24/02</end_date>
+<page_number>178</page_number>
+</training>
+<training>
+<course_title>INTL NAV INTEL FORNOFF PAC</course_title>
+<quantity>1</quantity>
+<location>SAN DIEGO, CA 92101-1031</location>
+<student_unit>Sri Lanka Navy Headquarters</student_unit>
+<total_cost>$2,820</total_cost>
+<start_date>6/17/02</start_date>
+<end_date>7/5/02</end_date>
+<page_number>178</page_number>
+</training>
+<training>
+<course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+<quantity>1</quantity>
+<location>MAXWELL AFB, AL 36112-6323</location>
+<student_unit>Sri Lanka Air Force</student_unit>
+<total_cost>$9,883</total_cost>
+<start_date>6/17/02</start_date>
+<end_date>7/26/02</end_date>
+<page_number>178</page_number>
+</training>
+<training>
+<course_title>MET DIILS SEMINARS</course_title>
+<quantity>59</quantity>
+<location>Colombo, Sri Lanka</location>
+<student_unit>Army 20, Navy 04, Air Force 04, Police</student_unit>
+<total_cost>$23,082</total_cost>
+<start_date>5/13/02</start_date>
+<end_date>5/17/02</end_date>
+<student_unit> 08,</student_unit>
+<student_unit>MoD 02, MFA 02, AG Dept 02, Human</student_unit>
+<student_unit> Rights NGOs 06,Def Academy 01</student_unit>
+<page_number>178</page_number>
+</training>
+<training>
+<course_title>MET DRMI (MIDMC) REGIONAL</course_title>
+<quantity>1</quantity>
+<location>Sri Lanka</location>
+<student_unit>Sri Lanka Artillery</student_unit>
+<total_cost>$4,180</total_cost>
+<start_date>6/3/02</start_date>
+<end_date>6/14/02</end_date>
+<page_number>178</page_number>
+</training>
+<training>
+<course_title>SF QUAL (COLLECTIVE TNG)</course_title>
+<quantity>1</quantity>
+<location>FT BRAGG NC 28310</location>
+<student_unit>SPECIAL FORCES REGT</student_unit>
+<total_cost>$4,403</total_cost>
+<start_date>7/13/02</start_date>
+<end_date>8/23/02</end_date>
+<page_number>178</page_number>
+</training>
+<training>
+<course_title>SF QUAL (INDIVIDUAL TNG)</course_title>
+<quantity>1</quantity>
+<location>FT BRAGG NC 28310</location>
+<student_unit>SPECIAL FORCES REGT</student_unit>
+<total_cost>$8,994</total_cost>
+<start_date>2/21/02</start_date>
+<end_date>4/7/02</end_date>
+<page_number>178</page_number>
+</training>
+</program>
+</country>
+<country name="Sri Lanka">
+<program name="South Asia Region, Sri Lanka,  International Military Education and Training (IMET), FY02">
+<training>
+<course_title>SF QUAL (SF DET OFF)</course_title>
+<quantity>1</quantity>
+<location>FT BRAGG NC 28310</location>
+<student_unit>SPECIAL FORCES REGT</student_unit>
+<total_cost>$7,983</total_cost>
+<start_date>4/8/02</start_date>
+<end_date>7/12/02</end_date>
+<page_number>179</page_number>
+</training>
+<training>
+<course_title>SIG CPT CAREER PREP-INTL</course_title>
+<quantity>1</quantity>
+<location>FT GORDON GA 30905-5154</location>
+<student_unit>4 Regt Sri Lanka Signal Corps</student_unit>
+<total_cost>$5,666</total_cost>
+<start_date>3/5/02</start_date>
+<end_date>3/20/02</end_date>
+<page_number>179</page_number>
+</training>
+<training>
+<course_title>SIGNAL CAPTAINS CAREER CRS</course_title>
+<quantity>1</quantity>
+<location>FT GORDON GA 30905-5154</location>
+<student_unit>4 Regt Sri Lanka Signal Corps</student_unit>
+<total_cost>$11,594</total_cost>
+<start_date>3/21/02</start_date>
+<end_date>7/26/02</end_date>
+<page_number>179</page_number>
+</training>
+<training>
+<course_title>TAT-LANGUAGE LAB INSTALL</course_title>
+<quantity>0</quantity>
+<location>Sri Lanka</location>
+<student_unit>Tri Service Defence Academy</student_unit>
+<total_cost>$25,000</total_cost>
+<start_date>4/1/02</start_date>
+<end_date>4/30/02</end_date>
+<page_number>179</page_number>
+</training>
+</program>
+</country>
+<country name="Sri Lanka">
+<program name="DOD South Asia Region, Sri Lanka,  Asia-Pacific Center, FY02">
+<training>
+<course_title>Executive Course 2002-1</course_title>
+<quantity>3</quantity>
+<location>Asia-Pacific Center for Security Studies</location>
+<student_unit>Ministry of Foreign Affairs; Air Force; </student_unit>
+<us_unit>U.S. military staff and faculty</us_unit>
+<total_cost>$42,838</total_cost>
+<start_date>1/21/02</start_date>
+<end_date>4/11/02</end_date>
+<student_unit>Police</student_unit>
+<page_number>179</page_number>
+</training>
+<training>
+<course_title>Executive Course 2002-2</course_title>
+<quantity>3</quantity>
+<location>Asia-Pacific Center for Security Studies</location>
+<student_unit>Defence Academy; Navy; Ministry of </student_unit>
+<us_unit>U.S. military staff and faculty</us_unit>
+<total_cost>$42,916</total_cost>
+<start_date>5/20/02</start_date>
+<end_date>8/8/02</end_date>
+<student_unit>Foreign Affairs</student_unit>
+<page_number>179</page_number>
+</training>
+</program>
+</country>
+</countries>

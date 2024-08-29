@@ -7,6 +7,7 @@
 #	2021-08-06 updated
 #	2022-03-25 updated for 2020-2021 FY data
 #	2024-06-19 Updated to handle page_number column
+#	2024-08-29 Updated to split start and end dates in 2002 data
 #
 # Script safety and debugging
 
@@ -16,7 +17,7 @@ shopt -s failglob
 # Declare variables
 # Source for input data (and derived products by filename)
 
-i="fmtrpt_2016_2017_202407121057.tsv"
+i="fmtrpt_2002_2003_202407121057.tsv"
 
 ## Check notes folder
 mkdir -p notes
@@ -367,14 +368,14 @@ gawk '	BEGIN 	{ FS=OFS="\t" 	} ;							\
 
 # Deal with 2009-2010 data dates, which are in the same column
 
-echo "Dealing with errors in the 2009-2010 dates, which are in the same column"
+echo "Dealing with errors in the 2002-2003 data: boths start and end date are in the same column"
 
 gawk 'BEGIN	{ FS=OFS="\t"};						\
-		{	gsub(/"/,"",$9) ;				\
-			split($9,date," ") ;				\
+		{	gsub(/"/,"",$10) ;				\
+			split($10,date," ") ;				\
 			s=date[1] ;					\
 			e=date[2] ;					\
-			if ( $2 ~ /2009_2010/ && $9 ~ / / ) {$9=s ; $10=e} ; 	\
+			if ( $2 ~ /2002_2003/ && $10 ~ / / ) {$9=s ; $10=e} ; 	\
 			print 						\
 		}' \
 		"notes/7_${i}"  \
