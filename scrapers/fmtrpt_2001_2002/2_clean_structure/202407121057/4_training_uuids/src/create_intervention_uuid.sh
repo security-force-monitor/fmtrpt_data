@@ -8,7 +8,7 @@
 
 set -eup pipefail
 
-data="final_fmtrpt_2016_2017_202407121057.tsv"
+data="final_fmtrpt_2001_2002_202407121057.tsv"
 tmpfile="tmp.tsv" 
 blankidcol="blankidcol.tsv"
 
