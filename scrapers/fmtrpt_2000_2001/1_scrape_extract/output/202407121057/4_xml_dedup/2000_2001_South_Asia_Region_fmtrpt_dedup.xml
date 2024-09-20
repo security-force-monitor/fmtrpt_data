@@ -1,0 +1,2040 @@
+<?xml version="1.0"?>
+<countries>
+  <country name="Bangladesh">
+    <program name="International Military Education and Training (IMET), FY 00">
+      <training>
+        <course_title>NAVAL COMMAND COLLEGE</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$22,405</total_cost>
+      </training>
+      <training>
+        <course_title>NAVAL STAFF COLLEGE</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$11,808</total_cost>
+      </training>
+      <training>
+        <course_title>OAC INTL STUDENT ENGR PREP</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$203</total_cost>
+      </training>
+      <training>
+        <course_title>SIG OFF ADV PREP-INTER OFF</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,777</total_cost>
+      </training>
+      <training>
+        <course_title>SIGNAL CAPTAINS CAREER CRS</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,375</total_cost>
+      </training>
+      <training>
+        <course_title>SPEC ENG TRNG (SET)</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$2,280</total_cost>
+      </training>
+      <training>
+        <course_title>SR INTERNATIONAL DEF MGT</course_title>
+        <page_number>72</page_number>
+        <quantity>2</quantity>
+        <total_cost>$8,112</total_cost>
+      </training>
+      <training>
+        <course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$698</total_cost>
+      </training>
+      <training>
+        <course_title>WEAPONS SAFETY</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,227</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Bangladesh">
+    <program name="International Military Education and Training (IMET), FY 01">
+      <training>
+        <course_title>ADJUTANT GEN CAPT’S CAREER</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$5,683</total_cost>
+      </training>
+      <training>
+        <course_title>AEROMEDICAL APPRENTICE</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$950</total_cost>
+      </training>
+      <training>
+        <course_title>AIR COMD &amp; STAFF COLLEGE</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$10,910</total_cost>
+      </training>
+      <training>
+        <course_title>AIR DEF ARTY OFF ADV</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,117</total_cost>
+      </training>
+      <training>
+        <course_title>AIR TRAFFIC CONTROL/ *</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$120</total_cost>
+      </training>
+      <training>
+        <course_title>AIR WAR COLLEGE</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$11,884</total_cost>
+      </training>
+      <training>
+        <course_title>AIRBORNE</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$442</total_cost>
+      </training>
+      <training>
+        <course_title>AIRFIELD OPERATIONS OFFCR</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,095</total_cost>
+      </training>
+      <training>
+        <course_title>ALLIED OFF PREP-INF OAC</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$249</total_cost>
+      </training>
+      <training>
+        <course_title>AMPHIB PLAN SR OFF-INTL</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$2,747</total_cost>
+      </training>
+      <training>
+        <course_title>ARMOR CPT CAREER CRS PREP</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,260</total_cost>
+      </training>
+      <training>
+        <course_title>ARMY WAR COLLEGE (RES CRS)</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$18,396</total_cost>
+      </training>
+      <training>
+        <course_title>BASIC DIVING OFFICER</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,398</total_cost>
+      </training>
+      <training>
+        <course_title>COMB LOG OFF ADV-ORDNANCE</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,490</total_cost>
+      </training>
+      <training>
+        <course_title>COMBAT ENGR OFFICER USMC</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$2,739</total_cost>
+      </training>
+      <training>
+        <course_title>COMBINED LOG OFF ADV</course_title>
+        <page_number>72</page_number>
+        <quantity>2</quantity>
+        <total_cost>$2,228</total_cost>
+      </training>
+      <training>
+        <course_title>COMMAND &amp; GEN STAFF OFF</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$12,485</total_cost>
+      </training>
+      <training>
+        <course_title>CONTR BRIDGE SIMULATOR TNG</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$0</total_cost>
+      </training>
+      <training>
+        <course_title>DIVING OFF MEDICAL DEPT</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$2,214</total_cost>
+      </training>
+      <training>
+        <course_title>ENGINEER OFF CPT CAREER</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,419</total_cost>
+      </training>
+      <training>
+        <course_title>FA OFF ADV PREP-ALLIED OFF</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,572</total_cost>
+      </training>
+      <training>
+        <course_title>FIELD ARTY CAPTAINS CAREER</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,345</total_cost>
+      </training>
+      <training>
+        <course_title>FLT SAFETY OFF (SATP/FSO)</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$5,457</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY CAPTS CAREER CRS</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,679</total_cost>
+      </training>
+      <training>
+        <course_title>INT OFFICER INTEL ADVANCE</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$7,269</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL DEF MGT CRS</course_title>
+        <page_number>72</page_number>
+        <quantity>3</quantity>
+        <total_cost>$33,978</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OAC PREP</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$726</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFF LOG PREP</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,005</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFFICER PREP</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$847</total_cost>
+      </training>
+      <training>
+        <course_title>INTL HYDROG MGT &amp; ENG PGM</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$13,295</total_cost>
+      </training>
+      <training>
+        <course_title>INTL MARITIME OFF</course_title>
+        <page_number>72</page_number>
+        <quantity>2</quantity>
+        <total_cost>$13,221</total_cost>
+      </training>
+      <training>
+        <course_title>INTL OFF SCH &amp; SOS</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,208</total_cost>
+      </training>
+      <training>
+        <course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,186</total_cost>
+      </training>
+      <training>
+        <course_title>INTL OFF SCH (FOR AWC)</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,328</total_cost>
+      </training>
+      <training>
+        <course_title>JET ENGINE MISHAP INV</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$209</total_cost>
+      </training>
+      <training>
+        <course_title>JUMPMASTER</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$316</total_cost>
+      </training>
+      <training>
+        <course_title>MED OFF UNDERSEA INTL</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$797</total_cost>
+      </training>
+      <training>
+        <course_title>MIL &amp; PCKEEP OPS IAW ROL</course_title>
+        <page_number>72</page_number>
+        <quantity>2</quantity>
+        <total_cost>$0</total_cost>
+      </training>
+      <training>
+        <course_title>NAVAL COMMAND COLLEGE</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$25,053</total_cost>
+      </training>
+      <training>
+        <course_title>NAVAL STAFF COLLEGE</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$11,862</total_cost>
+      </training>
+      <training>
+        <course_title>OAC INTL STUDENT ENGR PREP</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$209</total_cost>
+      </training>
+      <training>
+        <course_title>OJT CONUS-USMC</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$209</total_cost>
+      </training>
+      <training>
+        <course_title>SEC ASST MGT-FOREIGN PURCH</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,687</total_cost>
+      </training>
+      <training>
+        <course_title>SIG OFF ADV PREP-INTER OFF</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,644</total_cost>
+      </training>
+      <training>
+        <course_title>SIGNAL CAPTAINS CAREER CRS</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,338</total_cost>
+      </training>
+      <training>
+        <course_title>SPEC ENG TRNG (SET)</course_title>
+        <page_number>72</page_number>
+        <quantity>2</quantity>
+        <total_cost>$4,788</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Bangladesh">
+    <program name="International Military Education and Training (IMET), FY 01">
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$2,472</total_cost>
+      </training>
+      <training>
+        <course_title>SR INTERNATIONAL DEF MGT</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,315</total_cost>
+      </training>
+      <training>
+        <course_title>SUPPLY OFF BAS INTL-IOSCO</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,801</total_cost>
+      </training>
+      <training>
+        <course_title>SWOS - INTL</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,325</total_cost>
+      </training>
+      <training>
+        <course_title>TATS ARMOR OFFICER ADV</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,956</total_cost>
+      </training>
+      <training>
+        <course_title>TROP WEATHER ANAL &amp; FCST</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$347</total_cost>
+      </training>
+      <training>
+        <course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$680</total_cost>
+      </training>
+      <training>
+        <course_title>WEAPONS SAFETY</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,227</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Bangladesh">
+    <program name="Enhanced International Peacekeeping Capabilities (EIPC), FY 00">
+      <training>
+        <course_title>EIPC INSTRUCTOR’S COURSE</course_title>
+        <page_number>72</page_number>
+        <quantity>5</quantity>
+        <total_cost>$0</total_cost>
+      </training>
+      <training>
+        <course_title>MISC NAVAIRSYSCOM TRNG</course_title>
+        <page_number>72</page_number>
+        <quantity>2</quantity>
+        <total_cost>$0</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Bangladesh">
+    <program name="Asia-Pacific Center, FY 00">
+      <training>
+        <course_title>Executive Course 00-1</course_title>
+        <page_number>72</page_number>
+        <quantity>2</quantity>
+        <total_cost>$26,278</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Course 00-2</course_title>
+        <page_number>72</page_number>
+        <quantity>2</quantity>
+        <total_cost>$23,894</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Course 99-3</course_title>
+        <page_number>72</page_number>
+        <quantity>2</quantity>
+        <total_cost>$16,842</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Bangladesh">
+    <program name="Asia-Pacific Center, FY 01">
+      <training>
+        <course_title>Executive Course 00-3</course_title>
+        <page_number>72</page_number>
+        <quantity>3</quantity>
+        <total_cost>$41,823</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <page_number>72</page_number>
+        <quantity>4</quantity>
+        <total_cost>$55,480</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <page_number>72</page_number>
+        <quantity>4</quantity>
+        <total_cost>$55,496</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Bangladesh">
+    <program name="Near East South Asia Center (NESA), FY 01">
+      <training>
+        <course_title>Executive Seminar 01A</course_title>
+        <page_number>72</page_number>
+        <quantity>2</quantity>
+        <total_cost>$13,942</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Seminar 01B</course_title>
+        <page_number>72</page_number>
+        <quantity>2</quantity>
+        <total_cost>$13,942</total_cost>
+      </training>
+      <training>
+        <course_title>NESA Inaugural Seminar</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,228</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="India">
+    <program name="International Military Education and Training (IMET), FY 00">
+      <training>
+        <course_title>370 INFO TECHNOLOGY MGT-MS</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$36,928</total_cost>
+      </training>
+      <training>
+        <course_title>AIR COMD &amp; STAFF COLLEGE</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$10,070</total_cost>
+      </training>
+      <training>
+        <course_title>AIR DEF ARTY OFF ADV</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,686</total_cost>
+      </training>
+      <training>
+        <course_title>AIR WAR COLLEGE</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$10,960</total_cost>
+      </training>
+      <training>
+        <course_title>ALLIED OFF PREP-INF OAC</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$201</total_cost>
+      </training>
+      <training>
+        <course_title>ARMY WAR COLLEGE (RES CRS)</course_title>
+        <page_number>72</page_number>
+        <quantity>2</quantity>
+        <total_cost>$33,003</total_cost>
+      </training>
+      <training>
+        <course_title>AVIATION OFFICER ADVANCED</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,695</total_cost>
+      </training>
+      <training>
+        <course_title>COMB STRAT INTEL TNG PRGM</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$2,890</total_cost>
+      </training>
+      <training>
+        <course_title>COMMAND &amp; GEN STAFF OFF</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$12,624</total_cost>
+      </training>
+      <training>
+        <course_title>ELECTROMAGNETIC SPECTM </course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,330</total_cost>
+      </training>
+      <training>
+        <course_title>MGT</course_title>
+        <page_number>72</page_number>
+      </training>
+      <training>
+        <course_title>FA OFF ADV PREP-ALLIED OFF</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,771</total_cost>
+      </training>
+      <training>
+        <course_title>FIELD ARTY CAPTAINS CAREER</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,807</total_cost>
+      </training>
+      <training>
+        <course_title>FLT SAFETY OFF (SATP/FSO)</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$5,010</total_cost>
+      </training>
+      <training>
+        <course_title>FLYING SAFETY/ *</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$120</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY CAPTS CAREER CRS</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,455</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL DEF MGT CRS</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$10,639</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OAC PREP</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$561</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFFICER PREP</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$853</total_cost>
+      </training>
+      <training>
+        <course_title>INTL MARITIME OFF</course_title>
+        <page_number>72</page_number>
+        <quantity>1</quantity>
+        <total_cost>$5,707</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="India">
+    <program name="International Military Education and Training (IMET), FY 00">
+      <training>
+        <course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,840</total_cost>
+      </training>
+      <training>
+        <course_title>INTL OFF SCH (FOR AWC)</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,970</total_cost>
+      </training>
+      <training>
+        <course_title>JET ENGINE MISHAP INV</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$200</total_cost>
+      </training>
+      <training>
+        <course_title>NAVAL COMMAND COLLEGE</course_title>
+        <page_number>73</page_number>
+        <quantity>2</quantity>
+        <total_cost>$46,353</total_cost>
+      </training>
+      <training>
+        <course_title>NDU INTERNATIONAL FELLOW</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$27,074</total_cost>
+      </training>
+      <training>
+        <course_title>SR INTERNATIONAL DEF MGT</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,056</total_cost>
+      </training>
+      <training>
+        <course_title>TATS ARMOR OFFICER ADV</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,731</total_cost>
+      </training>
+      <training>
+        <course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$698</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="India">
+    <program name="International Military Education and Training (IMET), FY 01">
+      <training>
+        <course_title>370 INFO TECHNOLOGY MGT-MS</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$42,362</total_cost>
+      </training>
+      <training>
+        <course_title>ADV AEROSP MED/INTL MED OF</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$7,980</total_cost>
+      </training>
+      <training>
+        <course_title>AIR COMD &amp; STAFF COLLEGE</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$10,910</total_cost>
+      </training>
+      <training>
+        <course_title>AIR DEF ARTY OFF ADV</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,117</total_cost>
+      </training>
+      <training>
+        <course_title>AIR WAR COLLEGE</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$11,884</total_cost>
+      </training>
+      <training>
+        <course_title>ALLIED OFF PREP-INF OAC</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$249</total_cost>
+      </training>
+      <training>
+        <course_title>AMPHIB WARFARE SCHOOL </course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,663</total_cost>
+      </training>
+      <training>
+        <course_title>USMC</course_title>
+        <page_number>73</page_number>
+      </training>
+      <training>
+        <course_title>ARMY WAR COLLEGE (RES CRS)</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$18,396</total_cost>
+      </training>
+      <training>
+        <course_title>AVIATION OFFICER ADVANCED</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,756</total_cost>
+      </training>
+      <training>
+        <course_title>CHEMICAL CAPTAINS CAREER</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$5,104</total_cost>
+      </training>
+      <training>
+        <course_title>CIVIL AFFAIRS</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$912</total_cost>
+      </training>
+      <training>
+        <course_title>COMB STRAT INTEL TNG PRGM</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,080</total_cost>
+      </training>
+      <training>
+        <course_title>COMBAT TERRORISM MIL INST</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$422</total_cost>
+      </training>
+      <training>
+        <course_title>COMMAND &amp; GEN STAFF OFF</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$12,485</total_cost>
+      </training>
+      <training>
+        <course_title>ELECTROMAGNETIC SPECTM </course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,421</total_cost>
+      </training>
+      <training>
+        <course_title>MGT</course_title>
+        <page_number>73</page_number>
+      </training>
+      <training>
+        <course_title>ENTRY LEVEL PORT OPS GMRP3</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,359</total_cost>
+      </training>
+      <training>
+        <course_title>FLT SAFETY OFF (SATP/FSO)</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$5,457</total_cost>
+      </training>
+      <training>
+        <course_title>FLYING SAFETY/ *</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$120</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY CAPTS CAREER CRS</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,679</total_cost>
+      </training>
+      <training>
+        <course_title>INT OFFICER INTEL ADVANCE</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$7,269</total_cost>
+      </training>
+      <training>
+        <course_title>INTELL IN COMBAT TERRORISM</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$565</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL DEF MGT CRS</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$11,326</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OAC PREP</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$726</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFFICER PREP</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$847</total_cost>
+      </training>
+      <training>
+        <course_title>INTL EOD PHASE I</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,050</total_cost>
+      </training>
+      <training>
+        <course_title>INTL MARITIME OFF</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$6,435</total_cost>
+      </training>
+      <training>
+        <course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,186</total_cost>
+      </training>
+      <training>
+        <course_title>INTL OFF SCH (FOR AWC)</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,328</total_cost>
+      </training>
+      <training>
+        <course_title>JET ENGINE MISHAP INV</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$209</total_cost>
+      </training>
+      <training>
+        <course_title>NAVAL COMMAND COLLEGE</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$25,053</total_cost>
+      </training>
+      <training>
+        <course_title>NAVAL STAFF COLLEGE</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$11,862</total_cost>
+      </training>
+      <training>
+        <course_title>OAC INTL STUDENT CHEM PREP</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$316</total_cost>
+      </training>
+      <training>
+        <course_title>OJT OFF SAR-GULF COAST</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$475</total_cost>
+      </training>
+      <training>
+        <course_title>PSYCHOLOGICAL OPERATIONS</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$905</total_cost>
+      </training>
+      <training>
+        <course_title>SEAPORT SECURITY ANTI-TERR</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$636</total_cost>
+      </training>
+      <training>
+        <course_title>SEARCH/RESCUE MARITIME</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,121</total_cost>
+      </training>
+      <training>
+        <course_title>SF OPNS DETACH OFF QUAL</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$5,346</total_cost>
+      </training>
+      <training>
+        <course_title>SR INTERNATIONAL DEF MGT</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,315</total_cost>
+      </training>
+      <training>
+        <course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$680</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="India">
+    <program name="Asia-Pacific Center, FY 00">
+      <training>
+        <course_title>Executive Course 00-1</course_title>
+        <page_number>73</page_number>
+        <quantity>3</quantity>
+        <total_cost>$39,417</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Course 00-2</course_title>
+        <page_number>73</page_number>
+        <quantity>4</quantity>
+        <total_cost>$47,788</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Course 99-3</course_title>
+        <page_number>73</page_number>
+        <quantity>3</quantity>
+        <total_cost>$25,263</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="India">
+    <program name="Asia-Pacific Center, FY 00"/>
+  </country>
+  <country name="India">
+    <program name="Asia-Pacific Center, FY 01">
+      <training>
+        <course_title>Executive Course 00-3</course_title>
+        <page_number>73</page_number>
+        <quantity>4</quantity>
+        <total_cost>$55,764</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <page_number>73</page_number>
+        <quantity>4</quantity>
+        <total_cost>$55,480</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <page_number>73</page_number>
+        <quantity>4</quantity>
+        <total_cost>$55,496</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="India">
+    <program name="Near East South Asia Center (NESA), FY 01">
+      <training>
+        <course_title>Executive Seminar 01A</course_title>
+        <page_number>73</page_number>
+        <quantity>2</quantity>
+        <total_cost>$13,942</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Seminar 01B</course_title>
+        <page_number>73</page_number>
+        <quantity>2</quantity>
+        <total_cost>$13,942</total_cost>
+      </training>
+      <training>
+        <course_title>NESA Inaugural Seminar</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,228</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Maldives">
+    <program name="International Military Education and Training (IMET), FY 00">
+      <training>
+        <course_title>ALLIED OFF PREP-INF OAC</course_title>
+        <page_number>73</page_number>
+        <quantity>2</quantity>
+        <total_cost>$402</total_cost>
+      </training>
+      <training>
+        <course_title>BOARDING OFFICER EIMET</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,472</total_cost>
+      </training>
+      <training>
+        <course_title>DIVER SECOND CLASS</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,523</total_cost>
+      </training>
+      <training>
+        <course_title>DIVING SALVAGE OFF</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,211</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY CAPTS CAREER CRS</course_title>
+        <page_number>73</page_number>
+        <quantity>2</quantity>
+        <total_cost>$6,910</total_cost>
+      </training>
+      <training>
+        <course_title>INSTRUCTOR TNG COURSE</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$311</total_cost>
+      </training>
+      <training>
+        <course_title>INTL MARITIME OFF</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$5,707</total_cost>
+      </training>
+      <training>
+        <course_title>NAVAL STAFF COLLEGE</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$11,808</total_cost>
+      </training>
+      <training>
+        <course_title>OFFICER CANDIDATE SCH00L</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,996</total_cost>
+      </training>
+      <training>
+        <course_title>OJT IMOC-GULF COAST</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$467</total_cost>
+      </training>
+      <training>
+        <course_title>QM OFFICER BASIC</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$2,236</total_cost>
+      </training>
+      <training>
+        <course_title>RADIO REPAIRER ONLY</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,034</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Maldives">
+    <program name="International Military Education and Training (IMET), FY 01">
+      <training>
+        <course_title>ALLIED OFF PREP-INF OAC</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$249</total_cost>
+      </training>
+      <training>
+        <course_title>ARMAMENT RPR TECH WO BASIC</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,681</total_cost>
+      </training>
+      <training>
+        <course_title>DRMI SEMINAR - OVERSEAS</course_title>
+        <page_number>73</page_number>
+        <quantity>30</quantity>
+        <total_cost>$0</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY CAPTS CAREER CRS</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,679</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY OFFICER BASIC</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,350</total_cost>
+      </training>
+      <training>
+        <course_title>INSTRUCTOR TRAINING</course_title>
+        <page_number>73</page_number>
+        <quantity>2</quantity>
+        <total_cost>$782</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL DEF MGT CRS</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$11,326</total_cost>
+      </training>
+      <training>
+        <course_title>LANGUAGE INSTRUCTOR/BASIC</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$7,296</total_cost>
+      </training>
+      <training>
+        <course_title>MACHINERY TECHNICIAN ’A’</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,167</total_cost>
+      </training>
+      <training>
+        <course_title>OFFICER CANDIDATE SCH00L</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$5,163</total_cost>
+      </training>
+      <training>
+        <course_title>OJT ENL MLE-NORTHWEST</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$475</total_cost>
+      </training>
+      <training>
+        <course_title>OJT ENL MLE-PACIFIC AREA</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$475</total_cost>
+      </training>
+      <training>
+        <course_title>SEARCH/RESCUE MARITIME</course_title>
+        <page_number>73</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,121</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Maldives">
+    <program name="Non-Security Assistance, Unified Command, FY 00">
+      <training>
+        <course_title>PMV2000JCET30N</course_title>
+        <page_number>73</page_number>
+        <quantity>73</quantity>
+        <total_cost>$142,000</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Maldives">
+    <program name="Non-Security Assistance, Unified Command, FY 01">
+      <training>
+        <course_title>PMS2001JCET24N</course_title>
+        <page_number>73</page_number>
+        <quantity>0</quantity>
+      </training>
+    </program>
+  </country>
+  <country name="Maldives">
+    <program name="Asia-Pacific Center, FY 00"/>
+  </country>
+  <country name="Maldives">
+    <program name="Asia-Pacific Center, FY 00">
+      <training>
+        <course_title>Executive Course 00-1</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$13,139</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Course 00-2</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$11,947</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Course 99-3</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$8,421</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Maldives">
+    <program name="Asia-Pacific Center, FY 01">
+      <training>
+        <course_title>Executive Course 00-3</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$13,941</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$13,870</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$13,874</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Nepal">
+    <program name="International Military Education and Training (IMET), FY 00">
+      <training>
+        <course_title>ALLIED OFF PREP-INF OAC</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$201</total_cost>
+      </training>
+      <training>
+        <course_title>CIVIL AFFAIRS</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$892</total_cost>
+      </training>
+      <training>
+        <course_title>COMMAND &amp; GEN STAFF OFF</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$11,274</total_cost>
+      </training>
+      <training>
+        <course_title>CONVENTIONAL PHYS </course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$316</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY CAPTS CAREER CRS</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,455</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY MORTAR LEADER</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$2,676</total_cost>
+      </training>
+      <training>
+        <course_title>INSTRUCTOR TRAINING</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$407</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIO INTEL OFF BASIC</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,502</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL DEF MGT CRS</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$10,639</total_cost>
+      </training>
+      <training>
+        <course_title>JOINT TRANSITION COURSE</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$447</total_cost>
+      </training>
+      <training>
+        <course_title>JT/COMB STAFF OFFICER SCHL</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,837</total_cost>
+      </training>
+      <training>
+        <course_title>MILITARY POLICE INVESTIG</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,076</total_cost>
+      </training>
+      <training>
+        <course_title>MTT DRMI - OVERSEAS</course_title>
+        <page_number>74</page_number>
+        <quantity>32</quantity>
+        <total_cost>$64,600</total_cost>
+      </training>
+      <training>
+        <course_title>OBS ADMIN TNG-CONUS</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$176</total_cost>
+      </training>
+      <training>
+        <course_title>PATHFINDER</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$371</total_cost>
+      </training>
+      <training>
+        <course_title>PROTECTIVE SERVICES TNG</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$497</total_cost>
+      </training>
+      <training>
+        <course_title>PSYCHOLOGICAL OPERATIONS</course_title>
+        <page_number>74</page_number>
+        <quantity>2</quantity>
+        <total_cost>$1,770</total_cost>
+      </training>
+      <training>
+        <course_title>RANGER</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,918</total_cost>
+      </training>
+      <training>
+        <course_title>RANGER INDOCTRINATION </course_title>
+        <page_number>74</page_number>
+        <quantity>30</quantity>
+        <total_cost>$171</total_cost>
+      </training>
+      <training>
+        <course_title>SF OPNS DETACH OFF QUAL</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$5,390</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIAL FORMAL MED TNG</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,710</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Nepal">
+    <program name="International Military Education and Training (IMET), FY 01">
+      <training>
+        <course_title>ALLIED OFF PREP-INF OAC</course_title>
+        <page_number>74</page_number>
+        <quantity>3</quantity>
+        <total_cost>$747</total_cost>
+      </training>
+      <training>
+        <course_title>CIVIL AFFAIRS</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$912</total_cost>
+      </training>
+      <training>
+        <course_title>COMMAND &amp; GEN STAFF OFF</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$12,485</total_cost>
+      </training>
+      <training>
+        <course_title>ENGINEER OFF CPT CAREER</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,419</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY CAPTS CAREER CRS</course_title>
+        <page_number>74</page_number>
+        <quantity>3</quantity>
+        <total_cost>$11,037</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY MORTAR LEADER</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$2,803</total_cost>
+      </training>
+      <training>
+        <course_title>INT OFFICER INTEL ADVANCE</course_title>
+        <page_number>74</page_number>
+        <quantity>2</quantity>
+        <total_cost>$14,538</total_cost>
+      </training>
+      <training>
+        <course_title>INTELL IN COMBAT TERRORISM</course_title>
+        <page_number>74</page_number>
+        <quantity>2</quantity>
+        <total_cost>$1,130</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIO INTEL OFF BASIC</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,087</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL DEF MGT CRS</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$11,326</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFFICER PREP</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$847</total_cost>
+      </training>
+      <training>
+        <course_title>OAC INTL STUDENT ENGR PREP</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$209</total_cost>
+      </training>
+      <training>
+        <course_title>OBS MED/HEALTH/HYG-CONUS</course_title>
+        <page_number>74</page_number>
+        <quantity>4</quantity>
+        <total_cost>$6,086</total_cost>
+      </training>
+      <training>
+        <course_title>PATHFINDER</course_title>
+        <page_number>74</page_number>
+        <quantity>2</quantity>
+        <total_cost>$886</total_cost>
+      </training>
+      <training>
+        <course_title>PSYCHOLOGICAL OPERATIONS</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$905</total_cost>
+      </training>
+      <training>
+        <course_title>RANGER</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,775</total_cost>
+      </training>
+      <training>
+        <course_title>RANGER INDOCTRINATION </course_title>
+        <page_number>74</page_number>
+        <quantity>30</quantity>
+        <total_cost>$174</total_cost>
+      </training>
+      <training>
+        <course_title>SF OPNS DETACH OFF QUAL</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$5,346</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Nepal">
+    <program name="International Military Education and Training (IMET), FY 01">
+      <training>
+        <course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$680</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Nepal">
+    <program name="Enhanced International Peacekeeping Capabilities (EIPC), FY 00">
+      <training>
+        <course_title>EIPC INSTRUCTOR’S COURSE</course_title>
+        <page_number>74</page_number>
+        <quantity>4</quantity>
+        <total_cost>$0</total_cost>
+      </training>
+      <training>
+        <course_title>MISC NAVAIRSYSCOM TRNG</course_title>
+        <page_number>74</page_number>
+        <quantity>3</quantity>
+        <total_cost>$0</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Nepal">
+    <program name="Asia-Pacific Center, FY 00">
+      <training>
+        <course_title>Executive Course 00-1</course_title>
+        <page_number>74</page_number>
+        <quantity>2</quantity>
+        <total_cost>$26,278</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Course 00-2</course_title>
+        <page_number>74</page_number>
+        <quantity>2</quantity>
+        <total_cost>$23,894</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Course 99-3</course_title>
+        <page_number>74</page_number>
+        <quantity>2</quantity>
+        <total_cost>$16,842</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Nepal">
+    <program name="Asia-Pacific Center, FY 01">
+      <training>
+        <course_title>Executive Course 00-3</course_title>
+        <page_number>74</page_number>
+        <quantity>2</quantity>
+        <total_cost>$27,882</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <page_number>74</page_number>
+        <quantity>3</quantity>
+        <total_cost>$41,610</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <page_number>74</page_number>
+        <quantity>2</quantity>
+        <total_cost>$27,748</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Nepal">
+    <program name="Near East South Asia Center (NESA), FY 01">
+      <training>
+        <course_title>Executive Seminar 01A</course_title>
+        <page_number>74</page_number>
+        <quantity>2</quantity>
+        <total_cost>$13,942</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Seminar 01B</course_title>
+        <page_number>74</page_number>
+        <quantity>2</quantity>
+        <total_cost>$13,942</total_cost>
+      </training>
+      <training>
+        <course_title>NESA Inaugural Seminar</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,228</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Pakistan">
+    <program name="International Narcotics and Law Enforcement (INL), FY 00">
+      <training>
+        <course_title>MTT BOARDING OFF CN EIMET</course_title>
+        <page_number>74</page_number>
+        <quantity>29</quantity>
+        <total_cost>$0</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Pakistan">
+    <program name="International Narcotics and Law Enforcement (INL), FY 01">
+      <training>
+        <course_title>MTT MLE ADV BOARD OFF EI</course_title>
+        <page_number>74</page_number>
+        <quantity>0</quantity>
+        <total_cost>$0</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Pakistan">
+    <program name="Section 1004, FY 01">
+      <training>
+        <course_title>CD Map Exercise</course_title>
+        <page_number>74</page_number>
+        <quantity>50</quantity>
+        <total_cost>$51,000</total_cost>
+      </training>
+      <training>
+        <course_title>CD Map/Commo Exercise</course_title>
+        <page_number>74</page_number>
+        <quantity>50</quantity>
+        <total_cost>$116,000</total_cost>
+      </training>
+      <training>
+        <course_title>CPK20001CD003</course_title>
+        <page_number>74</page_number>
+        <quantity>40</quantity>
+        <total_cost>$80,000</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Pakistan">
+    <program name="Service Academies, FY 00">
+      <training>
+        <course_title>USAF Academy</course_title>
+        <page_number>74</page_number>
+        <quantity>3</quantity>
+        <total_cost>$190,319</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Pakistan">
+    <program name="Exchanges, FY 00">
+      <training>
+        <course_title>ARMY WAR COLLEGE (RES CRS)</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$111,244</total_cost>
+      </training>
+      <training>
+        <course_title>COMMAND &amp; GEN STAFF OFF</course_title>
+        <page_number>74</page_number>
+        <quantity>2</quantity>
+        <total_cost>$75,400</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFFICER PREP</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$2,245</total_cost>
+      </training>
+      <training>
+        <course_title>NAVAL COMMAND COLLEGE</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$85,085</total_cost>
+      </training>
+      <training>
+        <course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+        <page_number>74</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,885</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Pakistan">
+    <program name="Asia-Pacific Center, FY 00"/>
+  </country>
+  <country name="Pakistan">
+    <program name="Asia-Pacific Center, FY 00">
+      <training>
+        <course_title>Executive Course 00-1</course_title>
+        <page_number>75</page_number>
+        <quantity>2</quantity>
+        <total_cost>$26,278</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Course 00-2</course_title>
+        <page_number>75</page_number>
+        <quantity>4</quantity>
+        <total_cost>$47,788</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Course 99-3</course_title>
+        <page_number>75</page_number>
+        <quantity>3</quantity>
+        <total_cost>$25,263</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Pakistan">
+    <program name="Asia-Pacific Center, FY 01">
+      <training>
+        <course_title>Executive Course 00-3</course_title>
+        <page_number>75</page_number>
+        <quantity>4</quantity>
+        <total_cost>$55,764</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <page_number>75</page_number>
+        <quantity>4</quantity>
+        <total_cost>$55,480</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <page_number>75</page_number>
+        <quantity>4</quantity>
+        <total_cost>$55,496</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Pakistan">
+    <program name="Miscellaneous, DoS/DoD, Non-Security Assistance, FY 00">
+      <training>
+        <course_title>MTT OTHER - USCG O/S</course_title>
+        <page_number>75</page_number>
+        <quantity>0</quantity>
+        <total_cost>$0</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Pakistan">
+    <program name="Near East South Asia Center (NESA), FY 01">
+      <training>
+        <course_title>Executive Seminar 01A</course_title>
+        <page_number>75</page_number>
+        <quantity>2</quantity>
+        <total_cost>$13,942</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Seminar 01B</course_title>
+        <page_number>75</page_number>
+        <quantity>2</quantity>
+        <total_cost>$13,942</total_cost>
+      </training>
+      <training>
+        <course_title>NESA Inaugural Seminar</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,228</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Sri Lanka">
+    <program name="International Military Education and Training (IMET), FY 00">
+      <training>
+        <course_title>AIR COMD &amp; STAFF COLLEGE</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$10,070</total_cost>
+      </training>
+      <training>
+        <course_title>AIRCRAFT MAINTENANCE OFF</course_title>
+        <page_number>75</page_number>
+        <quantity>3</quantity>
+        <total_cost>$4,236</total_cost>
+      </training>
+      <training>
+        <course_title>ALLIED OFF PREP-INF OAC</course_title>
+        <page_number>75</page_number>
+        <quantity>2</quantity>
+        <total_cost>$402</total_cost>
+      </training>
+      <training>
+        <course_title>AMERICAN LANGUAGE CRS</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$5,700</total_cost>
+      </training>
+      <training>
+        <course_title>CIVIL AFFAIRS</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$892</total_cost>
+      </training>
+      <training>
+        <course_title>COMMAND &amp; GEN STAFF OFF</course_title>
+        <page_number>75</page_number>
+        <quantity>2</quantity>
+        <total_cost>$23,898</total_cost>
+      </training>
+      <training>
+        <course_title>DIVER SECOND CLASS</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,523</total_cost>
+      </training>
+      <training>
+        <course_title>DIVING SALVAGE OFF</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,211</total_cost>
+      </training>
+      <training>
+        <course_title>FIELD ARTY CAPTAINS CAREER</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,601</total_cost>
+      </training>
+      <training>
+        <course_title>INFANTRY CAPTS CAREER CRS</course_title>
+        <page_number>75</page_number>
+        <quantity>2</quantity>
+        <total_cost>$6,910</total_cost>
+      </training>
+      <training>
+        <course_title>INSTRUCTOR TRAINING</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$377</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL DEF MGT CRS</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$10,296</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFFICER PREP</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$853</total_cost>
+      </training>
+      <training>
+        <course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,840</total_cost>
+      </training>
+      <training>
+        <course_title>MET DIILS CONTINUING EDUC</course_title>
+        <page_number>75</page_number>
+        <quantity>50</quantity>
+        <total_cost>$33,404</total_cost>
+      </training>
+      <training>
+        <course_title>NAVAL STAFF COLLEGE</course_title>
+        <page_number>75</page_number>
+        <quantity>2</quantity>
+        <total_cost>$23,276</total_cost>
+      </training>
+      <training>
+        <course_title>PSYCHOLOGICAL OPERATIONS</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$885</total_cost>
+      </training>
+      <training>
+        <course_title>RADAR REPAIRER/TPQ-36</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$2,214</total_cost>
+      </training>
+      <training>
+        <course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$698</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Sri Lanka">
+    <program name="International Military Education and Training (IMET), FY 01">
+      <training>
+        <course_title>ACFT CORROSION CNTL</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$145</total_cost>
+      </training>
+      <training>
+        <course_title>AIR COMD &amp; STAFF COLLEGE</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$10,910</total_cost>
+      </training>
+      <training>
+        <course_title>ALLIED OFF PREP-INF OAC</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$249</total_cost>
+      </training>
+      <training>
+        <course_title>ARMOR CPT CAREER CRS PREP</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,260</total_cost>
+      </training>
+      <training>
+        <course_title>ARMY WAR COLLEGE (RES CRS)</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$18,396</total_cost>
+      </training>
+      <training>
+        <course_title>BASIC OFFICER CRS USMC</course_title>
+        <page_number>75</page_number>
+        <quantity>2</quantity>
+        <total_cost>$9,949</total_cost>
+      </training>
+      <training>
+        <course_title>COMMAND &amp; GEN STAFF OFF</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$12,485</total_cost>
+      </training>
+      <training>
+        <course_title>HELICOPTER MAINT APR H-1</course_title>
+        <page_number>75</page_number>
+        <quantity>2</quantity>
+        <total_cost>$2,784</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Sri Lanka">
+    <program name="International Military Education and Training (IMET), FY 01">
+      <training>
+        <course_title>INFANTRY CAPTS CAREER CRS</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,679</total_cost>
+      </training>
+      <training>
+        <course_title>INT OFFICER INTEL ADVANCE</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$7,269</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFF LOG PREP</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$1,005</total_cost>
+      </training>
+      <training>
+        <course_title>INTERNATIONAL OFFICER PREP</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$847</total_cost>
+      </training>
+      <training>
+        <course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,186</total_cost>
+      </training>
+      <training>
+        <course_title>LOG EXEC DEV</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,924</total_cost>
+      </training>
+      <training>
+        <course_title>MET DIILS CONTINUING EDUC</course_title>
+        <page_number>75</page_number>
+        <quantity>45</quantity>
+        <total_cost>$31,000</total_cost>
+      </training>
+      <training>
+        <course_title>NAVAL STAFF COLLEGE</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$11,862</total_cost>
+      </training>
+      <training>
+        <course_title>NONDESTRUCTIVE INSP APR</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$520</total_cost>
+      </training>
+      <training>
+        <course_title>SF OPNS DETACH OFF QUAL</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$5,346</total_cost>
+      </training>
+      <training>
+        <course_title>SPECIALIZED ENG LANG TNG</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$2,396</total_cost>
+      </training>
+      <training>
+        <course_title>TATS ARMOR OFFICER ADV</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$3,956</total_cost>
+      </training>
+      <training>
+        <course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$680</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Sri Lanka">
+    <program name="Non-Security Assistance, Unified Command, FY 00">
+      <training>
+        <course_title>PCE2000JCET14WNF</course_title>
+        <page_number>75</page_number>
+        <quantity>191</quantity>
+        <total_cost>$669,684</total_cost>
+      </training>
+      <training>
+        <course_title>PCE2000JCET43WN</course_title>
+        <page_number>75</page_number>
+        <quantity>136</quantity>
+        <total_cost>$256,400</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Sri Lanka">
+    <program name="Non-Security Assistance, Unified Command, FY 01">
+      <training>
+        <course_title>PCE2001JCET40NF</course_title>
+        <page_number>75</page_number>
+        <quantity>0</quantity>
+      </training>
+      <training>
+        <course_title>PSI2001JCET04W</course_title>
+        <page_number>75</page_number>
+        <quantity>0</quantity>
+      </training>
+      <training>
+        <course_title>PSL2001JCET09N</course_title>
+        <page_number>75</page_number>
+        <quantity>0</quantity>
+      </training>
+    </program>
+  </country>
+  <country name="Sri Lanka">
+    <program name="Asia-Pacific Center, FY 00">
+      <training>
+        <course_title>Executive Course 00-1</course_title>
+        <page_number>75</page_number>
+        <quantity>2</quantity>
+        <total_cost>$26,278</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Course 00-2</course_title>
+        <page_number>75</page_number>
+        <quantity>3</quantity>
+        <total_cost>$35,841</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Course 99-3</course_title>
+        <page_number>75</page_number>
+        <quantity>2</quantity>
+        <total_cost>$16,842</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Sri Lanka">
+    <program name="Asia-Pacific Center, FY 01">
+      <training>
+        <course_title>Executive Course 00-3</course_title>
+        <page_number>75</page_number>
+        <quantity>3</quantity>
+        <total_cost>$41,823</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Course 01-1</course_title>
+        <page_number>75</page_number>
+        <quantity>4</quantity>
+        <total_cost>$55,480</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Course 01-2</course_title>
+        <page_number>75</page_number>
+        <quantity>4</quantity>
+        <total_cost>$55,496</total_cost>
+      </training>
+    </program>
+  </country>
+  <country name="Sri Lanka">
+    <program name="Near East South Asia Center (NESA), FY 01">
+      <training>
+        <course_title>Executive Seminar 01A</course_title>
+        <page_number>75</page_number>
+        <quantity>2</quantity>
+        <total_cost>$13,942</total_cost>
+      </training>
+      <training>
+        <course_title>Executive Seminar 01B</course_title>
+        <page_number>75</page_number>
+        <quantity>2</quantity>
+        <total_cost>$13,942</total_cost>
+      </training>
+      <training>
+        <course_title>NESA Inaugural Seminar</course_title>
+        <page_number>75</page_number>
+        <quantity>1</quantity>
+        <total_cost>$4,228</total_cost>
+      </training>
+    </program>
+  </country>
+</countries>
