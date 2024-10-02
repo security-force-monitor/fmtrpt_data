@@ -1,0 +1,2718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<countries>
+<country name="Ghana">
+<program name="International Military Education And Training (IMET), FY 99">
+<training>
+<course_title>ADVANCED ENGLISH LANG </course_title>
+<quantity>1</quantity>
+<total_cost>$4,077</total_cost>
+</training>
+<training>
+<course_title>AIR COMD &amp; STAFF COLLEGE</course_title>
+<quantity>1</quantity>
+<total_cost>$9,630</total_cost>
+</training>
+<training>
+<course_title>AIR TRAFFIC CONTROL OPER</course_title>
+<quantity>2</quantity>
+<total_cost>$2,300</total_cost>
+</training>
+<training>
+<course_title>ARMY WAR COLLEGE (RES CRS)</course_title>
+<quantity>1</quantity>
+<total_cost>$19,582</total_cost>
+</training>
+<training>
+<course_title>COMBINED LOG OFF ADV</course_title>
+<quantity>2</quantity>
+<total_cost>$2,439</total_cost>
+</training>
+<training>
+<course_title>COMBINED LOG OFF ADV-QM</course_title>
+<quantity>1</quantity>
+<total_cost>$1,597</total_cost>
+</training>
+<training>
+<course_title>COMMAND &amp; GEN STAFF OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$11,274</total_cost>
+</training>
+<training>
+<course_title>DIVER SECOND CLASS</course_title>
+<quantity>2</quantity>
+<total_cost>$5,317</total_cost>
+</training>
+<training>
+<course_title>EOD PHASE I INTL</course_title>
+<quantity>1</quantity>
+<total_cost>$1,375</total_cost>
+</training>
+<training>
+<course_title>FLT SAFETY OFF (SATP/FSO)</course_title>
+<quantity>2</quantity>
+<total_cost>$5,820</total_cost>
+</training>
+<training>
+<course_title>FLYING SAFETY/ *</course_title>
+<quantity>1</quantity>
+<total_cost>$120</total_cost>
+</training>
+<training>
+<course_title>INSTRUCTOR TRNG</course_title>
+<quantity>2</quantity>
+<total_cost>$1,640</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL DEF MGT CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$10,296</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL OFF LOG PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$1,041</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL OFFICER PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$574</total_cost>
+</training>
+<training>
+<course_title>INTL OFF SCH &amp; SOS</course_title>
+<quantity>1</quantity>
+<total_cost>$3,430</total_cost>
+</training>
+<training>
+<course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+<quantity>1</quantity>
+<total_cost>$690</total_cost>
+</training>
+<training>
+<course_title>INTL RIVERINE AFLOAT TRNG</course_title>
+<quantity>1</quantity>
+<total_cost>$4,058</total_cost>
+</training>
+<training>
+<course_title>LEGAL CONSDR  MIL&amp;PEACE OP</course_title>
+<quantity>1</quantity>
+<total_cost>$8,000</total_cost>
+</training>
+<training>
+<course_title>MIL POLICE OFF ADV</course_title>
+<quantity>1</quantity>
+<total_cost>$4,430</total_cost>
+</training>
+<training>
+<course_title>MUNITIONS/ *</course_title>
+<quantity>1</quantity>
+<total_cost>$320</total_cost>
+</training>
+<training>
+<course_title>MUNITIONS/ARM SYS (SATP)</course_title>
+<quantity>1</quantity>
+<total_cost>$380</total_cost>
+</training>
+<training>
+<course_title>NAV INTEL FORNOFF PAC-INTL</course_title>
+<quantity>1</quantity>
+<total_cost>$794</total_cost>
+</training>
+<training>
+<course_title>NAVAL STAFF COLLEGE</course_title>
+<quantity>1</quantity>
+<total_cost>$11,468</total_cost>
+</training>
+<training>
+<course_title>OJT NAVEDTRACOM</course_title>
+<quantity>1</quantity>
+<total_cost>$209</total_cost>
+</training>
+<training>
+<course_title>OJT OPERATIONS TNG-CONUS</course_title>
+<quantity>1</quantity>
+<total_cost>$404</total_cost>
+</training>
+<training>
+<course_title>RANGER</course_title>
+<quantity>1</quantity>
+<total_cost>$3,566</total_cost>
+</training>
+<training>
+<course_title>RIVERINE COASTAL OPS-INTL</course_title>
+<quantity>1</quantity>
+<total_cost>$1,836</total_cost>
+</training>
+<training>
+<course_title>SIG OFF ADV PREP-INTER OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$1,590</total_cost>
+</training>
+<training>
+<course_title>SIGNAL CAPTAINS CAREER CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$4,572</total_cost>
+</training>
+<training>
+<course_title>SPECIALIZED ENG LANG TNG</course_title>
+<quantity>6</quantity>
+<total_cost>$13,234</total_cost>
+</training>
+<training>
+<course_title>SR INTERNATIONAL DEF MGT</course_title>
+<quantity>1</quantity>
+<total_cost>$3,926</total_cost>
+</training>
+<training>
+<course_title>TRANSP MGMT INTRO</course_title>
+<quantity>1</quantity>
+<total_cost>$2,931</total_cost>
+</training>
+<training>
+<course_title>TRANSP STOW HAZ MAT</course_title>
+<quantity>1</quantity>
+<total_cost>$434</total_cost>
+</training>
+<training>
+<course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+<quantity>1</quantity>
+<total_cost>$373</total_cost>
+</training>
+<training>
+<course_title>WAREHOUSE OPERATIONS </course_title>
+<quantity>1</quantity>
+<total_cost>$598</total_cost>
+</training>
+</program>
+</country>
+<country name="Ghana">
+<program name="International Military Education And Training (IMET), FY 00">
+<training>
+<course_title>ADVANCED ENGLISH LANG </course_title>
+<quantity>2</quantity>
+<total_cost>$8,498</total_cost>
+</training>
+<training>
+<course_title>AIR COMD &amp; STAFF COLLEGE</course_title>
+<quantity>1</quantity>
+<total_cost>$10,070</total_cost>
+</training>
+<training>
+<course_title>AIR TRAFFIC CONTROL OPER</course_title>
+<quantity>2</quantity>
+<total_cost>$2,300</total_cost>
+</training>
+<training>
+<course_title>AIRBORNE</course_title>
+<quantity>3</quantity>
+<total_cost>$1,113</total_cost>
+</training>
+<training>
+<course_title>AIRCRAFT MAINTENANCE OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$1,380</total_cost>
+</training>
+<training>
+<course_title>AMEDD OBC ALL CORPS (MS)</course_title>
+<quantity>1</quantity>
+<total_cost>$4,018</total_cost>
+</training>
+<training>
+<course_title>AMPHIB PLAN SR OFF-INTL</course_title>
+<quantity>1</quantity>
+<total_cost>$3,031</total_cost>
+</training>
+<training>
+<course_title>BASIC DIVING OFFICER</course_title>
+<quantity>1</quantity>
+<total_cost>$2,925</total_cost>
+</training>
+<training>
+<course_title>CELESTIAL REFRESHER</course_title>
+<quantity>1</quantity>
+<total_cost>$194</total_cost>
+</training>
+<training>
+<course_title>CHAPLAIN CAPTAINS CAREER</course_title>
+<quantity>1</quantity>
+<total_cost>$2,655</total_cost>
+</training>
+<training>
+<course_title>CHAPLAINS BASIC</course_title>
+<quantity>1</quantity>
+<total_cost>$1,954</total_cost>
+</training>
+<training>
+<course_title>CIV-MIL SID - AFRICA</course_title>
+<quantity>2</quantity>
+<total_cost>$4,010</total_cost>
+</training>
+<training>
+<course_title>COMBINED LOG OFF ADV</course_title>
+<quantity>2</quantity>
+<total_cost>$2,216</total_cost>
+</training>
+<training>
+<course_title>COMBINED LOG OFF ADV-QM</course_title>
+<quantity>1</quantity>
+<total_cost>$1,589</total_cost>
+</training>
+<training>
+<course_title>COMMAND &amp; GEN STAFF OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$12,624</total_cost>
+</training>
+<training>
+<course_title>DIVING SALVAGE OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$1,227</total_cost>
+</training>
+<training>
+<course_title>DRMI SEMINAR - OVERSEAS</course_title>
+<quantity>30</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>ENGINEER OFF CPT CAREER</course_title>
+<quantity>1</quantity>
+<total_cost>$4,201</total_cost>
+</training>
+<training>
+<course_title>ENGINEER OFFICER BASIC</course_title>
+<quantity>1</quantity>
+<total_cost>$2,850</total_cost>
+</training>
+<training>
+<course_title>ENGLISH LANGUAGE CRSE</course_title>
+<quantity>1</quantity>
+<total_cost>$7,540</total_cost>
+</training>
+<training>
+<course_title>EOD PHASE I INTL</course_title>
+<quantity>1</quantity>
+<total_cost>$2,512</total_cost>
+</training>
+<training>
+<course_title>EXPED TRNG FOR CHAPLAINS</course_title>
+<quantity>1</quantity>
+<total_cost>$333</total_cost>
+</training>
+<training>
+<course_title>FLT SAFETY OFF (SATP/FSO)</course_title>
+<quantity>3</quantity>
+<total_cost>$15,030</total_cost>
+</training>
+<training>
+<course_title>HOSTAGE NEGOTIATIONS</course_title>
+<quantity>1</quantity>
+<total_cost>$799</total_cost>
+</training>
+<training>
+<course_title>INSTRUCTOR TRNG</course_title>
+<quantity>1</quantity>
+<total_cost>$850</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL DEF MGT CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$10,639</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL OFF LOG PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$1,001</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL OFFICER PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$853</total_cost>
+</training>
+<training>
+<course_title>INTL MARITIME OFF</course_title>
+<quantity>2</quantity>
+<total_cost>$11,429</total_cost>
+</training>
+<training>
+<course_title>INTL OFF SCH &amp; SOS</course_title>
+<quantity>2</quantity>
+<total_cost>$8,720</total_cost>
+</training>
+<training>
+<course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+<quantity>1</quantity>
+<total_cost>$3,840</total_cost>
+</training>
+<training>
+<course_title>INTL OFF SCH (FOR AWC)</course_title>
+<quantity>1</quantity>
+<total_cost>$3,970</total_cost>
+</training>
+<training>
+<course_title>JAG OFFICER BASIC</course_title>
+<quantity>1</quantity>
+<total_cost>$879</total_cost>
+</training>
+<training>
+<course_title>JAG OFFICER GRADUATE</course_title>
+<quantity>1</quantity>
+<total_cost>$3,771</total_cost>
+</training>
+<training>
+<course_title>JET ENGINE MISHAP INV</course_title>
+<quantity>1</quantity>
+<total_cost>$200</total_cost>
+</training>
+<training>
+<course_title>JOINT TRANSITION COURSE</course_title>
+<quantity>2</quantity>
+<total_cost>$894</total_cost>
+</training>
+<training>
+<course_title>JT/COMB STAFF OFFICER SCHL</course_title>
+<quantity>2</quantity>
+<total_cost>$9,674</total_cost>
+</training>
+<training>
+<course_title>MEDICAL SPECIALIST</course_title>
+<quantity>2</quantity>
+<total_cost>$6,952</total_cost>
+</training>
+<training>
+<course_title>MET DIILS CONTINUING EDUC</course_title>
+<quantity>30</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>MILITARY POLICE CPT CAREER</course_title>
+<quantity>1</quantity>
+<total_cost>$3,976</total_cost>
+</training>
+<training>
+<course_title>MILITARY POLICE INVESTIG</course_title>
+<quantity>1</quantity>
+<total_cost>$1,076</total_cost>
+</training>
+<training>
+<course_title>NAV INTEL FORNOFF PAC-INTL</course_title>
+<quantity>1</quantity>
+<total_cost>$820</total_cost>
+</training>
+<training>
+<course_title>NAVAL COMMAND COLLEGE</course_title>
+<quantity>1</quantity>
+<total_cost>$23,948</total_cost>
+</training>
+<training>
+<course_title>NAVAL STAFF COLLEGE</course_title>
+<quantity>1</quantity>
+<total_cost>$11,808</total_cost>
+</training>
+<training>
+<course_title>OAC INTL STUDENT ENGR PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$203</total_cost>
+</training>
+<training>
+<course_title>OAC INTL STUDENT MP PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$387</total_cost>
+</training>
+<training>
+<course_title>OBC INTERNATION ENR PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$203</total_cost>
+</training>
+<training>
+<course_title>OBS MARINE CORPS</course_title>
+<quantity>1</quantity>
+<total_cost>$580</total_cost>
+</training>
+<training>
+<course_title>OCCUPATIONAL THERAPY SPEC</course_title>
+<quantity>1</quantity>
+<total_cost>$5,863</total_cost>
+</training>
+<training>
+<course_title>OJT OPERATIONS TNG-CONUS</course_title>
+<quantity>1</quantity>
+<total_cost>$416</total_cost>
+</training>
+<training>
+<course_title>OPERATING ROOM SPEC PH1</course_title>
+<quantity>1</quantity>
+<total_cost>$3,429</total_cost>
+</training>
+<training>
+<course_title>PATIENT ADMINISTRATION</course_title>
+<quantity>1</quantity>
+<total_cost>$2,317</total_cost>
+</training>
+<training>
+<course_title>PUBLIC AFFAIRS OFFICER</course_title>
+<quantity>1</quantity>
+<total_cost>$434</total_cost>
+</training>
+<training>
+<course_title>RANGER</course_title>
+<quantity>1</quantity>
+<total_cost>$3,918</total_cost>
+</training>
+<training>
+<course_title>RIVERINE OPS PLANNING</course_title>
+<quantity>1</quantity>
+<total_cost>$3,262</total_cost>
+</training>
+<training>
+<course_title>SIG OFF ADV PREP-INTER OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$1,777</total_cost>
+</training>
+<training>
+<course_title>SIGNAL CAPTAINS CAREER CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$4,375</total_cost>
+</training>
+<training>
+<course_title>SPEC ENG TRNG (SET)</course_title>
+<quantity>2</quantity>
+<total_cost>$4,516</total_cost>
+</training>
+<training>
+<course_title>SPECIALIZED ENG LANG TNG</course_title>
+<quantity>2</quantity>
+<total_cost>$4,627</total_cost>
+</training>
+<training>
+<course_title>SR INTERNATIONAL DEF MGT</course_title>
+<quantity>1</quantity>
+<total_cost>$4,056</total_cost>
+</training>
+<training>
+<course_title>SUPPLY OFF BAS INTL-IOSCO</course_title>
+<quantity>1</quantity>
+<total_cost>$3,047</total_cost>
+</training>
+<training>
+<course_title>TATS ARMOR OFFICER ADV</course_title>
+<quantity>2</quantity>
+<total_cost>$9,462</total_cost>
+</training>
+<training>
+<course_title>U.S. ARMY SERGEANTS MAJOR</course_title>
+<quantity>1</quantity>
+<total_cost>$3,770</total_cost>
+</training>
+<training>
+<course_title>U.S. ARMY SGT MAJOR PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$212</total_cost>
+</training>
+<training>
+<course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+<quantity>1</quantity>
+<total_cost>$698</total_cost>
+</training>
+<training>
+<course_title>WATER SURV/NON PARACHUTE</course_title>
+<quantity>1</quantity>
+<total_cost>$169</total_cost>
+</training>
+</program>
+</country>
+<country name="Ghana">
+<program name="African Crisis Response Initiative (ACRI), FY 99">
+<training>
+<course_title>ACRI Follow-on Training 1</course_title>
+<quantity>49</quantity>
+<total_cost>$160,000</total_cost>
+</training>
+<training>
+<course_title>MTT-MISCELLANEOUS OPNS</course_title>
+<quantity>88</quantity>
+<total_cost>$123,354</total_cost>
+</training>
+</program>
+</country>
+<country name="Ghana">
+<program name="Africa Center for Strategic Studies, FY 00">
+<training>
+<course_title>ACSS Seminar</course_title>
+<quantity>4</quantity>
+<total_cost>$64,360</total_cost>
+</training>
+</program>
+</country>
+<country name="Guinea">
+<program name="International Military Education And Training (IMET), FY 99">
+<training>
+<course_title>AMERICAN LANGUAGE CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$3,825</total_cost>
+</training>
+<training>
+<course_title>DRMI SEMINAR - OVERSEAS</course_title>
+<quantity>30</quantity>
+<total_cost>$3,780</total_cost>
+</training>
+<training>
+<course_title>ENGLISH LANGUAGE CRSE</course_title>
+<quantity>1</quantity>
+<total_cost>$9,065</total_cost>
+</training>
+<training>
+<course_title>INFANTRY OFFICER BASIC</course_title>
+<quantity>1</quantity>
+<total_cost>$3,827</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL DEF MGT CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$10,296</total_cost>
+</training>
+<training>
+<course_title>LANGUAGE INSTRUCTOR/ADV</course_title>
+<quantity>1</quantity>
+<total_cost>$1,910</total_cost>
+</training>
+<training>
+<course_title>LANGUAGE INSTRUCTOR/BASIC</course_title>
+<quantity>2</quantity>
+<total_cost>$7,890</total_cost>
+</training>
+<training>
+<course_title>MET REGIONAL MIL-JUSTICE</course_title>
+<quantity>30</quantity>
+<total_cost>$732</total_cost>
+</training>
+<training>
+<course_title>TOEFL PREPARATION COURSE</course_title>
+<quantity>1</quantity>
+<total_cost>$3,760</total_cost>
+</training>
+</program>
+</country>
+<country name="Guinea">
+<program name="International Military Education And Training (IMET), FY 00">
+<training>
+<course_title>AMERICAN LANGUAGE COURSE</course_title>
+<quantity>1</quantity>
+<total_cost>$7,415</total_cost>
+</training>
+<training>
+<course_title>ENGINEER OFFICER BASIC</course_title>
+<quantity>1</quantity>
+<total_cost>$2,850</total_cost>
+</training>
+<training>
+<course_title>ENGLISH LANGUAGE CRSE</course_title>
+<quantity>7</quantity>
+<total_cost>$57,564</total_cost>
+</training>
+<training>
+<course_title>HEALTH SERVICES ADMIN</course_title>
+<quantity>1</quantity>
+<total_cost>$1,210</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL DEF MGT CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$10,639</total_cost>
+</training>
+<training>
+<course_title>MET DIILS ASSESS OF ISSUES</course_title>
+<quantity>12</quantity>
+<total_cost>$15,000</total_cost>
+</training>
+<training>
+<course_title>OBC INTERNATION ENR PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$203</total_cost>
+</training>
+<training>
+<course_title>SIGNAL OFFICER BASIC</course_title>
+<quantity>1</quantity>
+<total_cost>$3,075</total_cost>
+</training>
+<training>
+<course_title>U.S. ARMY SERGEANTS MAJOR</course_title>
+<quantity>1</quantity>
+<total_cost>$3,770</total_cost>
+</training>
+<training>
+<course_title>U.S. ARMY SGT MAJOR PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$212</total_cost>
+</training>
+</program>
+</country>
+<country name="Guinea">
+<program name="Africa Center for Strategic Studies, FY 00">
+<training>
+<course_title>ACSS Seminar</course_title>
+<quantity>4</quantity>
+<total_cost>$64,360</total_cost>
+</training>
+</program>
+</country>
+<country name="Guinea">
+<program name="Miscellaneous DoD-DoS Activities, FY 99">
+<training>
+<course_title>JCET: SOF METL TNG: LAND  NAVIG </course_title>
+<quantity>120</quantity>
+<total_cost>$89,200</total_cost>
+</training>
+</program>
+</country>
+<country name="Guinea-Bissau">
+<program name="Africa Center for Strategic Studies, FY 00 ">
+<training>
+<course_title>ACSS Seminar</course_title>
+<quantity>4</quantity>
+<total_cost>$64,360</total_cost>
+</training>
+</program>
+</country>
+<country name="Kenya">
+<program name="International Military Education And Training (IMET), FY 99">
+<training>
+<course_title>AIR COMD &amp; STAFF COLLEGE</course_title>
+<quantity>1</quantity>
+<total_cost>$9,630</total_cost>
+</training>
+<training>
+<course_title>AIR DEF ARTY OFF ADV</course_title>
+<quantity>1</quantity>
+<total_cost>$3,869</total_cost>
+</training>
+<training>
+<course_title>ALLIED OFF PREP-INF OAC</course_title>
+<quantity>1</quantity>
+<total_cost>$224</total_cost>
+</training>
+<training>
+<course_title>ARMY WAR COLLEGE (RES CRS)</course_title>
+<quantity>1</quantity>
+<total_cost>$19,582</total_cost>
+</training>
+<training>
+<course_title>BASIC INSTRUCTOR COURSE</course_title>
+<quantity>1</quantity>
+<total_cost>$500</total_cost>
+</training>
+<training>
+<course_title>BASIC MANPOWER &amp; QUAL MGT</course_title>
+<quantity>1</quantity>
+<total_cost>$940</total_cost>
+</training>
+<training>
+<course_title>CIVIL AFFAIRS</course_title>
+<quantity>1</quantity>
+<total_cost>$782</total_cost>
+</training>
+<training>
+<course_title>COMB LOG OFF ADV-ORDNANCE</course_title>
+<quantity>2</quantity>
+<total_cost>$2,524</total_cost>
+</training>
+<training>
+<course_title>COMBINED LOG OFF ADV</course_title>
+<quantity>4</quantity>
+<total_cost>$4,878</total_cost>
+</training>
+<training>
+<course_title>COMM &amp; INFO OFFICER (BCOT)</course_title>
+<quantity>1</quantity>
+<total_cost>$1,180</total_cost>
+</training>
+<training>
+<course_title>COMMAND &amp; GEN STAFF OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$11,274</total_cost>
+</training>
+<training>
+<course_title>CRISIS CMD/CTRL - SR MGRS</course_title>
+<quantity>1</quantity>
+<total_cost>$1,357</total_cost>
+</training>
+<training>
+<course_title>DENTAL ASST APR</course_title>
+<quantity>1</quantity>
+<total_cost>$495</total_cost>
+</training>
+<training>
+<course_title>ENGINEER OFF ADV</course_title>
+<quantity>1</quantity>
+<total_cost>$4,318</total_cost>
+</training>
+<training>
+<course_title>FLT SAFETY OFF (SATP/FSO)</course_title>
+<quantity>1</quantity>
+<total_cost>$2,910</total_cost>
+</training>
+<training>
+<course_title>HEALTH SERVICES ADMIN</course_title>
+<quantity>1</quantity>
+<total_cost>$575</total_cost>
+</training>
+<training>
+<course_title>INFANTRY CAPTS CAREER CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$3,656</total_cost>
+</training>
+<training>
+<course_title>INSTRUCTOR TRAINING</course_title>
+<quantity>3</quantity>
+<total_cost>$1,090</total_cost>
+</training>
+<training>
+<course_title>INSTRUCTOR TRAINING COURSE</course_title>
+<quantity>1</quantity>
+<total_cost>$322</total_cost>
+</training>
+<training>
+<course_title>INT OFFICER INTEL ADVANCE</course_title>
+<quantity>1</quantity>
+<total_cost>$6,813</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL OAC PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$539</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL OFF LOG PREP</course_title>
+<quantity>2</quantity>
+<total_cost>$2,082</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL OFFICER PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$574</total_cost>
+</training>
+<training>
+<course_title>INTL AIR WEAPONS CONTR CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$3,180</total_cost>
+</training>
+<training>
+<course_title>INTL MARITIME OFF</course_title>
+<quantity>2</quantity>
+<total_cost>$10,807</total_cost>
+</training>
+<training>
+<course_title>INTL OFF SCH &amp; SOS</course_title>
+<quantity>2</quantity>
+<total_cost>$3,430</total_cost>
+</training>
+<training>
+<course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+<quantity>1</quantity>
+<total_cost>$690</total_cost>
+</training>
+<training>
+<course_title>MIL POLICE OFF ADV</course_title>
+<quantity>1</quantity>
+<total_cost>$4,430</total_cost>
+</training>
+<training>
+<course_title>MILITARY POLICE INVESTIG</course_title>
+<quantity>1</quantity>
+<total_cost>$1,300</total_cost>
+</training>
+<training>
+<course_title>MTT BRDG OFFR/FISH EIMET</course_title>
+<quantity>30</quantity>
+<total_cost>$33,443</total_cost>
+</training>
+<training>
+<course_title>MTT CG DEVELOP/NEED ASSESS</course_title>
+<quantity>30</quantity>
+<total_cost>$16,000</total_cost>
+</training>
+<training>
+<course_title>MTT DRMI - OVERSEAS</course_title>
+<quantity>30</quantity>
+<total_cost>$63,305</total_cost>
+</training>
+<training>
+<course_title>NAVAL STAFF COLLEGE</course_title>
+<quantity>1</quantity>
+<total_cost>$11,468</total_cost>
+</training>
+<training>
+<course_title>OAC INTL STUDENT ENGR PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$209</total_cost>
+</training>
+<training>
+<course_title>RANGER</course_title>
+<quantity>2</quantity>
+<total_cost>$7,132</total_cost>
+</training>
+<training>
+<course_title>SIG OFF ADV PREP-INTER OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$1,590</total_cost>
+</training>
+<training>
+<course_title>SIGNAL CAPTAINS CAREER CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$4,572</total_cost>
+</training>
+<training>
+<course_title>SPECIALIZED ENG LANG TNG</course_title>
+<quantity>2</quantity>
+<total_cost>$4,430</total_cost>
+</training>
+<training>
+<course_title>SR INTERNATIONAL DEF MGT</course_title>
+<quantity>1</quantity>
+<total_cost>$3,926</total_cost>
+</training>
+<training>
+<course_title>TATS ARMOR OFFICER ADV</course_title>
+<quantity>1</quantity>
+<total_cost>$4,458</total_cost>
+</training>
+<training>
+<course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+<quantity>1</quantity>
+<total_cost>$373</total_cost>
+</training>
+</program>
+</country>
+<country name="Kenya">
+<program name="International Military Education And Training (IMET), FY 00">
+<training>
+<course_title>ADA OFF BASIC (CC)</course_title>
+<quantity>1</quantity>
+<total_cost>$2,029</total_cost>
+</training>
+<training>
+<course_title>ADA OFF BSC-FAADS WPNS TCK</course_title>
+<quantity>1</quantity>
+<total_cost>$2,061</total_cost>
+</training>
+<training>
+<course_title>AEROSPACE GRD EQ TECHN</course_title>
+<quantity>1</quantity>
+<total_cost>$630</total_cost>
+</training>
+<training>
+<course_title>AEROSPACE GRD EQUIP APR</course_title>
+<quantity>1</quantity>
+<total_cost>$2,070</total_cost>
+</training>
+<training>
+<course_title>AIR COMD &amp; STAFF COLLEGE</course_title>
+<quantity>1</quantity>
+<total_cost>$10,070</total_cost>
+</training>
+<training>
+<course_title>AIR DEF ARTY OFF ADV</course_title>
+<quantity>1</quantity>
+<total_cost>$4,686</total_cost>
+</training>
+<training>
+<course_title>ALLIED OFF PREP-INF OAC</course_title>
+<quantity>1</quantity>
+<total_cost>$201</total_cost>
+</training>
+<training>
+<course_title>APPR ELEC PWR PRDCTN JRNYM</course_title>
+<quantity>1</quantity>
+<total_cost>$750</total_cost>
+</training>
+<training>
+<course_title>BASIC MANPOWER &amp; QUAL MGT</course_title>
+<quantity>1</quantity>
+<total_cost>$960</total_cost>
+</training>
+<training>
+<course_title>COMB LOG OFF ADV-ORDNANCE</course_title>
+<quantity>1</quantity>
+<total_cost>$1,303</total_cost>
+</training>
+<training>
+<course_title>COMBINED LOG OFF ADV</course_title>
+<quantity>4</quantity>
+<total_cost>$4,432</total_cost>
+</training>
+<training>
+<course_title>COMBINED LOG OFF ADV-QM</course_title>
+<quantity>1</quantity>
+<total_cost>$1,589</total_cost>
+</training>
+<training>
+<course_title>COMM &amp; INFO OFFICER (BCOT)</course_title>
+<quantity>1</quantity>
+<total_cost>$1,180</total_cost>
+</training>
+<training>
+<course_title>COMMAND &amp; GEN STAFF OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$12,624</total_cost>
+</training>
+<training>
+<course_title>COMMON ELECTRONIC TNG PGM</course_title>
+<quantity>1</quantity>
+<total_cost>$830</total_cost>
+</training>
+<training>
+<course_title>CONTR BRIDGE SIMULATOR TNG</course_title>
+<quantity>1</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>CRISIS CMD/CTRL - SR MGRS</course_title>
+<quantity>2</quantity>
+<total_cost>$2,750</total_cost>
+</training>
+<training>
+<course_title>ENGINEER OFF CPT CAREER</course_title>
+<quantity>1</quantity>
+<total_cost>$4,201</total_cost>
+</training>
+<training>
+<course_title>FINANCE OFFICER ADV</course_title>
+<quantity>1</quantity>
+<total_cost>$4,296</total_cost>
+</training>
+<training>
+<course_title>FLIGHT NURSE</course_title>
+<quantity>1</quantity>
+<total_cost>$1,080</total_cost>
+</training>
+<training>
+<course_title>FLT NURSE PRECEPTORSHIP/*</course_title>
+<quantity>1</quantity>
+<total_cost>$120</total_cost>
+</training>
+<training>
+<course_title>INFANTRY CAPTS CAREER CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$3,455</total_cost>
+</training>
+<training>
+<course_title>INSTRUCTOR TRAINING</course_title>
+<quantity>2</quantity>
+<total_cost>$773</total_cost>
+</training>
+<training>
+<course_title>INSTRUCTOR TRAINING COURSE</course_title>
+<quantity>1</quantity>
+<total_cost>$413</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL OAC PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$561</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL OFF LOG PREP</course_title>
+<quantity>2</quantity>
+<total_cost>$2,002</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL OFFICER PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$853</total_cost>
+</training>
+<training>
+<course_title>INTL AIR WEAPONS CONTR CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$3,850</total_cost>
+</training>
+<training>
+<course_title>INTL INTELL APPL OFFICER</course_title>
+<quantity>1</quantity>
+<total_cost>$1,600</total_cost>
+</training>
+<training>
+<course_title>INTL MARITIME OFF</course_title>
+<quantity>2</quantity>
+<total_cost>$11,444</total_cost>
+</training>
+<training>
+<course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+<quantity>1</quantity>
+<total_cost>$3,840</total_cost>
+</training>
+<training>
+<course_title>MET DIILS ASSESS OF ISSUES</course_title>
+<quantity>30</quantity>
+<total_cost>$20,000</total_cost>
+</training>
+<training>
+<course_title>MET DIILS INITIAL SEMINAR</course_title>
+<quantity>30</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>MIL OPS OTHER THAN WAR</course_title>
+<quantity>2</quantity>
+<total_cost>$680</total_cost>
+</training>
+<training>
+<course_title>MTT BOARDING OFF CN EIMET</course_title>
+<quantity>30</quantity>
+<total_cost>$17,500</total_cost>
+</training>
+<training>
+<course_title>MTT MLE TRAINER EIMET</course_title>
+<quantity>30</quantity>
+<total_cost>$17,500</total_cost>
+</training>
+<training>
+<course_title>NDU INTERNATIONAL FELLOW</course_title>
+<quantity>1</quantity>
+<total_cost>$27,074</total_cost>
+</training>
+<training>
+<course_title>NON-DESTRUCTIVE INSPEC/ *</course_title>
+<quantity>1</quantity>
+<total_cost>$180</total_cost>
+</training>
+<training>
+<course_title>NONDESTRUCTIVE INSP APR</course_title>
+<quantity>1</quantity>
+<total_cost>$500</total_cost>
+</training>
+<training>
+<course_title>OAC INTL STUDENT ENGR PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$203</total_cost>
+</training>
+<training>
+<course_title>OJT AFLOAT CONUS - PACFLT</course_title>
+<quantity>1</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>PMEL APPRENTICE (USAF)</course_title>
+<quantity>1</quantity>
+<total_cost>$1,300</total_cost>
+</training>
+<training>
+<course_title>QUALITY ASSURANCE (ACFT)</course_title>
+<quantity>2</quantity>
+<total_cost>$400</total_cost>
+</training>
+<training>
+<course_title>SIG OFF ADV PREP-INTER OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$1,777</total_cost>
+</training>
+<training>
+<course_title>SIGNAL CAPTAINS CAREER CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$4,375</total_cost>
+</training>
+<training>
+<course_title>SPECIALIZED ENG LANG TNG</course_title>
+<quantity>2</quantity>
+<total_cost>$4,560</total_cost>
+</training>
+<training>
+<course_title>SR INTERNATIONAL DEF MGT</course_title>
+<quantity>1</quantity>
+<total_cost>$4,056</total_cost>
+</training>
+<training>
+<course_title>SWOS - INTL</course_title>
+<quantity>1</quantity>
+<total_cost>$4,216</total_cost>
+</training>
+<training>
+<course_title>TATS ARMOR OFFICER ADV</course_title>
+<quantity>1</quantity>
+<total_cost>$4,731</total_cost>
+</training>
+<training>
+<course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+<quantity>1</quantity>
+<total_cost>$698</total_cost>
+</training>
+</program>
+</country>
+<country name="Kenya">
+<program name="Africa Center for Strategic Studies, FY 00">
+<training>
+<course_title>ACSS Seminar</course_title>
+<quantity>5</quantity>
+<total_cost>$80,450</total_cost>
+</training>
+</program>
+</country>
+<country name="Lesotho">
+<program name="International Military Education And Training (IMET), FY 99">
+<training>
+<course_title>BASIC FINAN MGMT OFFICER</course_title>
+<quantity>3</quantity>
+<total_cost>$2,910</total_cost>
+</training>
+<training>
+<course_title>DRMI SEMINAR - OVERSEAS</course_title>
+<quantity>60</quantity>
+<total_cost>$4,600</total_cost>
+</training>
+<training>
+<course_title>MET DIILS ASSESS OF ISSUES</course_title>
+<quantity>30</quantity>
+<total_cost>$28,774</total_cost>
+</training>
+<training>
+<course_title>MET HEALTH RM/NS SURVEY</course_title>
+<quantity>30</quantity>
+<total_cost>$3,650</total_cost>
+</training>
+<training>
+<course_title>SPECIALIZED ENG LANG TNG</course_title>
+<quantity>1</quantity>
+<total_cost>$2,150</total_cost>
+</training>
+</program>
+</country>
+<country name="Lesotho">
+<program name="International Military Education And Training (IMET), FY 00">
+<training>
+<course_title>AMEDD OBC ALL CORPS (MS)</course_title>
+<quantity>1</quantity>
+<total_cost>$4,018</total_cost>
+</training>
+<training>
+<course_title>BASIC FINAN MGMT OFFICER</course_title>
+<quantity>1</quantity>
+<total_cost>$950</total_cost>
+</training>
+<training>
+<course_title>CIVIL AFFAIRS</course_title>
+<quantity>1</quantity>
+<total_cost>$892</total_cost>
+</training>
+<training>
+<course_title>DRMI SEMINAR - OVERSEAS</course_title>
+<quantity>60</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>MED LOGISTICS MANAGEMENT</course_title>
+<quantity>1</quantity>
+<total_cost>$3,476</total_cost>
+</training>
+<training>
+<course_title>MET - JOINT CONUS PLANNING</course_title>
+<quantity>30</quantity>
+<total_cost>$13,574</total_cost>
+</training>
+<training>
+<course_title>MET DIILS INITIAL SEMINAR</course_title>
+<quantity>30</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>SPECIALIZED ENG LANG TNG</course_title>
+<quantity>1</quantity>
+<total_cost>$2,280</total_cost>
+</training>
+</program>
+</country>
+<country name="Lesotho">
+<program name="Africa Center for Strategic Studies, FY 00">
+<training>
+<course_title>ACSS Seminar</course_title>
+<quantity>5</quantity>
+<total_cost>$80,450</total_cost>
+</training>
+</program>
+</country>
+<country name="Liberia">
+<program name="Africa Center for Strategic Studies, FY 00">
+<training>
+<course_title>ACSS Seminar</course_title>
+<quantity>5</quantity>
+<total_cost>$80,450</total_cost>
+</training>
+</program>
+</country>
+<country name="Madagascar">
+<program name="International Military Education And Training (IMET), FY 99">
+<training>
+<course_title>AMERICAN LANGUAGE CRS</course_title>
+<quantity>2</quantity>
+<total_cost>$10,799</total_cost>
+</training>
+<training>
+<course_title>CRISIS CMD/CTRL - SR MGRS</course_title>
+<quantity>1</quantity>
+<total_cost>$1,357</total_cost>
+</training>
+<training>
+<course_title>INTL MARITIME OFF</course_title>
+<quantity>2</quantity>
+<total_cost>$10,954</total_cost>
+</training>
+<training>
+<course_title>LANGUAGE INSTRUCTOR/BASIC</course_title>
+<quantity>1</quantity>
+<total_cost>$6,310</total_cost>
+</training>
+<training>
+<course_title>MET DIILS CONTINUING EDUC</course_title>
+<quantity>54</quantity>
+<total_cost>$39,602</total_cost>
+</training>
+</program>
+</country>
+<country name="Madagascar">
+<program name="International Military Education And Training (IMET), FY 00">
+<training>
+<course_title>AMERICAN LANGUAGE CRS</course_title>
+<quantity>2</quantity>
+<total_cost>$6,793</total_cost>
+</training>
+<training>
+<course_title>CIVIL AFFAIRS</course_title>
+<quantity>1</quantity>
+<total_cost>$892</total_cost>
+</training>
+<training>
+<course_title>CRISIS CMD/CTRL - SR MGRS</course_title>
+<quantity>1</quantity>
+<total_cost>$1,375</total_cost>
+</training>
+<training>
+<course_title>DRMI SEMINAR - OVERSEAS</course_title>
+<quantity>30</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>INTL MARITIME OFF</course_title>
+<quantity>2</quantity>
+<total_cost>$11,444</total_cost>
+</training>
+<training>
+<course_title>LANGUAGE INSTRUCTOR/ADV</course_title>
+<quantity>1</quantity>
+<total_cost>$4,010</total_cost>
+</training>
+<training>
+<course_title>LANGUAGE INSTRUCTOR/BASIC</course_title>
+<quantity>1</quantity>
+<total_cost>$6,720</total_cost>
+</training>
+<training>
+<course_title>LEGAL CONSDR  MIL&amp;PEACE OP</course_title>
+<quantity>1</quantity>
+<total_cost>$7,428</total_cost>
+</training>
+<training>
+<course_title>MTT BOARDING OFF CN EIMET</course_title>
+<quantity>20</quantity>
+<total_cost>$26,000</total_cost>
+</training>
+<training>
+<course_title>PSYCHOLOGICAL OPERATIONS</course_title>
+<quantity>1</quantity>
+<total_cost>$885</total_cost>
+</training>
+</program>
+</country>
+<country name="Madagascar">
+<program name="Asia Pacific Center, FY 99">
+<training>
+<course_title>Executive Course  99-3</course_title>
+<quantity>1</quantity>
+<total_cost>$15,207</total_cost>
+</training>
+<training>
+<course_title>Executive Course 98-3</course_title>
+<quantity>1</quantity>
+<total_cost>$10,368</total_cost>
+</training>
+<training>
+<course_title>Executive Course 99-1</course_title>
+<quantity>1</quantity>
+<total_cost>$13,829</total_cost>
+</training>
+<training>
+<course_title>Executive Course 99-2</course_title>
+<quantity>1</quantity>
+<total_cost>$14,119</total_cost>
+</training>
+</program>
+</country>
+<country name="Madagascar">
+<program name="Asia Pacific Center, FY 00">
+<training>
+<course_title>Executive Course  00-1</course_title>
+<quantity>1</quantity>
+<total_cost>$16,649</total_cost>
+</training>
+<training>
+<course_title>Executive Course  00-2</course_title>
+<quantity>1</quantity>
+<total_cost>$15,772</total_cost>
+</training>
+</program>
+</country>
+<country name="Madagascar">
+<program name="Africa Center for Strategic Studies, FY 00">
+<training>
+<course_title>ACSS Seminar</course_title>
+<quantity>4</quantity>
+<total_cost>$64,360</total_cost>
+</training>
+</program>
+</country>
+<country name="Madagascar">
+<program name="Miscellaneous DoD-DoS Activities, FY 99">
+<training>
+<course_title>JCET: SOF METL TNG: MOUNTAIN 0 </course_title>
+<quantity>63</quantity>
+<total_cost>$124,000</total_cost>
+</training>
+</program>
+</country>
+<country name="Malawi">
+<program name="International Military Education And Training (IMET), FY 99">
+<training>
+<course_title>COMBAT ENGINEER</course_title>
+<quantity>1</quantity>
+<total_cost>$887</total_cost>
+</training>
+<training>
+<course_title>COMMAND &amp; GEN STAFF OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$11,274</total_cost>
+</training>
+<training>
+<course_title>DRMI SEMINAR - OVERSEAS</course_title>
+<quantity>90</quantity>
+<total_cost>$6,900</total_cost>
+</training>
+<training>
+<course_title>FINANCE OFFICER BASIC</course_title>
+<quantity>1</quantity>
+<total_cost>$2,781</total_cost>
+</training>
+<training>
+<course_title>INSTRUCTOR TNG COURSE</course_title>
+<quantity>1</quantity>
+<total_cost>$369</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL OFFICER PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$574</total_cost>
+</training>
+<training>
+<course_title>LANGUAGE INSTRUCTOR/BASIC</course_title>
+<quantity>1</quantity>
+<total_cost>$3,155</total_cost>
+</training>
+<training>
+<course_title>MEDICAL SPECIALIST (BASIC)</course_title>
+<quantity>1</quantity>
+<total_cost>$3,365</total_cost>
+</training>
+<training>
+<course_title>MET DIILS CONTINUING EDUC</course_title>
+<quantity>30</quantity>
+<total_cost>$37,315</total_cost>
+</training>
+<training>
+<course_title>MET DIILS INITIAL SEMINAR</course_title>
+<quantity>30</quantity>
+<total_cost>$36,050</total_cost>
+</training>
+<training>
+<course_title>OJT OPERATIONS TNG-CONUS</course_title>
+<quantity>1</quantity>
+<total_cost>$404</total_cost>
+</training>
+<training>
+<course_title>RANGER</course_title>
+<quantity>1</quantity>
+<total_cost>$3,566</total_cost>
+</training>
+<training>
+<course_title>SR INTERNATIONAL DEF MGT</course_title>
+<quantity>1</quantity>
+<total_cost>$3,926</total_cost>
+</training>
+<training>
+<course_title>TRANS OFFICER BASIC</course_title>
+<quantity>1</quantity>
+<total_cost>$2,223</total_cost>
+</training>
+<training>
+<course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+<quantity>1</quantity>
+<total_cost>$373</total_cost>
+</training>
+</program>
+</country>
+<country name="Malawi">
+<program name="International Military Education And Training (IMET), FY 00">
+<training>
+<course_title>ARMY WAR COLLEGE (RES CRS)</course_title>
+<quantity>1</quantity>
+<total_cost>$13,421</total_cost>
+</training>
+<training>
+<course_title>CIV-MIL SID - AFRICA</course_title>
+<quantity>2</quantity>
+<total_cost>$4,010</total_cost>
+</training>
+<training>
+<course_title>COMBINED LOG OFF ADV</course_title>
+<quantity>2</quantity>
+<total_cost>$2,216</total_cost>
+</training>
+<training>
+<course_title>COMBINED LOG OFF ADV-QM</course_title>
+<quantity>1</quantity>
+<total_cost>$1,589</total_cost>
+</training>
+<training>
+<course_title>COMMAND &amp; GEN STAFF OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$12,624</total_cost>
+</training>
+<training>
+<course_title>DLI ENGLISH LANGUAGE TECH</course_title>
+<quantity>30</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>INSTRUCTOR TRAINING</course_title>
+<quantity>1</quantity>
+<total_cost>$377</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL DEF MGT CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$10,639</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL OFF LOG PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$1,001</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL OFFICER PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$853</total_cost>
+</training>
+<training>
+<course_title>LEGAL CONSDR  MIL&amp;PEACE OP</course_title>
+<quantity>1</quantity>
+<total_cost>$7,428</total_cost>
+</training>
+<training>
+<course_title>MET - JOINT CONUS PLANNING</course_title>
+<quantity>30</quantity>
+<total_cost>$21,490</total_cost>
+</training>
+<training>
+<course_title>MET ACQUISITION PHASE III</course_title>
+<quantity>30</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>MET DIILS CONTINUING EDUC</course_title>
+<quantity>30</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>MET HEALTH RM/NS SURVEY</course_title>
+<quantity>30</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>MET IHRM PH III (S A D)</course_title>
+<quantity>30</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>MET PHI ACQUISITION TRNG</course_title>
+<quantity>30</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>MET PHII ACQUISITION TRNG</course_title>
+<quantity>30</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>MILITARY POLICE OFF BASIC</course_title>
+<quantity>1</quantity>
+<total_cost>$2,383</total_cost>
+</training>
+<training>
+<course_title>MTT-OTHER</course_title>
+<quantity>30</quantity>
+<total_cost>$50,000</total_cost>
+</training>
+<training>
+<course_title>OBC INTERNATIONAL MP PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$387</total_cost>
+</training>
+<training>
+<course_title>RADIO REPAIRER ONLY</course_title>
+<quantity>1</quantity>
+<total_cost>$3,034</total_cost>
+</training>
+<training>
+<course_title>SIG OFF ADV PREP-INTER OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$1,777</total_cost>
+</training>
+<training>
+<course_title>SIGNAL CAPTAINS CAREER CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$4,375</total_cost>
+</training>
+<training>
+<course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+<quantity>1</quantity>
+<total_cost>$698</total_cost>
+</training>
+</program>
+</country>
+<country name="Malawi">
+<program name="African Crisis Response Initiative (ACRI), FY 99">
+<training>
+<course_title>ACRI Follow-on Training 1</course_title>
+<quantity>45</quantity>
+<total_cost>$150,000</total_cost>
+</training>
+</program>
+</country>
+<country name="Malawi">
+<program name="African Crisis Response Initiative (ACRI), FY 00 ">
+<training>
+<course_title>ACRI Follow-on Training 3</course_title>
+<quantity>0</quantity>
+<total_cost>$0</total_cost>
+</training>
+</program>
+</country>
+<country name="Malawi">
+<program name="Africa Center for Strategic Studies, FY 00">
+<training>
+<course_title>ACSS Seminar</course_title>
+<quantity>4</quantity>
+<total_cost>$64,360</total_cost>
+</training>
+</program>
+</country>
+<country name="Malawi">
+<program name="Miscellaneous DoD-DoS Activities, FY 99">
+<training>
+<course_title>JCET: SOF METL TNG: LIGHT INFA</course_title>
+<quantity>24</quantity>
+<total_cost>$70,000</total_cost>
+</training>
+</program>
+</country>
+<country name="Mali">
+<program name="International Military Education And Training (IMET), FY 99">
+<training>
+<course_title>AIR COMD &amp; STAFF COLLEGE</course_title>
+<quantity>1</quantity>
+<total_cost>$9,630</total_cost>
+</training>
+<training>
+<course_title>AMERICAN LANGUAGE CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$3,825</total_cost>
+</training>
+<training>
+<course_title>COMMAND &amp; GEN STAFF OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$11,274</total_cost>
+</training>
+<training>
+<course_title>DRMI SEMINAR - OVERSEAS</course_title>
+<quantity>30</quantity>
+<total_cost>$3,780</total_cost>
+</training>
+<training>
+<course_title>ENGLISH LANGUAGE CRSE</course_title>
+<quantity>4</quantity>
+<total_cost>$23,060</total_cost>
+</training>
+<training>
+<course_title>FA OFF ADV PREP-ALLIED OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$1,394</total_cost>
+</training>
+<training>
+<course_title>FIELD ARTY CAPTAINS CAREER</course_title>
+<quantity>1</quantity>
+<total_cost>$4,601</total_cost>
+</training>
+<training>
+<course_title>INFANTRYMAN BNCOC</course_title>
+<quantity>2</quantity>
+<total_cost>$3,038</total_cost>
+</training>
+<training>
+<course_title>INTERNATIO INTEL OFF BASIC</course_title>
+<quantity>1</quantity>
+<total_cost>$3,534</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL DEF MGT CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$10,296</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL OFFICER PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$574</total_cost>
+</training>
+<training>
+<course_title>INTL OFF SCH &amp; SOS</course_title>
+<quantity>1</quantity>
+<total_cost>$3,430</total_cost>
+</training>
+<training>
+<course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+<quantity>1</quantity>
+<total_cost>$690</total_cost>
+</training>
+<training>
+<course_title>LANGUAGE INSTRUCTOR/BASIC</course_title>
+<quantity>1</quantity>
+<total_cost>$6,310</total_cost>
+</training>
+<training>
+<course_title>MET DIILS CONTINUING EDUC</course_title>
+<quantity>30</quantity>
+<total_cost>$27,934</total_cost>
+</training>
+<training>
+<course_title>MET REGIONAL MIL-JUSTICE</course_title>
+<quantity>60</quantity>
+<total_cost>$1,464</total_cost>
+</training>
+<training>
+<course_title>MTT-NCO LEADERSHIP</course_title>
+<quantity>30</quantity>
+<total_cost>$24,152</total_cost>
+</training>
+<training>
+<course_title>NDU INTERNATIONAL FELLOW</course_title>
+<quantity>1</quantity>
+<total_cost>$30,246</total_cost>
+</training>
+<training>
+<course_title>SPECIALIZED ENG LANG TNG</course_title>
+<quantity>2</quantity>
+<total_cost>$4,402</total_cost>
+</training>
+<training>
+<course_title>TOEFL PREPARATION COURSE</course_title>
+<quantity>1</quantity>
+<total_cost>$3,760</total_cost>
+</training>
+<training>
+<course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+<quantity>1</quantity>
+<total_cost>$373</total_cost>
+</training>
+</program>
+</country>
+<country name="Mali">
+<program name="International Military Education And Training (IMET), FY 00">
+<training>
+<course_title>AIR COMD &amp; STAFF COLLEGE</course_title>
+<quantity>1</quantity>
+<total_cost>$10,070</total_cost>
+</training>
+<training>
+<course_title>AIRCRAFT MAINTENANCE OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$1,380</total_cost>
+</training>
+<training>
+<course_title>ALLIED OFF PREP-INF OAC</course_title>
+<quantity>1</quantity>
+<total_cost>$201</total_cost>
+</training>
+<training>
+<course_title>AMERICAN LANGUAGE COURSE</course_title>
+<quantity>1</quantity>
+<total_cost>$4,230</total_cost>
+</training>
+<training>
+<course_title>AMERICAN LANGUAGE CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$4,013</total_cost>
+</training>
+<training>
+<course_title>ARMOR OFF BASIC (M1A1)</course_title>
+<quantity>1</quantity>
+<total_cost>$11,695</total_cost>
+</training>
+<training>
+<course_title>ARMY WAR COLLEGE (RES CRS)</course_title>
+<quantity>1</quantity>
+<total_cost>$13,421</total_cost>
+</training>
+<training>
+<course_title>CIVIL AFFAIRS</course_title>
+<quantity>1</quantity>
+<total_cost>$892</total_cost>
+</training>
+<training>
+<course_title>COMMAND &amp; GEN STAFF OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$12,624</total_cost>
+</training>
+<training>
+<course_title>DRMI SEMINAR - OVERSEAS</course_title>
+<quantity>30</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>ENGLISH LANGUAGE CRSE</course_title>
+<quantity>6</quantity>
+<total_cost>$36,270</total_cost>
+</training>
+<training>
+<course_title>EXEC MGMT EDUC - HEALTH</course_title>
+<quantity>1</quantity>
+<total_cost>$3,203</total_cost>
+</training>
+<training>
+<course_title>FIELD ARTY OFFICER BASIC</course_title>
+<quantity>1</quantity>
+<total_cost>$3,412</total_cost>
+</training>
+<training>
+<course_title>INFANTRY CAPTS CAREER CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$3,455</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL DEF MGT CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$10,639</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL OFFICER PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$853</total_cost>
+</training>
+<training>
+<course_title>INTL OFF SCH &amp; SOS</course_title>
+<quantity>1</quantity>
+<total_cost>$4,360</total_cost>
+</training>
+<training>
+<course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+<quantity>1</quantity>
+<total_cost>$3,840</total_cost>
+</training>
+<training>
+<course_title>LEGAL CONSDR  MIL&amp;PEACE OP</course_title>
+<quantity>1</quantity>
+<total_cost>$7,428</total_cost>
+</training>
+<training>
+<course_title>MET DIILS CONTINUING EDUC</course_title>
+<quantity>60</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>SPECIALIZED ENG LANG TNG</course_title>
+<quantity>1</quantity>
+<total_cost>$2,280</total_cost>
+</training>
+<training>
+<course_title>SR INTERNATIONAL DEF MGT</course_title>
+<quantity>1</quantity>
+<total_cost>$4,056</total_cost>
+</training>
+<training>
+<course_title>U.S. ARMY SERGEANTS MAJOR</course_title>
+<quantity>1</quantity>
+<total_cost>$3,770</total_cost>
+</training>
+<training>
+<course_title>U.S. ARMY SGT MAJOR PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$212</total_cost>
+</training>
+<training>
+<course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+<quantity>1</quantity>
+<total_cost>$698</total_cost>
+</training>
+</program>
+</country>
+<country name="Mali">
+<program name="Aviation Leadership Program, FY 99">
+<training>
+<course_title>ALC ALP SCHOLARSHIP</course_title>
+<quantity>1</quantity>
+<total_cost>$264</total_cost>
+</training>
+<training>
+<course_title>T-37 ALP - SCHOLARSHIP</course_title>
+<quantity>2</quantity>
+<total_cost>$968</total_cost>
+</training>
+</program>
+</country>
+<country name="Mali">
+<program name="African Crisis Response Initiative (ACRI), FY 99">
+<training>
+<course_title>ACRI Follow-on Training 1</course_title>
+<quantity>39</quantity>
+<total_cost>$160,000</total_cost>
+</training>
+</program>
+</country>
+<country name="Mali">
+<program name="African Crisis Response Initiative (ACRI), FY 00">
+<training>
+<course_title>ACRI Follow-on Training 2</course_title>
+<quantity>0</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>MTT-MISCELLANEOUS OPNS</course_title>
+<quantity>200</quantity>
+<total_cost>$44,564</total_cost>
+</training>
+</program>
+</country>
+<country name="Mali">
+<program name="Africa Center for Strategic Studies, FY 00">
+<training>
+<course_title>ACSS Seminar</course_title>
+<quantity>4</quantity>
+<total_cost>$64,360</total_cost>
+</training>
+</program>
+</country>
+<country name="Mali">
+<program name="Miscellaneous DoD-DoS Activities, FY 99">
+<training>
+<course_title>JCET: SOF METL TNG: SMALL UNIT</course_title>
+<quantity>60</quantity>
+<total_cost>$72,750</total_cost>
+</training>
+</program>
+</country>
+<country name="Mauritania">
+<program name="Africa Center for Strategic Studies, FY 00">
+<training>
+<course_title>ACSS Seminar</course_title>
+<quantity>4</quantity>
+<total_cost>$64,360</total_cost>
+</training>
+</program>
+</country>
+<country name="Mauritius">
+<program name="International Military Education And Training (IMET), FY 99">
+<training>
+<course_title>BOARDING TEAM MEMBER </course_title>
+<quantity>1</quantity>
+<total_cost>$624</total_cost>
+</training>
+<training>
+<course_title>BOATSWAIN'S MATE 'A'</course_title>
+<quantity>1</quantity>
+<total_cost>$4,682</total_cost>
+</training>
+<training>
+<course_title>COXSWAIN 'C'</course_title>
+<quantity>1</quantity>
+<total_cost>$2,838</total_cost>
+</training>
+<training>
+<course_title>CRISIS CMD/CTRL - SR MGRS</course_title>
+<quantity>1</quantity>
+<total_cost>$1,357</total_cost>
+</training>
+<training>
+<course_title>INTL MARITIME OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$5,477</total_cost>
+</training>
+<training>
+<course_title>NAVAL STAFF COLLEGE</course_title>
+<quantity>1</quantity>
+<total_cost>$11,468</total_cost>
+</training>
+</program>
+</country>
+<country name="Mauritius">
+<program name="International Military Education And Training (IMET), FY 00">
+<training>
+<course_title>BOARDING TEAM MEMBER </course_title>
+<quantity>1</quantity>
+<total_cost>$637</total_cost>
+</training>
+<training>
+<course_title>COXSWAIN 'C'</course_title>
+<quantity>1</quantity>
+<total_cost>$2,961</total_cost>
+</training>
+<training>
+<course_title>COXSWAIN, SMALL BOAT</course_title>
+<quantity>1</quantity>
+<total_cost>$1,670</total_cost>
+</training>
+<training>
+<course_title>INTL MARITIME OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$5,722</total_cost>
+</training>
+<training>
+<course_title>MTT MAR ENVIRON SECUR SEM</course_title>
+<quantity>30</quantity>
+<total_cost>$36,500</total_cost>
+</training>
+<training>
+<course_title>NAVAL STAFF COLLEGE</course_title>
+<quantity>1</quantity>
+<total_cost>$11,808</total_cost>
+</training>
+</program>
+</country>
+<country name="Mauritius">
+<program name="Africa Center for Strategic Studies, FY 00">
+<training>
+<course_title>ACSS Seminar</course_title>
+<quantity>3</quantity>
+<total_cost>$48,270</total_cost>
+</training>
+</program>
+</country>
+<country name="Mozambique">
+<program name="International Military Education And Training (IMET), FY 99">
+<training>
+<course_title>AMERICAN LANGUAGE CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$5,000</total_cost>
+</training>
+<training>
+<course_title>ENGLISH LANGUAGE CRSE</course_title>
+<quantity>1</quantity>
+<total_cost>$12,065</total_cost>
+</training>
+<training>
+<course_title>MET CIV-MILITARY RELATIONS</course_title>
+<quantity>58</quantity>
+<total_cost>$73,774</total_cost>
+</training>
+<training>
+<course_title>MTT CG DEVELOP/NEED ASSESS</course_title>
+<quantity>30</quantity>
+<total_cost>$17,631</total_cost>
+</training>
+</program>
+</country>
+<country name="Mozambique">
+<program name="International Military Education And Training (IMET), FY 00">
+<training>
+<course_title>AMERICAN LANGUAGE CRS</course_title>
+<quantity>2</quantity>
+<total_cost>$17,403</total_cost>
+</training>
+<training>
+<course_title>ENGLISH LANGUAGE CRSE</course_title>
+<quantity>2</quantity>
+<total_cost>$18,070</total_cost>
+</training>
+<training>
+<course_title>FIELD ARTY OFFICER BASIC</course_title>
+<quantity>1</quantity>
+<total_cost>$3,412</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL DEF MGT CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$10,639</total_cost>
+</training>
+<training>
+<course_title>INTL MARITIME OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$5,722</total_cost>
+</training>
+<training>
+<course_title>MET DIILS CONTINUING EDUC</course_title>
+<quantity>33</quantity>
+<total_cost>$61,091</total_cost>
+</training>
+<training>
+<course_title>MTT DRMI - CONUS</course_title>
+<quantity>30</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>ORDNANCE MAINT MGT OFF BAS</course_title>
+<quantity>1</quantity>
+<total_cost>$2,331</total_cost>
+</training>
+</program>
+</country>
+<country name="Mozambique">
+<program name="Non-Security Assistance, Unified Command Engagement Activities, FY 99">
+<training>
+<course_title>Humanitarian Demining</course_title>
+<quantity>116</quantity>
+<total_cost>$1,373</total_cost>
+</training>
+</program>
+</country>
+<country name="Mozambique">
+<program name="Non-Security Assistance, Unified Command Engagement Activities, FY 00">
+<training>
+<course_title>Humanitarian Demining</course_title>
+<quantity>1</quantity>
+</training>
+</program>
+</country>
+<country name="Mozambique">
+<program name="Africa Center for Strategic Studies, FY 00">
+<training>
+<course_title>ACSS Seminar</course_title>
+<quantity>4</quantity>
+<total_cost>$64,360</total_cost>
+</training>
+</program>
+</country>
+<country name="Namibia">
+<program name="International Military Education And Training (IMET), FY 99">
+<training>
+<course_title>COMB LOG OFF ADV-ORDNANCE</course_title>
+<quantity>1</quantity>
+<total_cost>$1,262</total_cost>
+</training>
+<training>
+<course_title>COMBINED LOG OFF ADV</course_title>
+<quantity>6</quantity>
+<total_cost>$7,317</total_cost>
+</training>
+<training>
+<course_title>COMBINED LOG OFF ADV-QM</course_title>
+<quantity>1</quantity>
+<total_cost>$1,597</total_cost>
+</training>
+<training>
+<course_title>COMBINED LOG OFF ADV-TRANS</course_title>
+<quantity>1</quantity>
+<total_cost>$1,510</total_cost>
+</training>
+<training>
+<course_title>COMMAND &amp; GEN STAFF OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$11,274</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL DEF MGT CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$10,296</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL OFF LOG PREP</course_title>
+<quantity>3</quantity>
+<total_cost>$3,123</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL OFFICER PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$574</total_cost>
+</training>
+<training>
+<course_title>MEDICAL SUPPLY SPECIALIST</course_title>
+<quantity>1</quantity>
+<total_cost>$1,912</total_cost>
+</training>
+<training>
+<course_title>MILITARY POLICE INVESTIG</course_title>
+<quantity>1</quantity>
+<total_cost>$1,300</total_cost>
+</training>
+<training>
+<course_title>SR INTERNATIONAL DEF MGT</course_title>
+<quantity>1</quantity>
+<total_cost>$1,963</total_cost>
+</training>
+<training>
+<course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+<quantity>1</quantity>
+<total_cost>$373</total_cost>
+</training>
+</program>
+</country>
+<country name="Namibia">
+<program name="International Military Education And Training (IMET), FY 00">
+<training>
+<course_title>ADJ GEN OFFICER BASIC</course_title>
+<quantity>1</quantity>
+<total_cost>$2,544</total_cost>
+</training>
+<training>
+<course_title>ALLIED OFF PREP-INF OAC</course_title>
+<quantity>1</quantity>
+<total_cost>$201</total_cost>
+</training>
+<training>
+<course_title>APPRENTICE CID SP AGENT</course_title>
+<quantity>1</quantity>
+<total_cost>$1,981</total_cost>
+</training>
+<training>
+<course_title>ARMY WAR COLLEGE (RES CRS)</course_title>
+<quantity>1</quantity>
+<total_cost>$13,421</total_cost>
+</training>
+<training>
+<course_title>DRMI SEMINAR - OVERSEAS</course_title>
+<quantity>30</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>ENGINEER OFF CPT CAREER</course_title>
+<quantity>1</quantity>
+<total_cost>$4,201</total_cost>
+</training>
+<training>
+<course_title>INFANTRY CAPTS CAREER CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$3,455</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL OFF LOG PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$872</total_cost>
+</training>
+<training>
+<course_title>LEGAL CONSDR  MIL&amp;PEACE OP</course_title>
+<quantity>1</quantity>
+<total_cost>$7,428</total_cost>
+</training>
+<training>
+<course_title>LOG EXEC DEV</course_title>
+<quantity>1</quantity>
+<total_cost>$3,890</total_cost>
+</training>
+<training>
+<course_title>MEDICAL SPECIALIST</course_title>
+<quantity>1</quantity>
+<total_cost>$3,476</total_cost>
+</training>
+<training>
+<course_title>MEDICAL SUPPLY NCO-BNCOC</course_title>
+<quantity>1</quantity>
+<total_cost>$3,203</total_cost>
+</training>
+<training>
+<course_title>MEDICAL SUPPLY SPECIALIST</course_title>
+<quantity>1</quantity>
+<total_cost>$1,976</total_cost>
+</training>
+<training>
+<course_title>MET HEALTH RM/NS SURVEY</course_title>
+<quantity>30</quantity>
+<total_cost>$25,000</total_cost>
+</training>
+<training>
+<course_title>MET IHRM PH III (S A D)</course_title>
+<quantity>30</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>MILITARY POLICE INVESTIG</course_title>
+<quantity>1</quantity>
+<total_cost>$1,076</total_cost>
+</training>
+<training>
+<course_title>OAC INTL STUDENT ENGR PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$203</total_cost>
+</training>
+<training>
+<course_title>OBS MED/HEALTH/HYG-CONUS</course_title>
+<quantity>2</quantity>
+<total_cost>$1,936</total_cost>
+</training>
+<training>
+<course_title>PHARMACY SPECIALIST</course_title>
+<quantity>1</quantity>
+<total_cost>$6,205</total_cost>
+</training>
+<training>
+<course_title>PROTECTIVE SERVICES TNG</course_title>
+<quantity>1</quantity>
+<total_cost>$497</total_cost>
+</training>
+<training>
+<course_title>SPECIALIZED ENG LANG TNG</course_title>
+<quantity>1</quantity>
+<total_cost>$2,347</total_cost>
+</training>
+</program>
+</country>
+<country name="Namibia">
+<program name="Non-Security Assistance, Unified Command Engagement Activities, FY 99">
+<training>
+<course_title>Humanitarian Demining</course_title>
+<quantity>20</quantity>
+<total_cost>$472,000</total_cost>
+</training>
+</program>
+</country>
+<country name="Namibia">
+<program name="Africa Center for Strategic Studies, FY 00">
+<training>
+<course_title>ACSS Seminar</course_title>
+<quantity>4</quantity>
+<total_cost>$64,360</total_cost>
+</training>
+</program>
+</country>
+<country name="Namibia">
+<program name="Miscellaneous DoD-DoS Activities, FY 99">
+<training>
+<course_title>JCET: SOF METL TNG: LIGHT INFA</course_title>
+<quantity>39</quantity>
+<total_cost>$54,000</total_cost>
+</training>
+</program>
+</country>
+<country name="Niger">
+<program name="Africa Center for Strategic Studies, FY 00">
+<training>
+<course_title>ACSS Seminar</course_title>
+<quantity>4</quantity>
+<total_cost>$64,360</total_cost>
+</training>
+</program>
+</country>
+<country name="Nigeria">
+<program name="International Military Education And Training (IMET), FY 99">
+<training>
+<course_title>OBS MED/HEALTH/HYG-CONUS</course_title>
+<quantity>1</quantity>
+<total_cost>$1,368</total_cost>
+</training>
+</program>
+</country>
+<country name="Nigeria">
+<program name="International Military Education And Training (IMET), FY 00">
+<training>
+<course_title>AIR COMD &amp; STAFF COLLEGE</course_title>
+<quantity>4</quantity>
+<total_cost>$20,140</total_cost>
+</training>
+<training>
+<course_title>AIR WAR COLLEGE</course_title>
+<quantity>2</quantity>
+<total_cost>$10,960</total_cost>
+</training>
+<training>
+<course_title>ARMY WAR COLLEGE (RES CRS)</course_title>
+<quantity>1</quantity>
+<total_cost>$13,421</total_cost>
+</training>
+<training>
+<course_title>CIV-MIL SID - AFRICA</course_title>
+<quantity>2</quantity>
+<total_cost>$4,010</total_cost>
+</training>
+<training>
+<course_title>COMMAND &amp; GEN STAFF OFF</course_title>
+<quantity>2</quantity>
+<total_cost>$25,248</total_cost>
+</training>
+<training>
+<course_title>COMMAND + STAFF COLL USMC</course_title>
+<quantity>1</quantity>
+<total_cost>$8,575</total_cost>
+</training>
+<training>
+<course_title>FLT SAFETY OFF (SATP/FSO)</course_title>
+<quantity>1</quantity>
+<total_cost>$5,010</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL DEF MGT CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$10,639</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL OFFICER PREP</course_title>
+<quantity>2</quantity>
+<total_cost>$1,706</total_cost>
+</training>
+<training>
+<course_title>INTL OFF SCH &amp; SOS</course_title>
+<quantity>2</quantity>
+<total_cost>$8,720</total_cost>
+</training>
+<training>
+<course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+<quantity>4</quantity>
+<total_cost>$7,680</total_cost>
+</training>
+<training>
+<course_title>INTL OFF SCH (FOR AWC)</course_title>
+<quantity>2</quantity>
+<total_cost>$7,940</total_cost>
+</training>
+<training>
+<course_title>LEGAL CONSDR  MIL&amp;PEACE OP</course_title>
+<quantity>1</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>MET CIV-MILITARY RELATIONS</course_title>
+<quantity>30</quantity>
+<total_cost>$50,000</total_cost>
+</training>
+<training>
+<course_title>MET DIILS ASSESS OF ISSUES</course_title>
+<quantity>30</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>MET IHRM PH III (S A D)</course_title>
+<quantity>30</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>NDU INTERNATIONAL FELLOW</course_title>
+<quantity>1</quantity>
+<total_cost>$27,074</total_cost>
+</training>
+<training>
+<course_title>SR INTERNATIONAL DEF MGT</course_title>
+<quantity>1</quantity>
+<total_cost>$4,056</total_cost>
+</training>
+<training>
+<course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+<quantity>2</quantity>
+<total_cost>$1,396</total_cost>
+</training>
+</program>
+</country>
+<country name="Nigeria">
+<program name="Africa Center for Strategic Studies, FY 00">
+<training>
+<course_title>ACSS Seminar</course_title>
+<quantity>3</quantity>
+<total_cost>$48,270</total_cost>
+</training>
+</program>
+</country>
+<country name="Rwanda">
+<program name="International Military Education And Training (IMET), FY 99">
+<training>
+<course_title>689 CIV-MIL RELS&amp;NATSEC-MS</course_title>
+<quantity>1</quantity>
+<total_cost>$23,179</total_cost>
+</training>
+<training>
+<course_title>820 RESOURCE MGT INTDEF-MS</course_title>
+<quantity>1</quantity>
+<total_cost>$27,762</total_cost>
+</training>
+<training>
+<course_title>AIR TRAFFIC CONTROL OPER</course_title>
+<quantity>1</quantity>
+<total_cost>$1,240</total_cost>
+</training>
+<training>
+<course_title>AIR TRAFFIC CONTROL/ *</course_title>
+<quantity>1</quantity>
+<total_cost>$60</total_cost>
+</training>
+<training>
+<course_title>AIRCRAFT MAINTENANCE OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$705</total_cost>
+</training>
+<training>
+<course_title>ARMOR OFF BASIC (M1A1)</course_title>
+<quantity>1</quantity>
+<total_cost>$11,577</total_cost>
+</training>
+<training>
+<course_title>COMB STRAT INTEL TNG PRGM</course_title>
+<quantity>1</quantity>
+<total_cost>$3,040</total_cost>
+</training>
+<training>
+<course_title>COMMAND &amp; GEN STAFF OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$11,274</total_cost>
+</training>
+<training>
+<course_title>ENGINEER OFFICER BASIC</course_title>
+<quantity>1</quantity>
+<total_cost>$2,881</total_cost>
+</training>
+<training>
+<course_title>ENGLISH LANGUAGE CRSE</course_title>
+<quantity>1</quantity>
+<total_cost>$2,765</total_cost>
+</training>
+<training>
+<course_title>FIELD ARTY OFFICER BASIC</course_title>
+<quantity>1</quantity>
+<total_cost>$3,247</total_cost>
+</training>
+<training>
+<course_title>INFANTRY MORTAR LEADER</course_title>
+<quantity>1</quantity>
+<total_cost>$3,028</total_cost>
+</training>
+<training>
+<course_title>INFANTRY OFFICER BASIC</course_title>
+<quantity>1</quantity>
+<total_cost>$3,827</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL OFFICER PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$574</total_cost>
+</training>
+<training>
+<course_title>LANGUAGE INSTRUCTOR/BASIC</course_title>
+<quantity>1</quantity>
+<total_cost>$6,720</total_cost>
+</training>
+<training>
+<course_title>MTT DRMI - OVERSEAS</course_title>
+<quantity>42</quantity>
+<total_cost>$88,933</total_cost>
+</training>
+<training>
+<course_title>OBC INTERNATION ENR PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$209</total_cost>
+</training>
+<training>
+<course_title>ORDNANCE MAINT MGT OFF BAS</course_title>
+<quantity>1</quantity>
+<total_cost>$2,181</total_cost>
+</training>
+<training>
+<course_title>QM OFFICER BASIC</course_title>
+<quantity>1</quantity>
+<total_cost>$2,258</total_cost>
+</training>
+<training>
+<course_title>SPECIALIZED ENG LANG TNG</course_title>
+<quantity>7</quantity>
+<total_cost>$15,190</total_cost>
+</training>
+<training>
+<course_title>TOEFL PREPARATION</course_title>
+<quantity>2</quantity>
+<total_cost>$7,876</total_cost>
+</training>
+<training>
+<course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+<quantity>1</quantity>
+<total_cost>$373</total_cost>
+</training>
+<training>
+<course_title>WEATHER FORECASTER APPR</course_title>
+<quantity>1</quantity>
+<total_cost>$1,610</total_cost>
+</training>
+</program>
+</country>
+<country name="Rwanda">
+<program name="International Military Education And Training (IMET), FY 00">
+<training>
+<course_title>AIR COMD &amp; STAFF COLLEGE</course_title>
+<quantity>1</quantity>
+<total_cost>$10,070</total_cost>
+</training>
+<training>
+<course_title>ALLIED OFF PREP-INF OAC</course_title>
+<quantity>1</quantity>
+<total_cost>$201</total_cost>
+</training>
+<training>
+<course_title>ARMOR OFF BASIC (M1A1)</course_title>
+<quantity>1</quantity>
+<total_cost>$11,695</total_cost>
+</training>
+<training>
+<course_title>ARMY WAR COLLEGE (RES CRS)</course_title>
+<quantity>1</quantity>
+<total_cost>$13,421</total_cost>
+</training>
+<training>
+<course_title>COMB STRAT INTEL TNG PRGM</course_title>
+<quantity>1</quantity>
+<total_cost>$2,890</total_cost>
+</training>
+<training>
+<course_title>COMMAND &amp; GEN STAFF OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$12,624</total_cost>
+</training>
+<training>
+<course_title>FA OFF ADV PREP-ALLIED OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$1,771</total_cost>
+</training>
+<training>
+<course_title>FIELD ARTY CAPTAINS CAREER</course_title>
+<quantity>1</quantity>
+<total_cost>$4,807</total_cost>
+</training>
+<training>
+<course_title>FIELD ARTY OFFICER BASIC</course_title>
+<quantity>2</quantity>
+<total_cost>$6,824</total_cost>
+</training>
+<training>
+<course_title>INFANTRY CAPTS CAREER CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$3,455</total_cost>
+</training>
+<training>
+<course_title>INFANTRY MORTAR LEADER</course_title>
+<quantity>1</quantity>
+<total_cost>$2,676</total_cost>
+</training>
+<training>
+<course_title>INFANTRY OFFICER BASIC</course_title>
+<quantity>2</quantity>
+<total_cost>$6,216</total_cost>
+</training>
+<training>
+<course_title>INFANTRYMAN BNCOC</course_title>
+<quantity>2</quantity>
+<total_cost>$1,640</total_cost>
+</training>
+<training>
+<course_title>INSTRUCTOR TNG COURSE</course_title>
+<quantity>2</quantity>
+<total_cost>$622</total_cost>
+</training>
+<training>
+<course_title>INSTRUCTOR TRNG</course_title>
+<quantity>1</quantity>
+<total_cost>$850</total_cost>
+</training>
+<training>
+<course_title>INTERNATIO INTEL OFF BASIC</course_title>
+<quantity>1</quantity>
+<total_cost>$3,502</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL DEF MGT CRS</course_title>
+<quantity>1</quantity>
+<total_cost>$10,639</total_cost>
+</training>
+<training>
+<course_title>INTERNATIONAL OFFICER PREP</course_title>
+<quantity>1</quantity>
+<total_cost>$853</total_cost>
+</training>
+<training>
+<course_title>INTL MARITIME OFF</course_title>
+<quantity>1</quantity>
+<total_cost>$5,722</total_cost>
+</training>
+<training>
+<course_title>INTL OFF SCH &amp; SOS</course_title>
+<quantity>2</quantity>
+<total_cost>$8,884</total_cost>
+</training>
+<training>
+<course_title>INTL OFF SCH (FOR AC&amp;SC)</course_title>
+<quantity>1</quantity>
+<total_cost>$3,840</total_cost>
+</training>
+<training>
+<course_title>LANG LAB MAINT / CASSETTE</course_title>
+<quantity>1</quantity>
+<total_cost>$2,040</total_cost>
+</training>
+<training>
+<course_title>MET DIILS CONTINUING EDUC</course_title>
+<quantity>30</quantity>
+<total_cost>$0</total_cost>
+</training>
+<training>
+<course_title>OJT COMM/ELECT  TNG-CONUS</course_title>
+<quantity>1</quantity>
+<total_cost>$832</total_cost>
+</training>
+<training>
+<course_title>OJT NAVEDTRACOM</course_title>
+<quantity>1</quantity>
+<total_cost>$240</total_cost>
+</training>
+<training>
+<course_title>OUTBOARD MOTOR OVERHAUL</course_title>
+<quantity>1</quantity>
+<total_cost>$381</total_cost>
+</training>
+<training>
+<course_title>SCOUT PLATOON LEADER</course_title>
+<quantity>1</quantity>
+<total_cost>$894</total_cost>
+</training>
+<training>
+<course_title>SPEC ENG TRNG (SET)</course_title>
+<quantity>2</quantity>
+<total_cost>$4,516</total_cost>
+</training>
+<training>
+<course_title>SPECIALIZED ENG LANG TNG</course_title>
+<quantity>14</quantity>
+<total_cost>$32,807</total_cost>
+</training>
+<training>
+<course_title>USA C&amp;GSC OFF PREPARATORY</course_title>
+<quantity>1</quantity>
+<total_cost>$698</total_cost>
+</training>
+</program>
+</country>
+<country name="Rwanda">
+<program name="Non-Security Assistance, Unified Command Engagement Activities, FY 99">
+<training>
+<course_title>Humanitarian Demining</course_title>
+<quantity>47</quantity>
+<total_cost>$1,121,000</total_cost>
+</training>
+</program>
+</country>
+<country name="Rwanda">
+<program name="Non-Security Assistance, Unified Command Engagement Activities, FY 00">
+<training>
+<course_title>Humanitarian Demining</course_title>
+<quantity>1</quantity>
+</training>
+</program>
+</country>
+<country name="Rwanda">
+<program name="Africa Center for Strategic Studies, FY 00">
+<training>
+<course_title>ACSS Seminar</course_title>
+<quantity>4</quantity>
+<total_cost>$64,360</total_cost>
+</training>
+</program>
+</country>
+</countries>
