@@ -6,9 +6,9 @@
 # 			   and blank training ID field for datasets that will
 # 			   be later merged with earlier versions of themselves
 
-set -eup pipefail
+set -euo pipefail
 
-data="final_fmtrpt_2020_2021_202407121057.tsv"
+data="final_fmtrpt_2020_2021_202406271538.tsv"
 tmpfile="tmp.tsv" 
 blankidcol="blankidcol.tsv"
 withids="withids.tsv"
@@ -86,7 +86,7 @@ gawk 'BEGIN {FS=OFS="\t"}				;
 		$21 = "\"qa:training_date_scraped\"" }  ;
 		{print $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$21,$20 }' $1
 
-#	Note: longhand printout in final line just reoderes the columns
+#	Note: longhand printout in final line just reorders the columns
 
 }
 
@@ -95,10 +95,10 @@ _main () {
 	# If needed, mind new IDs for each row
         _mintTrainingUUID input/"$data" > notes/"$withids"
 
-	#_mintTrainingUUID input/"$data" > notes/"$tmpfile"
+	# Just create a new blank column we can use in later steps
 #	_makeEmptyIDCol input/"$data" > notes/"$blankidcol"
 
-	# Swap $blankidcol for $tmp if working with minted id version
+	# Swap $blankidcol for $withids if working with minted id version
 	_renameHeaders notes/"$withids" > output/"$data"
 
 }
