@@ -28,3 +28,4 @@ Because the initial run used the same, already updated version of the PDF extrac
   * p15, Africa: the student unit "Ministry of Youth and Employment Promotion" is elided with the US unit "ACSS - 0" in the raw XML, meaning there is no entry in delivery unit.
   * p17, Europe: the student unit "Police-Criminal Intelligence and Analysis Unit" is elided with the US unit "N/A - 0" in the raw XML.
  * A few start training start dates are outside of the FY in question (e.g. 4/1/2016 as start date for a Communication Training for the Jordan army, which ends on 4/30/2020"
+ * PDF page numbers overlap perfectly with the report page numbering sequence.
