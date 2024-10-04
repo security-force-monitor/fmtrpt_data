@@ -20,5 +20,5 @@ We have processed this report twice:
 
 ## Notes
 
-- report page numbers are alligned with the PDF numbers.
+- report page numbers are aligned with the PDF numbers. Remember that in cases where these are misaligned we can pull the page number that is stated in the content, rather than in the PDF metadata, with a few straightforward additions to the script.
 

@@ -1,16 +1,36 @@
 #!/bin/bash
 #
-# Mint UUID for training intervention entity or prepare new dataset for matching with old UUIDs
+# Mint UUID for training intervention entity and prepare new dataset for matching with old UUIDs
 # 
 # tl@sfm	2024-06-19 updated to add newly scraped page_number field
 # 			   and blank training ID field for datasets that will
 # 			   be later merged with earlier versions of themselves
+# 	 	2024-10-   Update to create versions with and without ID numbers
+# 	 		   Added a few safety checks and reporting so we don't 
+# 	 		   overwrite files with minted IDs by accident
 
-set -eup pipefail
+set -euo pipefail
 
 data="final_fmtrpt_2010_2011_202407121057.tsv"
 tmpfile="tmp.tsv" 
 blankidcol="blankidcol.tsv"
+withids="withids.tsv"
+timenow=$(date +"%Y%m%d%H%M%S")
+
+_progMsgTitle () {
+
+	printf "\n%s %s %s\n\n" "## " "$1"  " ##"
+}
+
+_progMsgReport () {
+
+	printf "%s %s\n" "  - " "$1" 
+}
+
+_progMsgWarn () {
+	
+	printf "%s %s\n" " !! " "$1"
+}
 
 _mintTrainingUUID () {
 
@@ -18,8 +38,7 @@ _mintTrainingUUID () {
 	# Takes ~5 minutes to complete uuid generation (for full ~250,000k row set)
 	# This is run only once to generate IDs
 
-	gawk -F"\t" '("uuidgen" | getline uuid) > 0 {print "\""tolower(uuid)"\"" FS $0} {close("uuidgen")}'
-
+	awk -F"\t" '("uuidgen" | getline uuid) > 0 {print "\""tolower(uuid)"\"" FS $0} {close("uuidgen")}' $1
 }
 
 _makeEmptyIDCol () {
@@ -32,7 +51,6 @@ _makeEmptyIDCol () {
 			NR==1 {print "\"training:id:admin\"" FS $0}
 			NR>1  {print "" FS $0}
 			' input/"$data" > notes/"$blankidcol"
-
 }
 
 _renameHeaders () {
@@ -85,17 +103,65 @@ gawk 'BEGIN {FS=OFS="\t"}				;
 		$21 = "\"qa:training_date_scraped\"" }  ;
 		{print $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$21,$20 }' $1
 
-#	Note: longhand printout in final line just reoderes the columns
+#	Note: longhand printout in final line just reorders the columns
+
+}
+
+_testForProcFiles () {
+
+	if [ -s notes/"$withids" ]; then
+		_progMsgWarn "WARNING: You have already made a version with IDs. Going to back it up in case you did not mean to run this script."
+		mv notes/"$withids" notes/"${timenow}_${withids}"
+		_progMsgWarn "... moved notes/$withids to notes/${timenow}_${withids}"
+	else
+		_progMsgReport "No existing working file with IDs - Promising news!"
+		:
+	fi
+
+	if [ -s output/"$data" ]; then
+		_progMsgWarn "WARNING: There is an existing output file with minted IDs. Going to stop you right there!"
+		_progMsgWarn "... output/$data may already have IDs, and you really don't want to overwrite them!"
+		_progMsgWarn "... exiting!"
+		exit
+	else
+		_progMsgReport "No existing output file with IDs - Promising news!"
+		:
+	fi
+
+}
+
+_cleanUp () {
+
+	if [ -s notes/"$blankidcol" ]; then
+		_progMsgReport "Deleting that blank ID col working version. You don't need it anymore."
+		rm notes/"$blankidcol"
+	else
+		:
+	fi
 
 }
 
 _main () {
 
-	#_mintTrainingUUID input/"$data" > notes/"$tmpfile"
+	_progMsgTitle "Minting new training UUIDs for the data in this FMT report"
+	# If needed, mind new IDs for each row
+	# If there's either an exising notes/withids.tsv or an output file with ids the script bails
+	_progMsgReport "Checking for working or final outfiles that already have ID numbers ..."
+	_testForProcFiles
+	_progMsgReport "Getting on with minting some new ID numbers!"
+        _mintTrainingUUID input/"$data" > notes/"$withids"
+	# Just create a new blank column we can use in later steps
+	_progMsgReport "Creating a version with a blank column for ID numbers!"
 	_makeEmptyIDCol input/"$data" > notes/"$blankidcol"
-
-	# Swap $blankidcol for $tmp if working with minted id version
-	_renameHeaders notes/"$blankidcol" > output/"$data"
-
+	# Swap $blankidcol for $withids if working with minted id version
+	_progMsgReport "Making outputs ..." 
+	_renameHeaders notes/"$withids" > output/"$data"
+	_renameHeaders notes/"$blankidcol" > output/no_uuids_"$data"
+	_progMsgReport "Cleaning up ..."
+	_cleanUp
+	_progMsgReport "All done!"
 }
+
 _main
+
+
