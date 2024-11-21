@@ -12,7 +12,7 @@
 # Define inputs
 
 fmtrpt="final_fmtrpt_all_202410041854.tsv"
-citations="fmtrpt_citation_permutations.tsv"
+citations="fmtrpt_citation_permutations_v3.tsv"
 
 
 _checkSqliteFile () {
@@ -45,7 +45,9 @@ _insertToSQLite () {
 _queryAddCitations () {
 
 	# Query that obtains unique claim ID for citation at report, section, page level
-	# Fieldname in "citations":
+	# and renames some fields for output. 
+	
+	# Raw fieldname in "citations":
 	# 1   training:source
 	# 2   qa:training_group
 	# 3   qa:fiscal_year
@@ -55,7 +57,7 @@ _queryAddCitations () {
 	# 7   qa:source_name_to_section_level
 	# 8   training:page_level_citation_id
 	
-	# Fieldnames in "fmtrpt":
+	# Raw fieldnames in "fmtrpt":
 	# 1   training:id:admin
 	# 2   training:source
 	# 3   qa:training_group
@@ -81,28 +83,29 @@ _queryAddCitations () {
 	sqlite-utils query notes/fmtrpt_all.db \
 		"SELECT
 		  fmtrpt.[training:id:admin],
-		  fmtrpt.[training:source],
-		  fmtrpt.[qa:training_group],
 		  fmtrpt.[training:country],
-		  fmtrpt.[training:country_iso_3166_1],
+		  fmtrpt.[training:country_iso_3166_1] AS [qa:training_country_iso_3166_1],
 		  fmtrpt.[training:program],
 		  fmtrpt.[training:course_title],
 		  fmtrpt.[training:delivery_unit],
 		  fmtrpt.[training:recipient_unit],
-		  fmtrpt.[qa:training_start_date],
-		  fmtrpt.[training:start_date],
-		  fmtrpt.[qa:training_end_date],
-		  fmtrpt.[training:end_date],
+		  fmtrpt.[qa:training_start_date] AS [training:start_date_raw],
+		  fmtrpt.[training:start_date] AS [qa:training_start_date_clean],
+		  fmtrpt.[qa:training_end_date] AS [training:end_date_raw],
+		  fmtrpt.[training:end_date] AS [qa:training_end_date_clean],
 		  fmtrpt.[training:location],
 		  fmtrpt.[training:quantity],
 		  fmtrpt.[training:total_cost],
 		  fmtrpt.[training:page_number],
-		  fmtrpt.[qa:training_source_url],
-		  fmtrpt.[qa:training_date_first_seen],
-		  fmtrpt.[qa:training_date_scraped],
+		  fmtrpt.[qa:training_date_first_seen] AS [training:date_first_seen:admin],
+		  fmtrpt.[qa:training_date_scraped] AS [training:data_scraped:admin],
 		  fmtrpt.[training:status:admin],
-		  citations.[qa:source_name_to_section_level] AS [training:source_section_title],
-		  citations.[training:page_level_citation_id] AS [training:claim_id:admin]
+		  fmtrpt.[training:source] AS [training:source_at_publication_level:admin],
+		  citations.[qa:source_id_at_volume_section] AS [training:source_at_volume_section_level:admin],
+		  fmtrpt.[qa:training_group],
+		  fmtrpt.[qa:training_source_url],
+		  citations.[training:page_level_citation_id] AS [training:citation_id:admin],
+		  citations.[qa:source_title_with_volume_section] AS [training::source_title_with_volume_section:admin]
 	 	FROM
 	 	  fmtrpt
 		JOIN
@@ -110,6 +113,12 @@ _queryAddCitations () {
 		              fmtrpt.[qa:training_group] = citations.[qa:training_group] AND
 			      fmtrpt.[training:page_number] = citations.[training:page_number]
 		  ;" --tsv
+
+}
+
+_quoteOutput () {
+
+	xsv fmt -d "\t" -t "\t" --quote-always
 
 }
 
@@ -124,7 +133,8 @@ _main () {
 
 	# Create merged output of nondups and output of just dups
 
-	_queryAddCitations > output/cits_"${fmtrpt}"
+	_queryAddCitations \
+		| _quoteOutput > output/cits_"${fmtrpt}"
 
 }
 
