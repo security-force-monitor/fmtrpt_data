@@ -12,7 +12,7 @@ _publishHerokuProduction () {
 		--metadata src/metadata.yaml \
 		--name "fmtrpt-2022" \
 		--extra-options="--setting default_page_size 50" \
-		--extra-options="--setting sql_time_limit_ms 30000" \
+		--extra-options="--setting sql_time_limit_ms 40000" \
 		--extra-options="--setting suggest_facets off" \
 		--extra-options="--setting allow_csv_stream on" \
 		--extra-options="--setting max_returned_rows 100000"
@@ -22,7 +22,7 @@ _publishHerokuTest () {
 
 	datasette publish heroku src/state-department-data.db \
 		--metadata src/metadata.yaml \
-		--name "fmtrpt-test" \
+		--name "fmtrpt" \
 		--extra-options="--setting default_page_size 50" \
 		--extra-options="--setting sql_time_limit_ms 30000" \
 		--extra-options="--setting suggest_facets off" \
@@ -48,8 +48,8 @@ _main () {
 	# - local server
 
 #	_publishHerokuProduction
-#	_publishHerokuTest
-	_publishLocal
+	_publishHerokuTest
+#	_publishLocal
 
 
 

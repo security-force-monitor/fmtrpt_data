@@ -105,7 +105,7 @@ _queryAddCitations () {
 		  fmtrpt.[qa:training_group],
 		  fmtrpt.[qa:training_source_url],
 		  citations.[training:page_level_citation_id] AS [training:citation_id:admin],
-		  citations.[qa:source_title_with_volume_section] AS [training::source_title_with_volume_section:admin]
+		  citations.[qa:source_title_with_volume_section] AS [training:source_title_with_volume_section:admin]
 	 	FROM
 	 	  fmtrpt
 		JOIN
