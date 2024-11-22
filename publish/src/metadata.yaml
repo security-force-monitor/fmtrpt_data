@@ -1,6 +1,6 @@
 title: Which foreign security and defence forces have been trained by the United States of America?
 description_html: |-
-    <p>This is a dataset on unclassified training activities for foreign security forces arranged and funded by the United States Department of State and Department of Defense between 2001 and 2021. The data is sourced from Volume 1 of the annual "Foreign Military Training and DoD Engagement Activities of Interest" reports. It has been extracted, cleaned, enhanced and published by Security Force Monitor, a project of the Human Rights Institute at Columbia Law School. The most recent update made to this dataset is the inclusion of fiscal year 2020-2021 data, published by the Departent of State in March 2022.</p>
+    <p>This is a dataset on unclassified training activities for foreign security forces arranged and funded by the United States Department of State and Department of Defense between 2001 and 2021. The data is sourced from Volume 1 of the annual "Foreign Military Training and DoD Engagement Activities of Interest" reports. It has been extracted, cleaned, enhanced and published by Security Force Monitor, a project of the Human Rights Institute at Columbia Law School. Data from the fiscal year 2020-2021 data was published by the Departent of State in March 2022 and is the last substantive update to the dataset. In November 2024, we re-scraped all the data from the original sources to obtain the page numbers for each item and republished the data with a few other technical improvements, including better accuracy, richer source citations and new identifiers for each training event.</p>
 license: CC BY 4.0
 license_url: https://creativecommons.org/licenses/by/4.0/
 about: Read our launch blog post to find out more
@@ -11,4 +11,4 @@ databases:
   state-department-data:
     tables:
       training-data:
-        sort_desc: "training:start_date"
+        sort_desc: "qa:training_start_date_clean"
