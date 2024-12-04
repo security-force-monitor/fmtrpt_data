@@ -1,18 +1,15 @@
 #!/bin/bash
 #
-# Create TSVs of data by year of report
+# Create TSVs of data by year of report from final, fully augmented datasets
 #
-# tl@sfm
-# 
-# Reports 2000-2019 were done in a single project, with 2020 and 2021 data added
-# as reports were released by DoS. Actual year-specific TSVs were never made,
-# only a single aggregate. This script recreates the year-specific TSVs.
+# tl@sfm 2024-11- Update for changed attribute names
 
 # Script safety
 set -euo pipefail
 
 # Input file
-i="final_fmtrpt_all_20220325.tsv"
+i="final_fmtrpt_all_202410041854"
+run=""
 
 # Functions
 
@@ -23,7 +20,7 @@ _sliceDataByYear () {
 	gawk -v u="${u}" \
 		'BEGIN {FS=OFS="\t"}
 		 NR==1 {print}
-		 NR >1 { if ($2 =="\""u"\"" ) { print }} 
+		 NR >1 { if ($19 =="\""u"\"" ) { print }} 
 		' "$1"
 }
 
@@ -33,8 +30,8 @@ _main () {
 
 	while IFS=$' ' read -r y u; do
 
-		_sliceDataByYear "input/${i}" \
-			> "output/fmtrpt_fy_${y}.tsv"
+		_sliceDataByYear "input/${i}.tsv" \
+			> "output/fy_${y}_${i}.tsv"
 
 	done < src/reportlist
 
