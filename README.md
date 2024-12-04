@@ -1,8 +1,8 @@
-# Foreign Military and Training Report: Parsing project
+# United States Foreign Military and Training Report: data extraction project
 
-A dataset on unclassified training activities for non-United States security forces arranged and funded by the United States Department of State and Department of Defence between 2001 and 2021. Sources, scraping, cleaning and publishing toolset included.
+A dataset of over 250,000 unclassified training activities performed  by United States security forces for foreign (that is, non-US) forces beteween between 1999 and 2021, arranged and funded by the United States Department of State and Department of Defence. All sources, data scraping, cleaning and publishing tools are included.
 
-Access the data at: [https://trainingdata.securityforcemonitor.org](https://trainingdata.securityforcemonitor.org)
+Access the live data at: [https://trainingdata.securityforcemonitor.org](https://trainingdata.securityforcemonitor.org)
 
 ## 1. Overview
 
@@ -124,7 +124,7 @@ Report home page: [https://www.state.gov/reports/foreign-military-training-and-d
 
 Data from the 2019-2020 report are included in the dataset. The 2019-2020 report is published on the State Department website as a single PDF file. 
 
-Page 101 of the PDF initally published in August 2021 is corrupted and contains an empty table where the conclusion of the year's report of training activities in Angola ends and those in Benin begins. We have removed both Angola and Benin from the dataset until this is fixed.
+Page 101 of the PDF initally published in August 2021 is corrupted and contains an empty table where the conclusion of the year's report of training activities in Angola ends and those in Benin begins. We have removed both Angola and Benin from the dataset until this is fixed (as at November 2024, it is not fixed).
 
 ### 2018-2019 report
 
@@ -250,31 +250,32 @@ Data from the 1999-2000 report is included in the dataset.The 1999-2000 report i
 
 ### General approach to extraction and cleaning
 
-All the PDFs contain tabular data, with some variances in content structure and appearance. All the PDFs have been generated directly from another program - likely MS Word - rather than scanned in and processed with OCR.  
+All the PDFs published by the Department of State contain tabular data, with some variances in content structure and appearance. All the PDFs have been generated directly from another program - likely MS Word - rather than scanned in and processed using Optical Character Recognition (OCR) software.
 
-We sought to extract this data in a replicable, programmatic way rather than cut-and-paste our way through the tables once.  The reports are mostly in a tabular structure, ordered by country of the recipient units, and the program through which the Department of State or Department of Defence made the expenditure. The available data fields are mostly the same across the publications released to date. The key differences are in the formatting and layout: there are five different formats across the publication set, but two formats cover the majority of the publications. There are, however, small variations even in the same formats, which presents some challenges to creating an automated extraction process (see below on report structures).
+We sought to extract this data in a replicable, programmatic way rather than cut-and-paste our way through the tables once.  The reports are mostly in a tabular structure, ordered by country of the  units that are receiving the training from the US forces, and the program through which the Department of State or Department of Defence made the expenditure. The available data fields are mostly the same across the publications released to date. The key differences are in the formatting and layout: there are five different formats across the publication set, but two formats cover the majority of the publications. There are, however, small variations even in the same formats and individual documents, which present some challenges to creating an automated extraction process (see below on report structures).
 
 We have taken the below approach to extracting and parsing data from these reports:
 
- * Establish the page ranges in a PDF or group of PDFs that contain different sections of data (e.g. Africa, Europe) and use that to structure the overall parsing process and its outputs.
+ * Establish the page ranges in a PDF or group of PDFs that contain different sections of data (e.g. Africa, Europe, etc) and use that information to structure the overall parsing process and its outputs.
  * Convert the PDF files to very verbose XML that pulls out every table item or paragraph into a separate row containing detailed paragraph positioning and font-sizing.
- * Filter out anything that isn't in the tables and use the left-right positioning and font-size to determine what the content is. For example, in the 2017-2018 report, text with a `<left>` value of 27 and `<font>` type of 1 is consistently going to contain the country name. In most PDFs, particularly the older ones, this value will vary though the content will be the same.
+ * Filter out anything that isn't in the tables and use the `left` right positioning and `font-size` variables to determine what the content on that row is. For example, in the 2017-2018 report, text with a `<left>` value of 27 and `<font>` type of 1 is consistently going to contain the name of the country. In most PDFs, particularly the older ones, this value will vary even though the content will be the same.
  * Use the linear document structure, which is naturally ordered into Country, Program, Training item and values (e.g. Course name, US unit) as the basis of a nested XML structure.
- * Lint the XML output to show errors in the structure, and massage the XML  until the linter stops flagging errors. This is mostly a matter of figuring out the logic of opening and closing tags, and finding where the particular PDF might break it. The linter will usually show the line numbers where the problem occurs, and the sort of error, giving us enough information to fix it.
- * Use eXtensible Stylesheet Language Transformations (XSLT) to deduplicate training items. In some PDFs the value for a particular row will go on over one or more columns, meaning that we have orphans. The process so far will capture this and correctly flag what the value is (e.g. location, or student unit). However, we want to merge these items so we can later export them into a flat format. A technique called "Muenchian Grouping" enables us to perform this deduplication at the correct level in the nested structure.
+ * Test or [lint](https://en.wikipedia.org/wiki/Lint_(software)) the XML output to show errors in the structure, and massage the XML until the linter stops flagging errors. This is mostly a matter of figuring out the logic of the XML's opening and closing tags, and finding where the content of a specific PDF might break it. The linter will usually show the line numbers where the problem occurs, and the sort of error, giving us enough information to fix it.
+ * Use eXtensible Stylesheet Language Transformations (XSLT) to deduplicate training items. In some PDFs the value for a particular row will go on over one or more columns, which creates incomplete and orhpaned values. The processing workflow captures this and correctly flags what the value is (e.g. location, or student unit). However, we want to merge these items so we can later export them into a flat format as a single value. A technique called [Muenchian Grouping](https://www.jenitennison.com/xslt/grouping/muenchian.xml) enables us to perform this deduplication process at the correct level within the nested XML structure.
  * Flatten the XML and export the data in a flat, tab-separated format.
- * Post-process to standardize countries, dates and fix other issues that emerged during parsing and may be common to different chunks of data. For example, it makes sense to standardize dates and countries in bulk at this later stage. The variety of ways that a training location can be spelled in 20 years of data is huge, so it makes sense to reveal this and fix them all at once in bulk.
+ * Post-process to standardize countries, dates and fix other issues that emerged during parsing. 
+ * Add metadata such as unique identifiers, information about sourcing for each row of data, and other hooks that make the data easier to use and manage.
 
-The toolset is created in `bash`:
+The toolset is created in `bash` and operated entirely within a terminal environment:
 
  * Basic tools: `sed`, `awk`, `grep`, `tr`, `perl`
- * Additional tools: `ghostscript`, `pdftohtml`, `xmlstartlet`, `xmllint` (and  `csvkit` and `xsv` to write some helper scripts)
+ * Additional tools: `ghostscript`, `pdftohtml`, `xmlstartlet`, `xmllint`, `csvkit` and `xsv`. I have also found VisiData (`vd`) extremely helpful. 
 
-The approach is mechanical and quite crude but (at least so far) effective as it dealt with a range of problems that are thrown up by the formatting of the PDFs, which can be infuriatingly fiddly. There are better of course better ways to approach this problem, but for now it will do!
+The approach I have taken	is really mechanical, uses quite "old school" tooking, and contains a huge amount of structure and micro-control over process - it's definitely not to everyone's taste! The organising concept is inspired by Dr Patrick Ball's article [The Task is a Quantum of Workflow](https://hrdag.org/2016/06/14/the-task-is-a-quantum-of-workflow/), which emphasises the value of creating a sequence of distinct, one-step processes the purpose of which is immediately obvious. At least so far, it has been effective in dealing with the wide range of problems  thrown up by the formatting of the PDFs, which can be infuriatingly fiddly. There may of course be better ways to approach this problem, but for now It Does The Job!
 
-### Overall oroject structure and operations
+### Overall project structure and operations in more detail
 
-The overall project is structured as below:
+The overall project is structured like this:
 
 ```
 .
@@ -315,13 +316,13 @@ The overall project is structured as below:
 
 ```
 
-The `scrapers/` folder contains self-contained sub-projects for extracting data from each annual publication. The reason for this is that although the overall extraction workflow is similar for each report, the PDFs released each year have considerable variation in the configuration, exceptions and cleaning requirements. In November 2024, we integrated the cleaning workflow into the sub-projects for each year, rather than have them as a standalone toolset (as was the case up until then). 
+The `scrapers/` folder contains self-contained sub-projects for extracting data from each annual publication. The reason for this is that although the overall extraction workflow is similar for each report, the PDFs released each year contain considerable variation in the configuration, exceptions and cleaning requirements. In November 2024, we integrated the cleaning workflow into the sub-projects for each year, rather than have them as a standalone toolset (as was the case up until then). 
 
 The final, aggregated and cleaned data is contained in the `data/` folder, both in a single file and split by year. The `publish/` folder contains scripts to convert the data into a `sqlite` database, which can be published online using a tool called `datasette`.
 
 ### Running the scrapers to get the data out of the PDFs
 
-Each annual report has its own scraper workflow and toolset, housed in a sub-project. I'll run through the structure of the sub-project built to extract data from the report for the Fiscal Year 2000-2001. These PDFs are much older and more exception-ridden, have two columns (which most don't) and are also missing key piece of data such as the recipient unit, start and end dates. However, these quirks make this a more useful example to dig into. Here's the top level folder structure:
+For each annual report, we have created a distinct scraper workflow and toolset, housed in the sub-project. I'll run through the structure of the sub-project built to extract data from the report for the Fiscal Year 2000-2001. These PDFs are much older, cranky and more exception-ridden. They also have two columns (which most don't) and are  missing key data attributes such as the recipient unit, and the start and end dates of each training. However, these quirks make this a more interesting example of how the data extraction process works. Here's the top level folder structure for the 2000-2001 report:
 
 ```
 fmtrpt_2000_2001
@@ -333,12 +334,12 @@ fmtrpt_2000_2001
 4 directories, 1 file
 
 ```
-The scraping and parsing process is task-based (it should be clear what each step does), linear (the output of one step is the input of another) and verbose (there's a data output at each stage, so we can see what the step does). It makes extensive use of the file system to indicate the workflow structure. The sub-project is further sub-divided as below:
+The scraping and parsing process is task-based (it should be clear what each step does), linear (the output of one step is the input of another) and verbose (there's a data output at each stage, so we can see what the step does). It makes extensive use of the file system to describe the structure and manage the workflow. The sub-project is further sub-divided as below:
 
 - `1_scrape_extract`: extracts data from the PDFs into TSV outputs. The final output of this step is six or seven separate TSVs containing the data about each geographical region included in the report.
-- `2_clean_structure`: in this part of the workflow, we group the raw extracts together, clean them up, restructure them a bit, and add uniques IDs and citation information. We can also compare them to earlier runs of the scraper, to see what has changed.
-- `3_final_dataset`: a place where the final data is stored. 
-- `notes_on_2000_20001.md`: a file to record useful observations about the scraping processing.
+- `2_clean_structure`: in this part of the workflow, we group the raw data extracts together, clean them up, restructure them, add unique identifiers and citation information. We can also compare them to earlier runs of the scraper to see what has changed.
+- `3_final_dataset`: a place where the final data is stored.
+- `notes_on_2000_20001.md`: a Markdown file where we record useful observations about the scraping processing.
 
 #### Step 1: Scrape and Extract
 
@@ -406,13 +407,13 @@ fmtrpt_2000_2001/1_scrape_extract
 12 directories, 45 files
 ```
 
-The set of steps here describes the linear workflow that moves data from inside the PDF of the 2000-2001 report to a tabular output in TSV format. 
+The set of steps here describe the linear workflow that moves data from inside the PDFs of the 2000-2001 report to a tabular output in TSV format: 
 
-- `input`: contains the original PDFs from the Department of State. In this case there are three PDFs but for more recent publications the publciation is either in a single PDF or broken up by "region" (one PDF for Africa, one PDF for Europe, and so on).
-- `src`: contains  extractor scripts, along with set set of config files. In this case, we have two scripts: `extractor_2000_2001_group_1.sh` and `extractor_2000_2001_group_2.sh` with corresponding config files. The reason for this is that in these input PDFs, the formatting of the section on Africa (in `input/3164.pdf` is very different, for reasons I can't fathom. So we treat it separately. However, data for East Asia and Pacific are also in `input/3164.pdf`, formatted differently.
+- `input`: contains the original PDFs published by the Department of State. In this case there are three PDFs but for more recent publications the publciation is either in a single PDF or broken up by "region" (one PDF for Africa, one PDF for Europe, and so on).
+- `src`: contains  extractor scripts (files ending `.sh`), along with set of configuration files. In this case, we have two scripts: `extractor_2000_2001_group_1.sh` and `extractor_2000_2001_group_2.sh` with corresponding config files. The reason for this is that in these input PDFs, the formatting of the section on Africa (in `input/3164.pdf`) is very different than the remaining sections, for reasons I can't fathom. So in this case we just create a separate scraper, but integrate its output into the common `output` directories.
 - `output`: holds the output of the five main processing routines in the extraction files, in sequence, and by "run" identifier.  
 
-The first thing to do is set the basic flow control variables for each report section (Africa, Western Hemisphere, etc). For the 2000-2001 scraper this is done in `src/sections_2000_2001_group_1` and `src/sections_2000_2001_group_2`. The latter contains this space-separated data about each section, telling the extract script(s) where to find source files, the pages ranges for particular datasets, and what to call outputs:
+The first thing to do is set the basic flow control variables for each report section (Africa, Western Hemisphere, etc). For the 2000-2001 scraper these configuration variables are set in `src/sections_2000_2001_group_1` (covering just Africa) and `src/sections_2000_2001_group_2` (covering the remainder of the sections). These files contain space-separated data about each section, telling the extract script(s) where to find source files, the page ranges for particular datasets, and what to call outputs:
 
 ```
 3164 2000_2001 East_Asia_and_Pacific 20 32 20 32 202407121057
@@ -422,22 +423,22 @@ The first thing to do is set the basic flow control variables for each report se
 3166 2000_2001 South_Asia_Region 1 4 72 75 202407121057
 3166 2000_2001 Western_Hemisphere_Region 4 37 75 108 202407121057
 ```
-From left to right, space separated, these correspond to:
+From left to right, space-separated, these correspond to:
 
- - the file in which we find the data, without file extension: `3164`
- - the fiscal year of the report: `2000_2001`
- - the report section or region name: `Africa`
- - the PDF page number where data for this region begins: `20`
- - the PDF page number where data for this region ends: `32`
- - the page number as stated in the report where data for this region starts: `20`
- - The page number as stated in the report where data for this region ends: `32`
- - the "run" identifier, as a timestamp, used to group outputs done at different times: `202402071355`
+ - the file in which we find the data, without file extension: `3164`.
+ - the fiscal year of the report: `2000_2001`.
+ - the report section or region name: `Africa`.
+ - the PDF page number where data for this region begins: `20`.
+ - the PDF page number where data for this region ends: `32`.
+ - the page number as stated in the report where data for this region starts: `20`.
+ - The page number as stated in the report where data for this region ends: `32`.
+ - the "run" identifier, as a timestamp, used to group outputs done at different times: `202402071355`.
 
-In this configuration, you can see that the the PDF page numbers and the report page numbering begin to diverge. So the data for Europe are found on pages 1 to 15 of `input/3165.pdf` but the actual reporting numbering for those pages is 33-47. The way to get these configuation variables is just to eyeball the PDFs.
+In this configuration, you can see that the the PDF page numbers and the report page numbering begin to diverge. So the data for Europe are found on pages 1 to 15 of the file `input/3165.pdf` but the actual page numbering in the report is 33-47. The way to get these configuation variables is just to eyeball the PDFs.
 
-The "run" variable was added for the November 2024 edition to allow for different scrapes of the data to co-exist, and act as an audit and integrity measure. In the 2000-2001 scraper, there is only one "run" in `202407121057`, because it's the first time we extracted this data. However, in the 2019-2020 sub-project, you can see there are two "runs" from 2021 and 2024: `202108131700` and `202402071355`. 
+The "run" variable was added for the November 2024 edition to allow for different scrapes of the data to co-exist, and act as an audit and integrity measure. In the 2000-2001 scraper, there is only one "run" in `202407121057`, because it's the first time we extracted this data. However, in the 2019-2020 sub-project, you can see there are two "runs" from 2021 and 2024: `202108131700` and `202402071355`.
 
-With the flow control variables in place, we can use the script. The script, written in `bash` is controlled from the `_main` function, which sits at the bottom of the script. The main sub-routines are outlined in the table below:
+With the flow control variables in place, we can now use the extraction script. The script, written in `bash` is controlled from the `_main` function, which sits at the end of the script. The main sub-routines are outlined in the table below:
 
 Sequence|Function name|Input location|Output location|What it does|
 |:---:|:---:|:---:|:---:|:---:|
@@ -452,14 +453,12 @@ Sequence|Function name|Input location|Output location|What it does|
 |4|`_deduplicateXML`|XML files in `output/202407121057/3_xml_errors`|XML files to `output/202407121057/4_xml_dedup`|Uses `xmlstarlet` (`xml`) to execute an Extensible Stylesheet Language Transformation (XSLT) (outlined in `src/deduplicate_training_items.xsl`) which groups attributes inside each training item and re-groups the dataset by country and program name.|
 |5|`_generateOutput`|XML files in `output/202407121057/4_xml_dedup`|XML files in `output/202407121057/5_xml_tsv`|Uses `xmlstarlet` (`xml`) to transforms deduplicated XML into a single flat TSV output for that section/region's data.|
 
-The aim is to get to the point where the process works cleanly from `0` or `1` through to `5`. Most of your time will be spent massaging the various cleanup steps in `_cleanXML`: the linter in `_errorCheckXML` is unforgiving! 
+The aim is to get to the point where the process works cleanly from `0` or `1` through to `5`. Most of your time will be spent massaging the various cleanup steps in `_cleanXML` to export cleanly and structured data: the linter in the `_errorCheckXML` step is unforgiving! 
 
 Let's dive into what `_cleanXML` does in this script. The `_cleanXML` subroutine is made up of a set of sequential steps all of which solve a specific problem in turning the raw, verbose XML taken from the PDFs into nested XML that we can process effectively. Here's the function:
 
 ```
 _cleanXML () {
-
-	# main cleanup sequence
 
 	cat output/"${r}"/1_pdf_xml/"${y}_${t}_fmtrpt.xml" \
 		| _firstFixes \
@@ -481,8 +480,7 @@ _cleanXML () {
 }
 ```
 
-What sort of input does `_cleanXML` take? The PDFs are tables accompanied by non-tabular metadata. For example, heres the first 41 lines of the raw XML for the Africa section of `input/3154.pdf`. It contains the document type and some metadata, and the the line and column positioning of every item in the PDF table.
-
+What sort of input does `_cleanXML` take? The PDFs are tables accompanied by non-tabular metadata. For example, here's the first 41 lines of the raw XML for the Africa section of `input/3154.pdf`. It contains the document type and some metadata, and the line and column positioning of every item in the PDF table.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -529,7 +527,7 @@ What sort of input does `_cleanXML` take? The PDFs are tables accompanied by non
 ...
 ``` 
 
-The `_cleanXML` function transforms the above (and the other 6123 lines) into this clean, nested XML:
+The `_cleanXML` function transforms the above (and the other 6123 lines of that file) into this clean, nested XML:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -573,7 +571,7 @@ The `_cleanXML` function transforms the above (and the other 6123 lines) into th
   ...
 ```
 
-The foundational function in this sub-routine is really `_assignTrainingAttributes`. This function uses the number found in `left` and `font` attributes found in each row of the raw XML to decide what the attribute is and give it a name. For example:
+The foundational function in the `_cleanXML`sub-routine is `_assignTrainingAttributes`. This function uses the number found in `left` and `font` attributes of each row of the raw XML to decide what the attribute is and assign to it one a substantive attribute name. For example:
 
 ```
 <text top="197" left="87" width="97" height="11" font="1">Leadership Seminar</text>
@@ -605,27 +603,27 @@ _assignTrainingAttributes () {
 
 }
 ```
-There is always variation. For example, the above deals with a two column PDF and also handles attributes where the `left` value changes: "quantity" can be found in `left` values that range from "302" to "318", so we build a `sed` statement to cover that.
+There is always variation, however. For example the above version of `_assignTrainingAttributes` deals with a two-column PDF and also handles attributes where the `left` value changes: "quantity" can be found in `left` values that range from "302" to "318", so we build a `sed` statement to cover that.
 
-You can see from the excerpt of raw XML that there are also other attributes we need to extract. For example:
+You can see from the below excerpt of raw XML that there are also other substantive attributes we need to extract. For example:
 
 ```
 <text top="114" left="87" width="259" height="11" font="2"><b>Africa Region, Angola, Africa Center for Strategic</b></text>
 <text top="128" left="87" width="74" height="11" font="2"><b>Studies, FY 00</b></text>
 ```
-This is the "program title" and "country" attributes. Rows where `left="87"` and `font="2"` will be processed by the `_composeProgramTitle`, `_cleanProgramTitle` and `_massageXMLStructure` functions of the `_cleanXML` subroutine. In the above example of a program title, the data we want to extract ("Africa Region, Angola, Africa Centre for Strategic Studies, FY 00") is spread across two lines. 
+In this particular XML, these rows contain the "program title" and "country" attributes we want to extract. So, rows where `left="87"` and `font="2"` will be processed by the `_composeProgramTitle`, `_cleanProgramTitle` and `_massageXMLStructure` functions of the `_cleanXML` subroutine. In the above example of lines containing program title, the data we want to extract ("Africa Region, Angola, Africa Centre for Strategic Studies, FY 00") is spread across two lines, so we will need to concatenate them.
 
-The `_cleanXML` subroutine and its function set has built up over time as I've addressed particular problems throw up by the PDFs in each project. Their ordering matters; sometimes they address general structural issues, other times specific one-time annoyances. To close this section, here's a quick overview of each function.
+The `_cleanXML` subroutine and its set of function has built up over time as I've addressed particular problems thrown up by over 20 years of PDFs. The order in which they are used matters; sometimes they address general structural issues, other times specific one-time annoyances. To close this section, here's a quick overview of each function in the `_cleanXML` sub-routine:
 
 
-* `_firstFixes`: basically a manual fix step for text and rows that contain one-off or very specific errors which it's easier to "fix by hand"
-* `_trimLeadingTrailingItems`: refines further the range of rows that contain material from a particular region by removing leading and trailing items _before_ further cleanup.
-* `_composeProgramTitle`: finds rows where the program title attribute is spread across more than one line, combines them together and assigns a placeholder attribute tag so we can identify them.
+* `_firstFixes`: basically a manual fix step for text and rows that contain one-off or very specific errors which it's easier to have a  "fix by hand" approach.
+* `_trimLeadingTrailingItems`: refines further the range of rows that contain material from a particular region by removing leading and trailing items _before_ further cleanup. An alternative approach is to process them fully, and then filter them out at the end.
+* `_composeProgramTitle`: finds rows where the program title attribute is spread across more than one line, combines them together and assigns a placeholder attribute tag so we can identify them for further processing.
 * `_cleanProgramTitle`: strips XML tags, whitespace and other annoyances from program title attributes, and tab-separates the main parts (country, program, fiscal year) so we can work on them later.
-* `_filterOutUselessLines`: removes line that don't contain any data we need, such as column header names, program total lines, empty lines.
-* `_assignTrainingAttributes`: pick out rows that contain specific attributes (e.g. Course Name, Cost, Quantity, Start and End date) and assign a clean XML tag.
+* `_filterOutUselessLines`: removes lines that contain  data we don't need, such as repeated column header names, program totals, and empty lines.
+* `_assignTrainingAttributes`: picks out rows that contain specific attributes (e.g. Course Name, Cost, Quantity, Start and End date) and assigns them a new, substantive XML tag.
 * `_filterOutNonText`: remove anything that still has `<text>` tag, as we don't need it.
-* `_addTrainingTagsToProgram`: prefix a `<training>` tag to `<program>`, building the XML nesting structure. In the 2000-2001 report, we also deal with a problem where some items are out of order.
+* `_addTrainingTagsToProgram`: prefix a `<training>` tag to `<program>`, building the XML nesting structure. In the 2000-2001 report we also deal with a problem where some items are out of order and need to be shuffled around.
 * `_splitLines`: insert line breaks where needed
 * `_wrapPageTags`: Make sure `<page>` tags aren't gathered up inside a `<training>` attribute at this point.
 * `_assignPageNumbers`: find the current page number, and transpose it to a new attribute  inside every training item until the next page number.
@@ -635,14 +633,13 @@ The `_cleanXML` subroutine and its function set has built up over time as I've a
 * `_closingFixes`: deal with any last annoyances that aren't structural, but keep cropping up.
 
 
-Once the XML is in a nested form and passes the linter, two sub-processes remain: `_deduplicateXML` and `_generateOutput`. The `_deduplicateXML` function is an XSLT step, which deals with cases where data about a single attribute is expressed across two of that attribute. For example, if a training item has two `<course_title>` attributes, on with "Leadership" and the other with "Seminar", `_deduplicateXML` merges them into a single tag with the value "Leadership Seminar". This process is called "Muenchian Grouping" and it's a robust way to ensure that all levels of the XML are deduplicated and consistent at the right level. 
+Once the XML is in a nested form and passes the linter, two sub-processes remain: `_deduplicateXML` and `_generateOutput`. The `_deduplicateXML` function is an XSLT step, which deals with cases where data about a single attribute is expressed across two of that attribute. For example, if a training item has two `<course_title>` attributes, on with "Leadership" and the other with "Seminar", `_deduplicateXML` merges them into a single tag with the value "Leadership Seminar". This process is a robust way to ensure that all levels of the XML are deduplicated and consistent at the right level. 
 
 The final step - `_generateOutput` - flattens the XML into a single, tab-delimited output with a specific field ordering. The most interesting part of this function is the use of the `ancestor` function in `xmlstarlet`, which ensures the country and program name fields of each training item are populated. 
 
 #### Step 2: Clean and Structure
 
-The first stage of the data extraction workflow are in `1_clean_extract`and take us from PDFs to tabular data for each geographical region for which data are published in a specific year. The second part of the workflow in `2_clean_structure` takes these raw output, aggregates and cleans them up. Here's the top level structure of this part of the workflow:
-
+The first stage of the data extraction workflow are in `1_scrape_extract`and take us from PDFs to tabular data for each geographical region for which data are published in a specific year. The second part of the workflow in `2_clean_structure` takes these raw output, aggregates and cleans them up. Here's the top level structure of this part of the workflow:
 
 ```
 fmtrpt_2000_2001/2_clean_structure
@@ -719,11 +716,11 @@ publish
 
 Convert the data to `sqlite` (we used `sqlite-utils`), and use [datasette](https://github.com/simonw/datasette) ([docs](https://datasette.readthedocs.io/en/stable/)) to publish the data online in a useful and highly functional way. We include the full text search and indexing functions outlined in the [documentation](https://sqlite-utils.datasette.io/en/stable/cli.html#configuring-full-text-search). We have used Heroku to serve the data, routing to a subdomain of [https://securityforcemonitor.org](https://securityforcemonitor.org).
 
-The scripts to do this are contained in the `publish/` directory. You'll need to set up `heroku` locally in order to use them. Note that `heroku` may not allow you to overwrite an existing application - each time you deploy, it must be to a new application name, after which the CNAME record for trainingdata.securityforcemonitor.org will need updating with a new DNS target.
+The scripts to do this are contained in the `publish/` directory. You'll need to set up `heroku` locally in order to use them. Note that `heroku` may not allow you to overwrite an existing application - each time you deploy, it must be to a new application name, after which the `CNAME` record for trainingdata.securityforcemonitor.org will need updating with a new target.
 
-### A note on variations in report structures
+### A final note on variations in report structures
 
-Since the first publication in 2000 the report has changed structure and content a number of times. Parsers like the ones we have written use the font size and positioning values to determine what field a particular piece of text should be placed in. These values change in each report format, but the changes can easily be seen inside the XML and changes made to the parser per those values. 
+Since the first publication in 2000 the report has changed structure and content a number of times. Parsers like the ones I have written use the font size and positioning values to determine what field a particular piece of text should be placed in. These values change in each report format, but the changes can easily be seen inside the XML and changes made to the parser per those values. 
 
 The current format ("E"), is the easiest to parse and was implemented for the FY2007-2008 report, and has remained broadly stable since then. Format "C", used between FY2000-2001 and FY 2005-2006 is more tricky.
 
@@ -751,3 +748,4 @@ FY 2002-2003|C| PDF
 FY 2001-2002|C| PDF
 FY 2000-2001|B| PDF
 FY 1999-2000|A| HTML
+	
