@@ -43,3 +43,8 @@ tags
 # Folders that we don't want to track
 
 experiments/*
+
+# Other #
+
+## Db files
+*.db
