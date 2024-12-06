@@ -4,6 +4,8 @@ A dataset of over 250,000 unclassified training activities performed  by United 
 
 Access the live data at: [https://trainingdata.securityforcemonitor.org](https://trainingdata.securityforcemonitor.org)
 
+As at November 2024, the Department of State has not published training and assistance data for the fiscal years 2021-2022, 2022-2023, or 2023-2024.
+
 ## 1. Overview
 
 At Security Force Monitor we create data on organizational structure, command personnel, geographical footprint of police, military and other security forces. We connect this to information about human rights abuses, assisting human rights researchers, litigators and investigative journalists in their work to hold security forces to account. All our data is published on [WhoWasInCommand.com](https://whowasincommand.com). 
@@ -17,11 +19,11 @@ These questions can in part be answered by looking at the joint Department of St
 
 Training activities that were completed in each fiscal year are recorded in `Volume I: Section IV` of the report, mostly in tabular form. For most years this data includes the name of the training course, the trainee unit, their country, the exact start and end date of the training, and so on. We include more detail on this below.
 
-The value of the data is high, but its accessibility is low because of the way the data are published. To establish, for example, every training a single student unit had received since 1999, an analyst would have to manually search over 80 different PDFs.
+The value of the data is high, but its accessibility is low because of the way the data are published. To establish, for example, every training a single student unit had received since 1999, an analyst would have to manually search over 5000 pages in 80 different PDFs.
 
 This project addresses this challenge by providing clean, accurate and standardized machine-readable copy of all the data contained in the reports. We also aim to provide a simple and effective way for anyone to search the data and retrieve it in a standard, easy to use format. Importantly, we also show how the data were created and processed, keeping a direct link between the original report and the data. We also wanted to create a way to quickly update and analyse the dataset with each new release from the Department of State.
 
-There is an existing dataset created by [Center for International Policy's excellent Security Assistance Monitor (SAM) team](https://securityassistance.org/foreign-military-training/). The platform they have created gives a great way to explore the dataset, setting out spending and delivery trends really clearly. For our needs, there are two limitations to this dataset and platform. First, though SAM have included the fiscal year in which a training was carried out, they have not included the data on start date and end date of every training, which are critical to our specific research aims. Second, at the time we initiated this project in 2019 the detailed dataset ended at FY 2015-2016 and we were unclear whether SAM had future plans to revisit and extend the data. Unfortunately, it was easier to start from scratch than to attempt to extend this existing work, hence this project. The ideal future situation, of course, is that the DoD/DoS would release this important data in a machine readable form in the first place so no parsing was necessary. We live in hope!
+There is an existing dataset created by [Center for International Policy's excellent Security Assistance Monitor (SAM) team](https://internationalpolicy.org/programs/sam/foreign-military-training-database/). The platform they have created gives a great way to explore the dataset, setting out spending and delivery trends really clearly. For our needs, there are two limitations to this dataset and platform. First, though SAM have included the fiscal year in which a training was carried out, they have not included the data on start date and end date of every training, which are critical to our specific research aims. Second, at the time we initiated this project in 2019 the detailed dataset ended at FY 2015-2016 and we were unclear whether SAM had future plans to revisit and extend the data. Unfortunately, it was easier to start from scratch than to attempt to extend this existing work, hence this project. The ideal future situation, of course, is that the DoD/DoS would release this important data in a machine readable form in the first place so no parsing was necessary. We live in hope!
 
 Longer term, our aim is to extend this dataset to include non-US security assistance and training, including that provided bilaterally by governments, and by international organizations like the United Nations and the European Union. We also intend to integrate this dataset with the information on our  WhoWasinCommand.com platform, which will give our community even greater insight into who has provided support to the security forces they are researching.
 
@@ -701,22 +703,34 @@ The final data for each run is placed in the root `data/fmtrpt_all_data` directo
  
 ### Finalisation and publication
 
+Once the dataset is extracted and cleaned, and in the tabular form set out above, we publish it online so it can searched and queried. The tooling to do this is contained in the `publish` directory:
+
 ```
 publish
 ├── input
-│   └── final_fmtrpt_all_20210806.tsv
+│   ├── final_fmtrpt_all_20220325.tsv # earlier data version
+│   └── final_fmtrpt_all_202410041854.tsv # current data version
 └── src
     ├── createdb.sh
     ├── deploy.sh
     ├── metadata.yaml
-    └── state-department-data.db # Removed in git repo, as it's quite large
+    └── state-department-data.db # Not included in git repo, as it's huge
 
-2 directories, 5 files
+3 directories, 6 files
+
 ```
 
-Convert the data to `sqlite` (we used `sqlite-utils`), and use [datasette](https://github.com/simonw/datasette) ([docs](https://datasette.readthedocs.io/en/stable/)) to publish the data online in a useful and highly functional way. We include the full text search and indexing functions outlined in the [documentation](https://sqlite-utils.datasette.io/en/stable/cli.html#configuring-full-text-search). We have used Heroku to serve the data, routing to a subdomain of [https://securityforcemonitor.org](https://securityforcemonitor.org).
+The prerequisite tools for this publication pipeline are:
 
-The scripts to do this are contained in the `publish/` directory. You'll need to set up `heroku` locally in order to use them. Note that `heroku` may not allow you to overwrite an existing application - each time you deploy, it must be to a new application name, after which the `CNAME` record for trainingdata.securityforcemonitor.org will need updating with a new target.
+- `datasette`: [a tool for exploring and publishing data](https://datasette.io/).
+- `sqlite-utils`: [a toolset for creating and managing sqlite databases](https://sqlite-utils.datasette.io/en/stable/cli.html).
+- `heroku`: the [command line tools](https://devcenter.heroku.com/articles/heroku-cli) for the Heroku app deployment platform.
+
+The process should be run in this order:
+
+- set `datasette` metadata in `src/metadata.yaml`: this contains things like the description text, copyright/licensing URL, default page and column sort order that you want your `datasette` app to have.
+- `src/createdb.sh`: This inserts the `.tsv` file of the dataset into a `sqlite` database, indexes it and enables full text search 
+- `src/deploy.sh`: this takes the `db` file just created by `createdb.sh` and publishes it as a Datasette instance on Heroku, which we map as a subdomain of securityforcemonitor.org. There are multiple options in this script: preview the data on a local instance of `datasette`, publish to a test app on Heroku, or publish to a production instance. The deploy commands also include some `datasette` configuration paramters, such as the allowed query times.
 
 ### A final note on variations in report structures
 
